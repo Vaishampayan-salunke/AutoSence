@@ -1,0 +1,195 @@
+{
+  "autosense-vader-baseline-v1": {
+    "name": "VADER (Rule-Based Baseline)",
+    "family": "RULE_BASED",
+    "val_accuracy": null,
+    "test_accuracy": 0.6728,
+    "test_macro_f1": 0.4665,
+    "test_weighted_f1": 0.6219,
+    "test_precision": 0.4979,
+    "test_recall": 0.4729
+  },
+  "autosense-tfidf-lr-v1": {
+    "name": "TF-IDF + Logistic Regression (Main Baseline)",
+    "family": "TRADITIONAL_ML",
+    "val_accuracy": 0.9006,
+    "val_macro_f1": 0.8655,
+    "test_accuracy": 0.9011,
+    "test_macro_f1": 0.8651,
+    "test_weighted_f1": 0.8995,
+    "test_precision": 0.8737,
+    "test_recall": 0.8583,
+    "confusion_matrix": [
+      [
+        209,
+        16,
+        16
+      ],
+      [
+        27,
+        290,
+        70
+      ],
+      [
+        8,
+        41,
+        1123
+      ]
+    ],
+    "classification_report": {
+      "negative": {
+        "precision": 0.8565573770491803,
+        "recall": 0.8672199170124482,
+        "f1-score": 0.8618556701030928,
+        "support": 241.0
+      },
+      "neutral": {
+        "precision": 0.8357348703170029,
+        "recall": 0.7493540051679587,
+        "f1-score": 0.7901907356948229,
+        "support": 387.0
+      },
+      "positive": {
+        "precision": 0.9288668320926385,
+        "recall": 0.9581911262798635,
+        "f1-score": 0.9433011339773204,
+        "support": 1172.0
+      },
+      "accuracy": 0.9011111111111111,
+      "macro avg": {
+        "precision": 0.8737196931529406,
+        "recall": 0.8582550161534236,
+        "f1-score": 0.8651158465917453,
+        "support": 1800.0
+      },
+      "weighted avg": {
+        "precision": 0.8991620277189474,
+        "recall": 0.9011111111111111,
+        "f1-score": 0.8994777556834229,
+        "support": 1800.0
+      }
+    }
+  },
+  "autosense-tfidf-nb-v1": {
+    "name": "TF-IDF + Multinomial Naive Bayes",
+    "family": "TRADITIONAL_ML",
+    "val_accuracy": 0.9022,
+    "val_macro_f1": 0.8636,
+    "test_accuracy": 0.8989,
+    "test_macro_f1": 0.8594,
+    "test_weighted_f1": 0.8931,
+    "test_precision": 0.9209,
+    "test_recall": 0.8232,
+    "confusion_matrix": [
+      [
+        197,
+        4,
+        40
+      ],
+      [
+        18,
+        254,
+        115
+      ],
+      [
+        5,
+        0,
+        1167
+      ]
+    ],
+    "classification_report": {
+      "negative": {
+        "precision": 0.8954545454545455,
+        "recall": 0.8174273858921162,
+        "f1-score": 0.8546637744034707,
+        "support": 241.0
+      },
+      "neutral": {
+        "precision": 0.9844961240310077,
+        "recall": 0.6563307493540051,
+        "f1-score": 0.7875968992248062,
+        "support": 387.0
+      },
+      "positive": {
+        "precision": 0.8827534039334342,
+        "recall": 0.9957337883959044,
+        "f1-score": 0.9358460304731355,
+        "support": 1172.0
+      },
+      "accuracy": 0.8988888888888888,
+      "macro avg": {
+        "precision": 0.9209013578063292,
+        "recall": 0.8231639745473419,
+        "f1-score": 0.8593689013671376,
+        "support": 1800.0
+      },
+      "weighted avg": {
+        "precision": 0.9063286304802946,
+        "recall": 0.8988888888888888,
+        "f1-score": 0.893103065192084,
+        "support": 1800.0
+      }
+    }
+  },
+  "autosense-tfidf-svm-v1": {
+    "name": "TF-IDF + Linear SVM (Calibrated)",
+    "family": "TRADITIONAL_ML",
+    "val_accuracy": 0.9094,
+    "val_macro_f1": 0.8733,
+    "test_accuracy": 0.9056,
+    "test_macro_f1": 0.8688,
+    "test_weighted_f1": 0.9023,
+    "test_precision": 0.897,
+    "test_recall": 0.8482,
+    "confusion_matrix": [
+      [
+        203,
+        13,
+        25
+      ],
+      [
+        21,
+        280,
+        86
+      ],
+      [
+        7,
+        18,
+        1147
+      ]
+    ],
+    "classification_report": {
+      "negative": {
+        "precision": 0.8787878787878788,
+        "recall": 0.8423236514522822,
+        "f1-score": 0.8601694915254238,
+        "support": 241.0
+      },
+      "neutral": {
+        "precision": 0.9003215434083601,
+        "recall": 0.7235142118863049,
+        "f1-score": 0.8022922636103151,
+        "support": 387.0
+      },
+      "positive": {
+        "precision": 0.9117647058823529,
+        "recall": 0.9786689419795221,
+        "f1-score": 0.9440329218106996,
+        "support": 1172.0
+      },
+      "accuracy": 0.9055555555555556,
+      "macro avg": {
+        "precision": 0.8969580426928639,
+        "recall": 0.8481689351060364,
+        "f1-score": 0.8688315589821461,
+        "support": 1800.0
+      },
+      "weighted avg": {
+        "precision": 0.9048891952116843,
+        "recall": 0.9055555555555556,
+        "f1-score": 0.9023302987983105,
+        "support": 1800.0
+      }
+    }
+  }
+}

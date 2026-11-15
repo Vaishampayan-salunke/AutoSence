@@ -1,0 +1,49 @@
+version: '3.8'
+
+services:
+  # MySQL Database Service
+  mysql_db:
+    image: mysql:8.0
+    container_name: autosense_mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: autosense_root_password
+      MYSQL_DATABASE: autosense_db
+      MYSQL_USER: autosense_user
+      MYSQL_PASSWORD: autosense_password
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./bigdata/mysql/schema.sql:/docker-entrypoint-initdb.d/schema.sql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # AutoSense Full-Stack Web & API Service
+  autosense_app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: autosense_app
+    restart: always
+    depends_on:
+      mysql_db:
+        condition: service_healthy
+    environment:
+      - AUTOSENSE_ENV=production
+      - DATABASE_URL=mysql+pymysql://autosense_user:autosense_password@mysql_db:3306/autosense_db
+      - SECRET_KEY=autosense_production_secret_key_change_me_in_env
+      - PORT=8000
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./models:/app/models
+      - ./reports:/app/reports
+      - ./bigdata/logs:/app/bigdata/logs
+
+volumes:
+  mysql_data:
+    driver: local

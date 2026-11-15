@@ -1,0 +1,74 @@
+{
+  "experiment": "Experiment E2: Aspect-Based Sentiment Analysis",
+  "benchmark_dataset": "Three Level Fully Annotated Car Reviews (Manzoor et al., Data in Brief 2022)",
+  "total_aspect_samples_evaluated": 1577,
+  "overall_metrics": {
+    "accuracy": 0.3786,
+    "macro_f1": 0.3362,
+    "weighted_f1": 0.4783,
+    "macro_precision": 0.5219,
+    "macro_recall": 0.3684
+  },
+  "per_category_metrics": {
+    "Performance": {
+      "sample_count": 500,
+      "accuracy": 0.414,
+      "macro_precision": 0.5054,
+      "macro_recall": 0.3587,
+      "macro_f1": 0.3595,
+      "distribution": {
+        "positive": 259,
+        "negative": 229,
+        "neutral": 12
+      }
+    },
+    "Comfort": {
+      "sample_count": 380,
+      "accuracy": 0.4079,
+      "macro_precision": 0.5663,
+      "macro_recall": 0.4519,
+      "macro_f1": 0.3538,
+      "distribution": {
+        "negative": 203,
+        "positive": 171,
+        "neutral": 6
+      }
+    },
+    "Safety": {
+      "sample_count": 143,
+      "accuracy": 0.1818,
+      "macro_precision": 0.5017,
+      "macro_recall": 0.2878,
+      "macro_f1": 0.1881,
+      "distribution": {
+        "negative": 74,
+        "positive": 67,
+        "neutral": 2
+      }
+    },
+    "Interior": {
+      "sample_count": 326,
+      "accuracy": 0.3344,
+      "macro_precision": 0.5134,
+      "macro_recall": 0.3658,
+      "macro_f1": 0.3075,
+      "distribution": {
+        "positive": 164,
+        "negative": 153,
+        "neutral": 9
+      }
+    },
+    "Exterior": {
+      "sample_count": 228,
+      "accuracy": 0.4386,
+      "macro_precision": 0.5191,
+      "macro_recall": 0.3654,
+      "macro_f1": 0.3701,
+      "distribution": {
+        "negative": 121,
+        "positive": 101,
+        "neutral": 6
+      }
+    }
+  }
+}

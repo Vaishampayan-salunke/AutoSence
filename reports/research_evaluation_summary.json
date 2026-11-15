@@ -1,0 +1,466 @@
+{
+  "title": "AutoSense Comprehensive Research Experiments & Evaluation",
+  "E1_model_comparison": {
+    "autosense-vader-baseline-v1": {
+      "name": "VADER (Rule-Based Baseline)",
+      "family": "RULE_BASED",
+      "val_accuracy": null,
+      "test_accuracy": 0.7,
+      "test_macro_f1": 0.6144,
+      "test_weighted_f1": 0.6538,
+      "test_precision": 0.7345,
+      "test_recall": 0.6013
+    },
+    "autosense-tfidf-lr-v1": {
+      "name": "TF-IDF + Logistic Regression (Main Baseline)",
+      "family": "TRADITIONAL_ML",
+      "val_accuracy": 1.0,
+      "val_macro_f1": 1.0,
+      "test_accuracy": 1.0,
+      "test_macro_f1": 1.0,
+      "test_weighted_f1": 1.0,
+      "test_precision": 1.0,
+      "test_recall": 1.0,
+      "confusion_matrix": [
+        [
+          98,
+          0,
+          0
+        ],
+        [
+          0,
+          120,
+          0
+        ],
+        [
+          0,
+          0,
+          232
+        ]
+      ],
+      "classification_report": {
+        "negative": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 98.0
+        },
+        "neutral": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 120.0
+        },
+        "positive": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 232.0
+        },
+        "accuracy": 1.0,
+        "macro avg": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 450.0
+        },
+        "weighted avg": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 450.0
+        }
+      }
+    },
+    "autosense-tfidf-nb-v1": {
+      "name": "TF-IDF + Multinomial Naive Bayes",
+      "family": "TRADITIONAL_ML",
+      "val_accuracy": 1.0,
+      "val_macro_f1": 1.0,
+      "test_accuracy": 1.0,
+      "test_macro_f1": 1.0,
+      "test_weighted_f1": 1.0,
+      "test_precision": 1.0,
+      "test_recall": 1.0,
+      "confusion_matrix": [
+        [
+          98,
+          0,
+          0
+        ],
+        [
+          0,
+          120,
+          0
+        ],
+        [
+          0,
+          0,
+          232
+        ]
+      ],
+      "classification_report": {
+        "negative": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 98.0
+        },
+        "neutral": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 120.0
+        },
+        "positive": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 232.0
+        },
+        "accuracy": 1.0,
+        "macro avg": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 450.0
+        },
+        "weighted avg": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 450.0
+        }
+      }
+    },
+    "autosense-tfidf-svm-v1": {
+      "name": "TF-IDF + Linear SVM (Calibrated)",
+      "family": "TRADITIONAL_ML",
+      "val_accuracy": 1.0,
+      "val_macro_f1": 1.0,
+      "test_accuracy": 1.0,
+      "test_macro_f1": 1.0,
+      "test_weighted_f1": 1.0,
+      "test_precision": 1.0,
+      "test_recall": 1.0,
+      "confusion_matrix": [
+        [
+          98,
+          0,
+          0
+        ],
+        [
+          0,
+          120,
+          0
+        ],
+        [
+          0,
+          0,
+          232
+        ]
+      ],
+      "classification_report": {
+        "negative": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 98.0
+        },
+        "neutral": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 120.0
+        },
+        "positive": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 232.0
+        },
+        "accuracy": 1.0,
+        "macro avg": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 450.0
+        },
+        "weighted avg": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 450.0
+        }
+      }
+    },
+    "autosense-distilbert-v1": {
+      "model_version": "autosense-distilbert-v1",
+      "model_name": "Fine-Tuned DistilBERT (Transformer)",
+      "base_model": "distilbert-base-uncased",
+      "epochs": 1,
+      "batch_size": 16,
+      "learning_rate": 3e-05,
+      "device": "cpu",
+      "val_accuracy": 0.61,
+      "val_macro_f1": 0.4251,
+      "test_accuracy": 0.5956,
+      "test_macro_f1": 0.4276,
+      "test_weighted_f1": 0.508,
+      "test_precision": 0.7762,
+      "test_recall": 0.4439,
+      "confusion_matrix": [
+        [
+          17,
+          6,
+          75
+        ],
+        [
+          0,
+          19,
+          101
+        ],
+        [
+          0,
+          0,
+          232
+        ]
+      ],
+      "classification_report": {
+        "negative": {
+          "precision": 1.0,
+          "recall": 0.17346938775510204,
+          "f1-score": 0.2956521739130435,
+          "support": 98.0
+        },
+        "neutral": {
+          "precision": 0.76,
+          "recall": 0.15833333333333333,
+          "f1-score": 0.2620689655172414,
+          "support": 120.0
+        },
+        "positive": {
+          "precision": 0.5686274509803921,
+          "recall": 1.0,
+          "f1-score": 0.725,
+          "support": 232.0
+        },
+        "accuracy": 0.5955555555555555,
+        "macro avg": {
+          "precision": 0.7762091503267974,
+          "recall": 0.44393424036281176,
+          "f1-score": 0.4275737131434283,
+          "support": 450.0
+        },
+        "weighted avg": {
+          "precision": 0.71360348583878,
+          "recall": 0.5955555555555555,
+          "f1-score": 0.5080493086789938,
+          "support": 450.0
+        }
+      }
+    }
+  },
+  "E2_aspect_evaluation": {
+    "experiment": "Experiment E2: Aspect-Based Sentiment Analysis",
+    "benchmark_dataset": "Three Level Fully Annotated Car Reviews (Manzoor et al., Data in Brief 2022)",
+    "total_aspect_samples_evaluated": 1577,
+    "overall_metrics": {
+      "accuracy": 0.3786,
+      "macro_f1": 0.3362,
+      "weighted_f1": 0.4783,
+      "macro_precision": 0.5219,
+      "macro_recall": 0.3684
+    },
+    "per_category_metrics": {
+      "Performance": {
+        "sample_count": 500,
+        "accuracy": 0.414,
+        "macro_precision": 0.5054,
+        "macro_recall": 0.3587,
+        "macro_f1": 0.3595,
+        "distribution": {
+          "positive": 259,
+          "negative": 229,
+          "neutral": 12
+        }
+      },
+      "Comfort": {
+        "sample_count": 380,
+        "accuracy": 0.4079,
+        "macro_precision": 0.5663,
+        "macro_recall": 0.4519,
+        "macro_f1": 0.3538,
+        "distribution": {
+          "negative": 203,
+          "positive": 171,
+          "neutral": 6
+        }
+      },
+      "Safety": {
+        "sample_count": 143,
+        "accuracy": 0.1818,
+        "macro_precision": 0.5017,
+        "macro_recall": 0.2878,
+        "macro_f1": 0.1881,
+        "distribution": {
+          "negative": 74,
+          "positive": 67,
+          "neutral": 2
+        }
+      },
+      "Interior": {
+        "sample_count": 326,
+        "accuracy": 0.3344,
+        "macro_precision": 0.5134,
+        "macro_recall": 0.3658,
+        "macro_f1": 0.3075,
+        "distribution": {
+          "positive": 164,
+          "negative": 153,
+          "neutral": 9
+        }
+      },
+      "Exterior": {
+        "sample_count": 228,
+        "accuracy": 0.4386,
+        "macro_precision": 0.5191,
+        "macro_recall": 0.3654,
+        "macro_f1": 0.3701,
+        "distribution": {
+          "negative": 121,
+          "positive": 101,
+          "neutral": 6
+        }
+      }
+    }
+  },
+  "E3_cross_dataset_generalization": {
+    "hybrid_car_cross_eval": {
+      "dataset_name": "Hybrid Car Online Reviews (Manzoor et al., 2022)",
+      "sample_size": 1000,
+      "accuracy": 0.564,
+      "macro_f1": 0.4485,
+      "macro_precision": 0.4508,
+      "macro_recall": 0.4478
+    },
+    "edmunds_cross_eval": {
+      "dataset_name": "Edmunds Consumer Car Reviews",
+      "sample_size": 1000,
+      "accuracy": 0.467,
+      "macro_f1": 0.3738,
+      "macro_precision": 0.4104,
+      "macro_recall": 0.4422
+    }
+  },
+  "E4_big_data_pipeline_telemetry": {
+    "pipeline_name": "MySQL_to_Sqoop_HDFS",
+    "timestamp": "2026-11-14 20:43:06",
+    "hardware": "Windows 11 / x86_64 / 16GB RAM",
+    "stages": [
+      {
+        "table": "reviews",
+        "records_transferred": 3000,
+        "duration_seconds": 0.0478,
+        "throughput_records_per_sec": 62794.0,
+        "payload_size_kb": 584.47,
+        "num_mappers": 1,
+        "integrity_verified": true
+      },
+      {
+        "table": "review_aspects",
+        "records_transferred": 9654,
+        "duration_seconds": 0.0641,
+        "throughput_records_per_sec": 150694.12,
+        "payload_size_kb": 490.67,
+        "num_mappers": 1,
+        "integrity_verified": true
+      }
+    ],
+    "total_records": 12654,
+    "total_duration_sec": 0.1118,
+    "total_payload_kb": 1075.14
+  },
+  "E5_top_complaint_hotspots": [
+    {
+      "brand": "Maruti Suzuki",
+      "aspect_category": "Service & Ownership",
+      "total_mentions": 245,
+      "negative_mentions": 66,
+      "complaint_rate_pct": 26.94,
+      "supporting_sample": "The service centre did not resolve my issue and the waiting time was too long."
+    },
+    {
+      "brand": "Mahindra",
+      "aspect_category": "Service & Ownership",
+      "total_mentions": 223,
+      "negative_mentions": 59,
+      "complaint_rate_pct": 26.46,
+      "supporting_sample": "The dealer response was slow and the repair took multiple visits."
+    },
+    {
+      "brand": "Mahindra",
+      "aspect_category": "Safety",
+      "total_mentions": 237,
+      "negative_mentions": 61,
+      "complaint_rate_pct": 25.74,
+      "supporting_sample": "I am unhappy with the braking performance and overall driving experience."
+    },
+    {
+      "brand": "Mahindra",
+      "aspect_category": "Performance",
+      "total_mentions": 270,
+      "negative_mentions": 67,
+      "complaint_rate_pct": 24.81,
+      "supporting_sample": "The engine performance is disappointing and fuel consumption is high."
+    },
+    {
+      "brand": "Honda",
+      "aspect_category": "Service & Ownership",
+      "total_mentions": 213,
+      "negative_mentions": 52,
+      "complaint_rate_pct": 24.41,
+      "supporting_sample": "The car has poor after-sales service and maintenance is expensive."
+    },
+    {
+      "brand": "Toyota",
+      "aspect_category": "Service & Ownership",
+      "total_mentions": 255,
+      "negative_mentions": 62,
+      "complaint_rate_pct": 24.31,
+      "supporting_sample": "The service centre did not resolve my issue and the waiting time was too long."
+    },
+    {
+      "brand": "Kia",
+      "aspect_category": "Service & Ownership",
+      "total_mentions": 238,
+      "negative_mentions": 56,
+      "complaint_rate_pct": 23.53,
+      "supporting_sample": "The service centre did not resolve my issue and the waiting time was too long."
+    },
+    {
+      "brand": "Maruti Suzuki",
+      "aspect_category": "Safety",
+      "total_mentions": 238,
+      "negative_mentions": 56,
+      "complaint_rate_pct": 23.53,
+      "supporting_sample": "I am unhappy with the braking performance and overall driving experience."
+    },
+    {
+      "brand": "Mahindra",
+      "aspect_category": "Design",
+      "total_mentions": 230,
+      "negative_mentions": 54,
+      "complaint_rate_pct": 23.48,
+      "supporting_sample": "The service experience was disappointing. I would consider this before buying another vehicle. Review 6."
+    },
+    {
+      "brand": "Mahindra",
+      "aspect_category": "Comfort",
+      "total_mentions": 240,
+      "negative_mentions": 55,
+      "complaint_rate_pct": 22.92,
+      "supporting_sample": "The cabin noise is high and the ride comfort is disappointing."
+    }
+  ]
+}

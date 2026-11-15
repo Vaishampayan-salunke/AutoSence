@@ -1,0 +1,66 @@
+{
+  "model_version": "autosense-distilbert-v1",
+  "model_name": "Fine-Tuned DistilBERT (Transformer)",
+  "base_model": "distilbert-base-uncased",
+  "epochs": 1,
+  "batch_size": 16,
+  "learning_rate": 3e-05,
+  "device": "cpu",
+  "val_accuracy": 0.61,
+  "val_macro_f1": 0.4251,
+  "test_accuracy": 0.5956,
+  "test_macro_f1": 0.4276,
+  "test_weighted_f1": 0.508,
+  "test_precision": 0.7762,
+  "test_recall": 0.4439,
+  "confusion_matrix": [
+    [
+      17,
+      6,
+      75
+    ],
+    [
+      0,
+      19,
+      101
+    ],
+    [
+      0,
+      0,
+      232
+    ]
+  ],
+  "classification_report": {
+    "negative": {
+      "precision": 1.0,
+      "recall": 0.17346938775510204,
+      "f1-score": 0.2956521739130435,
+      "support": 98.0
+    },
+    "neutral": {
+      "precision": 0.76,
+      "recall": 0.15833333333333333,
+      "f1-score": 0.2620689655172414,
+      "support": 120.0
+    },
+    "positive": {
+      "precision": 0.5686274509803921,
+      "recall": 1.0,
+      "f1-score": 0.725,
+      "support": 232.0
+    },
+    "accuracy": 0.5955555555555555,
+    "macro avg": {
+      "precision": 0.7762091503267974,
+      "recall": 0.44393424036281176,
+      "f1-score": 0.4275737131434283,
+      "support": 450.0
+    },
+    "weighted avg": {
+      "precision": 0.71360348583878,
+      "recall": 0.5955555555555555,
+      "f1-score": 0.5080493086789938,
+      "support": 450.0
+    }
+  }
+}

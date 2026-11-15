@@ -1,0 +1,28 @@
+{
+  "pipeline_name": "MySQL_to_Sqoop_HDFS",
+  "timestamp": "2026-11-14 20:43:06",
+  "hardware": "Windows 11 / x86_64 / 16GB RAM",
+  "stages": [
+    {
+      "table": "reviews",
+      "records_transferred": 3000,
+      "duration_seconds": 0.0478,
+      "throughput_records_per_sec": 62794.0,
+      "payload_size_kb": 584.47,
+      "num_mappers": 1,
+      "integrity_verified": true
+    },
+    {
+      "table": "review_aspects",
+      "records_transferred": 9654,
+      "duration_seconds": 0.0641,
+      "throughput_records_per_sec": 150694.12,
+      "payload_size_kb": 490.67,
+      "num_mappers": 1,
+      "integrity_verified": true
+    }
+  ],
+  "total_records": 12654,
+  "total_duration_sec": 0.1118,
+  "total_payload_kb": 1075.14
+}

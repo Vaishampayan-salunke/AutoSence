@@ -1,0 +1,73 @@
+{
+  "total_reviews": 3000,
+  "sentiment_distribution": {
+    "positive": 1548,
+    "neutral": 800,
+    "negative": 652
+  },
+  "sentiment_percentages": {
+    "positive": 51.6,
+    "neutral": 26.67,
+    "negative": 21.73
+  },
+  "brand_distribution": {
+    "Toyota": 398,
+    "MG": 393,
+    "Mahindra": 376,
+    "Maruti Suzuki": 376,
+    "Honda": 370,
+    "Kia": 369,
+    "Hyundai": 359,
+    "Tata Motors": 359
+  },
+  "model_distribution": {
+    "Fortuner": 129,
+    "Astor": 120,
+    "City": 118,
+    "ZS EV": 116,
+    "Amaze": 111,
+    "Carens": 110,
+    "Hector": 108,
+    "Innova Hycross": 107,
+    "Elevate": 106,
+    "Creta": 103
+  },
+  "text_length_stats": {
+    "mean_chars": 88.61,
+    "median_chars": 95.0,
+    "min_chars": 58,
+    "max_chars": 126,
+    "mean_words": 14.45,
+    "median_words": 15.0
+  },
+  "ratings_summary": {
+    "mean_rating": 3.53,
+    "rating_distribution": {
+      "1.0": 252,
+      "2.0": 351,
+      "3.0": 787,
+      "4.0": 787,
+      "5.0": 823
+    }
+  },
+  "splits": {
+    "train_count": 2100,
+    "train_dist": {
+      "positive": 1084,
+      "neutral": 560,
+      "negative": 456
+    },
+    "val_count": 450,
+    "val_dist": {
+      "positive": 232,
+      "neutral": 120,
+      "negative": 98
+    },
+    "test_count": 450,
+    "test_dist": {
+      "positive": 232,
+      "neutral": 120,
+      "negative": 98
+    }
+  }
+}

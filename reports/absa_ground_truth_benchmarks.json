@@ -1,0 +1,55 @@
+{
+  "hybrid_car": {
+    "benchmark_name": "Manzoor et al. 2022 (Hybrid Car Reviews)",
+    "total_aspect_annotations_evaluated": 1428,
+    "overall_accuracy": 0.6589635854341737,
+    "weighted_precision": 0.761096068680039,
+    "weighted_recall": 0.6589635854341737,
+    "weighted_f1": 0.6845135821201043,
+    "aspect_category_breakdown": {
+      "Performance": {
+        "n_samples": 500,
+        "accuracy": 0.602,
+        "weighted_precision": 0.767347259381217,
+        "weighted_recall": 0.602,
+        "weighted_f1": 0.6598420736738596
+      },
+      "Comfort": {
+        "n_samples": 380,
+        "accuracy": 0.7026315789473684,
+        "weighted_precision": 0.7832441118364151,
+        "weighted_recall": 0.7026315789473684,
+        "weighted_f1": 0.7106609606308981
+      },
+      "Safety": {
+        "n_samples": 143,
+        "accuracy": 0.7342657342657343,
+        "weighted_precision": 0.8088049441699334,
+        "weighted_recall": 0.7342657342657343,
+        "weighted_f1": 0.7535104895104896
+      },
+      "Design": {
+        "n_samples": 228,
+        "accuracy": 0.6491228070175439,
+        "weighted_precision": 0.7529283277638541,
+        "weighted_recall": 0.6491228070175439,
+        "weighted_f1": 0.6540578499388569
+      },
+      "Economy": {
+        "n_samples": 177,
+        "accuracy": 0.6779661016949152,
+        "weighted_precision": 0.698501149339119,
+        "weighted_recall": 0.6779661016949152,
+        "weighted_f1": 0.6764451223656736
+      }
+    }
+  },
+  "muse_caraste": {
+    "benchmark_name": "MuSe-CarASTE (Usman et al. 2025)",
+    "samples_evaluated": 3000,
+    "accuracy": 0.6913333333333334,
+    "weighted_precision": 0.6275620196657098,
+    "weighted_recall": 0.6913333333333334,
+    "weighted_f1": 0.6424136094828687
+  }
+}
