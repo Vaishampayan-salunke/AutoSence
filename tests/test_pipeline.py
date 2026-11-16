@@ -4,6 +4,7 @@ Validates text preprocessing, database models, model loading, and live predictio
 """
 import unittest
 import os
+from pathlib import Path
 import pandas as pd
 from src.preprocessing.text_cleaner import clean_automobile_text
 from src.data.database import get_session, Review, DatasetSource
@@ -40,13 +41,14 @@ class TestAutoSensePipeline(unittest.TestCase):
     def test_predictor_model(self):
         predictor = AutoSensePredictor("autosense-tfidf-lr-v1")
         res = predictor.predict_review("The car is exceptionally smooth, reliable and fuel efficient.")
-        self.assertEqual(res["overall_sentiment"], "positive")
+        self.assertEqual(res["predicted_sentiment"], "positive")
         self.assertIn("probabilities", res)
-        self.assertIn("detected_aspects", res)
+        self.assertIn("aspects_detected", res)
         
     def test_splits_integrity(self):
-        train_path = r"V:\BDT\datasets\splits\train\train.csv"
-        test_path = r"V:\BDT\datasets\splits\test\test.csv"
+        project_root = Path(__file__).resolve().parents[1]
+        train_path = project_root / "Datasets" / "splits" / "train" / "train.csv"
+        test_path = project_root / "Datasets" / "splits" / "test" / "test.csv"
         self.assertTrue(os.path.exists(train_path))
         self.assertTrue(os.path.exists(test_path))
         

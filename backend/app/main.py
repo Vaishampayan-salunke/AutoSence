@@ -6,8 +6,8 @@ from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 from fastapi.staticfiles import StaticFiles
-import os
 import time
+from pathlib import Path
 from backend.app.routes.api import router as api_router
 
 app = FastAPI(
@@ -37,11 +37,6 @@ async def add_process_time_header(request: Request, call_next):
 # Mount API Router
 app.include_router(api_router)
 
-# Mount Frontend static directory if built
-dist_dir = r"V:\BDT\frontend\dist"
-if os.path.exists(dist_dir):
-    app.mount("/", StaticFiles(directory=dist_dir, html=True), name="static")
-
 @app.get("/health")
 def healthcheck():
     return {
@@ -50,6 +45,11 @@ def healthcheck():
         "timestamp": time.strftime("%Y-%m-%dT%H:%M:%SZ"),
         "version": "1.0.0"
     }
+
+# Mount the frontend after API routes so it cannot shadow /health.
+dist_dir = Path(__file__).resolve().parents[2] / "frontend" / "dist"
+if dist_dir.is_dir():
+    app.mount("/", StaticFiles(directory=str(dist_dir), html=True), name="static")
 
 if __name__ == '__main__':
     import uvicorn

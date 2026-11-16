@@ -2,17 +2,17 @@
   "model_version": "autosense-vader-baseline-v1",
   "model_type": "Rule-based Lexicon (VADER)",
   "evaluation_set": "Held-Out Test Set",
-  "sample_size": 1800,
+  "sample_size": 2250,
   "pos_threshold": 0.05,
   "neg_threshold": -0.05,
   "metrics": {
-    "accuracy": 0.6728,
-    "macro_f1": 0.4665,
-    "weighted_f1": 0.6219,
-    "macro_precision": 0.4979,
-    "macro_recall": 0.4729,
-    "weighted_precision": 0.6036,
-    "weighted_recall": 0.6728
+    "accuracy": 0.6782,
+    "macro_f1": 0.4986,
+    "weighted_f1": 0.6243,
+    "macro_precision": 0.5432,
+    "macro_recall": 0.5009,
+    "weighted_precision": 0.6114,
+    "weighted_recall": 0.6782
   },
   "confusion_matrix": {
     "labels": [
@@ -22,53 +22,53 @@
     ],
     "matrix": [
       [
-        97,
-        54,
-        90
-      ],
-      [
-        54,
-        38,
-        295
+        156,
+        87,
+        96
       ],
       [
         52,
-        44,
-        1076
+        53,
+        402
+      ],
+      [
+        50,
+        37,
+        1317
       ]
     ]
   },
   "per_class_report": {
     "negative": {
-      "precision": 0.47783251231527096,
-      "recall": 0.4024896265560166,
-      "f1-score": 0.4369369369369369,
-      "support": 241.0
+      "precision": 0.6046511627906976,
+      "recall": 0.46017699115044247,
+      "f1-score": 0.5226130653266332,
+      "support": 339.0
     },
     "neutral": {
-      "precision": 0.27941176470588236,
-      "recall": 0.09819121447028424,
-      "f1-score": 0.14531548757170173,
-      "support": 387.0
+      "precision": 0.2994350282485876,
+      "recall": 0.10453648915187377,
+      "f1-score": 0.15497076023391812,
+      "support": 507.0
     },
     "positive": {
-      "precision": 0.7364818617385352,
-      "recall": 0.9180887372013652,
-      "f1-score": 0.8173186479301178,
-      "support": 1172.0
+      "precision": 0.7256198347107438,
+      "recall": 0.938034188034188,
+      "f1-score": 0.8182665424044734,
+      "support": 1404.0
     },
-    "accuracy": 0.6727777777777778,
+    "accuracy": 0.6782222222222222,
     "macro avg": {
-      "precision": 0.49790871291989625,
-      "recall": 0.4729231927425553,
-      "f1-score": 0.46652369081291883,
-      "support": 1800.0
+      "precision": 0.5432353419166763,
+      "recall": 0.5009158894455014,
+      "f1-score": 0.49861678932167486,
+      "support": 2250.0
     },
     "weighted avg": {
-      "precision": 0.6035815168704001,
-      "recall": 0.6727777777777778,
-      "f1-score": 0.6219090838145269,
-      "support": 1800.0
+      "precision": 0.6113602450853176,
+      "recall": 0.6782222222222222,
+      "f1-score": 0.6242587689423137,
+      "support": 2250.0
     }
   }
 }

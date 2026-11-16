@@ -32,8 +32,8 @@ COPY src/ /app/src/
 COPY backend/ /app/backend/
 COPY models/ /app/models/
 COPY reports/ /app/reports/
-COPY datasets/normalized/ /app/datasets/normalized/
-COPY datasets/splits/ /app/datasets/splits/
+COPY Datasets/normalized/ /app/Datasets/normalized/
+COPY Datasets/splits/ /app/Datasets/splits/
 COPY bigdata/logs/ /app/bigdata/logs/
 COPY frontend/dist/ /app/frontend/dist/
 COPY .env.example /app/.env.example

@@ -62,3 +62,5 @@ node_modules/
 frontend/dist/
 frontend/build/
 .npm
+!frontend/dist/
+!frontend/dist/**

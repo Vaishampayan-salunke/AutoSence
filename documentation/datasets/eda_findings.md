@@ -1,18 +1,18 @@
 # AutoSense Exploratory Data Analysis (EDA) & Splitting Report
 
-- **Total Reviews:** 3000
+- **Total Reviews:** 15000
 - **Sentiment Class Breakdown:**
-  - `positive`: 1548 (51.6%)
-  - `neutral`: 800 (26.67%)
-  - `negative`: 652 (21.73%)
+  - `positive`: 9362 (62.41%)
+  - `neutral`: 3381 (22.54%)
+  - `negative`: 2257 (15.05%)
 
 ## Text Characteristics
-- Average Word Count: 14.45 words
-- Average Character Length: 88.61 characters
-- Range: 58 to 126 characters
+- Average Word Count: 44.31 words
+- Average Character Length: 242.17 characters
+- Range: 0 to 8303 characters
 
 ## Data Splitting Strategy
 - **Methodology:** Stratified random split with seed 42 to preserve exact class priors without data leakage.
-- **Training Set (70%):** 2100 reviews (Positive: 1084, Neutral: 560, Negative: 456)
-- **Validation Set (15%):** 450 reviews
-- **Held-Out Test Set (15%):** 450 reviews (Reserved strictly for final evaluation)
+- **Training Set (70%):** 10500 reviews (Positive: 6553, Neutral: 2367, Negative: 1580)
+- **Validation Set (15%):** 2250 reviews
+- **Held-Out Test Set (15%):** 2250 reviews (Reserved strictly for final evaluation)

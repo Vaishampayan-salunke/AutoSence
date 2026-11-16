@@ -5,192 +5,192 @@
       "name": "VADER (Rule-Based Baseline)",
       "family": "RULE_BASED",
       "val_accuracy": null,
-      "test_accuracy": 0.7,
-      "test_macro_f1": 0.6144,
-      "test_weighted_f1": 0.6538,
-      "test_precision": 0.7345,
-      "test_recall": 0.6013
+      "test_accuracy": 0.6782,
+      "test_macro_f1": 0.4986,
+      "test_weighted_f1": 0.6243,
+      "test_precision": 0.5432,
+      "test_recall": 0.5009
     },
     "autosense-tfidf-lr-v1": {
       "name": "TF-IDF + Logistic Regression (Main Baseline)",
       "family": "TRADITIONAL_ML",
-      "val_accuracy": 1.0,
-      "val_macro_f1": 1.0,
-      "test_accuracy": 1.0,
-      "test_macro_f1": 1.0,
-      "test_weighted_f1": 1.0,
-      "test_precision": 1.0,
-      "test_recall": 1.0,
+      "val_accuracy": 0.9258,
+      "val_macro_f1": 0.9033,
+      "test_accuracy": 0.9284,
+      "test_macro_f1": 0.9065,
+      "test_weighted_f1": 0.9273,
+      "test_precision": 0.9123,
+      "test_recall": 0.9023,
       "confusion_matrix": [
         [
-          98,
-          0,
-          0
+          315,
+          19,
+          5
         ],
         [
-          0,
-          120,
-          0
+          29,
+          408,
+          70
         ],
         [
-          0,
-          0,
-          232
+          6,
+          32,
+          1366
         ]
       ],
       "classification_report": {
         "negative": {
-          "precision": 1.0,
-          "recall": 1.0,
-          "f1-score": 1.0,
-          "support": 98.0
+          "precision": 0.9,
+          "recall": 0.9292035398230089,
+          "f1-score": 0.9143686502177069,
+          "support": 339.0
         },
         "neutral": {
-          "precision": 1.0,
-          "recall": 1.0,
-          "f1-score": 1.0,
-          "support": 120.0
+          "precision": 0.8888888888888888,
+          "recall": 0.8047337278106509,
+          "f1-score": 0.84472049689441,
+          "support": 507.0
         },
         "positive": {
-          "precision": 1.0,
-          "recall": 1.0,
-          "f1-score": 1.0,
-          "support": 232.0
+          "precision": 0.9479528105482304,
+          "recall": 0.9729344729344729,
+          "f1-score": 0.9602811950790862,
+          "support": 1404.0
         },
-        "accuracy": 1.0,
+        "accuracy": 0.9284444444444444,
         "macro avg": {
-          "precision": 1.0,
-          "recall": 1.0,
-          "f1-score": 1.0,
-          "support": 450.0
+          "precision": 0.9122805664790397,
+          "recall": 0.9022905801893776,
+          "f1-score": 0.906456780730401,
+          "support": 2250.0
         },
         "weighted avg": {
-          "precision": 1.0,
-          "recall": 1.0,
-          "f1-score": 1.0,
-          "support": 450.0
+          "precision": 0.9274188500783922,
+          "recall": 0.9284444444444444,
+          "f1-score": 0.9273240276623579,
+          "support": 2250.0
         }
       }
     },
     "autosense-tfidf-nb-v1": {
       "name": "TF-IDF + Multinomial Naive Bayes",
       "family": "TRADITIONAL_ML",
-      "val_accuracy": 1.0,
-      "val_macro_f1": 1.0,
-      "test_accuracy": 1.0,
-      "test_macro_f1": 1.0,
-      "test_weighted_f1": 1.0,
-      "test_precision": 1.0,
-      "test_recall": 1.0,
+      "val_accuracy": 0.9213,
+      "val_macro_f1": 0.8991,
+      "test_accuracy": 0.9227,
+      "test_macro_f1": 0.9021,
+      "test_weighted_f1": 0.9195,
+      "test_precision": 0.9449,
+      "test_recall": 0.8741,
       "confusion_matrix": [
         [
-          98,
-          0,
-          0
+          301,
+          2,
+          36
         ],
         [
-          0,
-          120,
-          0
+          18,
+          373,
+          116
         ],
         [
-          0,
-          0,
-          232
+          1,
+          1,
+          1402
         ]
       ],
       "classification_report": {
         "negative": {
-          "precision": 1.0,
-          "recall": 1.0,
-          "f1-score": 1.0,
-          "support": 98.0
+          "precision": 0.940625,
+          "recall": 0.887905604719764,
+          "f1-score": 0.91350531107739,
+          "support": 339.0
         },
         "neutral": {
-          "precision": 1.0,
-          "recall": 1.0,
-          "f1-score": 1.0,
-          "support": 120.0
+          "precision": 0.9920212765957447,
+          "recall": 0.7357001972386588,
+          "f1-score": 0.8448471121177803,
+          "support": 507.0
         },
         "positive": {
-          "precision": 1.0,
-          "recall": 1.0,
-          "f1-score": 1.0,
-          "support": 232.0
+          "precision": 0.9021879021879022,
+          "recall": 0.9985754985754985,
+          "f1-score": 0.9479377958079783,
+          "support": 1404.0
         },
-        "accuracy": 1.0,
+        "accuracy": 0.9226666666666666,
         "macro avg": {
-          "precision": 1.0,
-          "recall": 1.0,
-          "f1-score": 1.0,
-          "support": 450.0
+          "precision": 0.9449447262612156,
+          "recall": 0.874060433511307,
+          "f1-score": 0.9020967396677162,
+          "support": 2250.0
         },
         "weighted avg": {
-          "precision": 1.0,
-          "recall": 1.0,
-          "f1-score": 1.0,
-          "support": 450.0
+          "precision": 0.9282215452914921,
+          "recall": 0.9226666666666666,
+          "f1-score": 0.9195202007170451,
+          "support": 2250.0
         }
       }
     },
     "autosense-tfidf-svm-v1": {
       "name": "TF-IDF + Linear SVM (Calibrated)",
       "family": "TRADITIONAL_ML",
-      "val_accuracy": 1.0,
-      "val_macro_f1": 1.0,
-      "test_accuracy": 1.0,
-      "test_macro_f1": 1.0,
-      "test_weighted_f1": 1.0,
-      "test_precision": 1.0,
-      "test_recall": 1.0,
+      "val_accuracy": 0.9324,
+      "val_macro_f1": 0.9111,
+      "test_accuracy": 0.9298,
+      "test_macro_f1": 0.9083,
+      "test_weighted_f1": 0.9279,
+      "test_precision": 0.927,
+      "test_recall": 0.8937,
       "confusion_matrix": [
         [
-          98,
-          0,
-          0
+          307,
+          19,
+          13
         ],
         [
-          0,
-          120,
-          0
+          20,
+          400,
+          87
         ],
         [
-          0,
-          0,
-          232
+          5,
+          14,
+          1385
         ]
       ],
       "classification_report": {
         "negative": {
-          "precision": 1.0,
-          "recall": 1.0,
-          "f1-score": 1.0,
-          "support": 98.0
+          "precision": 0.9246987951807228,
+          "recall": 0.9056047197640118,
+          "f1-score": 0.9150521609538003,
+          "support": 339.0
         },
         "neutral": {
-          "precision": 1.0,
-          "recall": 1.0,
-          "f1-score": 1.0,
-          "support": 120.0
+          "precision": 0.9237875288683602,
+          "recall": 0.7889546351084813,
+          "f1-score": 0.851063829787234,
+          "support": 507.0
         },
         "positive": {
-          "precision": 1.0,
-          "recall": 1.0,
-          "f1-score": 1.0,
-          "support": 232.0
+          "precision": 0.9326599326599326,
+          "recall": 0.9864672364672364,
+          "f1-score": 0.9588092765662859,
+          "support": 1404.0
         },
-        "accuracy": 1.0,
+        "accuracy": 0.9297777777777778,
         "macro avg": {
-          "precision": 1.0,
-          "recall": 1.0,
-          "f1-score": 1.0,
-          "support": 450.0
+          "precision": 0.9270487522363385,
+          "recall": 0.8936755304465764,
+          "f1-score": 0.9083084224357734,
+          "support": 2250.0
         },
         "weighted avg": {
-          "precision": 1.0,
-          "recall": 1.0,
-          "f1-score": 1.0,
-          "support": 450.0
+          "precision": 0.9294612062920307,
+          "recall": 0.9297777777777778,
+          "f1-score": 0.9279378971397916,
+          "support": 2250.0
         }
       }
     },
@@ -202,61 +202,61 @@
       "batch_size": 16,
       "learning_rate": 3e-05,
       "device": "cpu",
-      "val_accuracy": 0.61,
-      "val_macro_f1": 0.4251,
-      "test_accuracy": 0.5956,
-      "test_macro_f1": 0.4276,
-      "test_weighted_f1": 0.508,
-      "test_precision": 0.7762,
-      "test_recall": 0.4439,
+      "val_accuracy": 0.72,
+      "val_macro_f1": 0.3176,
+      "test_accuracy": 0.6422,
+      "test_macro_f1": 0.3089,
+      "test_weighted_f1": 0.5187,
+      "test_precision": 0.5452,
+      "test_recall": 0.3603,
       "confusion_matrix": [
         [
-          17,
-          6,
-          75
+          0,
+          0,
+          339
         ],
         [
           0,
-          19,
-          101
+          41,
+          466
         ],
         [
           0,
           0,
-          232
+          1404
         ]
       ],
       "classification_report": {
         "negative": {
-          "precision": 1.0,
-          "recall": 0.17346938775510204,
-          "f1-score": 0.2956521739130435,
-          "support": 98.0
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 339.0
         },
         "neutral": {
-          "precision": 0.76,
-          "recall": 0.15833333333333333,
-          "f1-score": 0.2620689655172414,
-          "support": 120.0
+          "precision": 1.0,
+          "recall": 0.08086785009861933,
+          "f1-score": 0.14963503649635038,
+          "support": 507.0
         },
         "positive": {
-          "precision": 0.5686274509803921,
+          "precision": 0.6355817111815301,
           "recall": 1.0,
-          "f1-score": 0.725,
-          "support": 232.0
+          "f1-score": 0.7771934680321063,
+          "support": 1404.0
         },
-        "accuracy": 0.5955555555555555,
+        "accuracy": 0.6422222222222222,
         "macro avg": {
-          "precision": 0.7762091503267974,
-          "recall": 0.44393424036281176,
-          "f1-score": 0.4275737131434283,
-          "support": 450.0
+          "precision": 0.5451939037271767,
+          "recall": 0.3602892833662064,
+          "f1-score": 0.30894283484281887,
+          "support": 2250.0
         },
         "weighted avg": {
-          "precision": 0.71360348583878,
-          "recall": 0.5955555555555555,
-          "f1-score": 0.5080493086789938,
-          "support": 450.0
+          "precision": 0.6219363211106081,
+          "recall": 0.6422222222222222,
+          "f1-score": 0.5186864856092119,
+          "support": 2250.0
         }
       }
     }
@@ -339,49 +339,57 @@
     "hybrid_car_cross_eval": {
       "dataset_name": "Hybrid Car Online Reviews (Manzoor et al., 2022)",
       "sample_size": 1000,
-      "accuracy": 0.564,
-      "macro_f1": 0.4485,
-      "macro_precision": 0.4508,
-      "macro_recall": 0.4478
+      "accuracy": 0.535,
+      "macro_f1": 0.4223,
+      "macro_precision": 0.5237,
+      "macro_recall": 0.4657
     },
     "edmunds_cross_eval": {
       "dataset_name": "Edmunds Consumer Car Reviews",
       "sample_size": 1000,
-      "accuracy": 0.467,
-      "macro_f1": 0.3738,
-      "macro_precision": 0.4104,
-      "macro_recall": 0.4422
+      "accuracy": 0.797,
+      "macro_f1": 0.6677,
+      "macro_precision": 0.6802,
+      "macro_recall": 0.6617
     }
   },
   "E4_big_data_pipeline_telemetry": {
     "pipeline_name": "MySQL_to_Sqoop_HDFS",
-    "timestamp": "2026-11-14 20:43:06",
+    "timestamp": "2026-11-16 22:07:25",
     "hardware": "Windows 11 / x86_64 / 16GB RAM",
     "stages": [
       {
         "table": "reviews",
-        "records_transferred": 3000,
-        "duration_seconds": 0.0478,
-        "throughput_records_per_sec": 62794.0,
-        "payload_size_kb": 584.47,
+        "records_transferred": 15000,
+        "duration_seconds": 0.4116,
+        "throughput_records_per_sec": 36440.56,
+        "payload_size_kb": 4776.77,
         "num_mappers": 1,
         "integrity_verified": true
       },
       {
         "table": "review_aspects",
-        "records_transferred": 9654,
-        "duration_seconds": 0.0641,
-        "throughput_records_per_sec": 150694.12,
-        "payload_size_kb": 490.67,
+        "records_transferred": 27778,
+        "duration_seconds": 0.3012,
+        "throughput_records_per_sec": 92218.77,
+        "payload_size_kb": 1324.79,
         "num_mappers": 1,
         "integrity_verified": true
       }
     ],
-    "total_records": 12654,
-    "total_duration_sec": 0.1118,
-    "total_payload_kb": 1075.14
+    "total_records": 42778,
+    "total_duration_sec": 0.7128,
+    "total_payload_kb": 6101.56
   },
   "E5_top_complaint_hotspots": [
+    {
+      "brand": "Nissan",
+      "aspect_category": "Ownership",
+      "total_mentions": 1317,
+      "negative_mentions": 381,
+      "complaint_rate_pct": 28.93,
+      "supporting_sample": "Had the car for 3 years. Have had 2 batteries die, Sun roof slide switch doesn't work, keyless entry doesn't work, speakers have a short, bluetooth doesn't work and have sun spots on the rear spoiler even though its garaged at home and at work. All problems happened after the 36,000 mile warranty expired. Wont buy another Maxima probably wont buy another Nissan."
+    },
     {
       "brand": "Maruti Suzuki",
       "aspect_category": "Service & Ownership",
@@ -391,28 +399,28 @@
       "supporting_sample": "The service centre did not resolve my issue and the waiting time was too long."
     },
     {
+      "brand": "Toyota",
+      "aspect_category": "Ownership",
+      "total_mentions": 93,
+      "negative_mentions": 25,
+      "complaint_rate_pct": 26.88,
+      "supporting_sample": "The service centre did not resolve my issue and the waiting time was too long."
+    },
+    {
+      "brand": "Maruti Suzuki",
+      "aspect_category": "Ownership",
+      "total_mentions": 86,
+      "negative_mentions": 23,
+      "complaint_rate_pct": 26.74,
+      "supporting_sample": "The service centre did not resolve my issue and the waiting time was too long."
+    },
+    {
       "brand": "Mahindra",
       "aspect_category": "Service & Ownership",
       "total_mentions": 223,
       "negative_mentions": 59,
       "complaint_rate_pct": 26.46,
       "supporting_sample": "The dealer response was slow and the repair took multiple visits."
-    },
-    {
-      "brand": "Mahindra",
-      "aspect_category": "Safety",
-      "total_mentions": 237,
-      "negative_mentions": 61,
-      "complaint_rate_pct": 25.74,
-      "supporting_sample": "I am unhappy with the braking performance and overall driving experience."
-    },
-    {
-      "brand": "Mahindra",
-      "aspect_category": "Performance",
-      "total_mentions": 270,
-      "negative_mentions": 67,
-      "complaint_rate_pct": 24.81,
-      "supporting_sample": "The engine performance is disappointing and fuel consumption is high."
     },
     {
       "brand": "Honda",
@@ -439,28 +447,20 @@
       "supporting_sample": "The service centre did not resolve my issue and the waiting time was too long."
     },
     {
-      "brand": "Maruti Suzuki",
+      "brand": "Nissan",
       "aspect_category": "Safety",
-      "total_mentions": 238,
-      "negative_mentions": 56,
-      "complaint_rate_pct": 23.53,
-      "supporting_sample": "I am unhappy with the braking performance and overall driving experience."
+      "total_mentions": 729,
+      "negative_mentions": 165,
+      "complaint_rate_pct": 22.63,
+      "supporting_sample": "There are a few things about this car \rthat I don't like. The back seat is \rbuilt for midgets, there is absolutely \rno leg room for the passengers in the \rrear. also, my Sentra is sometimes a \rlittle sluggish when you take off or \rare climbing a hill. I like the cup \rholders in the back, but the ones in \rthe front are too close to the stereo, \rso only the small to medium drinks will \rfit in them."
     },
     {
-      "brand": "Mahindra",
-      "aspect_category": "Design",
-      "total_mentions": 230,
-      "negative_mentions": 54,
-      "complaint_rate_pct": 23.48,
-      "supporting_sample": "The service experience was disappointing. I would consider this before buying another vehicle. Review 6."
-    },
-    {
-      "brand": "Mahindra",
-      "aspect_category": "Comfort",
-      "total_mentions": 240,
-      "negative_mentions": 55,
-      "complaint_rate_pct": 22.92,
-      "supporting_sample": "The cabin noise is high and the ride comfort is disappointing."
+      "brand": "Hyundai",
+      "aspect_category": "Ownership",
+      "total_mentions": 62,
+      "negative_mentions": 14,
+      "complaint_rate_pct": 22.58,
+      "supporting_sample": "The car has poor after-sales service and maintenance is expensive."
     }
   ]
 }

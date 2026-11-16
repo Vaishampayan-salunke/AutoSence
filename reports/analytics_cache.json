@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-11-15T04:36:20.407895",
+  "last_updated": "2026-11-16T16:43:00.674405",
   "kpi": {
-    "total_reviews": 12000,
-    "positive_reviews": 7814,
-    "negative_reviews": 1605,
-    "neutral_reviews": 2581,
-    "positive_pct": 65.1,
-    "negative_pct": 13.4,
-    "neutral_pct": 21.5,
-    "average_rating": 3.84,
+    "total_reviews": 15000,
+    "positive_reviews": 9362,
+    "negative_reviews": 2257,
+    "neutral_reviews": 3381,
+    "positive_pct": 62.4,
+    "negative_pct": 15.0,
+    "neutral_pct": 22.5,
+    "average_rating": 3.78,
     "total_brands": 15,
     "total_models": 86
   },
@@ -37,14 +37,14 @@
     },
     {
       "brand": "MG",
-      "total_reviews": 682,
-      "positive": 389,
-      "negative": 122,
-      "neutral": 171,
-      "positive_pct": 57.0,
-      "negative_pct": 17.9,
-      "neutral_pct": 25.1,
-      "average_rating": 3.61,
+      "total_reviews": 1075,
+      "positive": 603,
+      "negative": 198,
+      "neutral": 274,
+      "positive_pct": 56.1,
+      "negative_pct": 18.4,
+      "neutral_pct": 25.5,
+      "average_rating": 3.62,
       "models_count": 34,
       "models_list": [
         "Altroz",
@@ -59,14 +59,14 @@
     },
     {
       "brand": "Toyota",
-      "total_reviews": 671,
-      "positive": 380,
-      "negative": 123,
-      "neutral": 168,
-      "positive_pct": 56.6,
-      "negative_pct": 18.3,
-      "neutral_pct": 25.0,
-      "average_rating": 3.59,
+      "total_reviews": 1069,
+      "positive": 590,
+      "negative": 206,
+      "neutral": 273,
+      "positive_pct": 55.2,
+      "negative_pct": 19.3,
+      "neutral_pct": 25.5,
+      "average_rating": 3.58,
       "models_count": 35,
       "models_list": [
         "Altroz",
@@ -81,14 +81,14 @@
     },
     {
       "brand": "Maruti Suzuki",
-      "total_reviews": 663,
-      "positive": 363,
-      "negative": 129,
-      "neutral": 171,
-      "positive_pct": 54.8,
-      "negative_pct": 19.5,
-      "neutral_pct": 25.8,
-      "average_rating": 3.55,
+      "total_reviews": 1039,
+      "positive": 552,
+      "negative": 220,
+      "neutral": 267,
+      "positive_pct": 53.1,
+      "negative_pct": 21.2,
+      "neutral_pct": 25.7,
+      "average_rating": 3.51,
       "models_count": 33,
       "models_list": [
         "Altroz",
@@ -103,14 +103,14 @@
     },
     {
       "brand": "Mahindra",
-      "total_reviews": 642,
-      "positive": 344,
-      "negative": 138,
-      "neutral": 160,
-      "positive_pct": 53.6,
-      "negative_pct": 21.5,
-      "neutral_pct": 24.9,
-      "average_rating": 3.52,
+      "total_reviews": 1018,
+      "positive": 524,
+      "negative": 238,
+      "neutral": 256,
+      "positive_pct": 51.5,
+      "negative_pct": 23.4,
+      "neutral_pct": 25.1,
+      "average_rating": 3.48,
       "models_count": 32,
       "models_list": [
         "Altroz",
@@ -125,14 +125,14 @@
     },
     {
       "brand": "Kia",
-      "total_reviews": 633,
-      "positive": 343,
-      "negative": 110,
-      "neutral": 180,
-      "positive_pct": 54.2,
-      "negative_pct": 17.4,
-      "neutral_pct": 28.4,
-      "average_rating": 3.53,
+      "total_reviews": 1002,
+      "positive": 523,
+      "negative": 186,
+      "neutral": 293,
+      "positive_pct": 52.2,
+      "negative_pct": 18.6,
+      "neutral_pct": 29.2,
+      "average_rating": 3.51,
       "models_count": 33,
       "models_list": [
         "Altroz",
@@ -147,36 +147,14 @@
     },
     {
       "brand": "Hyundai",
-      "total_reviews": 627,
-      "positive": 379,
-      "negative": 98,
-      "neutral": 150,
-      "positive_pct": 60.4,
-      "negative_pct": 15.6,
-      "neutral_pct": 23.9,
-      "average_rating": 3.69,
-      "models_count": 33,
-      "models_list": [
-        "Altroz",
-        "Amaze",
-        "Astor",
-        "Baleno",
-        "Bolero",
-        "Brezza",
-        "Carens",
-        "City"
-      ]
-    },
-    {
-      "brand": "Tata Motors",
-      "total_reviews": 615,
-      "positive": 346,
-      "negative": 101,
-      "neutral": 168,
-      "positive_pct": 56.3,
-      "negative_pct": 16.4,
-      "neutral_pct": 27.3,
-      "average_rating": 3.64,
+      "total_reviews": 986,
+      "positive": 576,
+      "negative": 168,
+      "neutral": 242,
+      "positive_pct": 58.4,
+      "negative_pct": 17.0,
+      "neutral_pct": 24.5,
+      "average_rating": 3.67,
       "models_count": 33,
       "models_list": [
         "Altroz",
@@ -191,15 +169,37 @@
     },
     {
       "brand": "Honda",
-      "total_reviews": 609,
-      "positive": 350,
-      "negative": 113,
-      "neutral": 146,
-      "positive_pct": 57.5,
-      "negative_pct": 18.6,
-      "neutral_pct": 24.0,
-      "average_rating": 3.6,
+      "total_reviews": 979,
+      "positive": 544,
+      "negative": 194,
+      "neutral": 241,
+      "positive_pct": 55.6,
+      "negative_pct": 19.8,
+      "neutral_pct": 24.6,
+      "average_rating": 3.57,
       "models_count": 32,
+      "models_list": [
+        "Altroz",
+        "Amaze",
+        "Astor",
+        "Baleno",
+        "Bolero",
+        "Brezza",
+        "Carens",
+        "City"
+      ]
+    },
+    {
+      "brand": "Tata Motors",
+      "total_reviews": 974,
+      "positive": 530,
+      "negative": 176,
+      "neutral": 268,
+      "positive_pct": 54.4,
+      "negative_pct": 18.1,
+      "neutral_pct": 27.5,
+      "average_rating": 3.6,
+      "models_count": 33,
       "models_list": [
         "Altroz",
         "Amaze",
@@ -547,6 +547,52 @@
       ]
     },
     {
+      "model": "Fortuner",
+      "brand": "Toyota",
+      "total_reviews": 320,
+      "average_rating": 3.45,
+      "positive_pct": 45.9,
+      "negative_pct": 23.1,
+      "neutral_pct": 30.9,
+      "top_strengths": "Performance (68 mentions), Design (60 mentions), Comfort (54 mentions)",
+      "improvement_areas": "Service & Ownership (25 complaints), Performance (23 complaints), Comfort (20 complaints)",
+      "actionable_recommendation": "Maintain ongoing QA monitoring.",
+      "positive_quotes": [
+        {
+          "id": 60,
+          "text": "The infotainment system is easy to use and the cabin is comfortable....",
+          "rating": 5.0
+        },
+        {
+          "id": 75,
+          "text": "The service team was helpful and resolved my issue quickly....",
+          "rating": 4.0
+        },
+        {
+          "id": 92,
+          "text": "The infotainment system is easy to use and the cabin is comfortable....",
+          "rating": 5.0
+        }
+      ],
+      "critical_quotes": [
+        {
+          "id": 24,
+          "text": "The service centre did not resolve my issue and the waiting time was too long....",
+          "rating": 1.0
+        },
+        {
+          "id": 250,
+          "text": "The infotainment system has problems and frequently stops working....",
+          "rating": 2.0
+        },
+        {
+          "id": 298,
+          "text": "The infotainment system has problems and frequently stops working....",
+          "rating": 1.0
+        }
+      ]
+    },
+    {
       "model": "Xterra",
       "brand": "Nissan",
       "total_reviews": 314,
@@ -685,6 +731,236 @@
       ]
     },
     {
+      "model": "City",
+      "brand": "Honda",
+      "total_reviews": 311,
+      "average_rating": 3.61,
+      "positive_pct": 53.1,
+      "negative_pct": 18.6,
+      "neutral_pct": 28.3,
+      "top_strengths": "Performance (80 mentions), Design (63 mentions), Comfort (57 mentions)",
+      "improvement_areas": "Performance (24 complaints), Safety (18 complaints), Design (17 complaints)",
+      "actionable_recommendation": "Audit transmission calibration and throttle map; investigate low-end torque lags and gear hunting.",
+      "positive_quotes": [
+        {
+          "id": 45,
+          "text": "The exterior design looks excellent and the features are very useful....",
+          "rating": 4.0
+        },
+        {
+          "id": 82,
+          "text": "The safety features are impressive and the interior feels premium....",
+          "rating": 5.0
+        },
+        {
+          "id": 156,
+          "text": "I am very happy with the City; the engine is smooth and powerful....",
+          "rating": 5.0
+        }
+      ],
+      "critical_quotes": [
+        {
+          "id": 105,
+          "text": "The engine performance is disappointing and fuel consumption is high....",
+          "rating": 3.0
+        },
+        {
+          "id": 131,
+          "text": "The engine performance is disappointing and fuel consumption is high....",
+          "rating": 1.0
+        },
+        {
+          "id": 144,
+          "text": "The engine performance is disappointing and fuel consumption is high....",
+          "rating": 2.0
+        }
+      ]
+    },
+    {
+      "model": "Elevate",
+      "brand": "Honda",
+      "total_reviews": 302,
+      "average_rating": 3.6,
+      "positive_pct": 56.6,
+      "negative_pct": 20.2,
+      "neutral_pct": 23.2,
+      "top_strengths": "Performance (75 mentions), Comfort (60 mentions), Design (52 mentions)",
+      "improvement_areas": "Performance (15 complaints), Service & Ownership (15 complaints), Safety (13 complaints)",
+      "actionable_recommendation": "Audit transmission calibration and throttle map; investigate low-end torque lags and gear hunting.",
+      "positive_quotes": [
+        {
+          "id": 34,
+          "text": "The exterior design looks excellent and the features are very useful....",
+          "rating": 5.0
+        },
+        {
+          "id": 112,
+          "text": "Excellent braking and stable handling. The car feels safe....",
+          "rating": 5.0
+        },
+        {
+          "id": 219,
+          "text": "The safety features are impressive and the interior feels premium....",
+          "rating": 5.0
+        }
+      ],
+      "critical_quotes": [
+        {
+          "id": 20,
+          "text": "The car has poor after-sales service and maintenance is expensive....",
+          "rating": 1.0
+        },
+        {
+          "id": 65,
+          "text": "The infotainment system has problems and frequently stops working....",
+          "rating": 2.0
+        },
+        {
+          "id": 79,
+          "text": "The dealer response was slow and the repair took multiple visits....",
+          "rating": 2.0
+        }
+      ]
+    },
+    {
+      "model": "Astor",
+      "brand": "MG",
+      "total_reviews": 296,
+      "average_rating": 3.58,
+      "positive_pct": 51.7,
+      "negative_pct": 19.3,
+      "neutral_pct": 29.1,
+      "top_strengths": "Performance (83 mentions), Design (59 mentions), Comfort (58 mentions)",
+      "improvement_areas": "Performance (18 complaints), Service & Ownership (17 complaints), Safety (13 complaints)",
+      "actionable_recommendation": "Audit transmission calibration and throttle map; investigate low-end torque lags and gear hunting.",
+      "positive_quotes": [
+        {
+          "id": 27,
+          "text": "Excellent braking and stable handling. The car feels safe....",
+          "rating": 4.0
+        },
+        {
+          "id": 28,
+          "text": "The infotainment system is easy to use and the cabin is comfortable....",
+          "rating": 4.0
+        },
+        {
+          "id": 98,
+          "text": "The service team was helpful and resolved my issue quickly....",
+          "rating": 5.0
+        }
+      ],
+      "critical_quotes": [
+        {
+          "id": 11,
+          "text": "The car has poor after-sales service and maintenance is expensive....",
+          "rating": 2.0
+        },
+        {
+          "id": 115,
+          "text": "The interior quality feels poor and several features are inconvenient....",
+          "rating": 2.0
+        },
+        {
+          "id": 158,
+          "text": "The car has poor after-sales service and maintenance is expensive....",
+          "rating": 3.0
+        }
+      ]
+    },
+    {
+      "model": "Amaze",
+      "brand": "Honda",
+      "total_reviews": 296,
+      "average_rating": 3.62,
+      "positive_pct": 56.1,
+      "negative_pct": 17.2,
+      "neutral_pct": 26.7,
+      "top_strengths": "Performance (77 mentions), Comfort (65 mentions), Design (60 mentions)",
+      "improvement_areas": "Performance (14 complaints), Design (11 complaints), Service & Ownership (11 complaints)",
+      "actionable_recommendation": "Audit transmission calibration and throttle map; investigate low-end torque lags and gear hunting.",
+      "positive_quotes": [
+        {
+          "id": 59,
+          "text": "The safety features are impressive and the interior feels premium....",
+          "rating": 4.0
+        },
+        {
+          "id": 93,
+          "text": "I am very happy with the Amaze; the engine is smooth and powerful....",
+          "rating": 4.0
+        },
+        {
+          "id": 120,
+          "text": "Great mileage and comfortable driving experience. Very satisfied....",
+          "rating": 4.0
+        }
+      ],
+      "critical_quotes": [
+        {
+          "id": 228,
+          "text": "The interior quality feels poor and several features are inconvenient....",
+          "rating": 2.0
+        },
+        {
+          "id": 265,
+          "text": "The car has poor after-sales service and maintenance is expensive....",
+          "rating": 1.0
+        },
+        {
+          "id": 352,
+          "text": "The engine performance is disappointing and fuel consumption is high....",
+          "rating": 3.0
+        }
+      ]
+    },
+    {
+      "model": "ZS EV",
+      "brand": "MG",
+      "total_reviews": 293,
+      "average_rating": 3.45,
+      "positive_pct": 47.1,
+      "negative_pct": 20.5,
+      "neutral_pct": 32.4,
+      "top_strengths": "Performance (68 mentions), Design (53 mentions), Comfort (45 mentions)",
+      "improvement_areas": "Service & Ownership (21 complaints), Performance (19 complaints), Design (15 complaints)",
+      "actionable_recommendation": "Maintain ongoing QA monitoring.",
+      "positive_quotes": [
+        {
+          "id": 19,
+          "text": "Excellent braking and stable handling. The car feels safe....",
+          "rating": 4.0
+        },
+        {
+          "id": 26,
+          "text": "The ZS EV has excellent performance and very comfortable seats....",
+          "rating": 4.0
+        },
+        {
+          "id": 58,
+          "text": "The infotainment system is easy to use and the cabin is comfortable....",
+          "rating": 4.0
+        }
+      ],
+      "critical_quotes": [
+        {
+          "id": 106,
+          "text": "The infotainment system has problems and frequently stops working....",
+          "rating": 2.0
+        },
+        {
+          "id": 136,
+          "text": "The service centre did not resolve my issue and the waiting time was too long....",
+          "rating": 2.0
+        },
+        {
+          "id": 460,
+          "text": "I am unhappy with the braking performance and overall driving experience....",
+          "rating": 3.0
+        }
+      ]
+    },
+    {
       "model": "Versa",
       "brand": "Nissan",
       "total_reviews": 293,
@@ -727,6 +1003,420 @@
           "id": 7280,
           "text": "This car is mediocre at best. Very poor quality, the interior molding and panels started coming off withing a few months, despite being well-taken cared of. Int...",
           "rating": 2.25
+        }
+      ]
+    },
+    {
+      "model": "Hector",
+      "brand": "MG",
+      "total_reviews": 274,
+      "average_rating": 3.47,
+      "positive_pct": 51.8,
+      "negative_pct": 24.5,
+      "neutral_pct": 23.7,
+      "top_strengths": "Performance (67 mentions), Design (51 mentions), Comfort (46 mentions)",
+      "improvement_areas": "Design (17 complaints), Service & Ownership (15 complaints), Performance (14 complaints)",
+      "actionable_recommendation": "Upgrade dashboard and door card plastic texture; insulate clip fasteners to eliminate cabin rattles.",
+      "positive_quotes": [
+        {
+          "id": 43,
+          "text": "The infotainment system is easy to use and the cabin is comfortable....",
+          "rating": 5.0
+        },
+        {
+          "id": 72,
+          "text": "The service team was helpful and resolved my issue quickly....",
+          "rating": 5.0
+        },
+        {
+          "id": 97,
+          "text": "The service team was helpful and resolved my issue quickly....",
+          "rating": 4.0
+        }
+      ],
+      "critical_quotes": [
+        {
+          "id": 137,
+          "text": "The dealer response was slow and the repair took multiple visits....",
+          "rating": 3.0
+        },
+        {
+          "id": 153,
+          "text": "The infotainment system has problems and frequently stops working....",
+          "rating": 3.0
+        },
+        {
+          "id": 198,
+          "text": "The dealer response was slow and the repair took multiple visits....",
+          "rating": 2.0
+        }
+      ]
+    },
+    {
+      "model": "Seltos",
+      "brand": "Kia",
+      "total_reviews": 269,
+      "average_rating": 3.55,
+      "positive_pct": 53.2,
+      "negative_pct": 18.2,
+      "neutral_pct": 28.6,
+      "top_strengths": "Performance (72 mentions), Comfort (61 mentions), Design (49 mentions)",
+      "improvement_areas": "Performance (18 complaints), Service & Ownership (18 complaints), Design (17 complaints)",
+      "actionable_recommendation": "Audit transmission calibration and throttle map; investigate low-end torque lags and gear hunting.",
+      "positive_quotes": [
+        {
+          "id": 4,
+          "text": "The service team was helpful and resolved my issue quickly....",
+          "rating": 4.0
+        },
+        {
+          "id": 37,
+          "text": "Excellent braking and stable handling. The car feels safe....",
+          "rating": 5.0
+        },
+        {
+          "id": 121,
+          "text": "The infotainment system is easy to use and the cabin is comfortable....",
+          "rating": 5.0
+        }
+      ],
+      "critical_quotes": [
+        {
+          "id": 130,
+          "text": "The car has poor after-sales service and maintenance is expensive....",
+          "rating": 1.0
+        },
+        {
+          "id": 175,
+          "text": "The interior quality feels poor and several features are inconvenient....",
+          "rating": 2.0
+        },
+        {
+          "id": 227,
+          "text": "The interior quality feels poor and several features are inconvenient....",
+          "rating": 2.0
+        }
+      ]
+    },
+    {
+      "model": "Carens",
+      "brand": "Kia",
+      "total_reviews": 265,
+      "average_rating": 3.63,
+      "positive_pct": 54.7,
+      "negative_pct": 17.7,
+      "neutral_pct": 27.5,
+      "top_strengths": "Performance (63 mentions), Comfort (58 mentions), Design (54 mentions)",
+      "improvement_areas": "Comfort (15 complaints), Service & Ownership (13 complaints), Design (12 complaints)",
+      "actionable_recommendation": "Re-tune rear damper rebound damping and improve multi-density foam contouring in driver lumbar zone.",
+      "positive_quotes": [
+        {
+          "id": 15,
+          "text": "The exterior design looks excellent and the features are very useful....",
+          "rating": 5.0
+        },
+        {
+          "id": 35,
+          "text": "The safety features are impressive and the interior feels premium....",
+          "rating": 5.0
+        },
+        {
+          "id": 49,
+          "text": "Excellent braking and stable handling. The car feels safe....",
+          "rating": 5.0
+        }
+      ],
+      "critical_quotes": [
+        {
+          "id": 73,
+          "text": "The car has poor after-sales service and maintenance is expensive....",
+          "rating": 2.0
+        },
+        {
+          "id": 192,
+          "text": "The service centre did not resolve my issue and the waiting time was too long....",
+          "rating": 1.0
+        },
+        {
+          "id": 197,
+          "text": "The car has poor after-sales service and maintenance is expensive....",
+          "rating": 2.0
+        }
+      ]
+    },
+    {
+      "model": "Innova Hycross",
+      "brand": "Toyota",
+      "total_reviews": 261,
+      "average_rating": 3.43,
+      "positive_pct": 53.6,
+      "negative_pct": 27.2,
+      "neutral_pct": 19.2,
+      "top_strengths": "Performance (68 mentions), Comfort (49 mentions), Design (47 mentions)",
+      "improvement_areas": "Service & Ownership (26 complaints), Performance (25 complaints), Safety (18 complaints)",
+      "actionable_recommendation": "Maintain ongoing QA monitoring.",
+      "positive_quotes": [
+        {
+          "id": 2,
+          "text": "Great mileage and comfortable driving experience. Very satisfied....",
+          "rating": 4.0
+        },
+        {
+          "id": 3,
+          "text": "The exterior design looks excellent and the features are very useful....",
+          "rating": 4.0
+        },
+        {
+          "id": 123,
+          "text": "I am very happy with the Innova Hycross; the engine is smooth and powerful....",
+          "rating": 5.0
+        }
+      ],
+      "critical_quotes": [
+        {
+          "id": 48,
+          "text": "The dealer response was slow and the repair took multiple visits....",
+          "rating": 3.0
+        },
+        {
+          "id": 64,
+          "text": "I am unhappy with the braking performance and overall driving experience....",
+          "rating": 1.0
+        },
+        {
+          "id": 154,
+          "text": "I am unhappy with the braking performance and overall driving experience....",
+          "rating": 3.0
+        }
+      ]
+    },
+    {
+      "model": "Sonet",
+      "brand": "Kia",
+      "total_reviews": 256,
+      "average_rating": 3.51,
+      "positive_pct": 55.1,
+      "negative_pct": 20.3,
+      "neutral_pct": 24.6,
+      "top_strengths": "Performance (64 mentions), Comfort (53 mentions), Design (50 mentions)",
+      "improvement_areas": "Service & Ownership (14 complaints), Performance (13 complaints), Comfort (12 complaints)",
+      "actionable_recommendation": "Maintain ongoing QA monitoring.",
+      "positive_quotes": [
+        {
+          "id": 103,
+          "text": "The exterior design looks excellent and the features are very useful....",
+          "rating": 4.0
+        },
+        {
+          "id": 114,
+          "text": "The Sonet has excellent performance and very comfortable seats....",
+          "rating": 5.0
+        },
+        {
+          "id": 143,
+          "text": "Great mileage and comfortable driving experience. Very satisfied....",
+          "rating": 4.0
+        }
+      ],
+      "critical_quotes": [
+        {
+          "id": 40,
+          "text": "The service centre did not resolve my issue and the waiting time was too long....",
+          "rating": 2.0
+        },
+        {
+          "id": 221,
+          "text": "The dealer response was slow and the repair took multiple visits....",
+          "rating": 2.0
+        },
+        {
+          "id": 399,
+          "text": "The cabin noise is high and the ride comfort is disappointing....",
+          "rating": 1.0
+        }
+      ]
+    },
+    {
+      "model": "Creta",
+      "brand": "Hyundai",
+      "total_reviews": 252,
+      "average_rating": 3.54,
+      "positive_pct": 53.2,
+      "negative_pct": 21.0,
+      "neutral_pct": 25.8,
+      "top_strengths": "Performance (71 mentions), Comfort (56 mentions), Design (56 mentions)",
+      "improvement_areas": "Performance (24 complaints), Service & Ownership (20 complaints), Safety (15 complaints)",
+      "actionable_recommendation": "Audit transmission calibration and throttle map; investigate low-end torque lags and gear hunting.",
+      "positive_quotes": [
+        {
+          "id": 148,
+          "text": "The Creta has excellent performance and very comfortable seats....",
+          "rating": 4.0
+        },
+        {
+          "id": 275,
+          "text": "Excellent braking and stable handling. The car feels safe....",
+          "rating": 5.0
+        },
+        {
+          "id": 331,
+          "text": "The exterior design looks excellent and the features are very useful....",
+          "rating": 4.0
+        }
+      ],
+      "critical_quotes": [
+        {
+          "id": 13,
+          "text": "I am unhappy with the braking performance and overall driving experience....",
+          "rating": 2.0
+        },
+        {
+          "id": 245,
+          "text": "The engine performance is disappointing and fuel consumption is high....",
+          "rating": 3.0
+        },
+        {
+          "id": 285,
+          "text": "The car has poor after-sales service and maintenance is expensive....",
+          "rating": 2.0
+        }
+      ]
+    },
+    {
+      "model": "Scorpio-N",
+      "brand": "Mahindra",
+      "total_reviews": 249,
+      "average_rating": 3.43,
+      "positive_pct": 49.4,
+      "negative_pct": 29.7,
+      "neutral_pct": 20.9,
+      "top_strengths": "Performance (57 mentions), Design (52 mentions), Comfort (49 mentions)",
+      "improvement_areas": "Performance (26 complaints), Service & Ownership (21 complaints), Design (19 complaints)",
+      "actionable_recommendation": "Audit transmission calibration and throttle map; investigate low-end torque lags and gear hunting.",
+      "positive_quotes": [
+        {
+          "id": 9,
+          "text": "The exterior design looks excellent and the features are very useful....",
+          "rating": 5.0
+        },
+        {
+          "id": 53,
+          "text": "Great mileage and comfortable driving experience. Very satisfied....",
+          "rating": 5.0
+        },
+        {
+          "id": 100,
+          "text": "The Scorpio-N has excellent performance and very comfortable seats....",
+          "rating": 5.0
+        }
+      ],
+      "critical_quotes": [
+        {
+          "id": 55,
+          "text": "The car has poor after-sales service and maintenance is expensive....",
+          "rating": 1.0
+        },
+        {
+          "id": 67,
+          "text": "I am unhappy with the braking performance and overall driving experience....",
+          "rating": 2.0
+        },
+        {
+          "id": 169,
+          "text": "I am unhappy with the braking performance and overall driving experience....",
+          "rating": 1.0
+        }
+      ]
+    },
+    {
+      "model": "Fronx",
+      "brand": "Maruti Suzuki",
+      "total_reviews": 244,
+      "average_rating": 3.47,
+      "positive_pct": 52.0,
+      "negative_pct": 23.4,
+      "neutral_pct": 24.6,
+      "top_strengths": "Performance (58 mentions), Comfort (55 mentions), Design (47 mentions)",
+      "improvement_areas": "Performance (25 complaints), Safety (19 complaints), Design (17 complaints)",
+      "actionable_recommendation": "Audit transmission calibration and throttle map; investigate low-end torque lags and gear hunting.",
+      "positive_quotes": [
+        {
+          "id": 83,
+          "text": "The Fronx has excellent performance and very comfortable seats....",
+          "rating": 5.0
+        },
+        {
+          "id": 171,
+          "text": "The service team was helpful and resolved my issue quickly....",
+          "rating": 4.0
+        },
+        {
+          "id": 196,
+          "text": "I am very happy with the Fronx; the engine is smooth and powerful....",
+          "rating": 5.0
+        }
+      ],
+      "critical_quotes": [
+        {
+          "id": 63,
+          "text": "The service centre did not resolve my issue and the waiting time was too long....",
+          "rating": 2.0
+        },
+        {
+          "id": 292,
+          "text": "The interior quality feels poor and several features are inconvenient....",
+          "rating": 2.0
+        },
+        {
+          "id": 378,
+          "text": "The car has poor after-sales service and maintenance is expensive....",
+          "rating": 2.0
+        }
+      ]
+    },
+    {
+      "model": "Nexon",
+      "brand": "Tata Motors",
+      "total_reviews": 231,
+      "average_rating": 3.44,
+      "positive_pct": 49.8,
+      "negative_pct": 19.5,
+      "neutral_pct": 30.7,
+      "top_strengths": "Performance (55 mentions), Design (53 mentions), Safety (46 mentions)",
+      "improvement_areas": "Comfort (16 complaints), Performance (15 complaints), Service & Ownership (15 complaints)",
+      "actionable_recommendation": "Re-tune rear damper rebound damping and improve multi-density foam contouring in driver lumbar zone.",
+      "positive_quotes": [
+        {
+          "id": 179,
+          "text": "Great mileage and comfortable driving experience. Very satisfied....",
+          "rating": 4.0
+        },
+        {
+          "id": 215,
+          "text": "The exterior design looks excellent and the features are very useful....",
+          "rating": 5.0
+        },
+        {
+          "id": 447,
+          "text": "The service team was helpful and resolved my issue quickly....",
+          "rating": 4.0
+        }
+      ],
+      "critical_quotes": [
+        {
+          "id": 347,
+          "text": "The service centre did not resolve my issue and the waiting time was too long....",
+          "rating": 2.0
+        },
+        {
+          "id": 588,
+          "text": "The cabin noise is high and the ride comfort is disappointing....",
+          "rating": 2.0
+        },
+        {
+          "id": 594,
+          "text": "The service centre did not resolve my issue and the waiting time was too long....",
+          "rating": 3.0
         }
       ]
     },
@@ -813,600 +1503,784 @@
       ]
     },
     {
-      "model": "Elevate",
-      "brand": "Honda",
-      "total_reviews": 196,
-      "average_rating": 3.62,
-      "positive_pct": 58.7,
-      "negative_pct": 19.9,
-      "neutral_pct": 21.4,
-      "top_strengths": "Performance (40 mentions), Design (27 mentions), Value (27 mentions)",
-      "improvement_areas": "Ownership (5 complaints), Value (4 complaints), Technology (2 complaints)",
-      "actionable_recommendation": "Enforce dealership spare parts SLA under 48 hours and implement standard labor pricing schedules.",
+      "model": "XUV 3XO",
+      "brand": "Mahindra",
+      "total_reviews": 221,
+      "average_rating": 3.61,
+      "positive_pct": 57.5,
+      "negative_pct": 19.5,
+      "neutral_pct": 23.1,
+      "top_strengths": "Performance (57 mentions), Design (54 mentions), Comfort (47 mentions)",
+      "improvement_areas": "Performance (17 complaints), Service & Ownership (12 complaints), Safety (10 complaints)",
+      "actionable_recommendation": "Audit transmission calibration and throttle map; investigate low-end torque lags and gear hunting.",
       "positive_quotes": [
         {
-          "id": 34,
-          "text": "The exterior design looks excellent and the features are very useful....",
+          "id": 44,
+          "text": "I am very happy with the XUV 3XO; the engine is smooth and powerful....",
           "rating": 5.0
         },
         {
-          "id": 112,
+          "id": 54,
+          "text": "Great mileage and comfortable driving experience. Very satisfied....",
+          "rating": 4.0
+        },
+        {
+          "id": 62,
           "text": "Excellent braking and stable handling. The car feels safe....",
-          "rating": 5.0
-        },
-        {
-          "id": 219,
-          "text": "The safety features are impressive and the interior feels premium....",
           "rating": 5.0
         }
       ],
       "critical_quotes": [
         {
-          "id": 20,
-          "text": "The car has poor after-sales service and maintenance is expensive....",
+          "id": 23,
+          "text": "The engine performance is disappointing and fuel consumption is high....",
           "rating": 1.0
         },
         {
-          "id": 65,
-          "text": "The infotainment system has problems and frequently stops working....",
+          "id": 51,
+          "text": "The dealer response was slow and the repair took multiple visits....",
           "rating": 2.0
         },
         {
-          "id": 79,
-          "text": "The dealer response was slow and the repair took multiple visits....",
+          "id": 176,
+          "text": "The service centre did not resolve my issue and the waiting time was too long....",
           "rating": 2.0
         }
       ]
     },
     {
-      "model": "City",
-      "brand": "Honda",
-      "total_reviews": 193,
-      "average_rating": 3.66,
-      "positive_pct": 56.0,
-      "negative_pct": 16.6,
-      "neutral_pct": 27.5,
-      "top_strengths": "Performance (44 mentions), Design (28 mentions), Value (25 mentions)",
-      "improvement_areas": "Economy (7 complaints), Performance (3 complaints), Technology (3 complaints)",
-      "actionable_recommendation": "Optimize ECU fuel-air curves and test aerodynamic drag coefficient under highway cruising speeds.",
+      "model": "i20",
+      "brand": "Hyundai",
+      "total_reviews": 220,
+      "average_rating": 3.65,
+      "positive_pct": 60.9,
+      "negative_pct": 16.8,
+      "neutral_pct": 22.3,
+      "top_strengths": "Performance (75 mentions), Design (57 mentions), Safety (53 mentions)",
+      "improvement_areas": "Performance (14 complaints), Comfort (12 complaints), Safety (12 complaints)",
+      "actionable_recommendation": "Audit transmission calibration and throttle map; investigate low-end torque lags and gear hunting.",
       "positive_quotes": [
         {
-          "id": 45,
+          "id": 111,
           "text": "The exterior design looks excellent and the features are very useful....",
           "rating": 4.0
         },
         {
-          "id": 82,
-          "text": "The safety features are impressive and the interior feels premium....",
+          "id": 186,
+          "text": "Great mileage and comfortable driving experience. Very satisfied....",
+          "rating": 4.0
+        },
+        {
+          "id": 381,
+          "text": "I am very happy with the i20; the engine is smooth and powerful....",
+          "rating": 4.0
+        }
+      ],
+      "critical_quotes": [
+        {
+          "id": 424,
+          "text": "The cabin noise is high and the ride comfort is disappointing....",
+          "rating": 2.0
+        },
+        {
+          "id": 759,
+          "text": "I am unhappy with the braking performance and overall driving experience....",
+          "rating": 3.0
+        },
+        {
+          "id": 1161,
+          "text": "Some interior materials do not feel premium. I use it mainly for city travel. Review 161....",
+          "rating": 2.0
+        }
+      ]
+    },
+    {
+      "model": "Altroz",
+      "brand": "Tata Motors",
+      "total_reviews": 219,
+      "average_rating": 3.64,
+      "positive_pct": 56.6,
+      "negative_pct": 19.2,
+      "neutral_pct": 24.2,
+      "top_strengths": "Performance (59 mentions), Design (53 mentions), Comfort (51 mentions)",
+      "improvement_areas": "Performance (15 complaints), Service & Ownership (15 complaints), Design (12 complaints)",
+      "actionable_recommendation": "Audit transmission calibration and throttle map; investigate low-end torque lags and gear hunting.",
+      "positive_quotes": [
+        {
+          "id": 17,
+          "text": "The Altroz has excellent performance and very comfortable seats....",
+          "rating": 4.0
+        },
+        {
+          "id": 31,
+          "text": "The service team was helpful and resolved my issue quickly....",
           "rating": 5.0
         },
         {
-          "id": 156,
-          "text": "I am very happy with the City; the engine is smooth and powerful....",
+          "id": 61,
+          "text": "The Altroz has excellent performance and very comfortable seats....",
           "rating": 5.0
         }
       ],
       "critical_quotes": [
         {
-          "id": 105,
-          "text": "The engine performance is disappointing and fuel consumption is high....",
-          "rating": 3.0
+          "id": 87,
+          "text": "The cabin noise is high and the ride comfort is disappointing....",
+          "rating": 2.0
         },
         {
-          "id": 131,
-          "text": "The engine performance is disappointing and fuel consumption is high....",
+          "id": 142,
+          "text": "The dealer response was slow and the repair took multiple visits....",
           "rating": 1.0
         },
         {
-          "id": 144,
+          "id": 145,
+          "text": "The interior quality feels poor and several features are inconvenient....",
+          "rating": 1.0
+        }
+      ]
+    },
+    {
+      "model": "Verna",
+      "brand": "Hyundai",
+      "total_reviews": 218,
+      "average_rating": 3.5,
+      "positive_pct": 55.5,
+      "negative_pct": 20.6,
+      "neutral_pct": 23.9,
+      "top_strengths": "Performance (54 mentions), Comfort (47 mentions), Design (40 mentions)",
+      "improvement_areas": "Service & Ownership (17 complaints), Design (16 complaints), Performance (15 complaints)",
+      "actionable_recommendation": "Maintain ongoing QA monitoring.",
+      "positive_quotes": [
+        {
+          "id": 78,
+          "text": "Great mileage and comfortable driving experience. Very satisfied....",
+          "rating": 5.0
+        },
+        {
+          "id": 180,
+          "text": "I am very happy with the Verna; the engine is smooth and powerful....",
+          "rating": 4.0
+        },
+        {
+          "id": 184,
+          "text": "I am very happy with the Verna; the engine is smooth and powerful....",
+          "rating": 5.0
+        }
+      ],
+      "critical_quotes": [
+        {
+          "id": 274,
+          "text": "The car has poor after-sales service and maintenance is expensive....",
+          "rating": 3.0
+        },
+        {
+          "id": 605,
+          "text": "The dealer response was slow and the repair took multiple visits....",
+          "rating": 3.0
+        },
+        {
+          "id": 703,
+          "text": "The infotainment system has problems and frequently stops working....",
+          "rating": 2.0
+        }
+      ]
+    },
+    {
+      "model": "Punch",
+      "brand": "Tata Motors",
+      "total_reviews": 218,
+      "average_rating": 3.5,
+      "positive_pct": 54.1,
+      "negative_pct": 19.7,
+      "neutral_pct": 26.1,
+      "top_strengths": "Performance (57 mentions), Design (53 mentions), Safety (41 mentions)",
+      "improvement_areas": "Performance (16 complaints), Service & Ownership (14 complaints), Design (13 complaints)",
+      "actionable_recommendation": "Audit transmission calibration and throttle map; investigate low-end torque lags and gear hunting.",
+      "positive_quotes": [
+        {
+          "id": 85,
+          "text": "The exterior design looks excellent and the features are very useful....",
+          "rating": 4.0
+        },
+        {
+          "id": 89,
+          "text": "The exterior design looks excellent and the features are very useful....",
+          "rating": 5.0
+        },
+        {
+          "id": 134,
+          "text": "The safety features are impressive and the interior feels premium....",
+          "rating": 5.0
+        }
+      ],
+      "critical_quotes": [
+        {
+          "id": 146,
+          "text": "The infotainment system has problems and frequently stops working....",
+          "rating": 1.0
+        },
+        {
+          "id": 278,
+          "text": "The dealer response was slow and the repair took multiple visits....",
+          "rating": 1.0
+        },
+        {
+          "id": 567,
+          "text": "The interior quality feels poor and several features are inconvenient....",
+          "rating": 2.0
+        }
+      ]
+    },
+    {
+      "model": "Bolero",
+      "brand": "Mahindra",
+      "total_reviews": 217,
+      "average_rating": 3.49,
+      "positive_pct": 49.8,
+      "negative_pct": 21.2,
+      "neutral_pct": 29.0,
+      "top_strengths": "Performance (59 mentions), Design (54 mentions), Safety (42 mentions)",
+      "improvement_areas": "Comfort (15 complaints), Service & Ownership (14 complaints), Performance (13 complaints)",
+      "actionable_recommendation": "Re-tune rear damper rebound damping and improve multi-density foam contouring in driver lumbar zone.",
+      "positive_quotes": [
+        {
+          "id": 21,
+          "text": "I am very happy with the Bolero; the engine is smooth and powerful....",
+          "rating": 4.0
+        },
+        {
+          "id": 86,
+          "text": "The infotainment system is easy to use and the cabin is comfortable....",
+          "rating": 5.0
+        },
+        {
+          "id": 207,
+          "text": "The Bolero has excellent performance and very comfortable seats....",
+          "rating": 5.0
+        }
+      ],
+      "critical_quotes": [
+        {
+          "id": 18,
+          "text": "The cabin noise is high and the ride comfort is disappointing....",
+          "rating": 2.0
+        },
+        {
+          "id": 379,
+          "text": "The infotainment system has problems and frequently stops working....",
+          "rating": 2.0
+        },
+        {
+          "id": 600,
+          "text": "The infotainment system has problems and frequently stops working....",
+          "rating": 1.0
+        }
+      ]
+    },
+    {
+      "model": "Venue",
+      "brand": "Hyundai",
+      "total_reviews": 214,
+      "average_rating": 3.78,
+      "positive_pct": 63.1,
+      "negative_pct": 13.6,
+      "neutral_pct": 23.4,
+      "top_strengths": "Performance (63 mentions), Design (52 mentions), Comfort (49 mentions)",
+      "improvement_areas": "Performance (12 complaints), Comfort (8 complaints), Safety (7 complaints)",
+      "actionable_recommendation": "Audit transmission calibration and throttle map; investigate low-end torque lags and gear hunting.",
+      "positive_quotes": [
+        {
+          "id": 30,
+          "text": "I am very happy with the Venue; the engine is smooth and powerful....",
+          "rating": 4.0
+        },
+        {
+          "id": 96,
+          "text": "The infotainment system is easy to use and the cabin is comfortable....",
+          "rating": 5.0
+        },
+        {
+          "id": 101,
+          "text": "The exterior design looks excellent and the features are very useful....",
+          "rating": 5.0
+        }
+      ],
+      "critical_quotes": [
+        {
+          "id": 7,
+          "text": "The infotainment system has problems and frequently stops working....",
+          "rating": 2.0
+        },
+        {
+          "id": 122,
+          "text": "The engine performance is disappointing and fuel consumption is high....",
+          "rating": 2.0
+        },
+        {
+          "id": 262,
           "text": "The engine performance is disappointing and fuel consumption is high....",
           "rating": 2.0
         }
       ]
     },
     {
-      "model": "Fortuner",
-      "brand": "Toyota",
-      "total_reviews": 191,
-      "average_rating": 3.47,
-      "positive_pct": 47.1,
-      "negative_pct": 22.0,
-      "neutral_pct": 30.9,
-      "top_strengths": "Performance (38 mentions), Value (34 mentions), Design (32 mentions)",
-      "improvement_areas": "Ownership (11 complaints), Performance (4 complaints), Economy (4 complaints)",
-      "actionable_recommendation": "Enforce dealership spare parts SLA under 48 hours and implement standard labor pricing schedules.",
+      "model": "Brezza",
+      "brand": "Maruti Suzuki",
+      "total_reviews": 214,
+      "average_rating": 3.85,
+      "positive_pct": 66.8,
+      "negative_pct": 14.5,
+      "neutral_pct": 18.7,
+      "top_strengths": "Performance (73 mentions), Design (59 mentions), Safety (54 mentions)",
+      "improvement_areas": "Service & Ownership (9 complaints), Ownership (5 complaints), Comfort (5 complaints)",
+      "actionable_recommendation": "Maintain ongoing QA monitoring.",
       "positive_quotes": [
         {
-          "id": 60,
+          "id": 164,
+          "text": "The exterior design looks excellent and the features are very useful....",
+          "rating": 5.0
+        },
+        {
+          "id": 174,
           "text": "The infotainment system is easy to use and the cabin is comfortable....",
           "rating": 5.0
         },
         {
-          "id": 75,
+          "id": 210,
+          "text": "I am very happy with the Brezza; the engine is smooth and powerful....",
+          "rating": 5.0
+        }
+      ],
+      "critical_quotes": [
+        {
+          "id": 42,
+          "text": "The infotainment system has problems and frequently stops working....",
+          "rating": 2.0
+        },
+        {
+          "id": 308,
+          "text": "The cabin noise is high and the ride comfort is disappointing....",
+          "rating": 2.0
+        },
+        {
+          "id": 391,
+          "text": "The car has poor after-sales service and maintenance is expensive....",
+          "rating": 1.0
+        }
+      ]
+    },
+    {
+      "model": "Baleno",
+      "brand": "Maruti Suzuki",
+      "total_reviews": 211,
+      "average_rating": 3.54,
+      "positive_pct": 51.2,
+      "negative_pct": 17.5,
+      "neutral_pct": 31.3,
+      "top_strengths": "Performance (54 mentions), Design (46 mentions), Comfort (40 mentions)",
+      "improvement_areas": "Design (14 complaints), Performance (13 complaints), Safety (12 complaints)",
+      "actionable_recommendation": "Upgrade dashboard and door card plastic texture; insulate clip fasteners to eliminate cabin rattles.",
+      "positive_quotes": [
+        {
+          "id": 157,
+          "text": "The exterior design looks excellent and the features are very useful....",
+          "rating": 4.0
+        },
+        {
+          "id": 203,
+          "text": "The Baleno has excellent performance and very comfortable seats....",
+          "rating": 4.0
+        },
+        {
+          "id": 320,
+          "text": "The service team was helpful and resolved my issue quickly....",
+          "rating": 4.0
+        }
+      ],
+      "critical_quotes": [
+        {
+          "id": 634,
+          "text": "I am unhappy with the braking performance and overall driving experience....",
+          "rating": 1.0
+        },
+        {
+          "id": 977,
+          "text": "The dealer response was slow and the repair took multiple visits....",
+          "rating": 3.0
+        },
+        {
+          "id": 1233,
+          "text": "Some interior materials do not feel premium. I use it mainly for city travel. Review 233....",
+          "rating": 2.0
+        }
+      ]
+    },
+    {
+      "model": "Grand Vitara",
+      "brand": "Maruti Suzuki",
+      "total_reviews": 210,
+      "average_rating": 3.58,
+      "positive_pct": 54.8,
+      "negative_pct": 19.5,
+      "neutral_pct": 25.7,
+      "top_strengths": "Performance (57 mentions), Comfort (43 mentions), Design (41 mentions)",
+      "improvement_areas": "Performance (12 complaints), Design (9 complaints), Service & Ownership (8 complaints)",
+      "actionable_recommendation": "Audit transmission calibration and throttle map; investigate low-end torque lags and gear hunting.",
+      "positive_quotes": [
+        {
+          "id": 39,
+          "text": "The service team was helpful and resolved my issue quickly....",
+          "rating": 5.0
+        },
+        {
+          "id": 190,
+          "text": "I am very happy with the Grand Vitara; the engine is smooth and powerful....",
+          "rating": 4.0
+        },
+        {
+          "id": 195,
+          "text": "The service team was helpful and resolved my issue quickly....",
+          "rating": 5.0
+        }
+      ],
+      "critical_quotes": [
+        {
+          "id": 16,
+          "text": "The interior quality feels poor and several features are inconvenient....",
+          "rating": 3.0
+        },
+        {
+          "id": 107,
+          "text": "The dealer response was slow and the repair took multiple visits....",
+          "rating": 1.0
+        },
+        {
+          "id": 201,
+          "text": "The cabin noise is high and the ride comfort is disappointing....",
+          "rating": 2.0
+        }
+      ]
+    },
+    {
+      "model": "Urban Cruiser Hyryder",
+      "brand": "Toyota",
+      "total_reviews": 206,
+      "average_rating": 3.5,
+      "positive_pct": 49.5,
+      "negative_pct": 24.3,
+      "neutral_pct": 26.2,
+      "top_strengths": "Design (40 mentions), Performance (40 mentions), Comfort (39 mentions)",
+      "improvement_areas": "Performance (24 complaints), Service & Ownership (18 complaints), Comfort (17 complaints)",
+      "actionable_recommendation": "Audit transmission calibration and throttle map; investigate low-end torque lags and gear hunting.",
+      "positive_quotes": [
+        {
+          "id": 57,
+          "text": "The safety features are impressive and the interior feels premium....",
+          "rating": 5.0
+        },
+        {
+          "id": 109,
+          "text": "The service team was helpful and resolved my issue quickly....",
+          "rating": 5.0
+        },
+        {
+          "id": 168,
+          "text": "The service team was helpful and resolved my issue quickly....",
+          "rating": 5.0
+        }
+      ],
+      "critical_quotes": [
+        {
+          "id": 95,
+          "text": "The cabin noise is high and the ride comfort is disappointing....",
+          "rating": 2.0
+        },
+        {
+          "id": 482,
+          "text": "The cabin noise is high and the ride comfort is disappointing....",
+          "rating": 2.0
+        },
+        {
+          "id": 510,
+          "text": "The service centre did not resolve my issue and the waiting time was too long....",
+          "rating": 2.0
+        }
+      ]
+    },
+    {
+      "model": "Swift",
+      "brand": "Maruti Suzuki",
+      "total_reviews": 206,
+      "average_rating": 3.77,
+      "positive_pct": 63.1,
+      "negative_pct": 13.6,
+      "neutral_pct": 23.3,
+      "top_strengths": "Performance (60 mentions), Safety (50 mentions), Comfort (47 mentions)",
+      "improvement_areas": "Service & Ownership (9 complaints), Performance (8 complaints), Ownership (5 complaints)",
+      "actionable_recommendation": "Maintain ongoing QA monitoring.",
+      "positive_quotes": [
+        {
+          "id": 52,
           "text": "The service team was helpful and resolved my issue quickly....",
           "rating": 4.0
         },
         {
-          "id": 92,
+          "id": 84,
+          "text": "The infotainment system is easy to use and the cabin is comfortable....",
+          "rating": 4.0
+        },
+        {
+          "id": 193,
+          "text": "The infotainment system is easy to use and the cabin is comfortable....",
+          "rating": 4.0
+        }
+      ],
+      "critical_quotes": [
+        {
+          "id": 362,
+          "text": "The car has poor after-sales service and maintenance is expensive....",
+          "rating": 3.0
+        },
+        {
+          "id": 397,
+          "text": "The car has poor after-sales service and maintenance is expensive....",
+          "rating": 2.0
+        },
+        {
+          "id": 635,
+          "text": "The engine performance is disappointing and fuel consumption is high....",
+          "rating": 1.0
+        }
+      ]
+    },
+    {
+      "model": "XUV700",
+      "brand": "Mahindra",
+      "total_reviews": 195,
+      "average_rating": 3.57,
+      "positive_pct": 56.4,
+      "negative_pct": 17.4,
+      "neutral_pct": 26.2,
+      "top_strengths": "Performance (54 mentions), Comfort (47 mentions), Safety (45 mentions)",
+      "improvement_areas": "Comfort (9 complaints), Service & Ownership (9 complaints), Performance (8 complaints)",
+      "actionable_recommendation": "Re-tune rear damper rebound damping and improve multi-density foam contouring in driver lumbar zone.",
+      "positive_quotes": [
+        {
+          "id": 74,
+          "text": "The infotainment system is easy to use and the cabin is comfortable....",
+          "rating": 4.0
+        },
+        {
+          "id": 638,
+          "text": "The XUV700 has excellent performance and very comfortable seats....",
+          "rating": 5.0
+        },
+        {
+          "id": 833,
+          "text": "The safety features are impressive and the interior feels premium....",
+          "rating": 5.0
+        }
+      ],
+      "critical_quotes": [
+        {
+          "id": 342,
+          "text": "The cabin noise is high and the ride comfort is disappointing....",
+          "rating": 2.0
+        },
+        {
+          "id": 930,
+          "text": "The dealer response was slow and the repair took multiple visits....",
+          "rating": 2.0
+        },
+        {
+          "id": 941,
+          "text": "The car has poor after-sales service and maintenance is expensive....",
+          "rating": 1.0
+        }
+      ]
+    },
+    {
+      "model": "Thar",
+      "brand": "Mahindra",
+      "total_reviews": 194,
+      "average_rating": 3.52,
+      "positive_pct": 49.0,
+      "negative_pct": 19.1,
+      "neutral_pct": 32.0,
+      "top_strengths": "Performance (46 mentions), Comfort (40 mentions), Design (37 mentions)",
+      "improvement_areas": "Performance (18 complaints), Design (10 complaints), Comfort (10 complaints)",
+      "actionable_recommendation": "Audit transmission calibration and throttle map; investigate low-end torque lags and gear hunting.",
+      "positive_quotes": [
+        {
+          "id": 47,
+          "text": "Excellent braking and stable handling. The car feels safe....",
+          "rating": 4.0
+        },
+        {
+          "id": 129,
+          "text": "The service team was helpful and resolved my issue quickly....",
+          "rating": 5.0
+        },
+        {
+          "id": 313,
+          "text": "Great mileage and comfortable driving experience. Very satisfied....",
+          "rating": 5.0
+        }
+      ],
+      "critical_quotes": [
+        {
+          "id": 438,
+          "text": "The engine performance is disappointing and fuel consumption is high....",
+          "rating": 2.0
+        },
+        {
+          "id": 554,
+          "text": "The cabin noise is high and the ride comfort is disappointing....",
+          "rating": 2.0
+        },
+        {
+          "id": 597,
+          "text": "The cabin noise is high and the ride comfort is disappointing....",
+          "rating": 3.0
+        }
+      ]
+    },
+    {
+      "model": "Safari",
+      "brand": "Tata Motors",
+      "total_reviews": 191,
+      "average_rating": 3.62,
+      "positive_pct": 57.6,
+      "negative_pct": 16.8,
+      "neutral_pct": 25.7,
+      "top_strengths": "Performance (56 mentions), Design (49 mentions), Comfort (46 mentions)",
+      "improvement_areas": "Performance (13 complaints), Safety (9 complaints), Service & Ownership (8 complaints)",
+      "actionable_recommendation": "Audit transmission calibration and throttle map; investigate low-end torque lags and gear hunting.",
+      "positive_quotes": [
+        {
+          "id": 248,
+          "text": "The Safari has excellent performance and very comfortable seats....",
+          "rating": 4.0
+        },
+        {
+          "id": 255,
+          "text": "Great mileage and comfortable driving experience. Very satisfied....",
+          "rating": 4.0
+        },
+        {
+          "id": 350,
           "text": "The infotainment system is easy to use and the cabin is comfortable....",
           "rating": 5.0
         }
       ],
       "critical_quotes": [
         {
-          "id": 24,
-          "text": "The service centre did not resolve my issue and the waiting time was too long....",
-          "rating": 1.0
-        },
-        {
-          "id": 250,
-          "text": "The infotainment system has problems and frequently stops working....",
-          "rating": 2.0
-        },
-        {
-          "id": 298,
-          "text": "The infotainment system has problems and frequently stops working....",
-          "rating": 1.0
-        }
-      ]
-    },
-    {
-      "model": "Amaze",
-      "brand": "Honda",
-      "total_reviews": 185,
-      "average_rating": 3.63,
-      "positive_pct": 57.3,
-      "negative_pct": 16.2,
-      "neutral_pct": 26.5,
-      "top_strengths": "Performance (38 mentions), Value (31 mentions), Design (26 mentions)",
-      "improvement_areas": "Value (6 complaints), Performance (5 complaints), Design (4 complaints)",
-      "actionable_recommendation": "Introduce mid-spec value pack variant bundling alloy wheels and reverse camera at competitive MSRP.",
-      "positive_quotes": [
-        {
-          "id": 59,
-          "text": "The safety features are impressive and the interior feels premium....",
-          "rating": 4.0
-        },
-        {
-          "id": 93,
-          "text": "I am very happy with the Amaze; the engine is smooth and powerful....",
-          "rating": 4.0
-        },
-        {
-          "id": 120,
-          "text": "Great mileage and comfortable driving experience. Very satisfied....",
-          "rating": 4.0
-        }
-      ],
-      "critical_quotes": [
-        {
-          "id": 228,
-          "text": "The interior quality feels poor and several features are inconvenient....",
-          "rating": 2.0
-        },
-        {
-          "id": 265,
-          "text": "The car has poor after-sales service and maintenance is expensive....",
-          "rating": 1.0
-        },
-        {
-          "id": 352,
-          "text": "The engine performance is disappointing and fuel consumption is high....",
-          "rating": 3.0
-        }
-      ]
-    },
-    {
-      "model": "ZS EV",
-      "brand": "MG",
-      "total_reviews": 177,
-      "average_rating": 3.47,
-      "positive_pct": 48.6,
-      "negative_pct": 18.6,
-      "neutral_pct": 32.8,
-      "top_strengths": "Performance (32 mentions), Design (24 mentions), Value (23 mentions)",
-      "improvement_areas": "Ownership (9 complaints), Performance (4 complaints), Value (4 complaints)",
-      "actionable_recommendation": "Enforce dealership spare parts SLA under 48 hours and implement standard labor pricing schedules.",
-      "positive_quotes": [
-        {
-          "id": 19,
-          "text": "Excellent braking and stable handling. The car feels safe....",
-          "rating": 4.0
-        },
-        {
-          "id": 26,
-          "text": "The ZS EV has excellent performance and very comfortable seats....",
-          "rating": 4.0
-        },
-        {
-          "id": 58,
-          "text": "The infotainment system is easy to use and the cabin is comfortable....",
-          "rating": 4.0
-        }
-      ],
-      "critical_quotes": [
-        {
-          "id": 106,
-          "text": "The infotainment system has problems and frequently stops working....",
-          "rating": 2.0
-        },
-        {
-          "id": 136,
+          "id": 183,
           "text": "The service centre did not resolve my issue and the waiting time was too long....",
           "rating": 2.0
         },
         {
-          "id": 460,
+          "id": 369,
+          "text": "The dealer response was slow and the repair took multiple visits....",
+          "rating": 2.0
+        },
+        {
+          "id": 387,
           "text": "I am unhappy with the braking performance and overall driving experience....",
           "rating": 3.0
         }
       ]
     },
     {
-      "model": "Astor",
-      "brand": "MG",
-      "total_reviews": 176,
-      "average_rating": 3.57,
-      "positive_pct": 52.8,
-      "negative_pct": 19.3,
-      "neutral_pct": 27.8,
-      "top_strengths": "Performance (43 mentions), Design (25 mentions), Value (24 mentions)",
-      "improvement_areas": "Ownership (5 complaints), Value (3 complaints), Performance (3 complaints)",
-      "actionable_recommendation": "Enforce dealership spare parts SLA under 48 hours and implement standard labor pricing schedules.",
+      "model": "Exter",
+      "brand": "Hyundai",
+      "total_reviews": 181,
+      "average_rating": 3.6,
+      "positive_pct": 55.2,
+      "negative_pct": 17.1,
+      "neutral_pct": 27.6,
+      "top_strengths": "Performance (54 mentions), Design (38 mentions), Comfort (38 mentions)",
+      "improvement_areas": "Performance (13 complaints), Design (8 complaints), Comfort (7 complaints)",
+      "actionable_recommendation": "Audit transmission calibration and throttle map; investigate low-end torque lags and gear hunting.",
       "positive_quotes": [
         {
-          "id": 27,
-          "text": "Excellent braking and stable handling. The car feels safe....",
-          "rating": 4.0
-        },
-        {
-          "id": 28,
-          "text": "The infotainment system is easy to use and the cabin is comfortable....",
-          "rating": 4.0
-        },
-        {
-          "id": 98,
-          "text": "The service team was helpful and resolved my issue quickly....",
-          "rating": 5.0
-        }
-      ],
-      "critical_quotes": [
-        {
-          "id": 11,
-          "text": "The car has poor after-sales service and maintenance is expensive....",
-          "rating": 2.0
-        },
-        {
-          "id": 115,
-          "text": "The interior quality feels poor and several features are inconvenient....",
-          "rating": 2.0
-        },
-        {
-          "id": 158,
-          "text": "The car has poor after-sales service and maintenance is expensive....",
-          "rating": 3.0
-        }
-      ]
-    },
-    {
-      "model": "Seltos",
-      "brand": "Kia",
-      "total_reviews": 171,
-      "average_rating": 3.59,
-      "positive_pct": 55.6,
-      "negative_pct": 15.8,
-      "neutral_pct": 28.7,
-      "top_strengths": "Performance (38 mentions), Comfort (27 mentions), Design (20 mentions)",
-      "improvement_areas": "Ownership (5 complaints), Value (3 complaints), Performance (3 complaints)",
-      "actionable_recommendation": "Enforce dealership spare parts SLA under 48 hours and implement standard labor pricing schedules.",
-      "positive_quotes": [
-        {
-          "id": 4,
-          "text": "The service team was helpful and resolved my issue quickly....",
-          "rating": 4.0
-        },
-        {
-          "id": 37,
-          "text": "Excellent braking and stable handling. The car feels safe....",
-          "rating": 5.0
-        },
-        {
-          "id": 121,
-          "text": "The infotainment system is easy to use and the cabin is comfortable....",
-          "rating": 5.0
-        }
-      ],
-      "critical_quotes": [
-        {
-          "id": 130,
-          "text": "The car has poor after-sales service and maintenance is expensive....",
-          "rating": 1.0
-        },
-        {
-          "id": 175,
-          "text": "The interior quality feels poor and several features are inconvenient....",
-          "rating": 2.0
-        },
-        {
-          "id": 227,
-          "text": "The interior quality feels poor and several features are inconvenient....",
-          "rating": 2.0
-        }
-      ]
-    },
-    {
-      "model": "Sonet",
-      "brand": "Kia",
-      "total_reviews": 168,
-      "average_rating": 3.51,
-      "positive_pct": 55.4,
-      "negative_pct": 19.0,
-      "neutral_pct": 25.6,
-      "top_strengths": "Performance (36 mentions), Design (23 mentions), Comfort (23 mentions)",
-      "improvement_areas": "Ownership (4 complaints), Value (3 complaints), Economy (3 complaints)",
-      "actionable_recommendation": "Enforce dealership spare parts SLA under 48 hours and implement standard labor pricing schedules.",
-      "positive_quotes": [
-        {
-          "id": 103,
+          "id": 69,
           "text": "The exterior design looks excellent and the features are very useful....",
-          "rating": 4.0
-        },
-        {
-          "id": 114,
-          "text": "The Sonet has excellent performance and very comfortable seats....",
           "rating": 5.0
         },
         {
-          "id": 143,
+          "id": 273,
           "text": "Great mileage and comfortable driving experience. Very satisfied....",
-          "rating": 4.0
+          "rating": 5.0
+        },
+        {
+          "id": 356,
+          "text": "The safety features are impressive and the interior feels premium....",
+          "rating": 5.0
         }
       ],
       "critical_quotes": [
         {
-          "id": 40,
+          "id": 113,
+          "text": "The engine performance is disappointing and fuel consumption is high....",
+          "rating": 2.0
+        },
+        {
+          "id": 249,
+          "text": "The cabin noise is high and the ride comfort is disappointing....",
+          "rating": 2.0
+        },
+        {
+          "id": 337,
           "text": "The service centre did not resolve my issue and the waiting time was too long....",
           "rating": 2.0
+        }
+      ]
+    },
+    {
+      "model": "Harrier",
+      "brand": "Tata Motors",
+      "total_reviews": 162,
+      "average_rating": 3.57,
+      "positive_pct": 49.4,
+      "negative_pct": 19.1,
+      "neutral_pct": 31.5,
+      "top_strengths": "Performance (46 mentions), Safety (30 mentions), Design (27 mentions)",
+      "improvement_areas": "Service & Ownership (8 complaints), Performance (7 complaints), Comfort (7 complaints)",
+      "actionable_recommendation": "Maintain ongoing QA monitoring.",
+      "positive_quotes": [
+        {
+          "id": 10,
+          "text": "I am very happy with the Harrier; the engine is smooth and powerful....",
+          "rating": 4.0
         },
         {
-          "id": 221,
-          "text": "The dealer response was slow and the repair took multiple visits....",
-          "rating": 2.0
+          "id": 29,
+          "text": "The infotainment system is easy to use and the cabin is comfortable....",
+          "rating": 5.0
         },
         {
-          "id": 399,
+          "id": 436,
+          "text": "I am very happy with the Harrier; the engine is smooth and powerful....",
+          "rating": 5.0
+        }
+      ],
+      "critical_quotes": [
+        {
+          "id": 119,
+          "text": "The service centre did not resolve my issue and the waiting time was too long....",
+          "rating": 3.0
+        },
+        {
+          "id": 126,
           "text": "The cabin noise is high and the ride comfort is disappointing....",
           "rating": 1.0
-        }
-      ]
-    },
-    {
-      "model": "Hector",
-      "brand": "MG",
-      "total_reviews": 166,
-      "average_rating": 3.5,
-      "positive_pct": 54.8,
-      "negative_pct": 22.9,
-      "neutral_pct": 22.3,
-      "top_strengths": "Performance (33 mentions), Design (26 mentions), Value (22 mentions)",
-      "improvement_areas": "Technology (4 complaints), Ownership (4 complaints), Value (3 complaints)",
-      "actionable_recommendation": "Deploy OTA firmware update addressing touchscreen latency, Bluetooth disconnects, and wireless CarPlay stability.",
-      "positive_quotes": [
-        {
-          "id": 43,
-          "text": "The infotainment system is easy to use and the cabin is comfortable....",
-          "rating": 5.0
         },
         {
-          "id": 72,
-          "text": "The service team was helpful and resolved my issue quickly....",
-          "rating": 5.0
-        },
-        {
-          "id": 97,
-          "text": "The service team was helpful and resolved my issue quickly....",
-          "rating": 4.0
-        }
-      ],
-      "critical_quotes": [
-        {
-          "id": 137,
-          "text": "The dealer response was slow and the repair took multiple visits....",
-          "rating": 3.0
-        },
-        {
-          "id": 153,
-          "text": "The infotainment system has problems and frequently stops working....",
-          "rating": 3.0
-        },
-        {
-          "id": 198,
-          "text": "The dealer response was slow and the repair took multiple visits....",
-          "rating": 2.0
-        }
-      ]
-    },
-    {
-      "model": "Carens",
-      "brand": "Kia",
-      "total_reviews": 155,
-      "average_rating": 3.66,
-      "positive_pct": 56.1,
-      "negative_pct": 16.8,
-      "neutral_pct": 27.1,
-      "top_strengths": "Performance (27 mentions), Value (26 mentions), Comfort (19 mentions)",
-      "improvement_areas": "Ownership (4 complaints), Value (3 complaints), Comfort (2 complaints)",
-      "actionable_recommendation": "Enforce dealership spare parts SLA under 48 hours and implement standard labor pricing schedules.",
-      "positive_quotes": [
-        {
-          "id": 15,
-          "text": "The exterior design looks excellent and the features are very useful....",
-          "rating": 5.0
-        },
-        {
-          "id": 35,
-          "text": "The safety features are impressive and the interior feels premium....",
-          "rating": 5.0
-        },
-        {
-          "id": 49,
-          "text": "Excellent braking and stable handling. The car feels safe....",
-          "rating": 5.0
-        }
-      ],
-      "critical_quotes": [
-        {
-          "id": 73,
-          "text": "The car has poor after-sales service and maintenance is expensive....",
-          "rating": 2.0
-        },
-        {
-          "id": 192,
-          "text": "The service centre did not resolve my issue and the waiting time was too long....",
-          "rating": 1.0
-        },
-        {
-          "id": 197,
-          "text": "The car has poor after-sales service and maintenance is expensive....",
-          "rating": 2.0
-        }
-      ]
-    },
-    {
-      "model": "Innova Hycross",
-      "brand": "Toyota",
-      "total_reviews": 154,
-      "average_rating": 3.43,
-      "positive_pct": 55.2,
-      "negative_pct": 26.0,
-      "neutral_pct": 18.8,
-      "top_strengths": "Performance (33 mentions), Value (20 mentions), Design (18 mentions)",
-      "improvement_areas": "Ownership (8 complaints), Performance (5 complaints), Economy (4 complaints)",
-      "actionable_recommendation": "Enforce dealership spare parts SLA under 48 hours and implement standard labor pricing schedules.",
-      "positive_quotes": [
-        {
-          "id": 2,
-          "text": "Great mileage and comfortable driving experience. Very satisfied....",
-          "rating": 4.0
-        },
-        {
-          "id": 3,
-          "text": "The exterior design looks excellent and the features are very useful....",
-          "rating": 4.0
-        },
-        {
-          "id": 123,
-          "text": "I am very happy with the Innova Hycross; the engine is smooth and powerful....",
-          "rating": 5.0
-        }
-      ],
-      "critical_quotes": [
-        {
-          "id": 48,
-          "text": "The dealer response was slow and the repair took multiple visits....",
-          "rating": 3.0
-        },
-        {
-          "id": 64,
-          "text": "I am unhappy with the braking performance and overall driving experience....",
-          "rating": 1.0
-        },
-        {
-          "id": 154,
+          "id": 170,
           "text": "I am unhappy with the braking performance and overall driving experience....",
           "rating": 3.0
-        }
-      ]
-    },
-    {
-      "model": "Creta",
-      "brand": "Hyundai",
-      "total_reviews": 149,
-      "average_rating": 3.58,
-      "positive_pct": 54.4,
-      "negative_pct": 18.8,
-      "neutral_pct": 26.8,
-      "top_strengths": "Performance (29 mentions), Economy (22 mentions), Value (21 mentions)",
-      "improvement_areas": "Performance (7 complaints), Ownership (6 complaints), Economy (5 complaints)",
-      "actionable_recommendation": "Audit transmission calibration and throttle map; investigate low-end torque lags and gear hunting.",
-      "positive_quotes": [
-        {
-          "id": 148,
-          "text": "The Creta has excellent performance and very comfortable seats....",
-          "rating": 4.0
-        },
-        {
-          "id": 275,
-          "text": "Excellent braking and stable handling. The car feels safe....",
-          "rating": 5.0
-        },
-        {
-          "id": 331,
-          "text": "The exterior design looks excellent and the features are very useful....",
-          "rating": 4.0
-        }
-      ],
-      "critical_quotes": [
-        {
-          "id": 13,
-          "text": "I am unhappy with the braking performance and overall driving experience....",
-          "rating": 2.0
-        },
-        {
-          "id": 245,
-          "text": "The engine performance is disappointing and fuel consumption is high....",
-          "rating": 3.0
-        },
-        {
-          "id": 285,
-          "text": "The car has poor after-sales service and maintenance is expensive....",
-          "rating": 2.0
-        }
-      ]
-    },
-    {
-      "model": "Scorpio-N",
-      "brand": "Mahindra",
-      "total_reviews": 146,
-      "average_rating": 3.47,
-      "positive_pct": 52.1,
-      "negative_pct": 27.4,
-      "neutral_pct": 20.5,
-      "top_strengths": "Performance (23 mentions), Design (20 mentions), Value (19 mentions)",
-      "improvement_areas": "Performance (6 complaints), Ownership (5 complaints), Value (5 complaints)",
-      "actionable_recommendation": "Audit transmission calibration and throttle map; investigate low-end torque lags and gear hunting.",
-      "positive_quotes": [
-        {
-          "id": 9,
-          "text": "The exterior design looks excellent and the features are very useful....",
-          "rating": 5.0
-        },
-        {
-          "id": 53,
-          "text": "Great mileage and comfortable driving experience. Very satisfied....",
-          "rating": 5.0
-        },
-        {
-          "id": 100,
-          "text": "The Scorpio-N has excellent performance and very comfortable seats....",
-          "rating": 5.0
-        }
-      ],
-      "critical_quotes": [
-        {
-          "id": 55,
-          "text": "The car has poor after-sales service and maintenance is expensive....",
-          "rating": 1.0
-        },
-        {
-          "id": 67,
-          "text": "I am unhappy with the braking performance and overall driving experience....",
-          "rating": 2.0
-        },
-        {
-          "id": 169,
-          "text": "I am unhappy with the braking performance and overall driving experience....",
-          "rating": 1.0
         }
       ]
     },
@@ -1452,52 +2326,6 @@
         {
           "id": 3411,
           "text": "The service bill was higher than I expected. After several weeks of use, it has been practical for my routine....",
-          "rating": 2.0
-        }
-      ]
-    },
-    {
-      "model": "Fronx",
-      "brand": "Maruti Suzuki",
-      "total_reviews": 145,
-      "average_rating": 3.49,
-      "positive_pct": 53.1,
-      "negative_pct": 22.1,
-      "neutral_pct": 24.8,
-      "top_strengths": "Performance (24 mentions), Comfort (17 mentions), Value (17 mentions)",
-      "improvement_areas": "Ownership (6 complaints), Performance (5 complaints), Value (2 complaints)",
-      "actionable_recommendation": "Enforce dealership spare parts SLA under 48 hours and implement standard labor pricing schedules.",
-      "positive_quotes": [
-        {
-          "id": 83,
-          "text": "The Fronx has excellent performance and very comfortable seats....",
-          "rating": 5.0
-        },
-        {
-          "id": 171,
-          "text": "The service team was helpful and resolved my issue quickly....",
-          "rating": 4.0
-        },
-        {
-          "id": 196,
-          "text": "I am very happy with the Fronx; the engine is smooth and powerful....",
-          "rating": 5.0
-        }
-      ],
-      "critical_quotes": [
-        {
-          "id": 63,
-          "text": "The service centre did not resolve my issue and the waiting time was too long....",
-          "rating": 2.0
-        },
-        {
-          "id": 292,
-          "text": "The interior quality feels poor and several features are inconvenient....",
-          "rating": 2.0
-        },
-        {
-          "id": 378,
-          "text": "The car has poor after-sales service and maintenance is expensive....",
           "rating": 2.0
         }
       ]
@@ -1595,52 +2423,6 @@
       ]
     },
     {
-      "model": "Verna",
-      "brand": "Hyundai",
-      "total_reviews": 135,
-      "average_rating": 3.56,
-      "positive_pct": 57.8,
-      "negative_pct": 18.5,
-      "neutral_pct": 23.7,
-      "top_strengths": "Performance (26 mentions), Value (19 mentions), Economy (16 mentions)",
-      "improvement_areas": "Ownership (3 complaints), Value (2 complaints), Economy (2 complaints)",
-      "actionable_recommendation": "Enforce dealership spare parts SLA under 48 hours and implement standard labor pricing schedules.",
-      "positive_quotes": [
-        {
-          "id": 78,
-          "text": "Great mileage and comfortable driving experience. Very satisfied....",
-          "rating": 5.0
-        },
-        {
-          "id": 180,
-          "text": "I am very happy with the Verna; the engine is smooth and powerful....",
-          "rating": 4.0
-        },
-        {
-          "id": 184,
-          "text": "I am very happy with the Verna; the engine is smooth and powerful....",
-          "rating": 5.0
-        }
-      ],
-      "critical_quotes": [
-        {
-          "id": 274,
-          "text": "The car has poor after-sales service and maintenance is expensive....",
-          "rating": 3.0
-        },
-        {
-          "id": 605,
-          "text": "The dealer response was slow and the repair took multiple visits....",
-          "rating": 3.0
-        },
-        {
-          "id": 703,
-          "text": "The infotainment system has problems and frequently stops working....",
-          "rating": 2.0
-        }
-      ]
-    },
-    {
       "model": "Armada",
       "brand": "Nissan",
       "total_reviews": 135,
@@ -1683,466 +2465,6 @@
           "id": 8032,
           "text": "I've had 3 expeditions in a row and had very few problems. Thought I'd try something different so I leased the Armada. What a mistake!!!! This is the worst vehi...",
           "rating": 2.25
-        }
-      ]
-    },
-    {
-      "model": "XUV 3XO",
-      "brand": "Mahindra",
-      "total_reviews": 133,
-      "average_rating": 3.59,
-      "positive_pct": 57.1,
-      "negative_pct": 18.0,
-      "neutral_pct": 24.8,
-      "top_strengths": "Design (26 mentions), Value (23 mentions), Performance (22 mentions)",
-      "improvement_areas": "Performance (5 complaints), Ownership (4 complaints), Economy (3 complaints)",
-      "actionable_recommendation": "Audit transmission calibration and throttle map; investigate low-end torque lags and gear hunting.",
-      "positive_quotes": [
-        {
-          "id": 44,
-          "text": "I am very happy with the XUV 3XO; the engine is smooth and powerful....",
-          "rating": 5.0
-        },
-        {
-          "id": 54,
-          "text": "Great mileage and comfortable driving experience. Very satisfied....",
-          "rating": 4.0
-        },
-        {
-          "id": 62,
-          "text": "Excellent braking and stable handling. The car feels safe....",
-          "rating": 5.0
-        }
-      ],
-      "critical_quotes": [
-        {
-          "id": 23,
-          "text": "The engine performance is disappointing and fuel consumption is high....",
-          "rating": 1.0
-        },
-        {
-          "id": 51,
-          "text": "The dealer response was slow and the repair took multiple visits....",
-          "rating": 2.0
-        },
-        {
-          "id": 176,
-          "text": "The service centre did not resolve my issue and the waiting time was too long....",
-          "rating": 2.0
-        }
-      ]
-    },
-    {
-      "model": "Nexon",
-      "brand": "Tata Motors",
-      "total_reviews": 133,
-      "average_rating": 3.44,
-      "positive_pct": 51.1,
-      "negative_pct": 19.5,
-      "neutral_pct": 29.3,
-      "top_strengths": "Design (17 mentions), Performance (17 mentions), Value (16 mentions)",
-      "improvement_areas": "Economy (4 complaints), Ownership (3 complaints), Performance (2 complaints)",
-      "actionable_recommendation": "Optimize ECU fuel-air curves and test aerodynamic drag coefficient under highway cruising speeds.",
-      "positive_quotes": [
-        {
-          "id": 179,
-          "text": "Great mileage and comfortable driving experience. Very satisfied....",
-          "rating": 4.0
-        },
-        {
-          "id": 215,
-          "text": "The exterior design looks excellent and the features are very useful....",
-          "rating": 5.0
-        },
-        {
-          "id": 447,
-          "text": "The service team was helpful and resolved my issue quickly....",
-          "rating": 4.0
-        }
-      ],
-      "critical_quotes": [
-        {
-          "id": 347,
-          "text": "The service centre did not resolve my issue and the waiting time was too long....",
-          "rating": 2.0
-        },
-        {
-          "id": 588,
-          "text": "The cabin noise is high and the ride comfort is disappointing....",
-          "rating": 2.0
-        },
-        {
-          "id": 594,
-          "text": "The service centre did not resolve my issue and the waiting time was too long....",
-          "rating": 3.0
-        }
-      ]
-    },
-    {
-      "model": "Bolero",
-      "brand": "Mahindra",
-      "total_reviews": 132,
-      "average_rating": 3.54,
-      "positive_pct": 52.3,
-      "negative_pct": 20.5,
-      "neutral_pct": 27.3,
-      "top_strengths": "Performance (27 mentions), Design (26 mentions), Value (18 mentions)",
-      "improvement_areas": "Performance (3 complaints), Technology (2 complaints), Ownership (2 complaints)",
-      "actionable_recommendation": "Audit transmission calibration and throttle map; investigate low-end torque lags and gear hunting.",
-      "positive_quotes": [
-        {
-          "id": 21,
-          "text": "I am very happy with the Bolero; the engine is smooth and powerful....",
-          "rating": 4.0
-        },
-        {
-          "id": 86,
-          "text": "The infotainment system is easy to use and the cabin is comfortable....",
-          "rating": 5.0
-        },
-        {
-          "id": 207,
-          "text": "The Bolero has excellent performance and very comfortable seats....",
-          "rating": 5.0
-        }
-      ],
-      "critical_quotes": [
-        {
-          "id": 18,
-          "text": "The cabin noise is high and the ride comfort is disappointing....",
-          "rating": 2.0
-        },
-        {
-          "id": 379,
-          "text": "The infotainment system has problems and frequently stops working....",
-          "rating": 2.0
-        },
-        {
-          "id": 600,
-          "text": "The infotainment system has problems and frequently stops working....",
-          "rating": 1.0
-        }
-      ]
-    },
-    {
-      "model": "Brezza",
-      "brand": "Maruti Suzuki",
-      "total_reviews": 132,
-      "average_rating": 3.84,
-      "positive_pct": 67.4,
-      "negative_pct": 14.4,
-      "neutral_pct": 18.2,
-      "top_strengths": "Performance (31 mentions), Economy (22 mentions), Value (19 mentions)",
-      "improvement_areas": "Ownership (5 complaints), Value (3 complaints), Technology (1 complaints)",
-      "actionable_recommendation": "Enforce dealership spare parts SLA under 48 hours and implement standard labor pricing schedules.",
-      "positive_quotes": [
-        {
-          "id": 164,
-          "text": "The exterior design looks excellent and the features are very useful....",
-          "rating": 5.0
-        },
-        {
-          "id": 174,
-          "text": "The infotainment system is easy to use and the cabin is comfortable....",
-          "rating": 5.0
-        },
-        {
-          "id": 210,
-          "text": "I am very happy with the Brezza; the engine is smooth and powerful....",
-          "rating": 5.0
-        }
-      ],
-      "critical_quotes": [
-        {
-          "id": 42,
-          "text": "The infotainment system has problems and frequently stops working....",
-          "rating": 2.0
-        },
-        {
-          "id": 308,
-          "text": "The cabin noise is high and the ride comfort is disappointing....",
-          "rating": 2.0
-        },
-        {
-          "id": 391,
-          "text": "The car has poor after-sales service and maintenance is expensive....",
-          "rating": 1.0
-        }
-      ]
-    },
-    {
-      "model": "Punch",
-      "brand": "Tata Motors",
-      "total_reviews": 132,
-      "average_rating": 3.58,
-      "positive_pct": 56.8,
-      "negative_pct": 18.2,
-      "neutral_pct": 25.0,
-      "top_strengths": "Performance (29 mentions), Design (22 mentions), Value (16 mentions)",
-      "improvement_areas": "Performance (4 complaints), Ownership (3 complaints), Technology (2 complaints)",
-      "actionable_recommendation": "Audit transmission calibration and throttle map; investigate low-end torque lags and gear hunting.",
-      "positive_quotes": [
-        {
-          "id": 85,
-          "text": "The exterior design looks excellent and the features are very useful....",
-          "rating": 4.0
-        },
-        {
-          "id": 89,
-          "text": "The exterior design looks excellent and the features are very useful....",
-          "rating": 5.0
-        },
-        {
-          "id": 134,
-          "text": "The safety features are impressive and the interior feels premium....",
-          "rating": 5.0
-        }
-      ],
-      "critical_quotes": [
-        {
-          "id": 146,
-          "text": "The infotainment system has problems and frequently stops working....",
-          "rating": 1.0
-        },
-        {
-          "id": 278,
-          "text": "The dealer response was slow and the repair took multiple visits....",
-          "rating": 1.0
-        },
-        {
-          "id": 567,
-          "text": "The interior quality feels poor and several features are inconvenient....",
-          "rating": 2.0
-        }
-      ]
-    },
-    {
-      "model": "Venue",
-      "brand": "Hyundai",
-      "total_reviews": 131,
-      "average_rating": 3.76,
-      "positive_pct": 63.4,
-      "negative_pct": 13.0,
-      "neutral_pct": 23.7,
-      "top_strengths": "Performance (27 mentions), Value (20 mentions), Design (19 mentions)",
-      "improvement_areas": "Performance (3 complaints), Economy (3 complaints), Technology (2 complaints)",
-      "actionable_recommendation": "Audit transmission calibration and throttle map; investigate low-end torque lags and gear hunting.",
-      "positive_quotes": [
-        {
-          "id": 30,
-          "text": "I am very happy with the Venue; the engine is smooth and powerful....",
-          "rating": 4.0
-        },
-        {
-          "id": 96,
-          "text": "The infotainment system is easy to use and the cabin is comfortable....",
-          "rating": 5.0
-        },
-        {
-          "id": 101,
-          "text": "The exterior design looks excellent and the features are very useful....",
-          "rating": 5.0
-        }
-      ],
-      "critical_quotes": [
-        {
-          "id": 7,
-          "text": "The infotainment system has problems and frequently stops working....",
-          "rating": 2.0
-        },
-        {
-          "id": 122,
-          "text": "The engine performance is disappointing and fuel consumption is high....",
-          "rating": 2.0
-        },
-        {
-          "id": 262,
-          "text": "The engine performance is disappointing and fuel consumption is high....",
-          "rating": 2.0
-        }
-      ]
-    },
-    {
-      "model": "i20",
-      "brand": "Hyundai",
-      "total_reviews": 131,
-      "average_rating": 3.67,
-      "positive_pct": 62.6,
-      "negative_pct": 16.0,
-      "neutral_pct": 21.4,
-      "top_strengths": "Performance (34 mentions), Design (20 mentions), Economy (19 mentions)",
-      "improvement_areas": "Ownership (3 complaints), Performance (2 complaints), Economy (1 complaints)",
-      "actionable_recommendation": "Enforce dealership spare parts SLA under 48 hours and implement standard labor pricing schedules.",
-      "positive_quotes": [
-        {
-          "id": 111,
-          "text": "The exterior design looks excellent and the features are very useful....",
-          "rating": 4.0
-        },
-        {
-          "id": 186,
-          "text": "Great mileage and comfortable driving experience. Very satisfied....",
-          "rating": 4.0
-        },
-        {
-          "id": 381,
-          "text": "I am very happy with the i20; the engine is smooth and powerful....",
-          "rating": 4.0
-        }
-      ],
-      "critical_quotes": [
-        {
-          "id": 424,
-          "text": "The cabin noise is high and the ride comfort is disappointing....",
-          "rating": 2.0
-        },
-        {
-          "id": 759,
-          "text": "I am unhappy with the braking performance and overall driving experience....",
-          "rating": 3.0
-        },
-        {
-          "id": 1161,
-          "text": "Some interior materials do not feel premium. I use it mainly for city travel. Review 161....",
-          "rating": 2.0
-        }
-      ]
-    },
-    {
-      "model": "Grand Vitara",
-      "brand": "Maruti Suzuki",
-      "total_reviews": 130,
-      "average_rating": 3.58,
-      "positive_pct": 56.2,
-      "negative_pct": 18.5,
-      "neutral_pct": 25.4,
-      "top_strengths": "Performance (28 mentions), Ownership (15 mentions), Economy (15 mentions)",
-      "improvement_areas": "Value (3 complaints), Ownership (3 complaints), Performance (3 complaints)",
-      "actionable_recommendation": "Introduce mid-spec value pack variant bundling alloy wheels and reverse camera at competitive MSRP.",
-      "positive_quotes": [
-        {
-          "id": 39,
-          "text": "The service team was helpful and resolved my issue quickly....",
-          "rating": 5.0
-        },
-        {
-          "id": 190,
-          "text": "I am very happy with the Grand Vitara; the engine is smooth and powerful....",
-          "rating": 4.0
-        },
-        {
-          "id": 195,
-          "text": "The service team was helpful and resolved my issue quickly....",
-          "rating": 5.0
-        }
-      ],
-      "critical_quotes": [
-        {
-          "id": 16,
-          "text": "The interior quality feels poor and several features are inconvenient....",
-          "rating": 3.0
-        },
-        {
-          "id": 107,
-          "text": "The dealer response was slow and the repair took multiple visits....",
-          "rating": 1.0
-        },
-        {
-          "id": 201,
-          "text": "The cabin noise is high and the ride comfort is disappointing....",
-          "rating": 2.0
-        }
-      ]
-    },
-    {
-      "model": "Altroz",
-      "brand": "Tata Motors",
-      "total_reviews": 129,
-      "average_rating": 3.68,
-      "positive_pct": 58.9,
-      "negative_pct": 17.1,
-      "neutral_pct": 24.0,
-      "top_strengths": "Design (21 mentions), Performance (21 mentions), Economy (20 mentions)",
-      "improvement_areas": "Ownership (5 complaints), Value (4 complaints), Performance (2 complaints)",
-      "actionable_recommendation": "Enforce dealership spare parts SLA under 48 hours and implement standard labor pricing schedules.",
-      "positive_quotes": [
-        {
-          "id": 17,
-          "text": "The Altroz has excellent performance and very comfortable seats....",
-          "rating": 4.0
-        },
-        {
-          "id": 31,
-          "text": "The service team was helpful and resolved my issue quickly....",
-          "rating": 5.0
-        },
-        {
-          "id": 61,
-          "text": "The Altroz has excellent performance and very comfortable seats....",
-          "rating": 5.0
-        }
-      ],
-      "critical_quotes": [
-        {
-          "id": 87,
-          "text": "The cabin noise is high and the ride comfort is disappointing....",
-          "rating": 2.0
-        },
-        {
-          "id": 142,
-          "text": "The dealer response was slow and the repair took multiple visits....",
-          "rating": 1.0
-        },
-        {
-          "id": 145,
-          "text": "The interior quality feels poor and several features are inconvenient....",
-          "rating": 1.0
-        }
-      ]
-    },
-    {
-      "model": "Swift",
-      "brand": "Maruti Suzuki",
-      "total_reviews": 128,
-      "average_rating": 3.75,
-      "positive_pct": 62.5,
-      "negative_pct": 14.1,
-      "neutral_pct": 23.4,
-      "top_strengths": "Performance (26 mentions), Value (18 mentions), Design (14 mentions)",
-      "improvement_areas": "Ownership (5 complaints), Value (4 complaints), Performance (2 complaints)",
-      "actionable_recommendation": "Enforce dealership spare parts SLA under 48 hours and implement standard labor pricing schedules.",
-      "positive_quotes": [
-        {
-          "id": 52,
-          "text": "The service team was helpful and resolved my issue quickly....",
-          "rating": 4.0
-        },
-        {
-          "id": 84,
-          "text": "The infotainment system is easy to use and the cabin is comfortable....",
-          "rating": 4.0
-        },
-        {
-          "id": 193,
-          "text": "The infotainment system is easy to use and the cabin is comfortable....",
-          "rating": 4.0
-        }
-      ],
-      "critical_quotes": [
-        {
-          "id": 362,
-          "text": "The car has poor after-sales service and maintenance is expensive....",
-          "rating": 3.0
-        },
-        {
-          "id": 397,
-          "text": "The car has poor after-sales service and maintenance is expensive....",
-          "rating": 2.0
-        },
-        {
-          "id": 635,
-          "text": "The engine performance is disappointing and fuel consumption is high....",
-          "rating": 1.0
         }
       ]
     },
@@ -2193,52 +2515,6 @@
       ]
     },
     {
-      "model": "Safari",
-      "brand": "Tata Motors",
-      "total_reviews": 122,
-      "average_rating": 3.61,
-      "positive_pct": 56.6,
-      "negative_pct": 15.6,
-      "neutral_pct": 27.9,
-      "top_strengths": "Performance (21 mentions), Design (20 mentions), Value (17 mentions)",
-      "improvement_areas": "Performance (4 complaints), Ownership (3 complaints), Technology (1 complaints)",
-      "actionable_recommendation": "Audit transmission calibration and throttle map; investigate low-end torque lags and gear hunting.",
-      "positive_quotes": [
-        {
-          "id": 248,
-          "text": "The Safari has excellent performance and very comfortable seats....",
-          "rating": 4.0
-        },
-        {
-          "id": 255,
-          "text": "Great mileage and comfortable driving experience. Very satisfied....",
-          "rating": 4.0
-        },
-        {
-          "id": 350,
-          "text": "The infotainment system is easy to use and the cabin is comfortable....",
-          "rating": 5.0
-        }
-      ],
-      "critical_quotes": [
-        {
-          "id": 183,
-          "text": "The service centre did not resolve my issue and the waiting time was too long....",
-          "rating": 2.0
-        },
-        {
-          "id": 369,
-          "text": "The dealer response was slow and the repair took multiple visits....",
-          "rating": 2.0
-        },
-        {
-          "id": 387,
-          "text": "I am unhappy with the braking performance and overall driving experience....",
-          "rating": 3.0
-        }
-      ]
-    },
-    {
       "model": "Compass",
       "brand": "Jeep",
       "total_reviews": 122,
@@ -2280,282 +2556,6 @@
         {
           "id": 3337,
           "text": "The suspension feels firm on rough roads. I hope the manufacturer improves this aspect in future updates....",
-          "rating": 2.0
-        }
-      ]
-    },
-    {
-      "model": "Baleno",
-      "brand": "Maruti Suzuki",
-      "total_reviews": 121,
-      "average_rating": 3.53,
-      "positive_pct": 51.2,
-      "negative_pct": 17.4,
-      "neutral_pct": 31.4,
-      "top_strengths": "Performance (19 mentions), Value (18 mentions), Design (16 mentions)",
-      "improvement_areas": "Economy (2 complaints), Performance (1 complaints), Ownership (1 complaints)",
-      "actionable_recommendation": "Optimize ECU fuel-air curves and test aerodynamic drag coefficient under highway cruising speeds.",
-      "positive_quotes": [
-        {
-          "id": 157,
-          "text": "The exterior design looks excellent and the features are very useful....",
-          "rating": 4.0
-        },
-        {
-          "id": 203,
-          "text": "The Baleno has excellent performance and very comfortable seats....",
-          "rating": 4.0
-        },
-        {
-          "id": 320,
-          "text": "The service team was helpful and resolved my issue quickly....",
-          "rating": 4.0
-        }
-      ],
-      "critical_quotes": [
-        {
-          "id": 634,
-          "text": "I am unhappy with the braking performance and overall driving experience....",
-          "rating": 1.0
-        },
-        {
-          "id": 977,
-          "text": "The dealer response was slow and the repair took multiple visits....",
-          "rating": 3.0
-        },
-        {
-          "id": 1233,
-          "text": "Some interior materials do not feel premium. I use it mainly for city travel. Review 233....",
-          "rating": 2.0
-        }
-      ]
-    },
-    {
-      "model": "Thar",
-      "brand": "Mahindra",
-      "total_reviews": 120,
-      "average_rating": 3.54,
-      "positive_pct": 50.0,
-      "negative_pct": 16.7,
-      "neutral_pct": 33.3,
-      "top_strengths": "Performance (19 mentions), Economy (18 mentions), Design (16 mentions)",
-      "improvement_areas": "Performance (5 complaints), Economy (5 complaints), Design (1 complaints)",
-      "actionable_recommendation": "Audit transmission calibration and throttle map; investigate low-end torque lags and gear hunting.",
-      "positive_quotes": [
-        {
-          "id": 47,
-          "text": "Excellent braking and stable handling. The car feels safe....",
-          "rating": 4.0
-        },
-        {
-          "id": 129,
-          "text": "The service team was helpful and resolved my issue quickly....",
-          "rating": 5.0
-        },
-        {
-          "id": 313,
-          "text": "Great mileage and comfortable driving experience. Very satisfied....",
-          "rating": 5.0
-        }
-      ],
-      "critical_quotes": [
-        {
-          "id": 438,
-          "text": "The engine performance is disappointing and fuel consumption is high....",
-          "rating": 2.0
-        },
-        {
-          "id": 554,
-          "text": "The cabin noise is high and the ride comfort is disappointing....",
-          "rating": 2.0
-        },
-        {
-          "id": 597,
-          "text": "The cabin noise is high and the ride comfort is disappointing....",
-          "rating": 3.0
-        }
-      ]
-    },
-    {
-      "model": "XUV700",
-      "brand": "Mahindra",
-      "total_reviews": 120,
-      "average_rating": 3.58,
-      "positive_pct": 57.5,
-      "negative_pct": 18.3,
-      "neutral_pct": 24.2,
-      "top_strengths": "Value (21 mentions), Performance (19 mentions), Comfort (15 mentions)",
-      "improvement_areas": "Ownership (2 complaints), Economy (2 complaints), Value (1 complaints)",
-      "actionable_recommendation": "Enforce dealership spare parts SLA under 48 hours and implement standard labor pricing schedules.",
-      "positive_quotes": [
-        {
-          "id": 74,
-          "text": "The infotainment system is easy to use and the cabin is comfortable....",
-          "rating": 4.0
-        },
-        {
-          "id": 638,
-          "text": "The XUV700 has excellent performance and very comfortable seats....",
-          "rating": 5.0
-        },
-        {
-          "id": 833,
-          "text": "The safety features are impressive and the interior feels premium....",
-          "rating": 5.0
-        }
-      ],
-      "critical_quotes": [
-        {
-          "id": 342,
-          "text": "The cabin noise is high and the ride comfort is disappointing....",
-          "rating": 2.0
-        },
-        {
-          "id": 930,
-          "text": "The dealer response was slow and the repair took multiple visits....",
-          "rating": 2.0
-        },
-        {
-          "id": 941,
-          "text": "The car has poor after-sales service and maintenance is expensive....",
-          "rating": 1.0
-        }
-      ]
-    },
-    {
-      "model": "Exter",
-      "brand": "Hyundai",
-      "total_reviews": 108,
-      "average_rating": 3.65,
-      "positive_pct": 58.3,
-      "negative_pct": 15.7,
-      "neutral_pct": 25.9,
-      "top_strengths": "Performance (25 mentions), Design (15 mentions), Economy (14 mentions)",
-      "improvement_areas": "Performance (4 complaints), Economy (4 complaints), Ownership (3 complaints)",
-      "actionable_recommendation": "Audit transmission calibration and throttle map; investigate low-end torque lags and gear hunting.",
-      "positive_quotes": [
-        {
-          "id": 69,
-          "text": "The exterior design looks excellent and the features are very useful....",
-          "rating": 5.0
-        },
-        {
-          "id": 273,
-          "text": "Great mileage and comfortable driving experience. Very satisfied....",
-          "rating": 5.0
-        },
-        {
-          "id": 356,
-          "text": "The safety features are impressive and the interior feels premium....",
-          "rating": 5.0
-        }
-      ],
-      "critical_quotes": [
-        {
-          "id": 113,
-          "text": "The engine performance is disappointing and fuel consumption is high....",
-          "rating": 2.0
-        },
-        {
-          "id": 249,
-          "text": "The cabin noise is high and the ride comfort is disappointing....",
-          "rating": 2.0
-        },
-        {
-          "id": 337,
-          "text": "The service centre did not resolve my issue and the waiting time was too long....",
-          "rating": 2.0
-        }
-      ]
-    },
-    {
-      "model": "Harrier",
-      "brand": "Tata Motors",
-      "total_reviews": 104,
-      "average_rating": 3.66,
-      "positive_pct": 53.8,
-      "negative_pct": 16.3,
-      "neutral_pct": 29.8,
-      "top_strengths": "Performance (31 mentions), Safety (14 mentions), Design (13 mentions)",
-      "improvement_areas": "Ownership (4 complaints), Value (2 complaints), Performance (1 complaints)",
-      "actionable_recommendation": "Enforce dealership spare parts SLA under 48 hours and implement standard labor pricing schedules.",
-      "positive_quotes": [
-        {
-          "id": 10,
-          "text": "I am very happy with the Harrier; the engine is smooth and powerful....",
-          "rating": 4.0
-        },
-        {
-          "id": 29,
-          "text": "The infotainment system is easy to use and the cabin is comfortable....",
-          "rating": 5.0
-        },
-        {
-          "id": 436,
-          "text": "I am very happy with the Harrier; the engine is smooth and powerful....",
-          "rating": 5.0
-        }
-      ],
-      "critical_quotes": [
-        {
-          "id": 119,
-          "text": "The service centre did not resolve my issue and the waiting time was too long....",
-          "rating": 3.0
-        },
-        {
-          "id": 126,
-          "text": "The cabin noise is high and the ride comfort is disappointing....",
-          "rating": 1.0
-        },
-        {
-          "id": 170,
-          "text": "I am unhappy with the braking performance and overall driving experience....",
-          "rating": 3.0
-        }
-      ]
-    },
-    {
-      "model": "Urban Cruiser Hyryder",
-      "brand": "Toyota",
-      "total_reviews": 103,
-      "average_rating": 3.5,
-      "positive_pct": 49.5,
-      "negative_pct": 24.3,
-      "neutral_pct": 26.2,
-      "top_strengths": "Value (13 mentions), Ownership (13 mentions), Design (12 mentions)",
-      "improvement_areas": "Ownership (7 complaints), Performance (5 complaints), Economy (2 complaints)",
-      "actionable_recommendation": "Enforce dealership spare parts SLA under 48 hours and implement standard labor pricing schedules.",
-      "positive_quotes": [
-        {
-          "id": 57,
-          "text": "The safety features are impressive and the interior feels premium....",
-          "rating": 5.0
-        },
-        {
-          "id": 109,
-          "text": "The service team was helpful and resolved my issue quickly....",
-          "rating": 5.0
-        },
-        {
-          "id": 168,
-          "text": "The service team was helpful and resolved my issue quickly....",
-          "rating": 5.0
-        }
-      ],
-      "critical_quotes": [
-        {
-          "id": 95,
-          "text": "The cabin noise is high and the ride comfort is disappointing....",
-          "rating": 2.0
-        },
-        {
-          "id": 482,
-          "text": "The cabin noise is high and the ride comfort is disappointing....",
-          "rating": 2.0
-        },
-        {
-          "id": 510,
-          "text": "The service centre did not resolve my issue and the waiting time was too long....",
           "rating": 2.0
         }
       ]
@@ -4171,23 +4171,43 @@
   "aspect_analytics": [
     {
       "aspect_category": "Performance",
-      "total_mentions": 5213,
-      "positive": 3580,
-      "negative": 730,
-      "neutral": 903,
-      "positive_pct": 68.7,
-      "negative_pct": 14.0,
-      "neutral_pct": 17.3
+      "total_mentions": 7298,
+      "positive": 4662,
+      "negative": 1136,
+      "neutral": 1500,
+      "positive_pct": 63.9,
+      "negative_pct": 15.6,
+      "neutral_pct": 20.6
     },
     {
       "aspect_category": "Design",
-      "total_mentions": 2525,
-      "positive": 1772,
-      "negative": 197,
-      "neutral": 556,
-      "positive_pct": 70.2,
-      "negative_pct": 7.8,
-      "neutral_pct": 22.0
+      "total_mentions": 4351,
+      "positive": 2728,
+      "negative": 548,
+      "neutral": 1075,
+      "positive_pct": 62.7,
+      "negative_pct": 12.6,
+      "neutral_pct": 24.7
+    },
+    {
+      "aspect_category": "Comfort",
+      "total_mentions": 3928,
+      "positive": 2601,
+      "negative": 565,
+      "neutral": 762,
+      "positive_pct": 66.2,
+      "negative_pct": 14.4,
+      "neutral_pct": 19.4
+    },
+    {
+      "aspect_category": "Safety",
+      "total_mentions": 3289,
+      "positive": 1993,
+      "negative": 540,
+      "neutral": 756,
+      "positive_pct": 60.6,
+      "negative_pct": 16.4,
+      "neutral_pct": 23.0
     },
     {
       "aspect_category": "Economy",
@@ -4210,16 +4230,6 @@
       "neutral_pct": 27.6
     },
     {
-      "aspect_category": "Comfort",
-      "total_mentions": 1958,
-      "positive": 1527,
-      "negative": 190,
-      "neutral": 241,
-      "positive_pct": 78.0,
-      "negative_pct": 9.7,
-      "neutral_pct": 12.3
-    },
-    {
       "aspect_category": "Value",
       "total_mentions": 1913,
       "positive": 1450,
@@ -4230,14 +4240,14 @@
       "neutral_pct": 13.6
     },
     {
-      "aspect_category": "Safety",
-      "total_mentions": 1424,
-      "positive": 982,
-      "negative": 165,
-      "neutral": 277,
-      "positive_pct": 69.0,
-      "negative_pct": 11.6,
-      "neutral_pct": 19.5
+      "aspect_category": "Service & Ownership",
+      "total_mentions": 1908,
+      "positive": 938,
+      "negative": 449,
+      "neutral": 521,
+      "positive_pct": 49.2,
+      "negative_pct": 23.5,
+      "neutral_pct": 27.3
     },
     {
       "aspect_category": "Technology",
@@ -4251,6 +4261,420 @@
     }
   ],
   "complaint_hotspots": [
+    {
+      "brand": "Maruti Suzuki",
+      "model": "Fortuner",
+      "aspect_category": "Performance",
+      "total_mentions": 7,
+      "negative_mentions": 5,
+      "complaint_rate_pct": 71.4,
+      "recommended_action": "Audit transmission calibration and throttle map; investigate low-end torque lags and gear hunting.",
+      "evidence_reviews": [
+        {
+          "review_id": 1435,
+          "text": "The engine feels noisy at higher speeds. This is based on my recent usage. Review 435.",
+          "date": "2025-02-22 00:00:00",
+          "rating": 2.0
+        },
+        {
+          "review_id": 2248,
+          "text": "The engine feels noisy at higher speeds. This is my experience with the vehicle. Review 1248.",
+          "date": "2025-05-30 00:00:00",
+          "rating": 2.0
+        }
+      ]
+    },
+    {
+      "brand": "Honda",
+      "model": "Elevate",
+      "aspect_category": "Service & Ownership",
+      "total_mentions": 14,
+      "negative_mentions": 9,
+      "complaint_rate_pct": 64.3,
+      "recommended_action": "Perform root cause engineering audit.",
+      "evidence_reviews": [
+        {
+          "review_id": 100020,
+          "text": "The car has poor after-sales service and maintenance is expensive.",
+          "date": "2026-09-04 05:56:00",
+          "rating": 1.0
+        },
+        {
+          "review_id": 100079,
+          "text": "The dealer response was slow and the repair took multiple visits.",
+          "date": "2026-09-13 15:54:00",
+          "rating": 2.0
+        }
+      ]
+    },
+    {
+      "brand": "Mahindra",
+      "model": "Verna",
+      "aspect_category": "Comfort",
+      "total_mentions": 11,
+      "negative_mentions": 7,
+      "complaint_rate_pct": 63.6,
+      "recommended_action": "Re-tune rear damper rebound damping and improve multi-density foam contouring in driver lumbar zone.",
+      "evidence_reviews": [
+        {
+          "review_id": 101006,
+          "text": "The service experience was disappointing. I would consider this before buying another vehicle. Review 6.",
+          "date": "2025-01-01 14:25:00",
+          "rating": 1.0
+        },
+        {
+          "review_id": 101083,
+          "text": "The car needs improvement in overall comfort. This is based on my recent usage. Review 83.",
+          "date": "2025-01-10 20:26:00",
+          "rating": 1.0
+        }
+      ]
+    },
+    {
+      "brand": "Mahindra",
+      "model": "Verna",
+      "aspect_category": "Service & Ownership",
+      "total_mentions": 11,
+      "negative_mentions": 7,
+      "complaint_rate_pct": 63.6,
+      "recommended_action": "Perform root cause engineering audit.",
+      "evidence_reviews": [
+        {
+          "review_id": 101006,
+          "text": "The service experience was disappointing. I would consider this before buying another vehicle. Review 6.",
+          "date": "2025-01-01 14:25:00",
+          "rating": 1.0
+        },
+        {
+          "review_id": 101083,
+          "text": "The car needs improvement in overall comfort. This is based on my recent usage. Review 83.",
+          "date": "2025-01-10 20:26:00",
+          "rating": 1.0
+        }
+      ]
+    },
+    {
+      "brand": "Maruti Suzuki",
+      "model": "Brezza",
+      "aspect_category": "Service & Ownership",
+      "total_mentions": 8,
+      "negative_mentions": 5,
+      "complaint_rate_pct": 62.5,
+      "recommended_action": "Perform root cause engineering audit.",
+      "evidence_reviews": [
+        {
+          "review_id": 100391,
+          "text": "The car has poor after-sales service and maintenance is expensive.",
+          "date": "2026-09-19 10:08:00",
+          "rating": 1.0
+        },
+        {
+          "review_id": 100495,
+          "text": "The car has poor after-sales service and maintenance is expensive.",
+          "date": "2026-09-15 05:39:00",
+          "rating": 2.0
+        }
+      ]
+    },
+    {
+      "brand": "Mahindra",
+      "model": "Verna",
+      "aspect_category": "Performance",
+      "total_mentions": 10,
+      "negative_mentions": 6,
+      "complaint_rate_pct": 60.0,
+      "recommended_action": "Audit transmission calibration and throttle map; investigate low-end torque lags and gear hunting.",
+      "evidence_reviews": [
+        {
+          "review_id": 101006,
+          "text": "The service experience was disappointing. I would consider this before buying another vehicle. Review 6.",
+          "date": "2025-01-01 14:25:00",
+          "rating": 1.0
+        },
+        {
+          "review_id": 101083,
+          "text": "The car needs improvement in overall comfort. This is based on my recent usage. Review 83.",
+          "date": "2025-01-10 20:26:00",
+          "rating": 1.0
+        }
+      ]
+    },
+    {
+      "brand": "Toyota",
+      "model": "Fortuner",
+      "aspect_category": "Service & Ownership",
+      "total_mentions": 21,
+      "negative_mentions": 12,
+      "complaint_rate_pct": 57.1,
+      "recommended_action": "Perform root cause engineering audit.",
+      "evidence_reviews": [
+        {
+          "review_id": 100024,
+          "text": "The service centre did not resolve my issue and the waiting time was too long.",
+          "date": "2026-09-16 18:36:00",
+          "rating": 1.0
+        },
+        {
+          "review_id": 100503,
+          "text": "The service centre did not resolve my issue and the waiting time was too long.",
+          "date": "2026-09-16 01:58:00",
+          "rating": 1.0
+        }
+      ]
+    },
+    {
+      "brand": "Maruti Suzuki",
+      "model": "Seltos",
+      "aspect_category": "Performance",
+      "total_mentions": 7,
+      "negative_mentions": 4,
+      "complaint_rate_pct": 57.1,
+      "recommended_action": "Audit transmission calibration and throttle map; investigate low-end torque lags and gear hunting.",
+      "evidence_reviews": [
+        {
+          "review_id": 101391,
+          "text": "The ride is uncomfortable on rough roads. Overall, this is what I observed. Review 391.",
+          "date": "2025-02-16 20:30:00",
+          "rating": 2.0
+        },
+        {
+          "review_id": 101420,
+          "text": "The service experience was disappointing. I noticed this during regular driving. Review 420.",
+          "date": "2025-02-20 08:07:00",
+          "rating": 2.0
+        }
+      ]
+    },
+    {
+      "brand": "Maruti Suzuki",
+      "model": "Seltos",
+      "aspect_category": "Comfort",
+      "total_mentions": 7,
+      "negative_mentions": 4,
+      "complaint_rate_pct": 57.1,
+      "recommended_action": "Re-tune rear damper rebound damping and improve multi-density foam contouring in driver lumbar zone.",
+      "evidence_reviews": [
+        {
+          "review_id": 101391,
+          "text": "The ride is uncomfortable on rough roads. Overall, this is what I observed. Review 391.",
+          "date": "2025-02-16 20:30:00",
+          "rating": 2.0
+        },
+        {
+          "review_id": 101420,
+          "text": "The service experience was disappointing. I noticed this during regular driving. Review 420.",
+          "date": "2025-02-20 08:07:00",
+          "rating": 2.0
+        }
+      ]
+    },
+    {
+      "brand": "Maruti Suzuki",
+      "model": "Seltos",
+      "aspect_category": "Service & Ownership",
+      "total_mentions": 7,
+      "negative_mentions": 4,
+      "complaint_rate_pct": 57.1,
+      "recommended_action": "Perform root cause engineering audit.",
+      "evidence_reviews": [
+        {
+          "review_id": 101391,
+          "text": "The ride is uncomfortable on rough roads. Overall, this is what I observed. Review 391.",
+          "date": "2025-02-16 20:30:00",
+          "rating": 2.0
+        },
+        {
+          "review_id": 101420,
+          "text": "The service experience was disappointing. I noticed this during regular driving. Review 420.",
+          "date": "2025-02-20 08:07:00",
+          "rating": 2.0
+        }
+      ]
+    },
+    {
+      "brand": "Toyota",
+      "model": "Altroz",
+      "aspect_category": "Comfort",
+      "total_mentions": 7,
+      "negative_mentions": 4,
+      "complaint_rate_pct": 57.1,
+      "recommended_action": "Re-tune rear damper rebound damping and improve multi-density foam contouring in driver lumbar zone.",
+      "evidence_reviews": [
+        {
+          "review_id": 101095,
+          "text": "Some interior materials do not feel premium. Overall, this is what I observed. Review 95.",
+          "date": "2025-01-12 07:02:00",
+          "rating": 1.0
+        },
+        {
+          "review_id": 101508,
+          "text": "Some interior materials do not feel premium. I noticed this during regular driving. Review 508.",
+          "date": "2025-03-02 21:51:00",
+          "rating": 1.0
+        }
+      ]
+    },
+    {
+      "brand": "Toyota",
+      "model": "Altroz",
+      "aspect_category": "Service & Ownership",
+      "total_mentions": 7,
+      "negative_mentions": 4,
+      "complaint_rate_pct": 57.1,
+      "recommended_action": "Perform root cause engineering audit.",
+      "evidence_reviews": [
+        {
+          "review_id": 101095,
+          "text": "Some interior materials do not feel premium. Overall, this is what I observed. Review 95.",
+          "date": "2025-01-12 07:02:00",
+          "rating": 1.0
+        },
+        {
+          "review_id": 101508,
+          "text": "Some interior materials do not feel premium. I noticed this during regular driving. Review 508.",
+          "date": "2025-03-02 21:51:00",
+          "rating": 1.0
+        }
+      ]
+    },
+    {
+      "brand": "Mahindra",
+      "model": "XUV 3XO",
+      "aspect_category": "Service & Ownership",
+      "total_mentions": 9,
+      "negative_mentions": 5,
+      "complaint_rate_pct": 55.6,
+      "recommended_action": "Perform root cause engineering audit.",
+      "evidence_reviews": [
+        {
+          "review_id": 100051,
+          "text": "The dealer response was slow and the repair took multiple visits.",
+          "date": "2026-09-11 01:25:00",
+          "rating": 2.0
+        },
+        {
+          "review_id": 100176,
+          "text": "The service centre did not resolve my issue and the waiting time was too long.",
+          "date": "2026-09-24 04:19:00",
+          "rating": 2.0
+        }
+      ]
+    },
+    {
+      "brand": "Mahindra",
+      "model": "Verna",
+      "aspect_category": "Safety",
+      "total_mentions": 11,
+      "negative_mentions": 6,
+      "complaint_rate_pct": 54.5,
+      "recommended_action": "Calibrate ADAS camera optical thresholds and emergency braking sensitivity to reduce false alerts.",
+      "evidence_reviews": [
+        {
+          "review_id": 101006,
+          "text": "The service experience was disappointing. I would consider this before buying another vehicle. Review 6.",
+          "date": "2025-01-01 14:25:00",
+          "rating": 1.0
+        },
+        {
+          "review_id": 101083,
+          "text": "The car needs improvement in overall comfort. This is based on my recent usage. Review 83.",
+          "date": "2025-01-10 20:26:00",
+          "rating": 1.0
+        }
+      ]
+    },
+    {
+      "brand": "Hyundai",
+      "model": "Creta",
+      "aspect_category": "Service & Ownership",
+      "total_mentions": 11,
+      "negative_mentions": 6,
+      "complaint_rate_pct": 54.5,
+      "recommended_action": "Perform root cause engineering audit.",
+      "evidence_reviews": [
+        {
+          "review_id": 100285,
+          "text": "The car has poor after-sales service and maintenance is expensive.",
+          "date": "2026-09-05 23:39:00",
+          "rating": 2.0
+        },
+        {
+          "review_id": 100297,
+          "text": "The dealer response was slow and the repair took multiple visits.",
+          "date": "2026-09-03 08:23:00",
+          "rating": 2.0
+        }
+      ]
+    },
+    {
+      "brand": "Mahindra",
+      "model": "Punch",
+      "aspect_category": "Performance",
+      "total_mentions": 10,
+      "negative_mentions": 5,
+      "complaint_rate_pct": 50.0,
+      "recommended_action": "Audit transmission calibration and throttle map; investigate low-end torque lags and gear hunting.",
+      "evidence_reviews": [
+        {
+          "review_id": 1930,
+          "text": "The engine feels noisy at higher speeds. My experience has been satisfactory. Review 930.",
+          "date": "2025-04-22 00:00:00",
+          "rating": 1.0
+        },
+        {
+          "review_id": 2172,
+          "text": "The engine feels noisy at higher speeds. I noticed this during regular driving. Review 1172.",
+          "date": "2025-05-21 00:00:00",
+          "rating": 1.0
+        }
+      ]
+    },
+    {
+      "brand": "Honda",
+      "model": "Innova Hycross",
+      "aspect_category": "Comfort",
+      "total_mentions": 10,
+      "negative_mentions": 5,
+      "complaint_rate_pct": 50.0,
+      "recommended_action": "Re-tune rear damper rebound damping and improve multi-density foam contouring in driver lumbar zone.",
+      "evidence_reviews": [
+        {
+          "review_id": 101105,
+          "text": "Fuel economy is lower than I expected. I use it mainly for city travel. Review 105.",
+          "date": "2025-01-13 11:52:00",
+          "rating": 2.0
+        },
+        {
+          "review_id": 101250,
+          "text": "Maintenance costs are higher than expected. My experience has been satisfactory. Review 250.",
+          "date": "2025-01-30 21:57:00",
+          "rating": 1.0
+        }
+      ]
+    },
+    {
+      "brand": "Honda",
+      "model": "Innova Hycross",
+      "aspect_category": "Service & Ownership",
+      "total_mentions": 10,
+      "negative_mentions": 5,
+      "complaint_rate_pct": 50.0,
+      "recommended_action": "Perform root cause engineering audit.",
+      "evidence_reviews": [
+        {
+          "review_id": 101105,
+          "text": "Fuel economy is lower than I expected. I use it mainly for city travel. Review 105.",
+          "date": "2025-01-13 11:52:00",
+          "rating": 2.0
+        },
+        {
+          "review_id": 101250,
+          "text": "Maintenance costs are higher than expected. My experience has been satisfactory. Review 250.",
+          "date": "2025-01-30 21:57:00",
+          "rating": 1.0
+        }
+      ]
+    },
     {
       "brand": "Maruti Suzuki",
       "model": "Brezza",
@@ -4270,6 +4694,167 @@
           "review_id": 495,
           "text": "The car has poor after-sales service and maintenance is expensive.",
           "date": "2026-09-15 00:00:00",
+          "rating": 2.0
+        }
+      ]
+    },
+    {
+      "brand": "Tata Motors",
+      "model": "Bolero",
+      "aspect_category": "Performance",
+      "total_mentions": 8,
+      "negative_mentions": 4,
+      "complaint_rate_pct": 50.0,
+      "recommended_action": "Audit transmission calibration and throttle map; investigate low-end torque lags and gear hunting.",
+      "evidence_reviews": [
+        {
+          "review_id": 1422,
+          "text": "The engine feels noisy at higher speeds. I would consider this before buying another vehicle. Review 422.",
+          "date": "2025-02-20 00:00:00",
+          "rating": 2.0
+        },
+        {
+          "review_id": 1431,
+          "text": "The engine feels noisy at higher speeds. Overall, this is what I observed. Review 431.",
+          "date": "2025-02-21 00:00:00",
+          "rating": 2.0
+        }
+      ]
+    },
+    {
+      "brand": "Maruti Suzuki",
+      "model": "Fortuner",
+      "aspect_category": "Design",
+      "total_mentions": 8,
+      "negative_mentions": 4,
+      "complaint_rate_pct": 50.0,
+      "recommended_action": "Upgrade dashboard and door card plastic texture; insulate clip fasteners to eliminate cabin rattles.",
+      "evidence_reviews": [
+        {
+          "review_id": 101435,
+          "text": "The engine feels noisy at higher speeds. This is based on my recent usage. Review 435.",
+          "date": "2025-02-22 03:22:00",
+          "rating": 2.0
+        },
+        {
+          "review_id": 101545,
+          "text": "The service experience was disappointing. I use it mainly for city travel. Review 545.",
+          "date": "2025-03-07 08:32:00",
+          "rating": 1.0
+        }
+      ]
+    },
+    {
+      "brand": "Toyota",
+      "model": "Altroz",
+      "aspect_category": "Performance",
+      "total_mentions": 8,
+      "negative_mentions": 4,
+      "complaint_rate_pct": 50.0,
+      "recommended_action": "Audit transmission calibration and throttle map; investigate low-end torque lags and gear hunting.",
+      "evidence_reviews": [
+        {
+          "review_id": 2010,
+          "text": "The engine feels noisy at higher speeds. My experience has been satisfactory. Review 1010.",
+          "date": "2025-05-02 00:00:00",
+          "rating": 2.0
+        },
+        {
+          "review_id": 101095,
+          "text": "Some interior materials do not feel premium. Overall, this is what I observed. Review 95.",
+          "date": "2025-01-12 07:02:00",
+          "rating": 1.0
+        }
+      ]
+    },
+    {
+      "brand": "Honda",
+      "model": "Innova Hycross",
+      "aspect_category": "Performance",
+      "total_mentions": 8,
+      "negative_mentions": 4,
+      "complaint_rate_pct": 50.0,
+      "recommended_action": "Audit transmission calibration and throttle map; investigate low-end torque lags and gear hunting.",
+      "evidence_reviews": [
+        {
+          "review_id": 101105,
+          "text": "Fuel economy is lower than I expected. I use it mainly for city travel. Review 105.",
+          "date": "2025-01-13 11:52:00",
+          "rating": 2.0
+        },
+        {
+          "review_id": 101250,
+          "text": "Maintenance costs are higher than expected. My experience has been satisfactory. Review 250.",
+          "date": "2025-01-30 21:57:00",
+          "rating": 1.0
+        }
+      ]
+    },
+    {
+      "brand": "Honda",
+      "model": "Innova Hycross",
+      "aspect_category": "Safety",
+      "total_mentions": 8,
+      "negative_mentions": 4,
+      "complaint_rate_pct": 50.0,
+      "recommended_action": "Calibrate ADAS camera optical thresholds and emergency braking sensitivity to reduce false alerts.",
+      "evidence_reviews": [
+        {
+          "review_id": 101105,
+          "text": "Fuel economy is lower than I expected. I use it mainly for city travel. Review 105.",
+          "date": "2025-01-13 11:52:00",
+          "rating": 2.0
+        },
+        {
+          "review_id": 101250,
+          "text": "Maintenance costs are higher than expected. My experience has been satisfactory. Review 250.",
+          "date": "2025-01-30 21:57:00",
+          "rating": 1.0
+        }
+      ]
+    },
+    {
+      "brand": "Maruti Suzuki",
+      "model": "Seltos",
+      "aspect_category": "Safety",
+      "total_mentions": 8,
+      "negative_mentions": 4,
+      "complaint_rate_pct": 50.0,
+      "recommended_action": "Calibrate ADAS camera optical thresholds and emergency braking sensitivity to reduce false alerts.",
+      "evidence_reviews": [
+        {
+          "review_id": 101391,
+          "text": "The ride is uncomfortable on rough roads. Overall, this is what I observed. Review 391.",
+          "date": "2025-02-16 20:30:00",
+          "rating": 2.0
+        },
+        {
+          "review_id": 101420,
+          "text": "The service experience was disappointing. I noticed this during regular driving. Review 420.",
+          "date": "2025-02-20 08:07:00",
+          "rating": 2.0
+        }
+      ]
+    },
+    {
+      "brand": "Tata Motors",
+      "model": "Safari",
+      "aspect_category": "Service & Ownership",
+      "total_mentions": 8,
+      "negative_mentions": 4,
+      "complaint_rate_pct": 50.0,
+      "recommended_action": "Perform root cause engineering audit.",
+      "evidence_reviews": [
+        {
+          "review_id": 100183,
+          "text": "The service centre did not resolve my issue and the waiting time was too long.",
+          "date": "2026-09-12 21:03:00",
+          "rating": 2.0
+        },
+        {
+          "review_id": 100369,
+          "text": "The dealer response was slow and the repair took multiple visits.",
+          "date": "2026-09-23 09:23:00",
           "rating": 2.0
         }
       ]
@@ -4298,645 +4883,70 @@
       ]
     },
     {
-      "brand": "Nissan",
-      "model": "Armada",
-      "aspect_category": "Economy",
-      "total_mentions": 21,
-      "negative_mentions": 9,
-      "complaint_rate_pct": 42.9,
-      "recommended_action": "Optimize ECU fuel-air curves and test aerodynamic drag coefficient under highway cruising speeds.",
-      "evidence_reviews": [
-        {
-          "review_id": 8257,
-          "text": "We liked the styling and features of the Armada when it first came out. Reliability was questionable at first but Nissan seems to have turned that around. After 1 year and 12,000 miles we've not had a single issue. We traded a 2001 Ford F350 Diesel for our 2010 Platinum (needed more seats) and couldn't be happier. This vehicle is very capable, roomy, comfortable, and is great for road trips as well as towing. I have a few nitpick complaints but overall my family and I are VERY HAPPY! Yes, the fuel economy is horrific but we knew that before we bought it and don't really care.",
-          "date": "2023-01-01 00:00:00",
-          "rating": 4.625
-        },
-        {
-          "review_id": 9413,
-          "text": "I've had The Tank for almost 6 years now, and the first 95K were absolutely trouble free.  Since then, I've replaced the radiator core, A/C condenser, and most recently the right side exhaust manifold, not cheap, but considering the 108K of extremely hard driving, and $4K price tag for repairs, it's been well worth it.  I'm on my 3rd set of tires (last two Bridgestone)...fuel economy is still brutal, but considering 6 years and over 100K, I'd buy another if Nissan would continue to build them.",
-          "date": "2023-01-01 00:00:00",
-          "rating": 4.0
-        }
-      ]
-    },
-    {
-      "brand": "Mahindra",
+      "brand": "Hyundai",
       "model": "Scorpio-N",
-      "aspect_category": "Ownership",
-      "total_mentions": 7,
-      "negative_mentions": 3,
-      "complaint_rate_pct": 42.9,
-      "recommended_action": "Enforce dealership spare parts SLA under 48 hours and implement standard labor pricing schedules.",
-      "evidence_reviews": [
-        {
-          "review_id": 55,
-          "text": "The car has poor after-sales service and maintenance is expensive.",
-          "date": "2026-09-06 00:00:00",
-          "rating": 1.0
-        },
-        {
-          "review_id": 277,
-          "text": "The car has poor after-sales service and maintenance is expensive.",
-          "date": "2026-09-04 00:00:00",
-          "rating": 2.0
-        }
-      ]
-    },
-    {
-      "brand": "Tata Motors",
-      "model": "Harrier",
-      "aspect_category": "Ownership",
-      "total_mentions": 10,
-      "negative_mentions": 4,
-      "complaint_rate_pct": 40.0,
-      "recommended_action": "Enforce dealership spare parts SLA under 48 hours and implement standard labor pricing schedules.",
-      "evidence_reviews": [
-        {
-          "review_id": 119,
-          "text": "The service centre did not resolve my issue and the waiting time was too long.",
-          "date": "2026-09-07 00:00:00",
-          "rating": 3.0
-        },
-        {
-          "review_id": 178,
-          "text": "The car has poor after-sales service and maintenance is expensive.",
-          "date": "2026-09-22 00:00:00",
-          "rating": 2.0
-        }
-      ]
-    },
-    {
-      "brand": "Toyota",
-      "model": "Urban Cruiser Hyryder",
-      "aspect_category": "Performance",
-      "total_mentions": 10,
-      "negative_mentions": 4,
-      "complaint_rate_pct": 40.0,
-      "recommended_action": "Audit transmission calibration and throttle map; investigate low-end torque lags and gear hunting.",
-      "evidence_reviews": [
-        {
-          "review_id": 617,
-          "text": "The engine performance is disappointing and fuel consumption is high.",
-          "date": "2026-09-08 00:00:00",
-          "rating": 2.0
-        },
-        {
-          "review_id": 633,
-          "text": "I am unhappy with the braking performance and overall driving experience.",
-          "date": "2026-09-03 00:00:00",
-          "rating": 2.0
-        }
-      ]
-    },
-    {
-      "brand": "Nissan",
-      "model": "Titan",
-      "aspect_category": "Ownership",
-      "total_mentions": 47,
-      "negative_mentions": 18,
-      "complaint_rate_pct": 38.3,
-      "recommended_action": "Enforce dealership spare parts SLA under 48 hours and implement standard labor pricing schedules.",
-      "evidence_reviews": [
-        {
-          "review_id": 7053,
-          "text": "I do not know which is worse the actual product or the way Nissan stood behind product. The truck has the worst fit and finish I have ever seen. The truck was missing paint ( just paint over primer on the passenger side cab, and front and rear doors.) Within the drip panels on top of the truck they missed caulking half the drip panels. And Sloppily caulked the rest They then just painted over caulk. In the bed they didn\u2019t caulk one of the seams in the interior of the bed and you could see daylight down to the floor. . Brought the truck to 3 dealers two of which wouldn\u2019t even make a warranty claim saying that\u2019s just how they build them. Nissan Consumer affairs has switched the regional manager on me 3 times now from Stefanie to Jennifer now to Debbie. They don\u2019t take phone calls and won\u2019t leave email addresses so I can have receipt of contact with them. I went a different dealer other than the one I bought the truck at and they literally laughed out loud when looking over my truck. They made a warranty claim for over $12,000 in body work the truck needed. It is junk just junk. DO NOT BUY ! The truck has can\u2019t be fixed right to factory spec, The only thing worse than the piece of junk truck is their customer service they refused to even send an engineer out to look at the truck I wish I could put up pictures so you can see this junk. Nissans dealer network is a joke. I am left with the decision to let them attempt to fix the truck, and have it look even worse cause even their own Dealers said they could never replicate a factory paint job, or leave it the way it is. Wither way I am left with  truck that has about $7,000 in diminished value given the amount of body work it needs, or the same  amount of repairs that will be visible to an appraisers eye when I go to trade it in. Nissan is no Help.",
-          "date": "2023-01-01 00:00:00",
-          "rating": 1.0
-        },
-        {
-          "review_id": 7165,
-          "text": "Loved the truck since the day I bought it. Gas mileage as expected. Calipers were replaced in first 3 months I had it by dealership with no hassles. The 4x4 off road package makes this truck ride like a truck - especially on long distance trips on highway.",
-          "date": "2023-01-01 00:00:00",
-          "rating": 4.75
-        }
-      ]
-    },
-    {
-      "brand": "Nissan",
-      "model": "Rogue",
-      "aspect_category": "Safety",
-      "total_mentions": 50,
-      "negative_mentions": 19,
-      "complaint_rate_pct": 38.0,
-      "recommended_action": "Calibrate ADAS camera optical thresholds and emergency braking sensitivity to reduce false alerts.",
-      "evidence_reviews": [
-        {
-          "review_id": 7565,
-          "text": "I was looking to trade in my 2008 Altima for a small SUV with AWD. When I test drove the Rogue it felt perfect, very similar to driving my Altima, which I loved.  Haven't had to use the AWD yet, but overall this car seems to be very solid and has driven well in the rain. One major complaint would be the HUGE blind spot to the rear. Back-up camera helps backing up, but nothing you can do on the highway. I also wish the Rogue had a package like the convenience plus the Altima has, I miss the sunroof, steering wheel controls, bigger door pockets and an interior gas cap release.",
-          "date": "2023-01-01 00:00:00",
-          "rating": 4.875
-        },
-        {
-          "review_id": 8179,
-          "text": "I traded my 2015 altima s for the 2017 rogue s with the 3rd row seats family package it comes with the run flat tires,     and nissan dropped the 3rd seat for 2018 its no longer available glad i got it when i did this is definitaly my last new vehicle.the rogue is only one of 2 in class vehicles that offer a 3rd row seat.  I got magnetic black metallic with black interior.   I did not want to buy any more new cars but could use the room for my family so I decided to buy one last new vehicle that has more room and cargo versatility . The rogue s comes with all the features you need power accessories, keyless entry, alarm, camera,bluetooth streaming,satellite rado,CD player,cruise control, and it also has active ride control, active trace control,active engine brake,tire pressure monitoring with tire pressures display.  And easy fill tire alert thinks when you have right amount of air in tire,The interior is very nice soft touch materials,  And it also has a eco and sport driving mode, eco is for better fuel economy. Its very roomy and very good gas mileage it gets about same fuel economy as altima. One of my average fuel economy's is 26.3 but the current is always different I have gotten up to 37.6 but haven't been on interstate out of state  yet i expect to get in 30s.   . Got a 3.9 interest rate so the loan I will get paid pretty quick ,gonna pay ahead extra and get it paid off earlier. Update, still Loving my rogue there isn't anything that I don't like about it, it gets good gas mileage,there is fuel economy 1 and 2 the first one says average of 27 and the other changes every time you drive and turn it off and it has gotten up to 41 miles a gallon on economy 2. and it's the base model it has all the features i need but mine don't have all the extra technology features like emergency braking and other stuff, I don't want that extra technology in mine it just stuff that be expensive to fix later, the base model has the regular key and my rogue is rare it has the 3rd row seats which they are not making anymore",
-          "date": "2023-01-01 00:00:00",
-          "rating": 5.0
-        }
-      ]
-    },
-    {
-      "brand": "Toyota",
-      "model": "Innova Hycross",
-      "aspect_category": "Ownership",
-      "total_mentions": 16,
-      "negative_mentions": 6,
-      "complaint_rate_pct": 37.5,
-      "recommended_action": "Enforce dealership spare parts SLA under 48 hours and implement standard labor pricing schedules.",
-      "evidence_reviews": [
-        {
-          "review_id": 449,
-          "text": "The service centre did not resolve my issue and the waiting time was too long.",
-          "date": "2026-09-08 00:00:00",
-          "rating": 1.0
-        },
-        {
-          "review_id": 516,
-          "text": "The car has poor after-sales service and maintenance is expensive.",
-          "date": "2026-09-27 00:00:00",
-          "rating": 2.0
-        }
-      ]
-    },
-    {
-      "brand": "Toyota",
-      "model": "Urban Cruiser Hyryder",
-      "aspect_category": "Ownership",
-      "total_mentions": 8,
-      "negative_mentions": 3,
-      "complaint_rate_pct": 37.5,
-      "recommended_action": "Enforce dealership spare parts SLA under 48 hours and implement standard labor pricing schedules.",
-      "evidence_reviews": [
-        {
-          "review_id": 510,
-          "text": "The service centre did not resolve my issue and the waiting time was too long.",
-          "date": "2026-09-11 00:00:00",
-          "rating": 2.0
-        },
-        {
-          "review_id": 867,
-          "text": "The car has poor after-sales service and maintenance is expensive.",
-          "date": "2026-09-29 00:00:00",
-          "rating": 2.0
-        }
-      ]
-    },
-    {
-      "brand": "Nissan",
-      "model": "Juke",
-      "aspect_category": "Technology",
-      "total_mentions": 8,
-      "negative_mentions": 3,
-      "complaint_rate_pct": 37.5,
-      "recommended_action": "Deploy OTA firmware update addressing touchscreen latency, Bluetooth disconnects, and wireless CarPlay stability.",
-      "evidence_reviews": [
-        {
-          "review_id": 8262,
-          "text": "I love this compact SUV!  Finding a parking spot is so easy because it is compact, and the gas mileage is great.  I love \u2764\ufe0f the look of the SUV because it is different.  It is a look where as people either love \u2764\ufe0f, or hate it.  I do have somethings I do not like about the interior.  The backseat has poor leg room.  The arm rest between the driver and the passenger is too short and useless for me.  When I'm driving and want to charge my iPad and plug it in my USB port it cuts off the radio because it's looking for music, and since I don't have any loaded on my iPad I have to drive in silence.  I purchased a pre owned certified vehicle so I love that the warranty is 7 years/100,000 miles, which is longer that the new vehicle manufacturer's warranty.  Now for the exterior.  I love the color which is Bordeaux Black, and has the 2 looks.  Depending on the way the light hits the vehicle, or if it's raining, the vehicle looks like the color of Bordeaux wine, or it can look Black.  Since I have the Juke S, it is the basic model, so I'm going to add on Nissan's Crome Accessories to add some flare to the vehicle.  All in all I feel like I made a great choice in buying my pre owned certified 2015 Nissan Juke S in Bordeaux Black.",
-          "date": "2023-01-01 00:00:00",
-          "rating": 4.0
-        },
-        {
-          "review_id": 10788,
-          "text": "The juke is sadly not an economical car. Advertising at 27-32 mpg, I am mortified to get a 19-23mpg average. Buy a truck people! The sound system is horrid, no armrest, a flashlight would be better than the interior lighting. No trunk space. Nissan also does not back up their product. They falsly advertise, then say its your problem. I used to have an infinity fx35 with bose and leather and gave it up for this economical car.....NOT>>>>buyer beware!",
-          "date": "2023-01-01 00:00:00",
-          "rating": 1.875
-        }
-      ]
-    },
-    {
-      "brand": "Nissan",
-      "model": "Quest",
-      "aspect_category": "Ownership",
-      "total_mentions": 76,
-      "negative_mentions": 28,
-      "complaint_rate_pct": 36.8,
-      "recommended_action": "Enforce dealership spare parts SLA under 48 hours and implement standard labor pricing schedules.",
-      "evidence_reviews": [
-        {
-          "review_id": 7231,
-          "text": "I have certified Pre-Owned 2009 Nissan Questwith 36,500 mi. Before 30K I had to change driving belt, less then 36K front and back brakes changed and rotors on the back were so bad that mechanic could not cut them and had to be replaced. Now I have problem with AC Compressor ( over $1,000 to repair) and look like struts going out too. Nissan refusing finansial assistance with repairs of their low quality cars! DON'T BUY NISSAN AT ALL!!!",
-          "date": "2023-01-01 00:00:00",
-          "rating": 1.625
-        },
-        {
-          "review_id": 7406,
-          "text": "This van looks nice and that's about it.  Our problems began at 4,000 miles and now we're at 45,000 and the problems have not ended.  The van is in the shop every 4-6 mos.  Exhaust bracket broken several times, 3 sets of brakes, 2 sets of rotors, header pipe, parking brake assembly replaced x 2 and tightened x 4, catalytic converter replaced, battery x 2.  Nissan has had terrible customer service, even at corporate office.  Customer service is not their #1 if you have a problem, only when you're there for routine maintenance.",
-          "date": "2023-01-01 00:00:00",
-          "rating": 3.125
-        }
-      ]
-    },
-    {
-      "brand": "Nissan",
-      "model": "Rogue",
-      "aspect_category": "Technology",
-      "total_mentions": 51,
-      "negative_mentions": 18,
-      "complaint_rate_pct": 35.3,
-      "recommended_action": "Deploy OTA firmware update addressing touchscreen latency, Bluetooth disconnects, and wireless CarPlay stability.",
-      "evidence_reviews": [
-        {
-          "review_id": 8179,
-          "text": "I traded my 2015 altima s for the 2017 rogue s with the 3rd row seats family package it comes with the run flat tires,     and nissan dropped the 3rd seat for 2018 its no longer available glad i got it when i did this is definitaly my last new vehicle.the rogue is only one of 2 in class vehicles that offer a 3rd row seat.  I got magnetic black metallic with black interior.   I did not want to buy any more new cars but could use the room for my family so I decided to buy one last new vehicle that has more room and cargo versatility . The rogue s comes with all the features you need power accessories, keyless entry, alarm, camera,bluetooth streaming,satellite rado,CD player,cruise control, and it also has active ride control, active trace control,active engine brake,tire pressure monitoring with tire pressures display.  And easy fill tire alert thinks when you have right amount of air in tire,The interior is very nice soft touch materials,  And it also has a eco and sport driving mode, eco is for better fuel economy. Its very roomy and very good gas mileage it gets about same fuel economy as altima. One of my average fuel economy's is 26.3 but the current is always different I have gotten up to 37.6 but haven't been on interstate out of state  yet i expect to get in 30s.   . Got a 3.9 interest rate so the loan I will get paid pretty quick ,gonna pay ahead extra and get it paid off earlier. Update, still Loving my rogue there isn't anything that I don't like about it, it gets good gas mileage,there is fuel economy 1 and 2 the first one says average of 27 and the other changes every time you drive and turn it off and it has gotten up to 41 miles a gallon on economy 2. and it's the base model it has all the features i need but mine don't have all the extra technology features like emergency braking and other stuff, I don't want that extra technology in mine it just stuff that be expensive to fix later, the base model has the regular key and my rogue is rare it has the 3rd row seats which they are not making anymore",
-          "date": "2023-01-01 00:00:00",
-          "rating": 5.0
-        },
-        {
-          "review_id": 8641,
-          "text": "I have owned my 2017 Nissan Rogue SV for just over a year now and have put over 17,000 on the car. For the first 15,000 miles the car was great and never had any issues. Once the car hit 16,000 is when the problems started happening. Lets talk about the good stuff: the car's hide and dived trunk feature is absolutely amazing. Being a mom to a toddler, I can put the stroller on the bottom shelf and still have room for items on the bottom and top self. The rear seats are raised so they sit higher than the front; this is a nice feature if you ever have to sit in the back. But I find it can be a little difficult loading my young child into their car seat because I have to step up higher to access it. (I am sure this is not an issue if you're tall) Due to this being the SV model my car only has the power adjustable driver seat. I have lower back problems so being able to raise this seat and have lumbar support is very nice. The passenger seat is comfortable but during our long road tips in the Rogue, I have found that the driver seat is a better place to be. The car gets excellent gas mileage for being a small SUV. I average about 415 miles per tank and when we go on long road trips, I have seen it up to 480 miles on one tank of gas. (This is without Eco mod on and I can have a lead foot. ) The standard Cross traffic alert and blind spot monitoring are a huge bonus (Especially because this car has terribly large blind spots). Now it is time for the bad: The back up camera on the 2017 (with out the nav) is a joke. The screen is small and the quality of the camera is fair at best. It does get the job done, but I don't rely on it when I am backing up. The road noise on the car is terrible, if I am calling anyone over Bluetooth I have to turn the volume all the up to be able to hear them and most of the time the other person can hear the road. The tan cloth seats are horrible quality; they got stained in 1 week after owning the car and made the car look 10 years old. Nissan's response to that was \"put seat covers over them.\" The car is grossly under powered. Merging onto the highway is a little scary and if you have to pass someone, you better make sure you have time because the CVT doesn't want to get the engine moving.  The problems: At 16,000 miles I noticed my Rogue jerking a lot more when I would try to accelerate from stop and go traffic. A slight tap on the pedal would cause the RPMs to jump up to 6 then drop to 0. I took it to the dealership and was told that they couldn't replicate the issue. So in order for me to prove that this was happening, I had to film the issue. Once I got it on film I took the car back at 16,700. (yes it took that long for the issue to happen again). The dealership kept the car for a few hours then called me to say \"it's done\". According to the Carfax report and the dealers paperwork they \"serviced the transmission.\" Well at 17,000 the car started to do the same thing and at different times. I took it back and was told the same thing \"we need it on film\". The car currently has 17,800 miles on it and I drive around with a GoPro attached to the cluster gage so I can get the issue on film AGAIN! I took the car to a trusted mechanic to get a second opinion. I was told that the transmission is slipping and probably has a year at best of life left in it. Taking this over to Nissan, they are refusing to look at the car until I can get the issue on film again. Due to it being my only car, I now have to drive around with this potentially dangerous machine until it decides to act up again and have Nissan fix it. This is my 6th Nissan and will be my last.",
-          "date": "2023-01-01 00:00:00",
-          "rating": 3.0
-        }
-      ]
-    },
-    {
-      "brand": "Nissan",
-      "model": "Juke",
-      "aspect_category": "Comfort",
-      "total_mentions": 20,
-      "negative_mentions": 7,
-      "complaint_rate_pct": 35.0,
-      "recommended_action": "Re-tune rear damper rebound damping and improve multi-density foam contouring in driver lumbar zone.",
-      "evidence_reviews": [
-        {
-          "review_id": 7662,
-          "text": "I have liked the look of the Juke since I first saw it in 2011.Have had mine now for almost 2 months.I average 29.2 mpg in economy mode, which blows my jeep out the water.Sport mode is addictive.The ride is comfortable, I love all the bells and whistles.It handles well, responds to steering and foot pedals quickly. It is fun to drive, the reaction of a sports car with the safety of an SUV.There is not a lot of cargo room, but enough for a trip to the grocery store. Drop the seats down and lots of room.",
-          "date": "2023-01-01 00:00:00",
-          "rating": 5.0
-        },
-        {
-          "review_id": 7679,
-          "text": "Just got my pearl white SL AWD Juke today. It is replacing a 2008 Rogue. So far I think it is adorable. The only negatives I notice so far are the seats are firmer than the Rogue and there is no middle console for storage. Love the nav and the back up camera as well as the climate control. Fun to drive and my husband likes it too!!",
-          "date": "2023-01-01 00:00:00",
-          "rating": 4.625
-        }
-      ]
-    },
-    {
-      "brand": "Nissan",
-      "model": "Quest",
-      "aspect_category": "Economy",
-      "total_mentions": 44,
-      "negative_mentions": 15,
-      "complaint_rate_pct": 34.1,
-      "recommended_action": "Optimize ECU fuel-air curves and test aerodynamic drag coefficient under highway cruising speeds.",
-      "evidence_reviews": [
-        {
-          "review_id": 7285,
-          "text": "Overall  nice vehicle to drive &own.   town mileage kinda sucks w/ stop and go, highway  mileage is good.  I can get 900 kms on 1 tank  ( filled to the brim!).  Don't like the low! front air scoop for AC rad, it seems to collect road sand and 'gravel' in the winter and thus subject to damage IE: bent colling fins.  All styles should have a rear spoiler to mitigate the rear window 'vaccum' debris and grime which sticks to it.  I seem to lose the rear wiper frequently also, can't figure out the cause?  Kids like it, gives lots of room inside.",
-          "date": "2023-01-01 00:00:00",
-          "rating": 4.25
-        },
-        {
-          "review_id": 7309,
-          "text": "First let me say that the van, for the price that I paid for it, is hands down a much better buy than the Odyssey or the Sienna. The exterior styling is I admit a personal preference, but we like it. Interior is awesome! The SL I think is the best trim for the value. I would't pay more for some extra features for the LE (not for almost 10k more!). The only major flaw in this van, which Ithink everyone should be warned about before they buy it is the fuel tank problem. This is not the software problem addressed bybthe March 2012 recall. Nissan thought that will fix the problem but it didn't. That recall fix even negatively affected the gas mileage of the van.",
-          "date": "2023-01-01 00:00:00",
-          "rating": 4.125
-        }
-      ]
-    },
-    {
-      "brand": "Nissan",
-      "model": "Versa",
-      "aspect_category": "Ownership",
-      "total_mentions": 77,
-      "negative_mentions": 26,
-      "complaint_rate_pct": 33.8,
-      "recommended_action": "Enforce dealership spare parts SLA under 48 hours and implement standard labor pricing schedules.",
-      "evidence_reviews": [
-        {
-          "review_id": 7169,
-          "text": "Been driving the 07 hatchback for 7 years now- this was my first new car that I paid for myself. It's fun to drive (as are all manual transmission cars) but it lacks hp & zip. Mpg is good if you stay under 60 mph but if you have a lead foot like me, good luck.Hubcaps flew off after year 1. Someone stole the antenna tip on year 2. Tires seem to have the insane will to stay flat- I don't know how often I've had to patch them up and they have the propensity to find all sharp objects and impale themselves on it. Tires have been routinely changed every year because of that. Rotors changed after 4 years. Battery after 3 years. Immaculate maintenance on my part can't help this vehicle.",
-          "date": "2023-01-01 00:00:00",
-          "rating": 3.25
-        },
-        {
-          "review_id": 7681,
-          "text": "This is a great little car, very comfortable, and handles nicely.  The reliability sucks. We had to put a transmission in when the car was just two years old, and now are having to look at another transmission because it is out of warranty and past the one year warranty that the dealer provided with the replacement. I would not even recommend this car to an enemy.",
-          "date": "2023-01-01 00:00:00",
-          "rating": 2.0
-        }
-      ]
-    },
-    {
-      "brand": "MG",
-      "model": "ZS EV",
-      "aspect_category": "Ownership",
-      "total_mentions": 18,
-      "negative_mentions": 6,
-      "complaint_rate_pct": 33.3,
-      "recommended_action": "Enforce dealership spare parts SLA under 48 hours and implement standard labor pricing schedules.",
-      "evidence_reviews": [
-        {
-          "review_id": 136,
-          "text": "The service centre did not resolve my issue and the waiting time was too long.",
-          "date": "2026-09-20 00:00:00",
-          "rating": 2.0
-        },
-        {
-          "review_id": 477,
-          "text": "The service centre did not resolve my issue and the waiting time was too long.",
-          "date": "2026-09-21 00:00:00",
-          "rating": 1.0
-        }
-      ]
-    },
-    {
-      "brand": "MG",
-      "model": "Astor",
-      "aspect_category": "Ownership",
-      "total_mentions": 12,
-      "negative_mentions": 4,
-      "complaint_rate_pct": 33.3,
-      "recommended_action": "Enforce dealership spare parts SLA under 48 hours and implement standard labor pricing schedules.",
-      "evidence_reviews": [
-        {
-          "review_id": 11,
-          "text": "The car has poor after-sales service and maintenance is expensive.",
-          "date": "2026-09-12 00:00:00",
-          "rating": 2.0
-        },
-        {
-          "review_id": 158,
-          "text": "The car has poor after-sales service and maintenance is expensive.",
-          "date": "2026-09-29 00:00:00",
-          "rating": 3.0
-        }
-      ]
-    },
-    {
-      "brand": "Maruti Suzuki",
-      "model": "Swift",
-      "aspect_category": "Value",
-      "total_mentions": 12,
-      "negative_mentions": 4,
-      "complaint_rate_pct": 33.3,
-      "recommended_action": "Introduce mid-spec value pack variant bundling alloy wheels and reverse camera at competitive MSRP.",
-      "evidence_reviews": [
-        {
-          "review_id": 362,
-          "text": "The car has poor after-sales service and maintenance is expensive.",
-          "date": "2026-09-12 00:00:00",
-          "rating": 3.0
-        },
-        {
-          "review_id": 397,
-          "text": "The car has poor after-sales service and maintenance is expensive.",
-          "date": "2026-09-08 00:00:00",
-          "rating": 2.0
-        }
-      ]
-    },
-    {
-      "brand": "Maruti Suzuki",
-      "model": "Grand Vitara",
-      "aspect_category": "Value",
-      "total_mentions": 9,
-      "negative_mentions": 3,
-      "complaint_rate_pct": 33.3,
-      "recommended_action": "Introduce mid-spec value pack variant bundling alloy wheels and reverse camera at competitive MSRP.",
-      "evidence_reviews": [
-        {
-          "review_id": 16,
-          "text": "The interior quality feels poor and several features are inconvenient.",
-          "date": "2026-09-08 00:00:00",
-          "rating": 3.0
-        },
-        {
-          "review_id": 374,
-          "text": "The car has poor after-sales service and maintenance is expensive.",
-          "date": "2026-09-23 00:00:00",
-          "rating": 3.0
-        }
-      ]
-    },
-    {
-      "brand": "Tata Motors",
-      "model": "Altroz",
-      "aspect_category": "Ownership",
-      "total_mentions": 9,
-      "negative_mentions": 3,
-      "complaint_rate_pct": 33.3,
-      "recommended_action": "Enforce dealership spare parts SLA under 48 hours and implement standard labor pricing schedules.",
-      "evidence_reviews": [
-        {
-          "review_id": 506,
-          "text": "The car has poor after-sales service and maintenance is expensive.",
-          "date": "2026-09-24 00:00:00",
-          "rating": 2.0
-        },
-        {
-          "review_id": 575,
-          "text": "The car has poor after-sales service and maintenance is expensive.",
-          "date": "2026-09-05 00:00:00",
-          "rating": 3.0
-        }
-      ]
-    },
-    {
-      "brand": "Tata Motors",
-      "model": "Punch",
-      "aspect_category": "Technology",
-      "total_mentions": 6,
-      "negative_mentions": 2,
-      "complaint_rate_pct": 33.3,
-      "recommended_action": "Deploy OTA firmware update addressing touchscreen latency, Bluetooth disconnects, and wireless CarPlay stability.",
-      "evidence_reviews": [
-        {
-          "review_id": 146,
-          "text": "The infotainment system has problems and frequently stops working.",
-          "date": "2026-09-02 00:00:00",
-          "rating": 1.0
-        },
-        {
-          "review_id": 938,
-          "text": "The infotainment system has problems and frequently stops working.",
-          "date": "2026-09-10 00:00:00",
-          "rating": 1.0
-        }
-      ]
-    },
-    {
-      "brand": "Mahindra",
-      "model": "Creta",
-      "aspect_category": "Performance",
-      "total_mentions": 6,
-      "negative_mentions": 2,
-      "complaint_rate_pct": 33.3,
-      "recommended_action": "Audit transmission calibration and throttle map; investigate low-end torque lags and gear hunting.",
-      "evidence_reviews": [
-        {
-          "review_id": 1316,
-          "text": "The engine feels noisy at higher speeds. I noticed this during regular driving. Review 316.",
-          "date": "2025-02-07 00:00:00",
-          "rating": 1.0
-        },
-        {
-          "review_id": 2033,
-          "text": "The engine feels noisy at higher speeds. I use it mainly for city travel. Review 1033.",
-          "date": "2025-05-04 00:00:00",
-          "rating": 2.0
-        }
-      ]
-    },
-    {
-      "brand": "Nissan",
-      "model": "Leaf",
-      "aspect_category": "Economy",
-      "total_mentions": 6,
-      "negative_mentions": 2,
-      "complaint_rate_pct": 33.3,
-      "recommended_action": "Optimize ECU fuel-air curves and test aerodynamic drag coefficient under highway cruising speeds.",
-      "evidence_reviews": [
-        {
-          "review_id": 7788,
-          "text": "Low mileage on battery",
-          "date": "2023-01-01 00:00:00",
-          "rating": 4.0
-        },
-        {
-          "review_id": 10123,
-          "text": "Great deals for a used Leaf these days.  You'll need to consider your driving range.  For this car, range is limited.  I'm getting about 75-80 mile max range depending on the day, though I'm too chicken to ever push it to the max.  If you have a second car for longer distance travel, this serves as a great commute car.  I live in Southern California and charging has never been an issue.  Assuming a 50-miles daily commute, you'll need to charge 50 miles on a daily basis since you won't deplete the charge fully.  This can easily be done overnight at home even with a regular 110V outlet.  The car has very little moving parts (no gas engine, no oil, no transmission, no fuel tank, no oil filter, no muffler, no belts).  It's basically battery, electric motor, and wheels connected to motor, which makes maintenance very easy.  And because of less moving parts, reliability for a used EV, in my opinion, would generally be better than an equivalent gas vehicle.  All else equal, I would choose a Leaf over other used gas vehicle provided the range is within your tolerance.",
-          "date": "2023-01-01 00:00:00",
-          "rating": 5.0
-        }
-      ]
-    },
-    {
-      "brand": "Nissan",
-      "model": "Sentra",
-      "aspect_category": "Ownership",
-      "total_mentions": 167,
-      "negative_mentions": 54,
-      "complaint_rate_pct": 32.3,
-      "recommended_action": "Enforce dealership spare parts SLA under 48 hours and implement standard labor pricing schedules.",
-      "evidence_reviews": [
-        {
-          "review_id": 7321,
-          "text": "I needed a new car for every day use.  \rFuel economy was important.  My first \rchoice was a Corolla, but decided to \rtry the Sentra.  Manual said you could \rlock all doors with key, but that was \rnot true.  Dealership played dumb.  \rBattery had to be replaced after 3.5 \ryears.  Radio backlight started \rflickering, then went out a few years \rago.  Rust from beneath paint a year \rago.  A/C drains power for acceleration \ror going up hill.  Dashboard cup \rholders useless.  Obstructs use of \rradio and climate controls.  Great gas \rmileage, low motor noise, starts every \rtime.",
-          "date": "2023-01-01 00:00:00",
-          "rating": 4.0
-        },
-        {
-          "review_id": 7375,
-          "text": "Transmission got broken when my wife traveling to CA, the dealer on Tracy CA, and only one on the area spend weeks to get it fix. After several months we sent the car tot Tulsa OK to be used by my son at college; the car presented some noise getting worse with time. When taking the car to the leader it was determine by the dealer that it was a result of an error performed during the transmission replacement. The technician left a bolt loose or too tight stripping the bolt and causing a possible safety issue. The dealer kept the car for 10 days on a \"waiting for parts status\" after these ten days and calling and pushing the dealer for the repair od the vehicle. We were notified that the dealer at CA denied our claim and there is nothing they can do. I contacted Nissan directly and tried to get them to honor the extended warranty and their response was. Nothing that they can do, that the dealers are \"independent\" of Nissan and I should deal directly with the dealer at Tracy CA.  Nissan is not being accountable for the bad performance or training of their technician or services provided by their dealers. Sure they will push you to utilize their services as for warranty requirements, but they are not willing to cover for their mistakes. Now I was required to sign to take my vehicle back and release them for any responsibility because now it is a safety issue.  If you are expecting that you will have a NATIONAL service form Nissan you are wrong and you are left alone to be the victim of a poor service and quality of their products. Save the time and lets switch TOYOTA, at least they are honoring every service and job performed on my Toyota Tundra; what a difference on service and quality !  Never NISSAN !",
-          "date": "2023-01-01 00:00:00",
-          "rating": 2.0
-        }
-      ]
-    },
-    {
-      "brand": "Toyota",
-      "model": "Fortuner",
-      "aspect_category": "Ownership",
-      "total_mentions": 29,
-      "negative_mentions": 9,
-      "complaint_rate_pct": 31.0,
-      "recommended_action": "Enforce dealership spare parts SLA under 48 hours and implement standard labor pricing schedules.",
-      "evidence_reviews": [
-        {
-          "review_id": 24,
-          "text": "The service centre did not resolve my issue and the waiting time was too long.",
-          "date": "2026-09-16 00:00:00",
-          "rating": 1.0
-        },
-        {
-          "review_id": 503,
-          "text": "The service centre did not resolve my issue and the waiting time was too long.",
-          "date": "2026-09-16 00:00:00",
-          "rating": 1.0
-        }
-      ]
-    },
-    {
-      "brand": "Nissan",
-      "model": "Altima",
-      "aspect_category": "Ownership",
-      "total_mentions": 203,
-      "negative_mentions": 62,
-      "complaint_rate_pct": 30.5,
-      "recommended_action": "Enforce dealership spare parts SLA under 48 hours and implement standard labor pricing schedules.",
-      "evidence_reviews": [
-        {
-          "review_id": 7035,
-          "text": "I've been living with my Altima 2.5 Sedan for over a year now and I will never have another. I can only describe it as a car for people who don't like driving.Dangerously underpowered, the most uncomfortable front seats I've ever encountered in a modern vehicle, many rattles and squeaks from the interior and exterior, very prone to understeer due to the poor weight distribution, I find the CVT annoying, the - augmented by limited windshield wiper coverage - blind spot at the driver's A pillar is terrible. The trunk hinges are the invasive kind which is unacceptable to me. There is no mechanical key hole for the trunk. I have many more complaints about it but no room to include them all.",
-          "date": "2023-01-01 00:00:00",
-          "rating": 1.75
-        },
-        {
-          "review_id": 7112,
-          "text": "The car started to shake when I parked or stopped at a light 3 days after I leased it . When I took it back to services the fixed the problem. Now it been 3 months and I just hit 30,408 miles. The car is comfortable and reliable. But the only problem I have is the car getting dirty quickly. I Pray for  5 years",
-          "date": "2023-01-01 00:00:00",
-          "rating": 4.0
-        }
-      ]
-    },
-    {
-      "brand": "Nissan",
-      "model": "Juke",
-      "aspect_category": "Ownership",
-      "total_mentions": 20,
-      "negative_mentions": 6,
-      "complaint_rate_pct": 30.0,
-      "recommended_action": "Enforce dealership spare parts SLA under 48 hours and implement standard labor pricing schedules.",
-      "evidence_reviews": [
-        {
-          "review_id": 9268,
-          "text": "I live in suburb of Wash, D.C.  Work in downtown D.C., shop in suburban shopping centers. Due to size of car, maneuverability, visibility, I regularly can fit into parking spaces other cars can't(on D.C. streets) and can get in and out of spaces and lanes in suburban lots while others with larger vehicles are backing up and moving forward, over & over, to get out of space, blocking entire lane entire time. Have likely saved hundreds of dollars in parking lot fees in downtown DC. because find parking at the curb for far less(or nothing at all).I now have 37K on odometer. Thus far - have never had to take car in for other than routine maintenance, tires, replace brakes, etc. & a couple recalls. Obviously lucky, but have never owned car that went  more than a year without requiring service because something went wrong.  Must note quality of basic components is very good(e.g. AC system is excellent). Stock radio was 2d rate, so replaced that. Also, dome light only in front of car- none in middle or back of ceiling so added one myself(battery powered, motion detector). Otherwise, back seat, in charcoal, too dark to reflect light when putting things in, getting them out.  Nissan should add some color to interior, via subtle striping, decals, whatever. The black plastic & charcoal seating present little variety and gets boring quick.  The only major criticism is dash light - it is a push button with something like 8 settings.  1st is bright, too bright at night., 2d setting dims a lot & 3-8 dim even more.. But turn on headlights in grayish weather, daylight, and 2d setting on too dim to illuminate dash(speedometer, tach, etc). Its nuts, because so easy to install better adjustments. Should have a dial. One is stuck with having to switch to 1st setting in gray weather, by pushing button 8 times or so to cycle thru settings, and then at night pushing that to dimmer setting, because dash too bright.",
-          "date": "2023-01-01 00:00:00",
-          "rating": 4.0
-        },
-        {
-          "review_id": 9944,
-          "text": "Juke owners seem to mostly be in agreement that their cars are not getting the mpg numbers that were advertised. Mine should be getting 30mpg highway and it it does well to get to 23.5. MANY other auto makers have had models with this problem and they have compensated owners for the problem. WHY is Nissan refusing? Dealerships I've spoken to say they get regular complaints about the Juke mpg; the internet is loaded with customer compaints. I was advised to call the 1-800-Nissan1 by my dealership to try to get some compensation. When I called, I was told that there is NOTHING offered to resolve this problem. [non-permissible content removed].",
-          "date": "2023-01-01 00:00:00",
-          "rating": 3.75
-        }
-      ]
-    },
-    {
-      "brand": "Nissan",
-      "model": "Leaf",
       "aspect_category": "Design",
-      "total_mentions": 10,
+      "total_mentions": 6,
       "negative_mentions": 3,
-      "complaint_rate_pct": 30.0,
+      "complaint_rate_pct": 50.0,
       "recommended_action": "Upgrade dashboard and door card plastic texture; insulate clip fasteners to eliminate cabin rattles.",
       "evidence_reviews": [
         {
-          "review_id": 7792,
-          "text": "The worst thing about this vehicle is resale value. You can purchase these vehicles for 1/3 the cost of new, but beware if you get the \"s\" model , you will not get the bigger battery unless it is a 2017 or newer. This larger battery will give you more range. My vehicle, which i have had just short of 3 months, has a range of 112+ miles with a full charge. The charge time is around 14 hours, depending on how much range was left on the vehicle at plug in time, and that is with the normal 110 volt household outlet. This vehicle, in my opinion is not great in any way, such as comfort, dependability, etc., but that it is not why I purchased this car. My goal was saving money on gasoline, oil, maintainence and in that regard it is a GREAT vehicle. It is the perfect car for the way I drive. This vehicle does not like freeways. The range drops whenever you engage the cruise control. The range shrinks much quicker as you increase your speed. However, if you drive the city streets, it is the complete opposite. For example, I drove 18 miles for a doughnut  craving. I had a full charge (115 miles on that day) and when I hit the store I only had 88 left. I drove the return trip on the city streets and when I got back to my driveway, I had 91 miles of range. Yes, that is not an error. I actually gained 3 miles. This was with my vehicle in B mode. That mode is 1 of 2 forward modes the transmission allows. The D mode is the default mode when you shift into forward gear. To get into B mode you double shift. This gives your braking system more regenative power. So, as you drive you charge the battery whenever you release the accelerator or apply the brakes. The range increase is real. I can charge to full and not need a recharge for many days, in spite of making  multiple 20 plus mile trips. In this regard the vehicle is fantastic. In most other area, it is just adequate. It has sufficient comfort in the cabin, enough to allow my wife to be comfortable in it, despite a bad back. The airconditioner is above average, blowing extremely cold after just a minute or two. The back seat is adequate for my 16 year old average size grandson. The rear hatch cargo area is, however, small. Still, to this point, I have not had a problem bringing home the groceries. The cars styling is a bummer. I have plastered a alien sticker on the roof area behind the rear door and have proclaimed the car my \"space ship\". I did not purchase the vehicle for looks. My youngest daughter thinks it is \"cute\". My oldest daughter enjoyed driving it and I think they both are interested in buying one. They have asked me how much it has increased my electric bill and I can honestly say after getting two electric bills since I took possesion, it was less than a couple of dollars more. Maybe I just haven't had the vehicle long enough to evaluate that because even I feel the increase should have been larger, but at this point, it is what it is. The ride of the vehicle is smooth and rattlefree. I have heard the brakes do not feel normal on these electrics. I find them no different then the Cruze that I drove before. I perfer this vehicle over the Cruze in most catagories. I have not used the higher watt chargers that are available to the public so i can't comment on that. Likewise on the heated seats, haven't used them. The sound system is average. I have heard the range drops in the colder months of winter. I will update as my experience broadens. As of now, I am thrilled with the car. It fits into my lifestyle perfectly and using it allows me to put less mileage on my vw van which I take on vacations and for hauling larger items. The addition of a second vehicle makes owning this vehicle a no brainer. Also, the $7500 tax credit makes this car a good value. I was able to get $12K off the sticker at the dealership. Extremely happy with my purchase. UPDATE, I have now driven the car for 7 plus months. My mileage is now at 3789. The cost of driving the car averages $20 per month in AEP electric bill increase. The winter weather does degrade the battery, but only by 10 or so less driving distance. The heated seats are not as warm as the ones in my vw van, but do allow some comfort. Using the heater is a big drag on the driving distance. In a conventional car, once your car warms up you have constant heat on demand. The  Leaf gives heat differently. It requires a warm up time each time you push  the heater button. Also, increasing the temp does not increase your battery drain, so crank it up. When you turn off the heater, close the vents or you will get cooler air coming into the cabin. I have noticed that the initial drop in range does not continue to deteriorate IF DRIVING ON CITY STREETS. However, the combination of using the heater AND freeway driving zaps the battery very severely. Expect to get less than half of displayed mileage. Another negative is because  of the design of the back of the vehicle, this area seems to collect dirt. I clean the back window often.",
-          "date": "2023-01-01 00:00:00",
-          "rating": 5.0
+          "review_id": 101037,
+          "text": "Some interior materials do not feel premium. It is suitable for my daily commute. Review 37.",
+          "date": "2025-01-05 07:48:00",
+          "rating": 1.0
         },
         {
-          "review_id": 10601,
-          "text": "The Leaf is a terrific nearly silent comfortable pleasure to drive. Over 45 years I've owned a lot of different models and brands and the Leaf is hands down the least expensive to operate. There is virtually no routine maintenance beyond tire rotations. No oil changes. No worry about changing spark plugs or exhaust parts. No engine noise. Driving carefully I could go half again as far as the rated 82 miles to over 125 miles before needing a charge. The downside side is trips beyond 80 miles requires careful planning. Charge points are expanding in availability.Update after nearly two years of ownership: I still love the Leaf. The nearly silent ride allows me to relax and listen to music as if I'm at home even though I'm driving down the highway in traffic. Maintenance costs are minimal. There are no oil changes. There is no internal combustion engine, exhaust, radiator to check and service. There is no transmission to go wrong. There is simply the pleasure of a quiet ride.Update after three years of ownership: I still love the Leaf. It  hasn't cost me a penny in repairs. Maintenance is pretty much remembering to rotate the tires. It is still a quiet ride. No squeaks or rattles. No signs of wear on the interior. Everything works as it should. If you have hesitated to purchase an electric car, now is the time. As gasoline prices have risen my cost per mile driven has remained far below fossil fuel vehicles.",
-          "date": "2023-01-01 00:00:00",
-          "rating": 5.0
+          "review_id": 101145,
+          "text": "The ride is uncomfortable on rough roads. I use it mainly for city travel. Review 145.",
+          "date": "2025-01-18 07:12:00",
+          "rating": 2.0
         }
       ]
     },
     {
-      "brand": "Nissan",
-      "model": "Leaf",
-      "aspect_category": "Value",
-      "total_mentions": 17,
-      "negative_mentions": 5,
-      "complaint_rate_pct": 29.4,
-      "recommended_action": "Introduce mid-spec value pack variant bundling alloy wheels and reverse camera at competitive MSRP.",
+      "brand": "Toyota",
+      "model": "XUV 3XO",
+      "aspect_category": "Performance",
+      "total_mentions": 6,
+      "negative_mentions": 3,
+      "complaint_rate_pct": 50.0,
+      "recommended_action": "Audit transmission calibration and throttle map; investigate low-end torque lags and gear hunting.",
       "evidence_reviews": [
         {
-          "review_id": 7792,
-          "text": "The worst thing about this vehicle is resale value. You can purchase these vehicles for 1/3 the cost of new, but beware if you get the \"s\" model , you will not get the bigger battery unless it is a 2017 or newer. This larger battery will give you more range. My vehicle, which i have had just short of 3 months, has a range of 112+ miles with a full charge. The charge time is around 14 hours, depending on how much range was left on the vehicle at plug in time, and that is with the normal 110 volt household outlet. This vehicle, in my opinion is not great in any way, such as comfort, dependability, etc., but that it is not why I purchased this car. My goal was saving money on gasoline, oil, maintainence and in that regard it is a GREAT vehicle. It is the perfect car for the way I drive. This vehicle does not like freeways. The range drops whenever you engage the cruise control. The range shrinks much quicker as you increase your speed. However, if you drive the city streets, it is the complete opposite. For example, I drove 18 miles for a doughnut  craving. I had a full charge (115 miles on that day) and when I hit the store I only had 88 left. I drove the return trip on the city streets and when I got back to my driveway, I had 91 miles of range. Yes, that is not an error. I actually gained 3 miles. This was with my vehicle in B mode. That mode is 1 of 2 forward modes the transmission allows. The D mode is the default mode when you shift into forward gear. To get into B mode you double shift. This gives your braking system more regenative power. So, as you drive you charge the battery whenever you release the accelerator or apply the brakes. The range increase is real. I can charge to full and not need a recharge for many days, in spite of making  multiple 20 plus mile trips. In this regard the vehicle is fantastic. In most other area, it is just adequate. It has sufficient comfort in the cabin, enough to allow my wife to be comfortable in it, despite a bad back. The airconditioner is above average, blowing extremely cold after just a minute or two. The back seat is adequate for my 16 year old average size grandson. The rear hatch cargo area is, however, small. Still, to this point, I have not had a problem bringing home the groceries. The cars styling is a bummer. I have plastered a alien sticker on the roof area behind the rear door and have proclaimed the car my \"space ship\". I did not purchase the vehicle for looks. My youngest daughter thinks it is \"cute\". My oldest daughter enjoyed driving it and I think they both are interested in buying one. They have asked me how much it has increased my electric bill and I can honestly say after getting two electric bills since I took possesion, it was less than a couple of dollars more. Maybe I just haven't had the vehicle long enough to evaluate that because even I feel the increase should have been larger, but at this point, it is what it is. The ride of the vehicle is smooth and rattlefree. I have heard the brakes do not feel normal on these electrics. I find them no different then the Cruze that I drove before. I perfer this vehicle over the Cruze in most catagories. I have not used the higher watt chargers that are available to the public so i can't comment on that. Likewise on the heated seats, haven't used them. The sound system is average. I have heard the range drops in the colder months of winter. I will update as my experience broadens. As of now, I am thrilled with the car. It fits into my lifestyle perfectly and using it allows me to put less mileage on my vw van which I take on vacations and for hauling larger items. The addition of a second vehicle makes owning this vehicle a no brainer. Also, the $7500 tax credit makes this car a good value. I was able to get $12K off the sticker at the dealership. Extremely happy with my purchase. UPDATE, I have now driven the car for 7 plus months. My mileage is now at 3789. The cost of driving the car averages $20 per month in AEP electric bill increase. The winter weather does degrade the battery, but only by 10 or so less driving distance. The heated seats are not as warm as the ones in my vw van, but do allow some comfort. Using the heater is a big drag on the driving distance. In a conventional car, once your car warms up you have constant heat on demand. The  Leaf gives heat differently. It requires a warm up time each time you push  the heater button. Also, increasing the temp does not increase your battery drain, so crank it up. When you turn off the heater, close the vents or you will get cooler air coming into the cabin. I have noticed that the initial drop in range does not continue to deteriorate IF DRIVING ON CITY STREETS. However, the combination of using the heater AND freeway driving zaps the battery very severely. Expect to get less than half of displayed mileage. Another negative is because  of the design of the back of the vehicle, this area seems to collect dirt. I clean the back window often.",
-          "date": "2023-01-01 00:00:00",
-          "rating": 5.0
+          "review_id": 1200,
+          "text": "The engine feels noisy at higher speeds. This is my experience with the vehicle. Review 200.",
+          "date": "2025-01-24 00:00:00",
+          "rating": 1.0
         },
         {
-          "review_id": 8153,
-          "text": "Its a great car.  The car itself is completely vanilla, but I love how smooth and quiet it is.  At stoplights I think my other gas car has something wrong with all the vibration.  The acceleration is linear and totally smooth.  Not visiting gas stations is awesome.   Its fun to sneak up on people in parking lots.  The range anxiety went away after a month of owning the car, although its starting to come back.  The BIG HOWEVER, I have had the car for over five years now, it has less than 60k miles and my battery capacity is now half of what it was when new.  I was a responsible battery charger, and live in a mild climate.  Since it is just out of warranty (4 years) its up to me to cover the cost of the replacement battery.  I can currently go about 40 miles if I don't use the heater, and my work is about 40 miles roundtrip.  I know all batteries degrade over time, and I was comfortable of having to replace it.  What totally caught me by surprise is the cost of a new battery; quoted by my dealer is $8000.  A quick blue book value of my car is about $6000.   The horrible depreciation of the car combined with the cost of a replacement battery, completely make the economics of owning this car a terrible deal.  For $8000 I could buy nearly twenty thousand gallons of gasoline!  At 25 miles per gallon I could travel 500,000 miles!   All these leafs are going to have to be converted to golf carts in retirement to get any value out of them.Update 2-18.  Car has about 68,000 miles now.  Still gets me back and forth to work, but due to battery degradation the heater is only allowed for small spurts to defrost the windows in the winter.  It is a great car durability wise since I have only had to change the tires so far, and drives like the day it was new.  We tend to drive it less miles now because the range anxiety of driving to new places is resurfacing.  Bad news is that battery degradation and the cost to replace it is crazy.  Buying a used one that doesn't need to go very far makes sense.  Today a 2011 leaf in my area goes for 5000-7000.  Not sure what a battery costs today, if its still $8000, no way that makes sense.  The battery needs to be closer to $1000 to even think of changing it.",
-          "date": "2023-01-01 00:00:00",
+          "review_id": 101200,
+          "text": "The engine feels noisy at higher speeds. This is my experience with the vehicle. Review 200.",
+          "date": "2025-01-24 21:47:00",
+          "rating": 1.0
+        }
+      ]
+    },
+    {
+      "brand": "Mahindra",
+      "model": "Swift",
+      "aspect_category": "Performance",
+      "total_mentions": 6,
+      "negative_mentions": 3,
+      "complaint_rate_pct": 50.0,
+      "recommended_action": "Audit transmission calibration and throttle map; investigate low-end torque lags and gear hunting.",
+      "evidence_reviews": [
+        {
+          "review_id": 1780,
+          "text": "The engine feels noisy at higher speeds. I noticed this during regular driving. Review 780.",
+          "date": "2025-04-04 00:00:00",
+          "rating": 1.0
+        },
+        {
+          "review_id": 101137,
+          "text": "Some interior materials do not feel premium. I use it mainly for city travel. Review 137.",
+          "date": "2025-01-17 08:08:00",
           "rating": 2.0
         }
       ]
@@ -5029,63 +5039,63 @@
     },
     {
       "month": "2025-01",
-      "total_reviews": 259,
+      "total_reviews": 518,
       "positive_pct": 51.4,
       "negative_pct": 23.6,
       "neutral_pct": 25.1
     },
     {
       "month": "2025-02",
-      "total_reviews": 233,
+      "total_reviews": 466,
       "positive_pct": 46.8,
       "negative_pct": 26.6,
       "neutral_pct": 26.6
     },
     {
       "month": "2025-03",
-      "total_reviews": 258,
+      "total_reviews": 516,
       "positive_pct": 58.5,
       "negative_pct": 18.2,
       "neutral_pct": 23.3
     },
     {
       "month": "2025-04",
-      "total_reviews": 249,
+      "total_reviews": 498,
       "positive_pct": 49.0,
       "negative_pct": 22.9,
       "neutral_pct": 28.1
     },
     {
       "month": "2025-05",
-      "total_reviews": 258,
+      "total_reviews": 516,
       "positive_pct": 48.8,
       "negative_pct": 20.9,
       "neutral_pct": 30.2
     },
     {
       "month": "2025-06",
-      "total_reviews": 250,
+      "total_reviews": 500,
       "positive_pct": 51.2,
       "negative_pct": 15.6,
       "neutral_pct": 33.2
     },
     {
       "month": "2025-07",
-      "total_reviews": 258,
+      "total_reviews": 516,
       "positive_pct": 50.4,
       "negative_pct": 16.7,
       "neutral_pct": 32.9
     },
     {
       "month": "2025-08",
-      "total_reviews": 235,
+      "total_reviews": 470,
       "positive_pct": 55.7,
       "negative_pct": 17.4,
       "neutral_pct": 26.8
     },
     {
       "month": "2026-09",
-      "total_reviews": 1000,
+      "total_reviews": 2000,
       "positive_pct": 51.8,
       "negative_pct": 24.8,
       "neutral_pct": 23.4

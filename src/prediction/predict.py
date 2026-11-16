@@ -4,6 +4,7 @@ Loads versioned model artifacts and executes prediction pipelines with calibrate
 explainability feature attribution (why the decision was made), and batch prediction capabilities.
 """
 import os
+from pathlib import Path
 import joblib
 import json
 import pandas as pd
@@ -15,7 +16,10 @@ from src.models.vader_model import VaderBaseline
 class AutoSensePredictor:
     def __init__(self, model_version: str = "autosense-tfidf-lr-v1"):
         self.model_version = model_version
-        self.artifact_path = os.path.join(r"V:\BDT\models\traditional_ml", f"{model_version}.joblib")
+        project_root = Path(__file__).resolve().parents[2]
+        self.artifact_path = os.path.join(
+            project_root, "models", "traditional_ml", f"{model_version}.joblib"
+        )
         self.pipeline = None
         self.classes = ['negative', 'neutral', 'positive']
         self.vader = VaderBaseline()

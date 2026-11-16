@@ -6,61 +6,61 @@
   "batch_size": 16,
   "learning_rate": 3e-05,
   "device": "cpu",
-  "val_accuracy": 0.61,
-  "val_macro_f1": 0.4251,
-  "test_accuracy": 0.5956,
-  "test_macro_f1": 0.4276,
-  "test_weighted_f1": 0.508,
-  "test_precision": 0.7762,
-  "test_recall": 0.4439,
+  "val_accuracy": 0.72,
+  "val_macro_f1": 0.3176,
+  "test_accuracy": 0.6422,
+  "test_macro_f1": 0.3089,
+  "test_weighted_f1": 0.5187,
+  "test_precision": 0.5452,
+  "test_recall": 0.3603,
   "confusion_matrix": [
     [
-      17,
-      6,
-      75
+      0,
+      0,
+      339
     ],
     [
       0,
-      19,
-      101
+      41,
+      466
     ],
     [
       0,
       0,
-      232
+      1404
     ]
   ],
   "classification_report": {
     "negative": {
-      "precision": 1.0,
-      "recall": 0.17346938775510204,
-      "f1-score": 0.2956521739130435,
-      "support": 98.0
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 339.0
     },
     "neutral": {
-      "precision": 0.76,
-      "recall": 0.15833333333333333,
-      "f1-score": 0.2620689655172414,
-      "support": 120.0
+      "precision": 1.0,
+      "recall": 0.08086785009861933,
+      "f1-score": 0.14963503649635038,
+      "support": 507.0
     },
     "positive": {
-      "precision": 0.5686274509803921,
+      "precision": 0.6355817111815301,
       "recall": 1.0,
-      "f1-score": 0.725,
-      "support": 232.0
+      "f1-score": 0.7771934680321063,
+      "support": 1404.0
     },
-    "accuracy": 0.5955555555555555,
+    "accuracy": 0.6422222222222222,
     "macro avg": {
-      "precision": 0.7762091503267974,
-      "recall": 0.44393424036281176,
-      "f1-score": 0.4275737131434283,
-      "support": 450.0
+      "precision": 0.5451939037271767,
+      "recall": 0.3602892833662064,
+      "f1-score": 0.30894283484281887,
+      "support": 2250.0
     },
     "weighted avg": {
-      "precision": 0.71360348583878,
-      "recall": 0.5955555555555555,
-      "f1-score": 0.5080493086789938,
-      "support": 450.0
+      "precision": 0.6219363211106081,
+      "recall": 0.6422222222222222,
+      "f1-score": 0.5186864856092119,
+      "support": 2250.0
     }
   }
 }

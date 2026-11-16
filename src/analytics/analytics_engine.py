@@ -11,6 +11,7 @@ Calculates business, engineering, and research metrics:
 """
 import os
 import json
+from pathlib import Path
 import pandas as pd
 from datetime import datetime
 from src.data.database import get_session, Review, ReviewAspect
@@ -29,7 +30,8 @@ RECOMMENDATION_LEXICON = {
 
 class AnalyticsEngine:
     def __init__(self):
-        self.cache_path = r"V:\BDT\reports\analytics_cache.json"
+        project_root = Path(__file__).resolve().parents[2]
+        self.cache_path = str(project_root / "reports" / "analytics_cache.json")
         
     def generate_analytics_cache(self) -> dict:
         print("Analytics Engine: Compiling Automobile Insights from Database...")

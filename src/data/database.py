@@ -3,6 +3,7 @@ AutoSense Database Connection & Session Management
 Supports MySQL (Production / Docker / Cloud) and SQLite (Local Offline / Antigravity Sandbox)
 """
 import os
+from pathlib import Path
 from sqlalchemy import create_engine, Column, Integer, BigInteger, String, Float, Text, DateTime, ForeignKey, Boolean
 from sqlalchemy.orm import declarative_base, sessionmaker, relationship
 from datetime import datetime
@@ -76,7 +77,11 @@ def get_db_engine():
         except Exception:
             pass # fallback to SQLite
             
-    sqlite_path = os.getenv('SQLITE_DATABASE_PATH', r'V:\BDT\bigdata\mysql\autosense_local.db')
+    project_root = Path(__file__).resolve().parents[2]
+    sqlite_path = os.getenv(
+        'SQLITE_DATABASE_PATH',
+        str(project_root / 'bigdata' / 'mysql' / 'autosense_local.db')
+    )
     os.makedirs(os.path.dirname(sqlite_path), exist_ok=True)
     return create_engine(f'sqlite:///{sqlite_path}', echo=False)
 

@@ -10,9 +10,14 @@ Provides domain-grounded conversational intelligence on:
 import re
 import json
 import os
+from pathlib import Path
+from typing import Optional
 
 class AutoSenseChatbot:
-    def __init__(self, cache_path: str = r"V:\BDT\reports\analytics_cache.json"):
+    def __init__(self, cache_path: Optional[str] = None):
+        if cache_path is None:
+            project_root = Path(__file__).resolve().parents[2]
+            cache_path = str(project_root / "reports" / "analytics_cache.json")
         self.cache_path = cache_path
         self.data = self._load_data()
         

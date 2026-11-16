@@ -6,6 +6,7 @@ batch processing, domain chatbot ("AutoSense AI Copilot"), and big data telemetr
 from fastapi import APIRouter, HTTPException, Depends, Header, Query
 import os
 import json
+from pathlib import Path
 import pandas as pd
 from typing import Optional, List
 from backend.app.schemas.schemas import (
@@ -23,6 +24,7 @@ from src.preprocessing.taxonomy import get_taxonomy_summary, AUTOMOTIVE_TAXONOMY
 from src.data.database import get_session, Review
 
 router = APIRouter(prefix="/api")
+PROJECT_ROOT = Path(__file__).resolve().parents[3]
 analytics_engine = AnalyticsEngine()
 chatbot = AutoSenseChatbot()
 predictor_cache = {}
@@ -204,7 +206,7 @@ def predict_batch(req: BatchPredictRequest):
 
 @router.get("/sample-batch")
 def get_sample_batch():
-    sample_file = r"V:\BDT\Datasets\batch_test_sample.csv"
+    sample_file = PROJECT_ROOT / "Datasets" / "batch_test_sample.csv"
     if os.path.exists(sample_file):
         df = pd.read_csv(sample_file)
         return df.to_dict(orient="records")
@@ -272,8 +274,8 @@ def search_reviews(
 # -----------------------------------------------------------------------------
 @router.get("/research")
 def get_research_evaluation():
-    registry_path = r"V:\BDT\models\model_registry\model_registry.json"
-    bench_path = r"V:\BDT\reports\absa_ground_truth_benchmarks.json"
+    registry_path = PROJECT_ROOT / "models" / "model_registry" / "model_registry.json"
+    bench_path = PROJECT_ROOT / "reports" / "absa_ground_truth_benchmarks.json"
     
     registry = {}
     if os.path.exists(registry_path):
@@ -295,7 +297,7 @@ def get_research_evaluation():
 # -----------------------------------------------------------------------------
 @router.get("/pipeline")
 def get_pipeline_telemetry():
-    log_file = r"V:\BDT\bigdata\logs\pipeline_execution_log.json"
+    log_file = PROJECT_ROOT / "bigdata" / "logs" / "pipeline_execution_log.json"
     if os.path.exists(log_file):
         with open(log_file, 'r', encoding='utf-8') as f:
             return json.load(f)
