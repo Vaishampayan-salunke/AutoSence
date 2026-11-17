@@ -2,7 +2,7 @@
 # AutoSense Production Dockerfile
 # Multi-stage optimized container for FastAPI Backend & Embedded React Dashboard
 # ==============================================================================
-FROM python:3.11-slim as base
+FROM python:3.11-slim AS base
 
 # Set environment variables
 ENV PYTHONDONTWRITEBYTECODE=1 \
@@ -22,6 +22,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 # Install Python requirements
 COPY requirements.txt /app/requirements.txt
 RUN pip install --no-cache-dir --upgrade pip && \
+    pip install --no-cache-dir --extra-index-url https://download.pytorch.org/whl/cpu "torch==2.5.1+cpu" && \
     pip install --no-cache-dir -r /app/requirements.txt
 
 # Download required NLTK corpora
