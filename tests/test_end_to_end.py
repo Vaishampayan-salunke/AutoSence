@@ -144,5 +144,57 @@ class TestAutoSenseEndToEnd(unittest.TestCase):
         self.assertEqual(pred_res.predicted_sentiment, "positive")
         self.assertGreater(len(pred_res.aspects_detected), 0)
 
+    def test_11_cross_model_comparison_lab(self):
+        from backend.app.routes.api import predict_compare
+        from backend.app.schemas.schemas import PredictCompareRequest
+        req = PredictCompareRequest(
+            text="The engine is punchy and brakes are sharp, but mileage is very low and cabin is noisy.",
+            include_aspects=True
+        )
+        res = predict_compare(req)
+        self.assertIn("results", res)
+        self.assertEqual(len(res["results"]), 5) # LR, SVM, NB, VADER, DistilBERT
+        self.assertIn("consensus_sentiment", res)
+        self.assertGreater(res["agreement_percentage"], 0.0)
+        self.assertGreater(len(res["aspects"]), 0)
+        for model_res in res["results"]:
+            self.assertIn(model_res["provenance"], ["VERIFIED", "SIMULATED"])
+            self.assertIn("processing_ms", model_res)
+
+    def test_12_dataset_management_registry(self):
+        from backend.app.routes.api import get_datasets_registry
+        reg = get_datasets_registry()
+        self.assertIn("datasets", reg)
+        datasets = reg["datasets"]
+        self.assertGreaterEqual(len(datasets), 3)
+        dataset_names = [d.get("dataset_name", d.get("name", "")) for d in datasets]
+        self.assertTrue(any("MuSe-CarASTE" in name or "automobile" in name for name in dataset_names))
+
+    def test_13_provenance_and_preprocessing_registry(self):
+        from backend.app.routes.api import get_provenance_registry, get_preprocessing_report
+        prov = get_provenance_registry()
+        self.assertIn("metrics", prov)
+        self.assertIn("linear_svm_accuracy", prov["metrics"])
+        self.assertEqual(prov["metrics"]["linear_svm_accuracy"]["status"], "VERIFIED")
+        self.assertEqual(prov["metrics"]["sqoop_ingestion_throughput"]["status"], "SIMULATED")
+
+        prep = get_preprocessing_report()
+        self.assertIn("preprocessing_pipeline", prep)
+        self.assertIn("before_after_examples", prep)
+        self.assertEqual(prep["total_records_unified"], 12000)
+
+    def test_14_confusion_matrices_and_experiment_records(self):
+        from backend.app.routes.api import get_confusion_matrices, get_experiment_records
+        cm = get_confusion_matrices()
+        self.assertIn("results", cm)
+        self.assertGreaterEqual(len(cm["results"]), 4)
+
+        exp = get_experiment_records()
+        self.assertIn("experiments", exp)
+        self.assertIn("absa_benchmarks", exp)
+        exp_ids = [e["experiment_id"] for e in exp["experiments"]]
+        self.assertIn("EXP-001", exp_ids)
+        self.assertIn("EXP-002", exp_ids)
+
 if __name__ == '__main__':
     unittest.main()

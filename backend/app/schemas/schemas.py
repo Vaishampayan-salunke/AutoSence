@@ -28,6 +28,10 @@ class PredictRequest(BaseModel):
     review_text: str = Field(..., min_length=3, example="The engine is powerful and responsive, but mileage is poor.")
     model_version: Optional[str] = "autosense-tfidf-lr-v1"
 
+class PredictCompareRequest(BaseModel):
+    text: str = Field(..., min_length=3, example="The engine is powerful but fuel economy is terrible.")
+    include_aspects: Optional[bool] = True
+
 class AspectDetection(BaseModel):
     category: str
     sentiment: str

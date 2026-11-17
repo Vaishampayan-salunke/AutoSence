@@ -1,0 +1,34 @@
+{
+  "datasets": {
+    "unified_exists": true,
+    "unified_rows": 12000,
+    "train_rows": 10500,
+    "val_rows": 0,
+    "test_rows": 2250,
+    "train_test_id_overlap": 0
+  },
+  "database": {
+    "exists": true,
+    "tables": {
+      "dataset_sources": 2,
+      "sqoop_import_logs": 0,
+      "reviews": 15000,
+      "review_aspects": 27778,
+      "raw_automobile_reviews": 12000
+    }
+  },
+  "models": {
+    "lr_exists": true,
+    "svm_exists": true,
+    "nb_exists": true,
+    "distilbert_safetensors": true,
+    "vader_eval_exists": true,
+    "model_registry_exists": true
+  },
+  "reports": {
+    "analytics_cache": true,
+    "absa_benchmarks": true,
+    "model_comparison": true,
+    "pipeline_benchmark": true
+  }
+}

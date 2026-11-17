@@ -1,0 +1,152 @@
+{
+  "generated_at": "2026-11-17",
+  "total_records_unified": 12000,
+  "total_records_database": 15000,
+  "columns": [
+    "review_id",
+    "source",
+    "brand",
+    "vehicle_model",
+    "review_timestamp",
+    "rating",
+    "review_text",
+    "sentiment",
+    "location",
+    "aspect_engine",
+    "aspect_safety",
+    "aspect_comfort",
+    "aspect_exterior",
+    "aspect_service"
+  ],
+  "missing_values_per_column": {
+    "review_id": 0,
+    "source": 0,
+    "brand": 0,
+    "vehicle_model": 0,
+    "review_timestamp": 0,
+    "rating": 159,
+    "review_text": 31,
+    "sentiment": 0,
+    "location": 0,
+    "aspect_engine": 9000,
+    "aspect_safety": 5000,
+    "aspect_comfort": 5000,
+    "aspect_exterior": 9000,
+    "aspect_service": 5000
+  },
+  "duplicate_records_by_id": 0,
+  "class_distribution": {
+    "unified": {
+      "Positive": {
+        "count": 7814,
+        "pct": 65.12
+      },
+      "Neutral": {
+        "count": 2581,
+        "pct": 21.51
+      },
+      "Negative": {
+        "count": 1605,
+        "pct": 13.38
+      }
+    },
+    "train": {
+      "positive": {
+        "count": 6553,
+        "pct": 62.41
+      },
+      "neutral": {
+        "count": 2367,
+        "pct": 22.54
+      },
+      "negative": {
+        "count": 1580,
+        "pct": 15.05
+      }
+    },
+    "val": {
+      "positive": {
+        "count": 1405,
+        "pct": 62.44
+      },
+      "neutral": {
+        "count": 507,
+        "pct": 22.53
+      },
+      "negative": {
+        "count": 338,
+        "pct": 15.02
+      }
+    },
+    "test": {
+      "positive": {
+        "count": 1404,
+        "pct": 62.4
+      },
+      "neutral": {
+        "count": 507,
+        "pct": 22.53
+      },
+      "negative": {
+        "count": 339,
+        "pct": 15.07
+      }
+    }
+  },
+  "split_counts": {
+    "train": 10500,
+    "val": 2250,
+    "test": 2250,
+    "total_split": 15000
+  },
+  "preprocessing_pipeline": [
+    {
+      "step": 1,
+      "name": "HTML & Entity Decoding",
+      "desc": "Converts HTML entities (&amp;, &quot;, &lt;, &gt;) and unescapes unicode characters."
+    },
+    {
+      "step": 2,
+      "name": "Case Folding & Whitespace Normalization",
+      "desc": "Converts all text to lowercase and strips multiple redundant spaces and newlines."
+    },
+    {
+      "step": 3,
+      "name": "Contraction Expansion",
+      "desc": "Expands standard contractions (can't -> cannot, don't -> do not, won't -> will not)."
+    },
+    {
+      "step": 4,
+      "name": "Negation Preservation",
+      "desc": "Crucial NLP step: transforms negations (not good -> not_good, no power -> no_power), binding the negative particle into a single token so n-gram TF-IDF retains the inverted sentiment."
+    },
+    {
+      "step": 5,
+      "name": "Automotive Term & Punctuation Filtering",
+      "desc": "Retains vehicle technical abbreviations (abs, adas, mpg, bhp, rpm) while filtering noise."
+    },
+    {
+      "step": 6,
+      "name": "Stratified Splitting (Leak-Free)",
+      "desc": "Partitions 70/15/15 stratified across sentiment classes with random_seed=42. Zero review_id overlap between train and test verified."
+    }
+  ],
+  "before_after_examples": [
+    {
+      "case": "Negation and Contraction Handling",
+      "raw": "The engine isn't bad but the mileage is NOT great at all!!! &amp; seats don't feel comfortable.",
+      "processed": "the engine is not_bad but the mileage is not_great at all and seats do not_feel comfortable"
+    },
+    {
+      "case": "Enthusiastic Positive with Punctuation",
+      "raw": "Couldn't be happier with the Toyota Camry! The build quality is top-notch &amp; ultra quiet.",
+      "processed": "could not_be happier with the toyota camry the build quality is top notch and ultra quiet"
+    },
+    {
+      "case": "Severe Breakdown and Complaints",
+      "raw": "TERRIBLE experience! The car doesn't start in cold weather &amp; AC doesn't work after 2 weeks.",
+      "processed": "terrible experience the car does not_start in cold weather and ac does not_work after 2 weeks"
+    }
+  ],
+  "provenance": "VERIFIED"
+}

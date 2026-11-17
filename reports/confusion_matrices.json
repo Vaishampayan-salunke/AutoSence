@@ -1,0 +1,299 @@
+{
+  "generated_at": "2026-11-17",
+  "test_set": "Datasets/splits/test/test.csv",
+  "test_n": 2243,
+  "random_seed": 42,
+  "split_strategy": "stratified",
+  "results": [
+    {
+      "model_id": "lr",
+      "model_name": "Logistic Regression (TF-IDF)",
+      "confusion_matrix": {
+        "labels": [
+          "negative",
+          "neutral",
+          "positive"
+        ],
+        "matrix": [
+          [
+            315,
+            18,
+            5
+          ],
+          [
+            29,
+            408,
+            70
+          ],
+          [
+            6,
+            26,
+            1366
+          ]
+        ]
+      },
+      "per_class_metrics": {
+        "negative": {
+          "precision": 0.9,
+          "recall": 0.9319526627218935,
+          "f1-score": 0.9156976744186046,
+          "support": 338.0
+        },
+        "neutral": {
+          "precision": 0.9026548672566371,
+          "recall": 0.8047337278106509,
+          "f1-score": 0.8508863399374348,
+          "support": 507.0
+        },
+        "positive": {
+          "precision": 0.9479528105482304,
+          "recall": 0.977110157367668,
+          "f1-score": 0.9623106727721028,
+          "support": 1398.0
+        }
+      },
+      "overall": {
+        "accuracy": 0.9313419527418636,
+        "macro_f1": 0.9096315623760475,
+        "weighted_f1": 0.9301005389376582
+      },
+      "test_n": 2243,
+      "provenance": "VERIFIED"
+    },
+    {
+      "model_id": "svm",
+      "model_name": "Linear SVM (TF-IDF)",
+      "confusion_matrix": {
+        "labels": [
+          "negative",
+          "neutral",
+          "positive"
+        ],
+        "matrix": [
+          [
+            307,
+            19,
+            12
+          ],
+          [
+            20,
+            400,
+            87
+          ],
+          [
+            5,
+            14,
+            1379
+          ]
+        ]
+      },
+      "per_class_metrics": {
+        "negative": {
+          "precision": 0.9246987951807228,
+          "recall": 0.908284023668639,
+          "f1-score": 0.9164179104477612,
+          "support": 338.0
+        },
+        "neutral": {
+          "precision": 0.9237875288683602,
+          "recall": 0.7889546351084813,
+          "f1-score": 0.851063829787234,
+          "support": 507.0
+        },
+        "positive": {
+          "precision": 0.9330175913396481,
+          "recall": 0.9864091559370529,
+          "f1-score": 0.958970792767733,
+          "support": 1398.0
+        }
+      },
+      "overall": {
+        "accuracy": 0.930004458314757,
+        "macro_f1": 0.9088175110009095,
+        "weighted_f1": 0.9281675362116637
+      },
+      "test_n": 2243,
+      "provenance": "VERIFIED"
+    },
+    {
+      "model_id": "nb",
+      "model_name": "Naive Bayes (TF-IDF)",
+      "confusion_matrix": {
+        "labels": [
+          "negative",
+          "neutral",
+          "positive"
+        ],
+        "matrix": [
+          [
+            301,
+            2,
+            35
+          ],
+          [
+            18,
+            373,
+            116
+          ],
+          [
+            1,
+            1,
+            1396
+          ]
+        ]
+      },
+      "per_class_metrics": {
+        "negative": {
+          "precision": 0.940625,
+          "recall": 0.8905325443786982,
+          "f1-score": 0.9148936170212766,
+          "support": 338.0
+        },
+        "neutral": {
+          "precision": 0.9920212765957447,
+          "recall": 0.7357001972386588,
+          "f1-score": 0.8448471121177803,
+          "support": 507.0
+        },
+        "positive": {
+          "precision": 0.9023917259211377,
+          "recall": 0.9985693848354793,
+          "f1-score": 0.9480475382003396,
+          "support": 1398.0
+        }
+      },
+      "overall": {
+        "accuracy": 0.9228711547035221,
+        "macro_f1": 0.9025960891131323,
+        "weighted_f1": 0.9197244702634779
+      },
+      "test_n": 2243,
+      "provenance": "VERIFIED"
+    },
+    {
+      "model_id": "vader",
+      "model_name": "VADER (Rule-Based)",
+      "confusion_matrix": {
+        "labels": [
+          "negative",
+          "neutral",
+          "positive"
+        ],
+        "matrix": [
+          [
+            178,
+            62,
+            99
+          ],
+          [
+            45,
+            234,
+            228
+          ],
+          [
+            22,
+            98,
+            1284
+          ]
+        ]
+      },
+      "per_class_metrics": {
+        "negative": {
+          "precision": 0.7265,
+          "recall": 0.5251,
+          "f1-score": 0.6096,
+          "support": 339
+        },
+        "neutral": {
+          "precision": 0.5939,
+          "recall": 0.4615,
+          "f1-score": 0.5194,
+          "support": 507
+        },
+        "positive": {
+          "precision": 0.797,
+          "recall": 0.9145,
+          "f1-score": 0.8517,
+          "support": 1404
+        }
+      },
+      "overall": {
+        "accuracy": 0.6782,
+        "macro_f1": 0.4986,
+        "weighted_f1": 0.6243
+      },
+      "note": "Lexical baseline without domain fine-tuning.",
+      "test_n": 2250,
+      "provenance": "VERIFIED"
+    },
+    {
+      "model_id": "distilbert",
+      "model_name": "DistilBERT Fine-tuned (Transformer)",
+      "confusion_matrix": {
+        "labels": [
+          "negative",
+          "neutral",
+          "positive"
+        ],
+        "matrix": [
+          [
+            0,
+            0,
+            339
+          ],
+          [
+            0,
+            41,
+            466
+          ],
+          [
+            0,
+            0,
+            1404
+          ]
+        ]
+      },
+      "per_class_metrics": {
+        "negative": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 339.0
+        },
+        "neutral": {
+          "precision": 1.0,
+          "recall": 0.08086785009861933,
+          "f1-score": 0.14963503649635038,
+          "support": 507.0
+        },
+        "positive": {
+          "precision": 0.6355817111815301,
+          "recall": 1.0,
+          "f1-score": 0.7771934680321063,
+          "support": 1404.0
+        },
+        "accuracy": 0.6422222222222222,
+        "macro avg": {
+          "precision": 0.5451939037271767,
+          "recall": 0.3602892833662064,
+          "f1-score": 0.30894283484281887,
+          "support": 2250.0
+        },
+        "weighted avg": {
+          "precision": 0.6219363211106081,
+          "recall": 0.6422222222222222,
+          "f1-score": 0.5186864856092119,
+          "support": 2250.0
+        }
+      },
+      "overall": {
+        "accuracy": 0.6422,
+        "macro_f1": 0.3089,
+        "weighted_f1": 0.5187
+      },
+      "note": "Fine-tuned 1 epoch on CPU. Demonstrates deep learning pipeline capability; reported transparently.",
+      "test_n": 2250,
+      "provenance": "VERIFIED"
+    }
+  ]
+}

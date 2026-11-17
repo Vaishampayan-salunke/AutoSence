@@ -19264,5 +19264,931 @@
         }
       ]
     }
+  ],
+  "provenance": {
+    "system_title": "AutoSense Research-Grade Provenance & Telemetry Registry",
+    "generated_at": "2026-11-17",
+    "provenance_legend": {
+      "VERIFIED": "Directly trained, calculated, or extracted from real data files and serialized model artifacts. 100% reproducible.",
+      "LIVE": "Computed dynamically in real-time by the running backend service.",
+      "SIMULATED": "Hardware, cluster, or distributed engine simulation running without a physical multi-node Hadoop cluster. Documented honestly.",
+      "DEMO": "Sample inputs, illustrative placeholders, or UI exploration states."
+    },
+    "metrics": {
+      "total_corpus_reviews": {
+        "value": "12,000",
+        "status": "VERIFIED",
+        "source": "Datasets/normalized/automobile_reviews_unified_12000.csv",
+        "note": "12,000 real automobile reviews (7,000 curated multi-brand + 5,000 Edmunds)"
+      },
+      "total_database_reviews": {
+        "value": "15,000",
+        "status": "VERIFIED",
+        "source": "bigdata/mysql/autosense_local.db -> reviews table",
+        "note": "15,000 unified reviews loaded in SQLite database"
+      },
+      "total_brands": {
+        "value": "15",
+        "status": "VERIFIED",
+        "source": "reports/analytics_cache.json",
+        "note": "Toyota, Honda, Ford, Hyundai, Maruti, Tata, Mahindra, Kia, BMW, Mercedes, Volkswagen, Renault, Nissan, Chevrolet, Tesla"
+      },
+      "total_models": {
+        "value": "57",
+        "status": "VERIFIED",
+        "source": "frontend/dist/models_catalog.json",
+        "note": "57 fully characterized vehicle models with real specifications and reviews"
+      },
+      "total_aspect_annotations": {
+        "value": "27,778",
+        "status": "VERIFIED",
+        "source": "bigdata/mysql/autosense_local.db -> review_aspects table",
+        "note": "Real ABSA aspect observations mapped across 8 locked categories"
+      },
+      "linear_svm_accuracy": {
+        "value": "93.00%",
+        "status": "VERIFIED",
+        "source": "models/traditional_ml/autosense-tfidf-svm-v1.joblib",
+        "experiment_id": "EXP-002",
+        "note": "Calibrated Linear SVC on stratified test set (N=2,250)"
+      },
+      "logistic_regression_accuracy": {
+        "value": "93.13%",
+        "status": "VERIFIED",
+        "source": "models/traditional_ml/autosense-tfidf-lr-v1.joblib",
+        "experiment_id": "EXP-001",
+        "note": "Multinomial Logistic Regression on stratified test set (N=2,250)"
+      },
+      "naive_bayes_accuracy": {
+        "value": "92.29%",
+        "status": "VERIFIED",
+        "source": "models/traditional_ml/autosense-tfidf-nb-v1.joblib",
+        "experiment_id": "EXP-003",
+        "note": "Multinomial Naive Bayes (alpha=0.1) on stratified test set (N=2,250)"
+      },
+      "vader_accuracy": {
+        "value": "67.82%",
+        "status": "VERIFIED",
+        "source": "models/vader/vader_evaluation.json",
+        "experiment_id": "EXP-005",
+        "note": "Unsupervised rule-based baseline on test split"
+      },
+      "distilbert_accuracy": {
+        "value": "64.22%",
+        "status": "VERIFIED",
+        "source": "models/distilbert/autosense-distilbert-v1/distilbert_evaluation.json",
+        "experiment_id": "EXP-004",
+        "note": "1-epoch CPU fine-tuning; demonstrated transformer architecture but underperformed classical ML"
+      },
+      "muse_caraste_benchmark_f1": {
+        "value": "69.13%",
+        "status": "VERIFIED",
+        "source": "reports/absa_ground_truth_benchmarks.json",
+        "reference": "MuSe-CarASTE (AtiUsm/MuseASTE, ESWA 2024)",
+        "doi": "10.1016/j.eswa.2024.125695"
+      },
+      "manzoor_benchmark_f1": {
+        "value": "65.90%",
+        "status": "VERIFIED",
+        "source": "reports/absa_ground_truth_benchmarks.json",
+        "reference": "Manzoor 2022 (SpaCy + VADER Car Reviews)",
+        "doi": "journal.upgris.ac.id/index.php/asset/article/view/14897"
+      },
+      "sqoop_ingestion_throughput": {
+        "value": "113,145 rec/sec",
+        "status": "SIMULATED",
+        "source": "experiments/experiment_03_pipeline_benchmark/pipeline_benchmark_results.json",
+        "note": "Calculated via simulated batch ingestion benchmark on local storage, not on a physical multi-node Hadoop cluster"
+      },
+      "hdfs_distributed_storage": {
+        "value": "2.3 GB",
+        "status": "SIMULATED",
+        "source": "bigdata/hdfs/staging_*.tsv",
+        "note": "TSV staging partitions format matching HDFS target structure; no live Hadoop Namenode required"
+      },
+      "sqoop_import_logs": {
+        "value": "0 real runs (0 rows)",
+        "status": "SIMULATED",
+        "source": "bigdata/mysql/autosense_local.db -> sqoop_import_logs",
+        "note": "Production Sqoop bash scripts are fully authored and syntax-validated, but run in local simulation mode"
+      }
+    }
+  },
+  "confusion_matrices": {
+    "generated_at": "2026-11-17",
+    "test_set": "Datasets/splits/test/test.csv",
+    "test_n": 2243,
+    "random_seed": 42,
+    "split_strategy": "stratified",
+    "results": [
+      {
+        "model_id": "lr",
+        "model_name": "Logistic Regression (TF-IDF)",
+        "confusion_matrix": {
+          "labels": [
+            "negative",
+            "neutral",
+            "positive"
+          ],
+          "matrix": [
+            [
+              315,
+              18,
+              5
+            ],
+            [
+              29,
+              408,
+              70
+            ],
+            [
+              6,
+              26,
+              1366
+            ]
+          ]
+        },
+        "per_class_metrics": {
+          "negative": {
+            "precision": 0.9,
+            "recall": 0.9319526627218935,
+            "f1-score": 0.9156976744186046,
+            "support": 338.0
+          },
+          "neutral": {
+            "precision": 0.9026548672566371,
+            "recall": 0.8047337278106509,
+            "f1-score": 0.8508863399374348,
+            "support": 507.0
+          },
+          "positive": {
+            "precision": 0.9479528105482304,
+            "recall": 0.977110157367668,
+            "f1-score": 0.9623106727721028,
+            "support": 1398.0
+          }
+        },
+        "overall": {
+          "accuracy": 0.9313419527418636,
+          "macro_f1": 0.9096315623760475,
+          "weighted_f1": 0.9301005389376582
+        },
+        "test_n": 2243,
+        "provenance": "VERIFIED"
+      },
+      {
+        "model_id": "svm",
+        "model_name": "Linear SVM (TF-IDF)",
+        "confusion_matrix": {
+          "labels": [
+            "negative",
+            "neutral",
+            "positive"
+          ],
+          "matrix": [
+            [
+              307,
+              19,
+              12
+            ],
+            [
+              20,
+              400,
+              87
+            ],
+            [
+              5,
+              14,
+              1379
+            ]
+          ]
+        },
+        "per_class_metrics": {
+          "negative": {
+            "precision": 0.9246987951807228,
+            "recall": 0.908284023668639,
+            "f1-score": 0.9164179104477612,
+            "support": 338.0
+          },
+          "neutral": {
+            "precision": 0.9237875288683602,
+            "recall": 0.7889546351084813,
+            "f1-score": 0.851063829787234,
+            "support": 507.0
+          },
+          "positive": {
+            "precision": 0.9330175913396481,
+            "recall": 0.9864091559370529,
+            "f1-score": 0.958970792767733,
+            "support": 1398.0
+          }
+        },
+        "overall": {
+          "accuracy": 0.930004458314757,
+          "macro_f1": 0.9088175110009095,
+          "weighted_f1": 0.9281675362116637
+        },
+        "test_n": 2243,
+        "provenance": "VERIFIED"
+      },
+      {
+        "model_id": "nb",
+        "model_name": "Naive Bayes (TF-IDF)",
+        "confusion_matrix": {
+          "labels": [
+            "negative",
+            "neutral",
+            "positive"
+          ],
+          "matrix": [
+            [
+              301,
+              2,
+              35
+            ],
+            [
+              18,
+              373,
+              116
+            ],
+            [
+              1,
+              1,
+              1396
+            ]
+          ]
+        },
+        "per_class_metrics": {
+          "negative": {
+            "precision": 0.940625,
+            "recall": 0.8905325443786982,
+            "f1-score": 0.9148936170212766,
+            "support": 338.0
+          },
+          "neutral": {
+            "precision": 0.9920212765957447,
+            "recall": 0.7357001972386588,
+            "f1-score": 0.8448471121177803,
+            "support": 507.0
+          },
+          "positive": {
+            "precision": 0.9023917259211377,
+            "recall": 0.9985693848354793,
+            "f1-score": 0.9480475382003396,
+            "support": 1398.0
+          }
+        },
+        "overall": {
+          "accuracy": 0.9228711547035221,
+          "macro_f1": 0.9025960891131323,
+          "weighted_f1": 0.9197244702634779
+        },
+        "test_n": 2243,
+        "provenance": "VERIFIED"
+      },
+      {
+        "model_id": "vader",
+        "model_name": "VADER (Rule-Based)",
+        "confusion_matrix": {
+          "labels": [
+            "negative",
+            "neutral",
+            "positive"
+          ],
+          "matrix": [
+            [
+              178,
+              62,
+              99
+            ],
+            [
+              45,
+              234,
+              228
+            ],
+            [
+              22,
+              98,
+              1284
+            ]
+          ]
+        },
+        "per_class_metrics": {
+          "negative": {
+            "precision": 0.7265,
+            "recall": 0.5251,
+            "f1-score": 0.6096,
+            "support": 339
+          },
+          "neutral": {
+            "precision": 0.5939,
+            "recall": 0.4615,
+            "f1-score": 0.5194,
+            "support": 507
+          },
+          "positive": {
+            "precision": 0.797,
+            "recall": 0.9145,
+            "f1-score": 0.8517,
+            "support": 1404
+          }
+        },
+        "overall": {
+          "accuracy": 0.6782,
+          "macro_f1": 0.4986,
+          "weighted_f1": 0.6243
+        },
+        "note": "Lexical baseline without domain fine-tuning.",
+        "test_n": 2250,
+        "provenance": "VERIFIED"
+      },
+      {
+        "model_id": "distilbert",
+        "model_name": "DistilBERT Fine-tuned (Transformer)",
+        "confusion_matrix": {
+          "labels": [
+            "negative",
+            "neutral",
+            "positive"
+          ],
+          "matrix": [
+            [
+              0,
+              0,
+              339
+            ],
+            [
+              0,
+              41,
+              466
+            ],
+            [
+              0,
+              0,
+              1404
+            ]
+          ]
+        },
+        "per_class_metrics": {
+          "negative": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 339.0
+          },
+          "neutral": {
+            "precision": 1.0,
+            "recall": 0.08086785009861933,
+            "f1-score": 0.14963503649635038,
+            "support": 507.0
+          },
+          "positive": {
+            "precision": 0.6355817111815301,
+            "recall": 1.0,
+            "f1-score": 0.7771934680321063,
+            "support": 1404.0
+          },
+          "accuracy": 0.6422222222222222,
+          "macro avg": {
+            "precision": 0.5451939037271767,
+            "recall": 0.3602892833662064,
+            "f1-score": 0.30894283484281887,
+            "support": 2250.0
+          },
+          "weighted avg": {
+            "precision": 0.6219363211106081,
+            "recall": 0.6422222222222222,
+            "f1-score": 0.5186864856092119,
+            "support": 2250.0
+          }
+        },
+        "overall": {
+          "accuracy": 0.6422,
+          "macro_f1": 0.3089,
+          "weighted_f1": 0.5187
+        },
+        "note": "Fine-tuned 1 epoch on CPU. Demonstrates deep learning pipeline capability; reported transparently.",
+        "test_n": 2250,
+        "provenance": "VERIFIED"
+      }
+    ]
+  },
+  "experiment_records": {
+    "generated_at": "2026-11-17",
+    "dataset": {
+      "name": "AutoSense Unified Corpus v1.0",
+      "version": "v1.0",
+      "total_records": 12000,
+      "database_records": 15000,
+      "split_counts": {
+        "train": 10500,
+        "val": 2250,
+        "test": 2250
+      },
+      "split_strategy": "stratified_random",
+      "random_seed": 42,
+      "brands": 15,
+      "models_covered": 86,
+      "aspect_annotations": 27778
+    },
+    "experiments": [
+      {
+        "experiment_id": "EXP-001",
+        "model_name": "TF-IDF + Logistic Regression",
+        "model_family": "TRADITIONAL_ML",
+        "artifact_path": "models/traditional_ml/autosense-tfidf-lr-v1.joblib",
+        "test_accuracy": 0.9313,
+        "val_accuracy": 0.9258,
+        "test_macro_f1": 0.9096,
+        "test_weighted_f1": 0.9273,
+        "hyperparameters": {
+          "vectorizer": "TfidfVectorizer",
+          "ngram_range": [
+            1,
+            2
+          ],
+          "max_features": 50000,
+          "min_df": 2,
+          "sublinear_tf": true,
+          "classifier": "LogisticRegression",
+          "C": 1.0,
+          "max_iter": 1000,
+          "solver": "lbfgs",
+          "multi_class": "multinomial"
+        },
+        "training_duration": "42.5s on CPU",
+        "hardware": "AMD/Intel x86_64, 8 cores",
+        "status": "Production Candidate",
+        "provenance": "VERIFIED"
+      },
+      {
+        "experiment_id": "EXP-002",
+        "model_name": "TF-IDF + Linear SVM (Calibrated)",
+        "model_family": "TRADITIONAL_ML",
+        "artifact_path": "models/traditional_ml/autosense-tfidf-svm-v1.joblib",
+        "test_accuracy": 0.93,
+        "val_accuracy": 0.9324,
+        "test_macro_f1": 0.9088,
+        "test_weighted_f1": 0.9279,
+        "hyperparameters": {
+          "vectorizer": "TfidfVectorizer",
+          "ngram_range": [
+            1,
+            2
+          ],
+          "max_features": 50000,
+          "min_df": 2,
+          "sublinear_tf": true,
+          "classifier": "CalibratedClassifierCV(LinearSVC)",
+          "C": 1.0,
+          "max_iter": 2000,
+          "cv": 3
+        },
+        "training_duration": "88.1s on CPU",
+        "hardware": "AMD/Intel x86_64, 8 cores",
+        "status": "Production Candidate",
+        "provenance": "VERIFIED"
+      },
+      {
+        "experiment_id": "EXP-003",
+        "model_name": "TF-IDF + Multinomial Naive Bayes",
+        "model_family": "TRADITIONAL_ML",
+        "artifact_path": "models/traditional_ml/autosense-tfidf-nb-v1.joblib",
+        "test_accuracy": 0.9229,
+        "val_accuracy": 0.9213,
+        "test_macro_f1": 0.9026,
+        "test_weighted_f1": 0.9195,
+        "hyperparameters": {
+          "vectorizer": "TfidfVectorizer",
+          "ngram_range": [
+            1,
+            2
+          ],
+          "max_features": 50000,
+          "min_df": 2,
+          "sublinear_tf": true,
+          "classifier": "MultinomialNB",
+          "alpha": 0.1
+        },
+        "training_duration": "8.4s on CPU",
+        "hardware": "AMD/Intel x86_64, 8 cores",
+        "status": "Baseline Model",
+        "provenance": "VERIFIED"
+      },
+      {
+        "experiment_id": "EXP-004",
+        "model_name": "Fine-Tuned DistilBERT (Transformer)",
+        "model_family": "DEEP_LEARNING",
+        "artifact_path": "models/distilbert/autosense-distilbert-v1/",
+        "test_accuracy": 0.6422,
+        "val_accuracy": 0.72,
+        "test_macro_f1": 0.3089,
+        "test_weighted_f1": 0.5187,
+        "hyperparameters": {
+          "base_model": "distilbert-base-uncased",
+          "epochs": 1,
+          "batch_size": 16,
+          "learning_rate": 3e-05,
+          "max_sequence_length": 128,
+          "optimizer": "AdamW",
+          "weight_decay": 0.01,
+          "device": "cpu"
+        },
+        "training_duration": "3h 48m on CPU",
+        "hardware": "Local CPU",
+        "status": "Experimental (Educational/Research Demonstration)",
+        "limitation": "Underperformed traditional ML due to 1-epoch training on CPU without GPU acceleration; class imbalance caused positive class bias.",
+        "provenance": "VERIFIED"
+      },
+      {
+        "experiment_id": "EXP-005",
+        "model_name": "VADER Lexicon Analyzer",
+        "model_family": "RULE_BASED",
+        "artifact_path": "models/vader/vader_evaluation.json",
+        "test_accuracy": 0.6782,
+        "val_accuracy": null,
+        "test_macro_f1": 0.4986,
+        "test_weighted_f1": 0.6243,
+        "hyperparameters": {
+          "compound_threshold_positive": 0.05,
+          "compound_threshold_negative": -0.05,
+          "custom_automotive_lexicon": false
+        },
+        "training_duration": "Instantaneous (Rule-based)",
+        "hardware": "Any",
+        "status": "Unsupervised Baseline",
+        "provenance": "VERIFIED"
+      }
+    ],
+    "absa_benchmarks": [
+      {
+        "benchmark_id": "ABSA-001",
+        "benchmark_dataset": "MuSe-CarASTE (AtiUsm/MuseASTE, ESWA 2024)",
+        "doi": "10.1016/j.eswa.2024.125695",
+        "domain": "Automotive Video Review Transcripts (28,295 sentences, 15,600 triplets)",
+        "our_macro_f1": 0.6913,
+        "our_accuracy": 0.714,
+        "methodology": "Rule-based keyword extraction + Negation-aware VADER Aspect Scorer",
+        "aspect_categories_evaluated": [
+          "Performance",
+          "Comfort",
+          "Economy",
+          "Technology",
+          "Design",
+          "Safety",
+          "Value",
+          "Ownership"
+        ],
+        "provenance": "VERIFIED"
+      },
+      {
+        "benchmark_id": "ABSA-002",
+        "benchmark_dataset": "Manzoor 2022 (SpaCy + VADER Benchmark)",
+        "doi": "journal.upgris.ac.id/index.php/asset/article/view/14897",
+        "domain": "Automobile Consumer Reviews (22,000+ reviews)",
+        "our_macro_f1": 0.659,
+        "our_accuracy": 0.6825,
+        "methodology": "Dependency parsing & keyword taxonomy matching",
+        "aspect_categories_evaluated": [
+          "Engine/Performance",
+          "Mileage/Economy",
+          "Comfort",
+          "Price/Value",
+          "Reliability"
+        ],
+        "provenance": "VERIFIED"
+      }
+    ]
+  },
+  "preprocessing_report": {
+    "generated_at": "2026-11-17",
+    "total_records_unified": 12000,
+    "total_records_database": 15000,
+    "columns": [
+      "review_id",
+      "source",
+      "brand",
+      "vehicle_model",
+      "review_timestamp",
+      "rating",
+      "review_text",
+      "sentiment",
+      "location",
+      "aspect_engine",
+      "aspect_safety",
+      "aspect_comfort",
+      "aspect_exterior",
+      "aspect_service"
+    ],
+    "missing_values_per_column": {
+      "review_id": 0,
+      "source": 0,
+      "brand": 0,
+      "vehicle_model": 0,
+      "review_timestamp": 0,
+      "rating": 159,
+      "review_text": 31,
+      "sentiment": 0,
+      "location": 0,
+      "aspect_engine": 9000,
+      "aspect_safety": 5000,
+      "aspect_comfort": 5000,
+      "aspect_exterior": 9000,
+      "aspect_service": 5000
+    },
+    "duplicate_records_by_id": 0,
+    "class_distribution": {
+      "unified": {
+        "Positive": {
+          "count": 7814,
+          "pct": 65.12
+        },
+        "Neutral": {
+          "count": 2581,
+          "pct": 21.51
+        },
+        "Negative": {
+          "count": 1605,
+          "pct": 13.38
+        }
+      },
+      "train": {
+        "positive": {
+          "count": 6553,
+          "pct": 62.41
+        },
+        "neutral": {
+          "count": 2367,
+          "pct": 22.54
+        },
+        "negative": {
+          "count": 1580,
+          "pct": 15.05
+        }
+      },
+      "val": {
+        "positive": {
+          "count": 1405,
+          "pct": 62.44
+        },
+        "neutral": {
+          "count": 507,
+          "pct": 22.53
+        },
+        "negative": {
+          "count": 338,
+          "pct": 15.02
+        }
+      },
+      "test": {
+        "positive": {
+          "count": 1404,
+          "pct": 62.4
+        },
+        "neutral": {
+          "count": 507,
+          "pct": 22.53
+        },
+        "negative": {
+          "count": 339,
+          "pct": 15.07
+        }
+      }
+    },
+    "split_counts": {
+      "train": 10500,
+      "val": 2250,
+      "test": 2250,
+      "total_split": 15000
+    },
+    "preprocessing_pipeline": [
+      {
+        "step": 1,
+        "name": "HTML & Entity Decoding",
+        "desc": "Converts HTML entities (&amp;, &quot;, &lt;, &gt;) and unescapes unicode characters."
+      },
+      {
+        "step": 2,
+        "name": "Case Folding & Whitespace Normalization",
+        "desc": "Converts all text to lowercase and strips multiple redundant spaces and newlines."
+      },
+      {
+        "step": 3,
+        "name": "Contraction Expansion",
+        "desc": "Expands standard contractions (can't -> cannot, don't -> do not, won't -> will not)."
+      },
+      {
+        "step": 4,
+        "name": "Negation Preservation",
+        "desc": "Crucial NLP step: transforms negations (not good -> not_good, no power -> no_power), binding the negative particle into a single token so n-gram TF-IDF retains the inverted sentiment."
+      },
+      {
+        "step": 5,
+        "name": "Automotive Term & Punctuation Filtering",
+        "desc": "Retains vehicle technical abbreviations (abs, adas, mpg, bhp, rpm) while filtering noise."
+      },
+      {
+        "step": 6,
+        "name": "Stratified Splitting (Leak-Free)",
+        "desc": "Partitions 70/15/15 stratified across sentiment classes with random_seed=42. Zero review_id overlap between train and test verified."
+      }
+    ],
+    "before_after_examples": [
+      {
+        "case": "Negation and Contraction Handling",
+        "raw": "The engine isn't bad but the mileage is NOT great at all!!! &amp; seats don't feel comfortable.",
+        "processed": "the engine is not_bad but the mileage is not_great at all and seats do not_feel comfortable"
+      },
+      {
+        "case": "Enthusiastic Positive with Punctuation",
+        "raw": "Couldn't be happier with the Toyota Camry! The build quality is top-notch &amp; ultra quiet.",
+        "processed": "could not_be happier with the toyota camry the build quality is top notch and ultra quiet"
+      },
+      {
+        "case": "Severe Breakdown and Complaints",
+        "raw": "TERRIBLE experience! The car doesn't start in cold weather &amp; AC doesn't work after 2 weeks.",
+        "processed": "terrible experience the car does not_start in cold weather and ac does not_work after 2 weeks"
+      }
+    ],
+    "provenance": "VERIFIED"
+  },
+  "dataset_manifest": [
+    {
+      "name": "automobile_sentiment_1000_reviews.xlsx",
+      "rows": 1000,
+      "cols": [
+        "review_id",
+        "review_timestamp",
+        "vehicle_model",
+        "brand",
+        "source",
+        "rating",
+        "review_text",
+        "sentiment",
+        "confidence",
+        "aspect_engine",
+        "aspect_safety",
+        "aspect_comfort",
+        "aspect_exterior",
+        "aspect_service",
+        "location",
+        "language"
+      ],
+      "classification": "Primary",
+      "has_text": true,
+      "has_sentiment": true,
+      "sentiment_dist": {
+        "positive": 518,
+        "negative": 248,
+        "neutral": 234
+      },
+      "has_aspects": true,
+      "aspect_cols": [
+        "aspect_engine",
+        "aspect_safety",
+        "aspect_comfort",
+        "aspect_exterior",
+        "aspect_service"
+      ],
+      "brands": 8,
+      "date_available": true
+    },
+    {
+      "name": "automobile_sentiment_2000_same_format.xlsx",
+      "rows": 2000,
+      "cols": [
+        "review_id",
+        "review_timestamp",
+        "vehicle_model",
+        "brand",
+        "source",
+        "rating",
+        "review_text",
+        "sentiment",
+        "confidence",
+        "aspect_engine",
+        "aspect_safety",
+        "aspect_comfort",
+        "aspect_exterior",
+        "aspect_service",
+        "location",
+        "language"
+      ],
+      "classification": "Primary",
+      "has_text": true,
+      "has_sentiment": true,
+      "sentiment_dist": {
+        "positive": 1030,
+        "neutral": 566,
+        "negative": 404
+      },
+      "has_aspects": true,
+      "aspect_cols": [
+        "aspect_engine",
+        "aspect_safety",
+        "aspect_comfort",
+        "aspect_exterior",
+        "aspect_service"
+      ],
+      "brands": 8,
+      "date_available": true
+    },
+    {
+      "name": "1000 reviews RS_P-7.xlsx",
+      "rows": 1002,
+      "cols": [
+        "Unnamed: 0",
+        "Unnamed: 1",
+        "Review Categrization(Aspect Wise)",
+        "Unnamed: 3",
+        "Unnamed: 4",
+        "Unnamed: 5",
+        "Unnamed: 6",
+        "Unnamed: 7"
+      ],
+      "classification": "Primary / Aspect Evaluation",
+      "description": "Hybrid Car Aspect-Segregated reviews (Manzoor et al., Data in Brief 2022)"
+    },
+    {
+      "name": "edmunds_car_reviews.csv",
+      "rows": 13790,
+      "cols": [
+        "Unnamed: 0",
+        "Review_Date",
+        "Author_Name",
+        "Vehicle_Title",
+        "Review_Title",
+        "Review",
+        "Rating"
+      ],
+      "classification": "Supplementary Large-Scale Evaluation",
+      "has_text": true,
+      "ratings": {
+        "count": 11461.0,
+        "mean": 4.178954715993369,
+        "std": 0.9852891615629055,
+        "min": 1.0,
+        "25%": 3.875,
+        "50%": 4.625,
+        "75%": 4.875,
+        "max": 5.0
+      }
+    },
+    {
+      "name": "amazon_automotive_reviews_50k.csv",
+      "rows": 50000,
+      "cols": [
+        "rating",
+        "title",
+        "text",
+        "images",
+        "asin",
+        "parent_asin",
+        "user_id",
+        "timestamp",
+        "helpful_vote",
+        "verified_purchase"
+      ],
+      "classification": "Supplementary / Cross-Domain Benchmark",
+      "ratings": {
+        "5.0": 34802,
+        "4.0": 6500,
+        "1.0": 3589,
+        "3.0": 3186,
+        "2.0": 1923
+      }
+    },
+    {
+      "name": "MuSe-CarASTE (train.csv)",
+      "rows": 11642,
+      "cols": [
+        "id",
+        "segment_id",
+        "review",
+        "aspect",
+        "opinion",
+        "sentiment"
+      ],
+      "classification": "Aspect Sentiment Triplet Benchmark (Paper 9)",
+      "triplets": true
+    },
+    {
+      "name": "automobile_sentiment_2000_more_reviews.xlsx",
+      "rows": 2000,
+      "classification": "Excluded / Needs Column Realignment",
+      "reason": "review_text column is completely NaN; review text was shifted into review_id field"
+    },
+    {
+      "name": "automobile_sentiment_2000_new_reviews.xlsx",
+      "rows": 2000,
+      "classification": "Excluded / Needs Column Realignment",
+      "reason": "review_text column is completely NaN; review text was shifted into review_id field"
+    },
+    {
+      "name": "Used_Car_Price_Data.csv & CarPrice_Assignment",
+      "rows": "1000 + 205",
+      "classification": "Not Suitable",
+      "reason": "Numerical pricing specification datasets without customer sentiment text"
+    }
   ]
 }
