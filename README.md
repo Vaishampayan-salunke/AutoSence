@@ -159,6 +159,20 @@ python -m uvicorn backend.app.main:app --host 127.0.0.1 --port 8000 --reload
 ```
 Open **http://127.0.0.1:8000/** in any web browser.
 
+### Share the app through VS Code port forwarding
+
+VS Code forwarded ports are **Private** by default, so people who do not share
+your GitHub or Microsoft sign-in can get a 403 page instead of the app. To share
+the app with them:
+
+1. Start AutoSense and forward port `8000` from VS Code's **Ports** view.
+2. Right-click port `8000` and select **Port Visibility > Public**.
+3. Copy the port's **Forwarded Address** and send that base URL (ending in `/`),
+   not a URL ending in `/auth/postback/github?tunnel=1`.
+
+Anyone with a public forwarded URL can access the app while the port is
+forwarded. Do not make the port public if the app is serving confidential data.
+
 ---
 
 ## 4. National-Level Competition Demonstration Sequence
