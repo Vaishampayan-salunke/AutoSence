@@ -4,7 +4,7 @@ Title: Big Data Sentiment Analysis for the Automobile Industry using Apache Sqoo
 """
 from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import JSONResponse
+from fastapi.responses import JSONResponse, FileResponse, HTMLResponse
 from fastapi.staticfiles import StaticFiles
 import time
 from pathlib import Path
@@ -46,8 +46,24 @@ def healthcheck():
         "version": "1.0.0"
     }
 
-# Mount the frontend after API routes so it cannot shadow /health.
+# Dist directory for frontend SPA
 dist_dir = Path(__file__).resolve().parents[2] / "frontend" / "dist"
+
+@app.get("/", response_class=HTMLResponse)
+async def serve_index():
+    index_file = dist_dir / "index.html"
+    if index_file.is_file():
+        return FileResponse(str(index_file))
+    return HTMLResponse("<h2>AutoSense Platform Dist Initializing...</h2>")
+
+@app.get("/favicon.ico")
+async def favicon():
+    index_file = dist_dir / "index.html"
+    if index_file.is_file():
+        return FileResponse(str(index_file))
+    return JSONResponse({"status": "no favicon"})
+
+# Mount the frontend static files
 if dist_dir.is_dir():
     app.mount("/", StaticFiles(directory=str(dist_dir), html=True), name="static")
 

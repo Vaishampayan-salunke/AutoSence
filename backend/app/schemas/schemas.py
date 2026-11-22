@@ -89,6 +89,9 @@ class ReviewItem(BaseModel):
     rating: Optional[float]
     sentiment: str
     date: Optional[str]
+    aspects: Optional[List[Dict[str, Any]]] = []
+    model_prediction: Optional[str] = None
+    prediction_confidence: Optional[float] = None
 
 class ReviewSearchResponse(BaseModel):
     total_matches: int

@@ -1,0 +1,284 @@
+{
+  "total_reviews": 15000,
+  "total_aspect_triplets": 27778,
+  "distinct_reviews_with_aspects": 13170,
+  "aspect_breakdown": [
+    {
+      "category": "Performance",
+      "total": 7298,
+      "positive": 4662,
+      "neutral": 1500,
+      "negative": 1136
+    },
+    {
+      "category": "Design",
+      "total": 4351,
+      "positive": 2728,
+      "neutral": 1075,
+      "negative": 548
+    },
+    {
+      "category": "Comfort",
+      "total": 3928,
+      "positive": 2601,
+      "neutral": 762,
+      "negative": 565
+    },
+    {
+      "category": "Safety",
+      "total": 3289,
+      "positive": 1993,
+      "neutral": 756,
+      "negative": 540
+    },
+    {
+      "category": "Economy",
+      "total": 2054,
+      "positive": 1458,
+      "neutral": 326,
+      "negative": 270
+    },
+    {
+      "category": "Ownership",
+      "total": 2050,
+      "positive": 971,
+      "neutral": 565,
+      "negative": 514
+    },
+    {
+      "category": "Value",
+      "total": 1913,
+      "positive": 1450,
+      "neutral": 260,
+      "negative": 203
+    },
+    {
+      "category": "Service & Ownership",
+      "total": 1908,
+      "positive": 938,
+      "neutral": 521,
+      "negative": 449
+    },
+    {
+      "category": "Technology",
+      "total": 987,
+      "positive": 639,
+      "neutral": 236,
+      "negative": 112
+    }
+  ],
+  "sample_triplets": [
+    {
+      "category": "Economy",
+      "aspect_term": "mileage",
+      "opinion_term": "positive",
+      "sentiment": "positive",
+      "brand": "Toyota",
+      "model": "Innova Hycross",
+      "text": "Great mileage and comfortable driving experience. Very satisfied."
+    },
+    {
+      "category": "Design",
+      "aspect_term": "exterior",
+      "opinion_term": "positive",
+      "sentiment": "positive",
+      "brand": "Toyota",
+      "model": "Innova Hycross",
+      "text": "The exterior design looks excellent and the features are very useful."
+    },
+    {
+      "category": "Value",
+      "aspect_term": "features",
+      "opinion_term": "positive",
+      "sentiment": "positive",
+      "brand": "Toyota",
+      "model": "Innova Hycross",
+      "text": "The exterior design looks excellent and the features are very useful."
+    },
+    {
+      "category": "Ownership",
+      "aspect_term": "service",
+      "opinion_term": "positive",
+      "sentiment": "positive",
+      "brand": "Kia",
+      "model": "Seltos",
+      "text": "The service team was helpful and resolved my issue quickly."
+    },
+    {
+      "category": "Value",
+      "aspect_term": "features",
+      "opinion_term": "positive",
+      "sentiment": "positive",
+      "brand": "Kia",
+      "model": "Seltos",
+      "text": "The features are useful, but some controls could be improved."
+    },
+    {
+      "category": "Ownership",
+      "aspect_term": "service",
+      "opinion_term": "positive",
+      "sentiment": "positive",
+      "brand": "Kia",
+      "model": "Carens",
+      "text": "The car is comfortable, but the service experience was okay."
+    },
+    {
+      "category": "Technology",
+      "aspect_term": "infotainment",
+      "opinion_term": "negative",
+      "sentiment": "negative",
+      "brand": "Hyundai",
+      "model": "Venue",
+      "text": "The infotainment system has problems and frequently stops working."
+    },
+    {
+      "category": "Design",
+      "aspect_term": "exterior",
+      "opinion_term": "positive",
+      "sentiment": "positive",
+      "brand": "Mahindra",
+      "model": "Scorpio-N",
+      "text": "The exterior design looks excellent and the features are very useful."
+    },
+    {
+      "category": "Value",
+      "aspect_term": "features",
+      "opinion_term": "positive",
+      "sentiment": "positive",
+      "brand": "Mahindra",
+      "model": "Scorpio-N",
+      "text": "The exterior design looks excellent and the features are very useful."
+    },
+    {
+      "category": "Performance",
+      "aspect_term": "engine",
+      "opinion_term": "positive",
+      "sentiment": "positive",
+      "brand": "Tata Motors",
+      "model": "Harrier",
+      "text": "I am very happy with the Harrier; the engine is smooth and powerful."
+    }
+  ],
+  "brand_breakdown": [
+    {
+      "brand": "Nissan",
+      "review_count": 5289,
+      "avg_rating": 4.13,
+      "positive": 3945,
+      "neutral": 892,
+      "negative": 452
+    },
+    {
+      "brand": "MG",
+      "review_count": 1075,
+      "avg_rating": 3.62,
+      "positive": 603,
+      "neutral": 274,
+      "negative": 198
+    },
+    {
+      "brand": "Toyota",
+      "review_count": 1069,
+      "avg_rating": 3.58,
+      "positive": 590,
+      "neutral": 273,
+      "negative": 206
+    },
+    {
+      "brand": "Maruti Suzuki",
+      "review_count": 1039,
+      "avg_rating": 3.51,
+      "positive": 552,
+      "neutral": 267,
+      "negative": 220
+    },
+    {
+      "brand": "Mahindra",
+      "review_count": 1018,
+      "avg_rating": 3.48,
+      "positive": 524,
+      "neutral": 256,
+      "negative": 238
+    },
+    {
+      "brand": "Kia",
+      "review_count": 1002,
+      "avg_rating": 3.51,
+      "positive": 523,
+      "neutral": 293,
+      "negative": 186
+    },
+    {
+      "brand": "Hyundai",
+      "review_count": 986,
+      "avg_rating": 3.67,
+      "positive": 576,
+      "neutral": 242,
+      "negative": 168
+    },
+    {
+      "brand": "Honda",
+      "review_count": 979,
+      "avg_rating": 3.57,
+      "positive": 544,
+      "neutral": 241,
+      "negative": 194
+    },
+    {
+      "brand": "Tata Motors",
+      "review_count": 974,
+      "avg_rating": 3.6,
+      "positive": 530,
+      "neutral": 268,
+      "negative": 176
+    },
+    {
+      "brand": "BYD",
+      "review_count": 304,
+      "avg_rating": 3.7,
+      "positive": 191,
+      "neutral": 73,
+      "negative": 40
+    },
+    {
+      "brand": "Jeep",
+      "review_count": 261,
+      "avg_rating": 3.69,
+      "positive": 163,
+      "neutral": 61,
+      "negative": 37
+    },
+    {
+      "brand": "Volkswagen",
+      "review_count": 259,
+      "avg_rating": 3.63,
+      "positive": 159,
+      "neutral": 62,
+      "negative": 38
+    },
+    {
+      "brand": "Citroen",
+      "review_count": 254,
+      "avg_rating": 3.67,
+      "positive": 156,
+      "neutral": 65,
+      "negative": 33
+    },
+    {
+      "brand": "Skoda",
+      "review_count": 246,
+      "avg_rating": 3.65,
+      "positive": 155,
+      "neutral": 56,
+      "negative": 35
+    },
+    {
+      "brand": "Renault",
+      "review_count": 245,
+      "avg_rating": 3.64,
+      "positive": 151,
+      "neutral": 58,
+      "negative": 36
+    }
+  ]
+}

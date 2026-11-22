@@ -196,5 +196,17 @@ class TestAutoSenseEndToEnd(unittest.TestCase):
         self.assertIn("EXP-001", exp_ids)
         self.assertIn("EXP-002", exp_ids)
 
+    def test_15_evidence_explorer_endpoint(self):
+        from backend.app.routes.api import get_evidence_explorer
+        res = get_evidence_explorer(scope="brand", target="Nissan", limit=10)
+        self.assertIn("total_reviews", res)
+        self.assertGreaterEqual(res["total_reviews"], 5000)
+        self.assertIn("sentiment_counts", res)
+        self.assertIn("evidence_reviews", res)
+        self.assertGreater(len(res["evidence_reviews"]), 0)
+        first_r = res["evidence_reviews"][0]
+        self.assertIn("review_text", first_r)
+        self.assertIn("aspect_triplets", first_r)
+
 if __name__ == '__main__':
     unittest.main()
