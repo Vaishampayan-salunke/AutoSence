@@ -58,10 +58,20 @@ async def serve_index():
 
 @app.get("/favicon.ico")
 async def favicon():
-    index_file = dist_dir / "index.html"
-    if index_file.is_file():
-        return FileResponse(str(index_file))
-    return JSONResponse({"status": "no favicon"})
+    ico_file = dist_dir / "favicon.ico"
+    if ico_file.is_file():
+        return FileResponse(str(ico_file), media_type="image/x-icon")
+    svg_file = dist_dir / "favicon.svg"
+    if svg_file.is_file():
+        return FileResponse(str(svg_file), media_type="image/svg+xml")
+    return JSONResponse({"status": "no favicon"}, status_code=404)
+
+@app.get("/favicon.svg")
+async def favicon_svg():
+    svg_file = dist_dir / "favicon.svg"
+    if svg_file.is_file():
+        return FileResponse(str(svg_file), media_type="image/svg+xml")
+    return JSONResponse({"status": "no favicon"}, status_code=404)
 
 # Mount the frontend static files
 if dist_dir.is_dir():

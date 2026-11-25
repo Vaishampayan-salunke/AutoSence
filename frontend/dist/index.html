@@ -3,7 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AutoSense — Big Data Sentiment Analysis Platform</title>
+    <title>AutoSense — Big Data Automotive Sentiment & ABSA Platform</title>
+    <!-- AutoSense Official Platform Favicon / Browser Tab Logo -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="alternate icon" type="image/x-icon" href="favicon.ico">
+    <link rel="apple-touch-icon" href="favicon.svg">
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -2170,7 +2174,7 @@
 
                 card.innerHTML = `
                     <div class="h-36 rounded-xl overflow-hidden relative bg-slate-900 border border-slate-800 group">
-                        <img src="${imgUrl}" alt="${m.brand} ${m.model}" class="w-full h-full object-cover object-center group-hover:scale-105 transition duration-300" loading="lazy" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=800&q=80';">
+                        <img src="${imgUrl}" alt="${m.brand} ${m.model}" class="w-full h-full object-cover object-center group-hover:scale-105 transition duration-300" loading="lazy" onerror="this.onerror=null; this.src='${m.remote_image_url || 'https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=800&q=80'}';">
                         <div class="absolute inset-0 bg-gradient-to-t from-navy-950/90 via-transparent to-transparent"></div>
                         <span class="absolute top-2 right-2 px-2 py-0.5 bg-navy-950/85 backdrop-blur-md rounded text-[9px] text-cyan-300 border border-cyan-800/60 font-semibold uppercase">${m.body_type}</span>
                         <span class="absolute bottom-2 left-2 text-[11px] font-bold text-white bg-black/60 px-2 py-0.5 rounded backdrop-blur">${m.brand}</span>
@@ -2214,7 +2218,13 @@
 
             const imgUrl = modelObj.image_url || getCarImage(modelObj.model, modelObj.body_type);
             const imgEl = document.getElementById('detail-vehicle-image');
-            if (imgEl) imgEl.src = imgUrl;
+            if (imgEl) {
+                imgEl.src = imgUrl;
+                imgEl.onerror = function() {
+                    this.onerror = null;
+                    this.src = modelObj.remote_image_url || 'https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=800&q=80';
+                };
+            }
             const iconEl = document.getElementById('detail-vehicle-icon');
             if (iconEl) iconEl.innerText = modelObj.body_type.includes('SUV') ? '🚙' : (modelObj.body_type.includes('Sedan') ? '🚗' : '🚐');
             document.getElementById('detail-showcase-title').innerText = `${modelObj.brand} ${modelObj.model} (${modelObj.body_type})`;
@@ -3196,6 +3206,7 @@
                 : ((typeof DATA !== 'undefined' && DATA && DATA.models_catalog) ? DATA.models_catalog : []);
             const match = catalog.find(m => m.model && m.model.toLowerCase() === (model || '').toLowerCase());
             if (match && match.image_url) return match.image_url;
+            if (match && match.remote_image_url) return match.remote_image_url;
             return 'https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=800&q=80';
         }
 
