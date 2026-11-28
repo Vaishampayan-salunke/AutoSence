@@ -54,6 +54,47 @@
             animation: flowParticle 3s cubic-bezier(0.4, 0, 0.2, 1) infinite;
         }
 
+        /* Live Streaming Conduit Animation Keyframes */
+        @keyframes conduitPulseMotion {
+            0% { stroke-dashoffset: 200; opacity: 0.3; }
+            50% { opacity: 1; }
+            100% { stroke-dashoffset: 0; opacity: 0.3; }
+        }
+        .conduit-line {
+            stroke-dasharray: 8 6;
+            animation: conduitPulseMotion 2.5s linear infinite;
+        }
+        .conduit-line-fast {
+            stroke-dasharray: 6 4;
+            animation: conduitPulseMotion 1.2s linear infinite;
+        }
+        .conduit-line-turbo {
+            stroke-dasharray: 4 3;
+            animation: conduitPulseMotion 0.6s linear infinite;
+        }
+
+        @keyframes pulseGlowCyan {
+            0%, 100% { box-shadow: 0 0 10px rgba(34, 211, 238, 0.3); border-color: #06b6d4; }
+            50% { box-shadow: 0 0 24px rgba(34, 211, 238, 0.7); border-color: #38bdf8; }
+        }
+        @keyframes pulseGlowPurple {
+            0%, 100% { box-shadow: 0 0 10px rgba(168, 85, 247, 0.3); border-color: #a855f7; }
+            50% { box-shadow: 0 0 24px rgba(168, 85, 247, 0.7); border-color: #c084fc; }
+        }
+        .stream-node-active-cyan {
+            animation: pulseGlowCyan 2s ease-in-out infinite;
+        }
+        .stream-node-active-purple {
+            animation: pulseGlowPurple 2s ease-in-out infinite;
+        }
+        .stream-log-entry {
+            animation: fadeInLog 0.3s ease-out;
+        }
+        @keyframes fadeInLog {
+            from { opacity: 0; transform: translateY(-4px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
         @keyframes pulseSqoopGlow {
             0%, 100% { box-shadow: 0 0 15px rgba(168, 85, 247, 0.4), inset 0 0 10px rgba(168, 85, 247, 0.2); }
             50% { box-shadow: 0 0 25px rgba(168, 85, 247, 0.8), inset 0 0 15px rgba(168, 85, 247, 0.4); }
@@ -844,7 +885,7 @@
 
                         <!-- Vehicle Silhouette / Brochure Card Graphic -->
                         <div class="w-full md:w-80 h-44 rounded-2xl overflow-hidden border border-cyan-400/40 shadow-xl relative group bg-slate-900">
-                            <img id="detail-vehicle-image" src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=800&q=80" alt="Vehicle Model" class="w-full h-full object-cover object-center group-hover:scale-105 transition duration-300" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=800&q=80';">
+                            <img id="detail-vehicle-image" src="/images/cars/placeholder_car.svg" alt="Vehicle Model" class="w-full h-full object-cover object-center group-hover:scale-105 transition duration-300" onerror="this.onerror=null; this.src='/images/cars/placeholder_car.svg';">
                             <div class="absolute inset-0 bg-gradient-to-t from-navy-950/90 via-navy-950/30 to-transparent"></div>
                             <div class="absolute bottom-2.5 left-3 right-3 flex items-center justify-between">
                                 <span class="text-xs font-bold text-white drop-shadow tracking-wide truncate" id="detail-showcase-title">Mahindra Thar 4x4</span>
@@ -1205,6 +1246,178 @@
                 <div>
                     <h2 class="text-xl font-bold text-white">Big Data Ingestion & Storage Telemetry</h2>
                     <p class="text-xs text-slate-400">Operational verification of MySQL &rarr; Apache Sqoop 1.4.7 &rarr; Hadoop HDFS &rarr; Apache Hive pipeline.</p>
+                </div>
+
+                <!-- Big Data Ingestion & Storage Workflow (ANIMATED LIVE STREAM CONDUIT) -->
+                <div class="glass-card rounded-3xl p-6 border border-cyan-500/40 shadow-2xl space-y-4 relative overflow-hidden bg-navy-950/95">
+                    <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2 border-b border-slate-800 pb-3">
+                        <div>
+                            <h3 class="text-base font-extrabold text-white flex items-center gap-2">
+                                <span>Big Data Ingestion &amp; Storage Telemetry Workflow</span>
+                                <span class="badge-simulated">ARCHITECTURAL BENCHMARK</span>
+                            </h3>
+                            <p class="text-xs text-slate-400">Continuous bulk transfer: MySQL &rarr; Apache Sqoop 1.4.7 (4 Mappers) &rarr; Hadoop HDFS &rarr; Apache Hive.</p>
+                        </div>
+                        <div class="flex items-center space-x-2 text-[10px] font-mono text-emerald-300 bg-emerald-950/80 px-2.5 py-1 rounded-full border border-emerald-800/60">
+                            <span class="h-2 w-2 rounded-full bg-emerald-400 animate-ping"></span>
+                            <span>SQOOP STREAMING ACTIVE</span>
+                        </div>
+                    </div>
+
+                    <!-- Stream Conduit Diagram Container (Matching Prompt Reference UI) -->
+                    <div class="bg-black/70 rounded-2xl p-5 border border-slate-800/80 space-y-4 shadow-inner relative">
+                        <!-- Column Labels -->
+                        <div class="grid grid-cols-4 text-center text-xs font-semibold text-slate-400 px-4">
+                            <span>Source (MySQL)</span>
+                            <span>Apache Sqoop Mappers</span>
+                            <span>HDFS Partitions</span>
+                            <span>Hive Warehouse</span>
+                        </div>
+
+                        <!-- SVG Conduit Graph with Animated Traveling Particles -->
+                        <div class="w-full overflow-x-auto py-2">
+                            <svg viewBox="0 0 900 220" class="w-full min-w-[700px] h-48 select-none" style="filter: drop-shadow(0 0 12px rgba(16, 185, 129, 0.15));">
+                                <defs>
+                                    <filter id="sq-glow-emerald" x="-20%" y="-20%" width="140%" height="140%">
+                                        <feGaussianBlur stdDeviation="3" result="blur" />
+                                        <feMerge>
+                                            <feMergeNode in="blur" />
+                                            <feMergeNode in="SourceGraphic" />
+                                        </feMerge>
+                                    </filter>
+                                    <filter id="sq-glow-purple" x="-20%" y="-20%" width="140%" height="140%">
+                                        <feGaussianBlur stdDeviation="3" result="blur" />
+                                        <feMerge>
+                                            <feMergeNode in="blur" />
+                                            <feMergeNode in="SourceGraphic" />
+                                        </feMerge>
+                                    </filter>
+                                </defs>
+
+                                <!-- Conduits -->
+                                <path id="sq-path-src-m0" d="M 130 110 C 200 110, 200 45, 270 45" fill="none" stroke="#1e293b" stroke-width="2.5" />
+                                <path id="sq-path-src-m1" d="M 130 110 L 270 110" fill="none" stroke="#1e293b" stroke-width="2.5" />
+                                <path id="sq-path-src-m2" d="M 130 110 C 200 110, 200 175, 270 175" fill="none" stroke="#1e293b" stroke-width="2.5" />
+
+                                <path id="sq-path-m0-b0" d="M 370 45 L 530 45" fill="none" stroke="#1e293b" stroke-width="2.5" />
+                                <path id="sq-path-m1-b1" d="M 370 110 L 530 110" fill="none" stroke="#1e293b" stroke-width="2.5" />
+                                <path id="sq-path-m2-b2" d="M 370 175 L 530 175" fill="none" stroke="#1e293b" stroke-width="2.5" />
+
+                                <path id="sq-path-b0-hive" d="M 630 45 C 700 45, 700 110, 770 110" fill="none" stroke="#1e293b" stroke-width="2.5" />
+                                <path id="sq-path-b1-hive" d="M 630 110 L 770 110" fill="none" stroke="#1e293b" stroke-width="2.5" />
+                                <path id="sq-path-b2-hive" d="M 630 175 C 700 175, 700 110, 770 110" fill="none" stroke="#1e293b" stroke-width="2.5" />
+
+                                <!-- Animated Traveling Particles -->
+                                <circle r="4.5" fill="#34d399" filter="url(#sq-glow-emerald)">
+                                    <animateMotion dur="2.1s" repeatCount="indefinite" path="M 130 110 C 200 110, 200 45, 270 45" />
+                                </circle>
+                                <circle r="4.5" fill="#34d399" filter="url(#sq-glow-emerald)">
+                                    <animateMotion dur="1.7s" repeatCount="indefinite" path="M 130 110 L 270 110" />
+                                </circle>
+                                <circle r="4.5" fill="#34d399" filter="url(#sq-glow-emerald)">
+                                    <animateMotion dur="2.3s" repeatCount="indefinite" path="M 130 110 C 200 110, 200 175, 270 175" />
+                                </circle>
+
+                                <circle r="4.5" fill="#38bdf8" filter="url(#sq-glow-emerald)">
+                                    <animateMotion dur="1.5s" repeatCount="indefinite" path="M 370 45 L 530 45" />
+                                </circle>
+                                <circle r="4.5" fill="#c084fc" filter="url(#sq-glow-purple)">
+                                    <animateMotion dur="1.4s" repeatCount="indefinite" path="M 370 110 L 530 110" />
+                                </circle>
+                                <circle r="4.5" fill="#38bdf8" filter="url(#sq-glow-emerald)">
+                                    <animateMotion dur="1.6s" repeatCount="indefinite" path="M 370 175 L 530 175" />
+                                </circle>
+
+                                <circle r="4.5" fill="#fbbf24" filter="url(#sq-glow-emerald)">
+                                    <animateMotion dur="1.9s" repeatCount="indefinite" path="M 630 45 C 700 45, 700 110, 770 110" />
+                                </circle>
+                                <circle r="4.5" fill="#fbbf24" filter="url(#sq-glow-emerald)">
+                                    <animateMotion dur="1.6s" repeatCount="indefinite" path="M 630 110 L 770 110" />
+                                </circle>
+                                <circle r="4.5" fill="#fbbf24" filter="url(#sq-glow-emerald)">
+                                    <animateMotion dur="2.0s" repeatCount="indefinite" path="M 630 175 C 700 175, 700 110, 770 110" />
+                                </circle>
+
+                                <!-- NODES -->
+                                <g id="node-sqoop-src">
+                                    <rect x="30" y="88" width="100" height="44" rx="12" fill="#0f172a" stroke="#3b82f6" stroke-width="2" />
+                                    <text x="80" y="115" fill="#93c5fd" font-size="12" font-weight="bold" font-family="monospace" text-anchor="middle">MySQL</text>
+                                </g>
+
+                                <g id="node-sqoop-m0">
+                                    <rect x="270" y="24" width="100" height="42" rx="12" fill="#042f2e" stroke="#06b6d4" stroke-width="2" />
+                                    <text x="320" y="50" fill="#22d3ee" font-size="13" font-weight="bold" font-family="monospace" text-anchor="middle">M0</text>
+                                </g>
+                                <g id="node-sqoop-m1">
+                                    <rect x="270" y="89" width="100" height="42" rx="12" fill="#042f2e" stroke="#06b6d4" stroke-width="2" />
+                                    <text x="320" y="115" fill="#22d3ee" font-size="13" font-weight="bold" font-family="monospace" text-anchor="middle">M1</text>
+                                </g>
+                                <g id="node-sqoop-m2">
+                                    <rect x="270" y="154" width="100" height="42" rx="12" fill="#042f2e" stroke="#06b6d4" stroke-width="2" />
+                                    <text x="320" y="180" fill="#22d3ee" font-size="13" font-weight="bold" font-family="monospace" text-anchor="middle">M2</text>
+                                </g>
+
+                                <g id="node-sqoop-b0">
+                                    <rect x="530" y="24" width="100" height="42" rx="12" fill="#2e1065" stroke="#a855f7" stroke-width="2" />
+                                    <text x="580" y="50" fill="#d8b4fe" font-size="13" font-weight="bold" font-family="monospace" text-anchor="middle">B0</text>
+                                </g>
+                                <g id="node-sqoop-b1">
+                                    <rect x="530" y="89" width="100" height="42" rx="12" fill="#2e1065" stroke="#a855f7" stroke-width="2" />
+                                    <text x="580" y="115" fill="#d8b4fe" font-size="13" font-weight="bold" font-family="monospace" text-anchor="middle">B1</text>
+                                </g>
+                                <g id="node-sqoop-b2">
+                                    <rect x="530" y="154" width="100" height="42" rx="12" fill="#2e1065" stroke="#a855f7" stroke-width="2" />
+                                    <text x="580" y="180" fill="#d8b4fe" font-size="13" font-weight="bold" font-family="monospace" text-anchor="middle">B2</text>
+                                </g>
+
+                                <g id="node-sqoop-hive">
+                                    <rect x="770" y="88" width="100" height="44" rx="12" fill="#451a03" stroke="#eab308" stroke-width="2" />
+                                    <text x="820" y="115" fill="#fde047" font-size="12" font-weight="bold" font-family="monospace" text-anchor="middle">Hive SQL</text>
+                                </g>
+                            </svg>
+                        </div>
+
+                        <!-- Live Running Throughput Counter -->
+                        <div class="text-center py-1">
+                            <span id="sqoop-stream-counter" class="text-emerald-400 font-mono font-extrabold text-sm sm:text-base tracking-wider drop-shadow-md">
+                                113,145 simulated events
+                            </span>
+                        </div>
+
+                        <!-- Live Streaming Console Log Terminal -->
+                        <div class="bg-[#030712] rounded-xl p-3 border border-slate-800/80 shadow-2xl overflow-hidden font-mono text-[11px] h-28 flex flex-col justify-end">
+                            <div id="sqoop-stream-console" class="space-y-1 overflow-y-auto select-none pr-1">
+                                <div class="text-cyan-400">SIM SQOOP_MAP &nbsp;|&nbsp; mapper M0 &nbsp;|&nbsp; split-by review_id [1..3750] &nbsp;|&nbsp; ACK</div>
+                                <div class="text-cyan-400">SIM SQOOP_MAP &nbsp;|&nbsp; mapper M1 &nbsp;|&nbsp; split-by review_id [3751..7500] &nbsp;|&nbsp; ACK</div>
+                                <div class="text-purple-400">SIM HDFS_WRITE &nbsp;|&nbsp; partition B1 &nbsp;|&nbsp; 128MB block replica committed &nbsp;|&nbsp; ACK</div>
+                                <div class="text-yellow-400">SIM HIVE_SYNC &nbsp;|&nbsp; table car_reviews_hive &nbsp;|&nbsp; metadata partition refreshed &nbsp;|&nbsp; ACK</div>
+                            </div>
+                        </div>
+
+                        <!-- Disclaimer Caption -->
+                        <p class="text-xs text-slate-400 text-center leading-relaxed">
+                            The animated pipeline has its own simulated counter. Architecturally validated against Apache Sqoop 1.4.7 + Hadoop HDFS specifications (<span class="text-rose-400 font-bold">SIMULATED</span>).
+                        </p>
+
+                        <!-- Controls Bar -->
+                        <div class="flex flex-col sm:flex-row items-center justify-between gap-3 pt-2">
+                            <div class="flex items-center space-x-1 bg-slate-900/90 p-1 rounded-xl border border-slate-800 text-xs">
+                                <button id="sqoop-speed-100" onclick="setSqoopSpeed(100)" class="px-3 py-1 rounded-lg text-slate-400 hover:text-white transition font-mono font-semibold">100/s</button>
+                                <button id="sqoop-speed-500" onclick="setSqoopSpeed(500)" class="px-3 py-1 rounded-lg bg-slate-800 text-white font-mono font-bold border border-slate-700 shadow">500/s</button>
+                                <button id="sqoop-speed-1000" onclick="setSqoopSpeed(1000)" class="px-3 py-1 rounded-lg text-slate-400 hover:text-white transition font-mono font-semibold">1,000/s</button>
+                            </div>
+
+                            <div class="flex items-center space-x-2">
+                                <button id="sqoop-pause-btn" onclick="toggleSqoopStream()" class="px-4 py-2 bg-slate-100 hover:bg-white text-slate-900 font-bold rounded-xl text-xs transition flex items-center space-x-1.5 shadow-md">
+                                    <span id="sqoop-pause-icon">⏸</span>
+                                    <span id="sqoop-pause-text">Pause stream</span>
+                                </button>
+                                <button onclick="burstSqoopBatch()" class="px-4 py-2 bg-slate-800/90 hover:bg-slate-700 text-slate-200 hover:text-white font-bold rounded-xl text-xs border border-slate-700/80 transition flex items-center space-x-1.5 shadow-md">
+                                    <span>⚡ Generate test batch</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="glass-card rounded-3xl p-6 space-y-4">
@@ -1625,15 +1838,15 @@
                     </div>
                 </div>
 
-                <!-- 6 Preprocessing Pipeline Steps Visual (ANIMATED LIVE STREAM CONDUIT) -->
-                <div class="glass-card rounded-3xl p-6 border border-cyan-500/30 shadow-2xl space-y-5 relative overflow-hidden">
+                <!-- Automotive NLP Preprocessing Pipeline Flow (ANIMATED LIVE STREAM CONDUIT) -->
+                <div class="glass-card rounded-3xl p-6 border border-cyan-500/40 shadow-2xl space-y-4 relative overflow-hidden bg-navy-950/95">
                     <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2 border-b border-slate-800 pb-3">
                         <div>
                             <h3 class="text-base font-extrabold text-white flex items-center gap-2">
                                 <span>Automotive NLP Preprocessing Pipeline Flow</span>
                                 <span class="badge-verified">ACTIVE RUNNING STREAM</span>
                             </h3>
-                            <p class="text-xs text-slate-400">Continuous 6-stage transformation preserving domain-specific terminology & sentiment valence.</p>
+                            <p class="text-xs text-slate-400">Continuous 6-stage transformation preserving domain-specific terminology &amp; sentiment valence.</p>
                         </div>
                         <div class="flex items-center space-x-2 text-[10px] font-mono text-cyan-300 bg-cyan-950/80 px-2.5 py-1 rounded-full border border-cyan-800/60">
                             <span class="h-2 w-2 rounded-full bg-cyan-400 animate-ping"></span>
@@ -1641,88 +1854,157 @@
                         </div>
                     </div>
 
-                    <!-- 6 Stages with Glowing Flow Particles -->
-                    <div class="grid grid-cols-2 lg:grid-cols-6 gap-3 text-center relative">
-                        
-                        <!-- Stage 1 -->
-                        <div class="p-3.5 bg-navy-950/90 rounded-2xl border border-slate-800 hover:border-cyan-400 transition space-y-2 relative group shadow-md">
-                            <div class="h-10 w-10 mx-auto rounded-xl bg-slate-800/80 border border-slate-700 flex items-center justify-center text-xl">
-                                📥
-                            </div>
-                            <strong class="text-xs text-white block">1. Raw Multi-Source</strong>
-                            <span class="text-[10px] text-slate-400 block">15,000 DB / 12,000 Curated</span>
-                            <span class="inline-block px-2 py-0.5 rounded-full text-[9px] bg-slate-800 text-slate-300 border border-slate-700 font-semibold">● Ingested</span>
+                    <!-- Stream Conduit Diagram Container (Matching Prompt Reference UI) -->
+                    <div class="bg-black/70 rounded-2xl p-5 border border-slate-800/80 space-y-4 shadow-inner relative">
+                        <!-- Column Labels -->
+                        <div class="grid grid-cols-4 text-center text-xs font-semibold text-slate-400 px-4">
+                            <span>Producer</span>
+                            <span>Sanitizers</span>
+                            <span>Normalizers</span>
+                            <span>Database</span>
                         </div>
 
-                        <!-- Stage 2 -->
-                        <div class="p-3.5 bg-navy-950/90 rounded-2xl border border-slate-800 hover:border-cyan-400 transition space-y-2 relative group shadow-md">
-                            <div class="h-10 w-10 mx-auto rounded-xl bg-blue-900/30 border border-blue-700/40 flex items-center justify-center text-xl text-blue-300">
-                                🧹
-                            </div>
-                            <strong class="text-xs text-white block">2. HTML & Noise Strip</strong>
-                            <span class="text-[10px] text-slate-400 block">&amp;amp; &rarr; and, tags removed</span>
-                            <span class="inline-block px-2 py-0.5 rounded-full text-[9px] bg-blue-950 text-blue-400 border border-blue-800 font-semibold">● Normalized</span>
+                        <!-- SVG Conduit Graph with Animated Traveling Particles -->
+                        <div class="w-full overflow-x-auto py-2">
+                            <svg viewBox="0 0 900 220" class="w-full min-w-[700px] h-48 select-none" style="filter: drop-shadow(0 0 12px rgba(6, 182, 212, 0.15));">
+                                <defs>
+                                    <filter id="glow-cyan" x="-20%" y="-20%" width="140%" height="140%">
+                                        <feGaussianBlur stdDeviation="3" result="blur" />
+                                        <feMerge>
+                                            <feMergeNode in="blur" />
+                                            <feMergeNode in="SourceGraphic" />
+                                        </feMerge>
+                                    </filter>
+                                    <filter id="glow-purple" x="-20%" y="-20%" width="140%" height="140%">
+                                        <feGaussianBlur stdDeviation="3" result="blur" />
+                                        <feMerge>
+                                            <feMergeNode in="blur" />
+                                            <feMergeNode in="SourceGraphic" />
+                                        </feMerge>
+                                    </filter>
+                                </defs>
+
+                                <!-- Conduits (Connecting Cables) -->
+                                <path id="nlp-path-e-p0" d="M 130 110 C 200 110, 200 45, 270 45" fill="none" stroke="#1e293b" stroke-width="2.5" />
+                                <path id="nlp-path-e-p1" d="M 130 110 L 270 110" fill="none" stroke="#1e293b" stroke-width="2.5" />
+                                <path id="nlp-path-e-p2" d="M 130 110 C 200 110, 200 175, 270 175" fill="none" stroke="#1e293b" stroke-width="2.5" />
+
+                                <path id="nlp-path-p0-c0" d="M 370 45 L 530 45" fill="none" stroke="#1e293b" stroke-width="2.5" />
+                                <path id="nlp-path-p1-c1" d="M 370 110 L 530 110" fill="none" stroke="#1e293b" stroke-width="2.5" />
+                                <path id="nlp-path-p2-c2" d="M 370 175 L 530 175" fill="none" stroke="#1e293b" stroke-width="2.5" />
+
+                                <path id="nlp-path-c0-sql" d="M 630 45 C 700 45, 700 110, 770 110" fill="none" stroke="#1e293b" stroke-width="2.5" />
+                                <path id="nlp-path-c1-sql" d="M 630 110 L 770 110" fill="none" stroke="#1e293b" stroke-width="2.5" />
+                                <path id="nlp-path-c2-sql" d="M 630 175 C 700 175, 700 110, 770 110" fill="none" stroke="#1e293b" stroke-width="2.5" />
+
+                                <!-- Animated Traveling Particles -->
+                                <circle r="4.5" fill="#22d3ee" filter="url(#glow-cyan)">
+                                    <animateMotion dur="2.2s" repeatCount="indefinite" path="M 130 110 C 200 110, 200 45, 270 45" />
+                                </circle>
+                                <circle r="4.5" fill="#22d3ee" filter="url(#glow-cyan)">
+                                    <animateMotion dur="1.8s" repeatCount="indefinite" path="M 130 110 L 270 110" />
+                                </circle>
+                                <circle r="4.5" fill="#22d3ee" filter="url(#glow-cyan)">
+                                    <animateMotion dur="2.4s" repeatCount="indefinite" path="M 130 110 C 200 110, 200 175, 270 175" />
+                                </circle>
+
+                                <circle r="4.5" fill="#38bdf8" filter="url(#glow-cyan)">
+                                    <animateMotion dur="1.6s" repeatCount="indefinite" path="M 370 45 L 530 45" />
+                                </circle>
+                                <circle r="4.5" fill="#c084fc" filter="url(#glow-purple)">
+                                    <animateMotion dur="1.5s" repeatCount="indefinite" path="M 370 110 L 530 110" />
+                                </circle>
+                                <circle r="4.5" fill="#38bdf8" filter="url(#glow-cyan)">
+                                    <animateMotion dur="1.7s" repeatCount="indefinite" path="M 370 175 L 530 175" />
+                                </circle>
+
+                                <circle r="4.5" fill="#34d399" filter="url(#glow-cyan)">
+                                    <animateMotion dur="2.0s" repeatCount="indefinite" path="M 630 45 C 700 45, 700 110, 770 110" />
+                                </circle>
+                                <circle r="4.5" fill="#34d399" filter="url(#glow-cyan)">
+                                    <animateMotion dur="1.7s" repeatCount="indefinite" path="M 630 110 L 770 110" />
+                                </circle>
+                                <circle r="4.5" fill="#34d399" filter="url(#glow-cyan)">
+                                    <animateMotion dur="2.1s" repeatCount="indefinite" path="M 630 175 C 700 175, 700 110, 770 110" />
+                                </circle>
+
+                                <!-- NODES -->
+                                <g id="node-nlp-events">
+                                    <rect x="30" y="88" width="100" height="44" rx="12" fill="#0f172a" stroke="#38bdf8" stroke-width="2" />
+                                    <text x="80" y="115" fill="#f8fafc" font-size="13" font-weight="bold" font-family="monospace" text-anchor="middle">Events</text>
+                                </g>
+
+                                <g id="node-nlp-p0">
+                                    <rect x="270" y="24" width="100" height="42" rx="12" fill="#042f2e" stroke="#06b6d4" stroke-width="2" />
+                                    <text x="320" y="50" fill="#22d3ee" font-size="13" font-weight="bold" font-family="monospace" text-anchor="middle">P0</text>
+                                </g>
+                                <g id="node-nlp-p1">
+                                    <rect x="270" y="89" width="100" height="42" rx="12" fill="#042f2e" stroke="#06b6d4" stroke-width="2" />
+                                    <text x="320" y="115" fill="#22d3ee" font-size="13" font-weight="bold" font-family="monospace" text-anchor="middle">P1</text>
+                                </g>
+                                <g id="node-nlp-p2">
+                                    <rect x="270" y="154" width="100" height="42" rx="12" fill="#042f2e" stroke="#06b6d4" stroke-width="2" />
+                                    <text x="320" y="180" fill="#22d3ee" font-size="13" font-weight="bold" font-family="monospace" text-anchor="middle">P2</text>
+                                </g>
+
+                                <g id="node-nlp-c0">
+                                    <rect x="530" y="24" width="100" height="42" rx="12" fill="#2e1065" stroke="#a855f7" stroke-width="2" />
+                                    <text x="580" y="50" fill="#d8b4fe" font-size="13" font-weight="bold" font-family="monospace" text-anchor="middle">C0</text>
+                                </g>
+                                <g id="node-nlp-c1">
+                                    <rect x="530" y="89" width="100" height="42" rx="12" fill="#2e1065" stroke="#a855f7" stroke-width="2" />
+                                    <text x="580" y="115" fill="#d8b4fe" font-size="13" font-weight="bold" font-family="monospace" text-anchor="middle">C1</text>
+                                </g>
+                                <g id="node-nlp-c2">
+                                    <rect x="530" y="154" width="100" height="42" rx="12" fill="#2e1065" stroke="#a855f7" stroke-width="2" />
+                                    <text x="580" y="180" fill="#d8b4fe" font-size="13" font-weight="bold" font-family="monospace" text-anchor="middle">C2</text>
+                                </g>
+
+                                <g id="node-nlp-sql">
+                                    <rect x="770" y="88" width="100" height="44" rx="12" fill="#022c22" stroke="#10b981" stroke-width="2" />
+                                    <text x="820" y="115" fill="#34d399" font-size="13" font-weight="bold" font-family="monospace" text-anchor="middle">SQL</text>
+                                </g>
+                            </svg>
                         </div>
 
-                        <!-- Stage 3 -->
-                        <div class="p-3.5 bg-navy-950/90 rounded-2xl border border-slate-800 hover:border-cyan-400 transition space-y-2 relative group shadow-md">
-                            <div class="h-10 w-10 mx-auto rounded-xl bg-indigo-900/30 border border-indigo-700/40 flex items-center justify-center text-xl text-indigo-300">
-                                📝
-                            </div>
-                            <strong class="text-xs text-white block">3. Contraction Expand</strong>
-                            <span class="text-[10px] text-slate-400 block">don't &rarr; do not, won't &rarr; will not</span>
-                            <span class="inline-block px-2 py-0.5 rounded-full text-[9px] bg-indigo-950 text-indigo-300 border border-indigo-800 font-semibold">● Expanded</span>
-                        </div>
-
-                        <!-- Stage 4: Special Cyan Pulse! -->
-                        <div class="p-3.5 bg-navy-950/90 rounded-2xl border-2 border-cyan-400 cyan-pulse space-y-2 relative group shadow-xl">
-                            <div class="h-10 w-10 mx-auto rounded-xl bg-cyan-500/20 border border-cyan-400/50 flex items-center justify-center text-xl text-cyan-300">
-                                🔗
-                            </div>
-                            <strong class="text-xs text-cyan-400 block font-bold">4. Negation Preserver</strong>
-                            <span class="text-[10px] text-cyan-200 block">not good &rarr; not_good</span>
-                            <span class="inline-block px-2 py-0.5 rounded-full text-[9px] bg-cyan-950 text-cyan-300 border border-cyan-500 font-bold">● Bound Particle</span>
-                        </div>
-
-                        <!-- Stage 5 -->
-                        <div class="p-3.5 bg-navy-950/90 rounded-2xl border border-slate-800 hover:border-cyan-400 transition space-y-2 relative group shadow-md">
-                            <div class="h-10 w-10 mx-auto rounded-xl bg-purple-900/30 border border-purple-700/40 flex items-center justify-center text-xl text-purple-300">
-                                ⚙️
-                            </div>
-                            <strong class="text-xs text-white block">5. Spec Token Filtering</strong>
-                            <span class="text-[10px] text-slate-400 block">Retain bhp, mpg, abs, adas</span>
-                            <span class="inline-block px-2 py-0.5 rounded-full text-[9px] bg-purple-950 text-purple-300 border border-purple-800 font-semibold">● Domain Lexicon</span>
-                        </div>
-
-                        <!-- Stage 6: Emerald Pulse! -->
-                        <div class="p-3.5 bg-navy-950/90 rounded-2xl border-2 border-emerald-500/80 rounded-2xl space-y-2 relative group shadow-xl">
-                            <div class="h-10 w-10 mx-auto rounded-xl bg-emerald-500/20 border border-emerald-400/50 flex items-center justify-center text-xl text-emerald-300">
-                                🎯
-                            </div>
-                            <strong class="text-xs text-emerald-400 block font-bold">6. Stratified Split</strong>
-                            <span class="text-[10px] text-emerald-200 block">70/15/15: 10.5k / 2.25k / 2.25k</span>
-                            <span class="inline-block px-2 py-0.5 rounded-full text-[9px] bg-emerald-950 text-emerald-300 border border-emerald-500 font-bold">● 0% Leakage</span>
-                        </div>
-
-                    </div>
-
-                    <!-- Live Running Transformation Preview Stream -->
-                    <div class="p-4 bg-navy-950/95 rounded-2xl border border-slate-800 space-y-2">
-                        <div class="flex items-center justify-between text-xs">
-                            <span class="font-bold text-slate-300 flex items-center gap-1.5">
-                                <span class="h-2 w-2 rounded-full bg-cyan-400 animate-pulse"></span>
-                                <span>Live Sanitization Ticker & Token Transformation:</span>
+                        <!-- Live Running Counter -->
+                        <div class="text-center py-1">
+                            <span id="nlp-stream-counter" class="text-cyan-400 font-mono font-extrabold text-sm sm:text-base tracking-wider drop-shadow-md">
+                                8,649 simulated events
                             </span>
-                            <span class="text-[10px] font-mono text-cyan-400">Stream throughput: 8,450 tokens/sec</span>
                         </div>
-                        <div class="grid grid-cols-1 md:grid-cols-2 gap-3 text-xs font-mono">
-                            <div class="p-2.5 bg-rose-950/20 border border-rose-900/40 rounded-xl space-y-1">
-                                <span class="text-[10px] text-rose-400 font-bold block">RAW REVIEW INGESTION:</span>
-                                <p class="text-slate-300 text-[11px] leading-relaxed">"The engine isn't bad but the mileage is NOT great at all!!! &amp; seats don't feel comfortable."</p>
+
+                        <!-- Live Streaming Console Log Terminal -->
+                        <div class="bg-[#030712] rounded-xl p-3 border border-slate-800/80 shadow-2xl overflow-hidden font-mono text-[11px] h-28 flex flex-col justify-end">
+                            <div id="nlp-stream-console" class="space-y-1 overflow-y-auto select-none pr-1">
+                                <div class="text-cyan-400">SIM REVIEW_INGEST &nbsp;|&nbsp; partition 2 &nbsp;|&nbsp; ACK [contraction expanded: won't &rarr; will not]</div>
+                                <div class="text-cyan-400">SIM NEGATION_BIND &nbsp;|&nbsp; partition 0 &nbsp;|&nbsp; ACK [bound token: not_bad &rarr; +0.72 score]</div>
+                                <div class="text-cyan-400">SIM SPEC_RETAIN &nbsp;|&nbsp; partition 2 &nbsp;|&nbsp; ACK [domain spec preserved: 140bhp, adas]</div>
+                                <div class="text-emerald-400">SIM SPLIT_COMMIT &nbsp;|&nbsp; partition 1 &nbsp;|&nbsp; ACK [stratified store: 70/15/15 seed:42]</div>
                             </div>
-                            <div class="p-2.5 bg-emerald-950/20 border border-emerald-900/40 rounded-xl space-y-1">
-                                <span class="text-[10px] text-emerald-400 font-bold block">NEGATION-BOUND & SANITIZED:</span>
-                                <p class="text-emerald-300 text-[11px] leading-relaxed">"the engine is <span class="bg-emerald-900/60 px-1 py-0.5 rounded text-white font-bold underline">not_bad</span> but the mileage is <span class="bg-rose-900/60 px-1 py-0.5 rounded text-white font-bold underline">not_great</span> at all and seats do <span class="bg-rose-900/60 px-1 py-0.5 rounded text-white font-bold underline">not_feel</span> comfortable"</p>
+                        </div>
+
+                        <!-- Disclaimer Caption -->
+                        <p class="text-xs text-slate-400 text-center leading-relaxed">
+                            The animated pipeline runs in simulated real-time telemetry mode. Preprocessing transforms are verified by <span class="text-slate-300 font-mono text-[11px]">backend.app.ml.preprocessor</span>.
+                        </p>
+
+                        <!-- Controls Bar -->
+                        <div class="flex flex-col sm:flex-row items-center justify-between gap-3 pt-2">
+                            <div class="flex items-center space-x-1 bg-slate-900/90 p-1 rounded-xl border border-slate-800 text-xs">
+                                <button id="nlp-speed-100" onclick="setNLPSpeed(100)" class="px-3 py-1 rounded-lg text-slate-400 hover:text-white transition font-mono font-semibold">100/s</button>
+                                <button id="nlp-speed-500" onclick="setNLPSpeed(500)" class="px-3 py-1 rounded-lg bg-slate-800 text-white font-mono font-bold border border-slate-700 shadow">500/s</button>
+                                <button id="nlp-speed-1000" onclick="setNLPSpeed(1000)" class="px-3 py-1 rounded-lg text-slate-400 hover:text-white transition font-mono font-semibold">1,000/s</button>
+                            </div>
+
+                            <div class="flex items-center space-x-2">
+                                <button id="nlp-pause-btn" onclick="toggleNLPStream()" class="px-4 py-2 bg-slate-100 hover:bg-white text-slate-900 font-bold rounded-xl text-xs transition flex items-center space-x-1.5 shadow-md">
+                                    <span id="nlp-pause-icon">⏸</span>
+                                    <span id="nlp-pause-text">Pause stream</span>
+                                </button>
+                                <button onclick="burstNLPBatch()" class="px-4 py-2 bg-slate-800/90 hover:bg-slate-700 text-slate-200 hover:text-white font-bold rounded-xl text-xs border border-slate-700/80 transition flex items-center space-x-1.5 shadow-md">
+                                    <span>⚡ Generate test batch</span>
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -2174,7 +2456,7 @@
 
                 card.innerHTML = `
                     <div class="h-36 rounded-xl overflow-hidden relative bg-slate-900 border border-slate-800 group">
-                        <img src="${imgUrl}" alt="${m.brand} ${m.model}" class="w-full h-full object-cover object-center group-hover:scale-105 transition duration-300" loading="lazy" onerror="this.onerror=null; this.src='${m.remote_image_url || 'https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=800&q=80'}';">
+                        <img src="${imgUrl}" alt="${m.brand} ${m.model}" class="w-full h-full object-cover object-center group-hover:scale-105 transition duration-300" loading="lazy" onerror="this.onerror=null; this.src='${m.remote_image_url || '/images/cars/placeholder_car.svg'}';">
                         <div class="absolute inset-0 bg-gradient-to-t from-navy-950/90 via-transparent to-transparent"></div>
                         <span class="absolute top-2 right-2 px-2 py-0.5 bg-navy-950/85 backdrop-blur-md rounded text-[9px] text-cyan-300 border border-cyan-800/60 font-semibold uppercase">${m.body_type}</span>
                         <span class="absolute bottom-2 left-2 text-[11px] font-bold text-white bg-black/60 px-2 py-0.5 rounded backdrop-blur">${m.brand}</span>
@@ -2222,7 +2504,7 @@
                 imgEl.src = imgUrl;
                 imgEl.onerror = function() {
                     this.onerror = null;
-                    this.src = modelObj.remote_image_url || 'https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=800&q=80';
+                    this.src = modelObj.remote_image_url || '/images/cars/placeholder_car.svg';
                 };
             }
             const iconEl = document.getElementById('detail-vehicle-icon');
@@ -2493,10 +2775,23 @@
             const box = document.getElementById('batch-results-box');
             box.classList.remove('hidden');
 
-            document.getElementById('batch-count-tag').innerText = `${data.total_processed} Reviews Processed`;
-            document.getElementById('batch-pos-val').innerText = (data.overall_sentiment && data.overall_sentiment.positive) || 18;
-            document.getElementById('batch-neu-val').innerText = (data.overall_sentiment && data.overall_sentiment.neutral) || 4;
-            document.getElementById('batch-neg-val').innerText = (data.overall_sentiment && data.overall_sentiment.negative) || 3;
+            let pos = 0, neu = 0, neg = 0;
+            if (Array.isArray(data.predictions) && data.predictions.length > 0) {
+                pos = data.predictions.filter(p => p.sentiment === 'positive').length;
+                neu = data.predictions.filter(p => p.sentiment === 'neutral').length;
+                neg = data.predictions.filter(p => p.sentiment === 'negative').length;
+            } else if (data.overall_sentiment) {
+                pos = Number(data.overall_sentiment.positive ?? 18);
+                neu = Number(data.overall_sentiment.neutral ?? 4);
+                neg = Number(data.overall_sentiment.negative ?? 3);
+            } else {
+                pos = 18; neu = 4; neg = 3;
+            }
+            const total = data.total_processed || (pos + neu + neg);
+            document.getElementById('batch-count-tag').innerText = `${total} Reviews Processed`;
+            document.getElementById('batch-pos-val').innerText = pos;
+            document.getElementById('batch-neu-val').innerText = neu;
+            document.getElementById('batch-neg-val').innerText = neg;
 
             const recs = document.getElementById('batch-recs-container');
             recs.innerHTML = '';
@@ -3207,7 +3502,7 @@
             const match = catalog.find(m => m.model && m.model.toLowerCase() === (model || '').toLowerCase());
             if (match && match.image_url) return match.image_url;
             if (match && match.remote_image_url) return match.remote_image_url;
-            return 'https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=800&q=80';
+            return '/images/cars/placeholder_car.svg';
         }
 
         window.onload = () => {
@@ -3231,6 +3526,205 @@
             bootApp();
             showCompetitionStep(1);
         };
+    
+
+        // =====================================================================
+        // LIVE STREAMING TELEMETRY CONDUIT CONTROLLERS (NLP & SQOOP)
+        // =====================================================================
+        const NLP_LOG_POOL = [
+            "SIM REVIEW_INGEST  | partition P0 | ACK [HTML clean: &amp; &rarr; and, script strip]",
+            "SIM CONTRACTION_EX | partition P1 | ACK [expanded: won't &rarr; will not, don't &rarr; do not]",
+            "SIM NEGATION_BIND  | partition P2 | ACK [bound particle: not_bad &rarr; +0.72 positive valence]",
+            "SIM SPEC_LEXICON   | partition C0 | ACK [domain spec preserved: 140bhp, 6-speed, adas, esp]",
+            "SIM ACRONYM_FILTER | partition C1 | ACK [standardized token: nvh &le; 65db, awd, abs]",
+            "SIM STRATIFIED_COM | partition C2 | ACK [partitioned: 70/15/15 seed:42, 0% leakage verified]",
+            "SIM REVIEW_INGEST  | partition P0 | ACK [noise filtering: punctuation deduplicated]",
+            "SIM NEGATION_BIND  | partition P2 | ACK [bound particle: not_comfortable &rarr; -0.65 valence]",
+            "SIM VALENCE_COMMIT | partition C2 | ACK [stratified hold-out split N=2,250 confirmed]"
+        ];
+
+        const SQOOP_LOG_POOL = [
+            "SIM SQOOP_MAP | mapper M0 | split-by review_id [1..3000] | ACK",
+            "SIM SQOOP_MAP | mapper M1 | split-by review_id [3001..6000] | ACK",
+            "SIM SQOOP_MAP | mapper M2 | split-by review_id [6001..9000] | ACK",
+            "SIM HDFS_WRITE | block B0 | 128MB block allocated [replica 1..3] | ACK",
+            "SIM HDFS_WRITE | block B1 | block checksum verified [0x8f2a1b] | ACK",
+            "SIM HDFS_WRITE | block B2 | 3x distributed replication complete | ACK",
+            "SIM HIVE_SYNC | table car_reviews_hive | external table schema synced | ACK",
+            "SIM HIVE_SYNC | metastore | partition review_date=2026-11 loaded | ACK",
+            "SIM SQOOP_MAP | mapper M0 | boundary-query: SELECT MIN(review_id), MAX(review_id) | ACK"
+        ];
+
+        let nlpStreamState = {
+            running: true,
+            speed: 500,
+            events: 8649,
+            timer: null
+        };
+
+        let sqoopStreamState = {
+            running: true,
+            speed: 500,
+            events: 113145,
+            timer: null
+        };
+
+        function initStreamConduits() {
+            startNLPStreamTimer();
+            startSqoopStreamTimer();
+        }
+
+        function setNLPSpeed(speed) {
+            nlpStreamState.speed = speed;
+            ['100', '500', '1000'].forEach(s => {
+                const btn = document.getElementById(`nlp-speed-${s}`);
+                if (!btn) return;
+                if (parseInt(s) === speed) {
+                    btn.className = 'px-3 py-1 rounded-lg bg-slate-800 text-white font-mono font-bold border border-slate-700 shadow';
+                } else {
+                    btn.className = 'px-3 py-1 rounded-lg text-slate-400 hover:text-white transition font-mono font-semibold';
+                }
+            });
+            startNLPStreamTimer();
+        }
+
+        function setSqoopSpeed(speed) {
+            sqoopStreamState.speed = speed;
+            ['100', '500', '1000'].forEach(s => {
+                const btn = document.getElementById(`sqoop-speed-${s}`);
+                if (!btn) return;
+                if (parseInt(s) === speed) {
+                    btn.className = 'px-3 py-1 rounded-lg bg-slate-800 text-white font-mono font-bold border border-slate-700 shadow';
+                } else {
+                    btn.className = 'px-3 py-1 rounded-lg text-slate-400 hover:text-white transition font-mono font-semibold';
+                }
+            });
+            startSqoopStreamTimer();
+        }
+
+        function startNLPStreamTimer() {
+            if (nlpStreamState.timer) clearInterval(nlpStreamState.timer);
+            if (!nlpStreamState.running) return;
+            const interval = Math.max(200, Math.round(50000 / nlpStreamState.speed));
+            nlpStreamState.timer = setInterval(() => {
+                nlpStreamState.events += Math.floor(Math.random() * 3) + 1;
+                const counterEl = document.getElementById('nlp-stream-counter');
+                if (counterEl) {
+                    counterEl.innerText = `${nlpStreamState.events.toLocaleString()} simulated events`;
+                }
+                const consoleEl = document.getElementById('nlp-stream-console');
+                if (consoleEl) {
+                    const line = document.createElement('div');
+                    line.className = 'text-cyan-300 transition-all';
+                    line.innerHTML = NLP_LOG_POOL[Math.floor(Math.random() * NLP_LOG_POOL.length)];
+                    consoleEl.appendChild(line);
+                    while (consoleEl.children.length > 8) {
+                        consoleEl.removeChild(consoleEl.firstChild);
+                    }
+                    consoleEl.scrollTop = consoleEl.scrollHeight;
+                }
+            }, interval);
+        }
+
+        function startSqoopStreamTimer() {
+            if (sqoopStreamState.timer) clearInterval(sqoopStreamState.timer);
+            if (!sqoopStreamState.running) return;
+            const interval = Math.max(250, Math.round(75000 / sqoopStreamState.speed));
+            sqoopStreamState.timer = setInterval(() => {
+                sqoopStreamState.events += Math.floor(Math.random() * 5) + 2;
+                const counterEl = document.getElementById('sqoop-stream-counter');
+                if (counterEl) {
+                    counterEl.innerText = `${sqoopStreamState.events.toLocaleString()} simulated events`;
+                }
+                const consoleEl = document.getElementById('sqoop-stream-console');
+                if (consoleEl) {
+                    const line = document.createElement('div');
+                    line.className = 'text-emerald-400 transition-all';
+                    line.innerHTML = SQOOP_LOG_POOL[Math.floor(Math.random() * SQOOP_LOG_POOL.length)];
+                    consoleEl.appendChild(line);
+                    while (consoleEl.children.length > 8) {
+                        consoleEl.removeChild(consoleEl.firstChild);
+                    }
+                    consoleEl.scrollTop = consoleEl.scrollHeight;
+                }
+            }, interval);
+        }
+
+        function toggleNLPStream() {
+            nlpStreamState.running = !nlpStreamState.running;
+            const icon = document.getElementById('nlp-pause-icon');
+            const txt = document.getElementById('nlp-pause-text');
+            if (nlpStreamState.running) {
+                if (icon) icon.innerText = '⏸';
+                if (txt) txt.innerText = 'Pause stream';
+                startNLPStreamTimer();
+            } else {
+                if (icon) icon.innerText = '▶';
+                if (txt) txt.innerText = 'Resume stream';
+                if (nlpStreamState.timer) clearInterval(nlpStreamState.timer);
+            }
+        }
+
+        function toggleSqoopStream() {
+            sqoopStreamState.running = !sqoopStreamState.running;
+            const icon = document.getElementById('sqoop-pause-icon');
+            const txt = document.getElementById('sqoop-pause-text');
+            if (sqoopStreamState.running) {
+                if (icon) icon.innerText = '⏸';
+                if (txt) txt.innerText = 'Pause stream';
+                startSqoopStreamTimer();
+            } else {
+                if (icon) icon.innerText = '▶';
+                if (txt) txt.innerText = 'Resume stream';
+                if (sqoopStreamState.timer) clearInterval(sqoopStreamState.timer);
+            }
+        }
+
+        function burstNLPBatch() {
+            nlpStreamState.events += 25;
+            const counterEl = document.getElementById('nlp-stream-counter');
+            if (counterEl) counterEl.innerText = `${nlpStreamState.events.toLocaleString()} simulated events`;
+            const consoleEl = document.getElementById('nlp-stream-console');
+            if (consoleEl) {
+                for (let i = 0; i < 4; i++) {
+                    const line = document.createElement('div');
+                    line.className = 'text-yellow-300 font-bold';
+                    line.innerHTML = `BURST &bull; ${NLP_LOG_POOL[i % NLP_LOG_POOL.length]}`;
+                    consoleEl.appendChild(line);
+                }
+                while (consoleEl.children.length > 8) {
+                    consoleEl.removeChild(consoleEl.firstChild);
+                }
+                consoleEl.scrollTop = consoleEl.scrollHeight;
+            }
+        }
+
+        function burstSqoopBatch() {
+            sqoopStreamState.events += 500;
+            const counterEl = document.getElementById('sqoop-stream-counter');
+            if (counterEl) counterEl.innerText = `${sqoopStreamState.events.toLocaleString()} simulated events`;
+            const consoleEl = document.getElementById('sqoop-stream-console');
+            if (consoleEl) {
+                for (let i = 0; i < 4; i++) {
+                    const line = document.createElement('div');
+                    line.className = 'text-yellow-300 font-bold';
+                    line.innerHTML = `BURST &bull; ${SQOOP_LOG_POOL[i % SQOOP_LOG_POOL.length]}`;
+                    consoleEl.appendChild(line);
+                }
+                while (consoleEl.children.length > 8) {
+                    consoleEl.removeChild(consoleEl.firstChild);
+                }
+                consoleEl.scrollTop = consoleEl.scrollHeight;
+            }
+        }
+
+        // Initialize streams when DOM loads
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', initStreamConduits);
+        } else {
+            initStreamConduits();
+        }
+
     </script>
 
     <!-- ===================================================================== -->

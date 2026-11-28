@@ -1,0 +1,2188 @@
+[
+  {
+    "vehicle_id": "AUTOSENSE-VEH-001",
+    "brand_id": "BRAND-MAHINDRA",
+    "manufacturer": "Mahindra",
+    "canonical_model_name": "Thar",
+    "model_aliases": [
+      "Thar 4x4",
+      "Mahindra Thar",
+      "Thar CRDe",
+      "Thar AX",
+      "Thar LX"
+    ],
+    "body_type": "SUV",
+    "generation": "Gen 2 (2020-Present)",
+    "image_path": "images/cars/mahindra_thar.jpg",
+    "image_source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Mahindra_Thar_SUV_in_%22Red_Rage%22_color_at_Ashiana_Brahmanda%2C_East_Singbhum_India_%28Ank_Kumar%2C_Infosys_limited%29_02_%28cropped%29.jpg/330px-Mahindra_Thar_SUV_in_%22Red_Rage%22_color_at_Ashiana_Brahmanda%2C_East_Singbhum_India_%28Ank_Kumar%2C_Infosys_limited%29_02_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain",
+    "attribution": "Wikimedia Commons / Open Automotive Archives for Mahindra Thar",
+    "verification_status": "VERIFIED_CANONICAL_MODEL",
+    "average_rating": 3.63,
+    "total_reviews": 75,
+    "sentiment_distribution": {
+      "positive": 39,
+      "neutral": 25,
+      "negative": 11,
+      "positive_pct": 52.0,
+      "neutral_pct": 33.3,
+      "negative_pct": 14.7
+    },
+    "strengths": [
+      "Performance (17 positive mentions)",
+      "Comfort (15 positive mentions)",
+      "Economy (14 positive mentions)"
+    ],
+    "improvement_areas": [
+      "Performance (4 complaints)",
+      "Economy (3 complaints)",
+      "Design (1 complaints)"
+    ],
+    "actionable_recommendation": "Audit transmission mapping and throttle calibration to resolve reported low-speed hesitation."
+  },
+  {
+    "vehicle_id": "AUTOSENSE-VEH-002",
+    "brand_id": "BRAND-MAHINDRA",
+    "manufacturer": "Mahindra",
+    "canonical_model_name": "Scorpio-N",
+    "model_aliases": [
+      "Scorpio N",
+      "Scorpio-N",
+      "Mahindra Scorpio N",
+      "ScorpioN",
+      "Z8L"
+    ],
+    "body_type": "SUV",
+    "generation": "Gen 3 (2022-Present)",
+    "image_path": "images/cars/mahindra_scorpio_n.jpg",
+    "image_source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Mahindra_Scorpio_GLX_2.6_m-Hawk_2011_%2836756517492%29.jpg/330px-Mahindra_Scorpio_GLX_2.6_m-Hawk_2011_%2836756517492%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain",
+    "attribution": "Wikimedia Commons / Open Automotive Archives for Mahindra Scorpio-N",
+    "verification_status": "VERIFIED_CANONICAL_MODEL",
+    "average_rating": 3.57,
+    "total_reviews": 89,
+    "sentiment_distribution": {
+      "positive": 47,
+      "neutral": 19,
+      "negative": 23,
+      "positive_pct": 52.8,
+      "neutral_pct": 21.3,
+      "negative_pct": 25.8
+    },
+    "strengths": [
+      "Comfort (14 positive mentions)",
+      "Performance (14 positive mentions)",
+      "Design (13 positive mentions)"
+    ],
+    "improvement_areas": [
+      "Performance (5 complaints)",
+      "Value (5 complaints)",
+      "Design (3 complaints)"
+    ],
+    "actionable_recommendation": "Audit transmission mapping and throttle calibration to resolve reported low-speed hesitation."
+  },
+  {
+    "vehicle_id": "AUTOSENSE-VEH-003",
+    "brand_id": "BRAND-MAHINDRA",
+    "manufacturer": "Mahindra",
+    "canonical_model_name": "XUV700",
+    "model_aliases": [
+      "XUV 700",
+      "XUV700",
+      "Mahindra XUV700",
+      "AX7",
+      "AX5"
+    ],
+    "body_type": "SUV",
+    "generation": "Gen 1 (2021-Present)",
+    "image_path": "images/cars/mahindra_xuv700.jpg",
+    "image_source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/2021_Mahindra_XUV700_2.2_AX7_%28India%29_front_view.png/330px-2021_Mahindra_XUV700_2.2_AX7_%28India%29_front_view.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain",
+    "attribution": "Wikimedia Commons / Open Automotive Archives for Mahindra XUV700",
+    "verification_status": "VERIFIED_CANONICAL_MODEL",
+    "average_rating": 3.49,
+    "total_reviews": 68,
+    "sentiment_distribution": {
+      "positive": 37,
+      "neutral": 15,
+      "negative": 16,
+      "positive_pct": 54.4,
+      "neutral_pct": 22.1,
+      "negative_pct": 23.5
+    },
+    "strengths": [
+      "Comfort (15 positive mentions)",
+      "Value (14 positive mentions)",
+      "Performance (13 positive mentions)"
+    ],
+    "improvement_areas": [
+      "Economy (1 complaints)",
+      "Ownership (1 complaints)",
+      "Performance (1 complaints)"
+    ],
+    "actionable_recommendation": "Re-tune ECU air-fuel mixture profiles and test aerodynamic drag under sustained highway speeds."
+  },
+  {
+    "vehicle_id": "AUTOSENSE-VEH-004",
+    "brand_id": "BRAND-MAHINDRA",
+    "manufacturer": "Mahindra",
+    "canonical_model_name": "Bolero",
+    "model_aliases": [
+      "Bolero Neo",
+      "Mahindra Bolero",
+      "Bolero ZLX",
+      "Power+"
+    ],
+    "body_type": "SUV",
+    "generation": "Neo / Classic (2021-Present)",
+    "image_path": "images/cars/mahindra_bolero.jpg",
+    "image_source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Mahindra_Bolero_ZLX.jpg/330px-Mahindra_Bolero_ZLX.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain",
+    "attribution": "Wikimedia Commons / Open Automotive Archives for Mahindra Bolero",
+    "verification_status": "VERIFIED_CANONICAL_MODEL",
+    "average_rating": 3.71,
+    "total_reviews": 82,
+    "sentiment_distribution": {
+      "positive": 48,
+      "neutral": 20,
+      "negative": 14,
+      "positive_pct": 58.5,
+      "neutral_pct": 24.4,
+      "negative_pct": 17.1
+    },
+    "strengths": [
+      "Performance (23 positive mentions)",
+      "Design (17 positive mentions)",
+      "Value (14 positive mentions)"
+    ],
+    "improvement_areas": [
+      "Technology (2 complaints)",
+      "Comfort (1 complaints)",
+      "Design (1 complaints)"
+    ],
+    "actionable_recommendation": "Release OTA software patch addressing touchscreen responsiveness and smartphone integration stability."
+  },
+  {
+    "vehicle_id": "AUTOSENSE-VEH-005",
+    "brand_id": "BRAND-MAHINDRA",
+    "manufacturer": "Mahindra",
+    "canonical_model_name": "XUV 3XO",
+    "model_aliases": [
+      "XUV3XO",
+      "XUV 3XO",
+      "XUV300",
+      "Mahindra XUV 3XO"
+    ],
+    "body_type": "Compact SUV",
+    "generation": "Facelift (2024-Present)",
+    "image_path": "images/cars/mahindra_xuv_3xo.jpg",
+    "image_source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Mahindra_XUV300.jpg/330px-Mahindra_XUV300.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain",
+    "attribution": "Wikimedia Commons / Open Automotive Archives for Mahindra XUV 3XO",
+    "verification_status": "VERIFIED_CANONICAL_MODEL",
+    "average_rating": 3.64,
+    "total_reviews": 81,
+    "sentiment_distribution": {
+      "positive": 49,
+      "neutral": 18,
+      "negative": 14,
+      "positive_pct": 60.5,
+      "neutral_pct": 22.2,
+      "negative_pct": 17.3
+    },
+    "strengths": [
+      "Performance (19 positive mentions)",
+      "Value (17 positive mentions)",
+      "Comfort (16 positive mentions)"
+    ],
+    "improvement_areas": [
+      "Economy (3 complaints)",
+      "Ownership (2 complaints)",
+      "Performance (2 complaints)"
+    ],
+    "actionable_recommendation": "Re-tune ECU air-fuel mixture profiles and test aerodynamic drag under sustained highway speeds."
+  },
+  {
+    "vehicle_id": "AUTOSENSE-VEH-006",
+    "brand_id": "BRAND-TATA",
+    "manufacturer": "Tata Motors",
+    "canonical_model_name": "Harrier",
+    "model_aliases": [
+      "Tata Harrier",
+      "Harrier Dark",
+      "Harrier Fearless",
+      "Harrier Kaziranga"
+    ],
+    "body_type": "SUV",
+    "generation": "Facelift (2023-Present)",
+    "image_path": "images/cars/tata_motors_harrier.jpg",
+    "image_source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Tata_Buzzard_Sport%2C_GIMS_2019%2C_Le_Grand-Saconnex_%28GIMS0651%29.jpg/330px-Tata_Buzzard_Sport%2C_GIMS_2019%2C_Le_Grand-Saconnex_%28GIMS0651%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain",
+    "attribution": "Wikimedia Commons / Open Automotive Archives for Tata Motors Harrier",
+    "verification_status": "VERIFIED_CANONICAL_MODEL",
+    "average_rating": 3.79,
+    "total_reviews": 75,
+    "sentiment_distribution": {
+      "positive": 45,
+      "neutral": 18,
+      "negative": 12,
+      "positive_pct": 60.0,
+      "neutral_pct": 24.0,
+      "negative_pct": 16.0
+    },
+    "strengths": [
+      "Performance (30 positive mentions)",
+      "Safety (11 positive mentions)",
+      "Comfort (9 positive mentions)"
+    ],
+    "improvement_areas": [
+      "Ownership (4 complaints)",
+      "Value (2 complaints)",
+      "Performance (1 complaints)"
+    ],
+    "actionable_recommendation": "Enforce dealership spare parts fulfillment SLA under 48 hours and audit labor rates."
+  },
+  {
+    "vehicle_id": "AUTOSENSE-VEH-007",
+    "brand_id": "BRAND-TATA",
+    "manufacturer": "Tata Motors",
+    "canonical_model_name": "Safari",
+    "model_aliases": [
+      "Tata Safari",
+      "Safari Gold",
+      "Safari Accomplished",
+      "Safari Adventure"
+    ],
+    "body_type": "SUV",
+    "generation": "Gen 3 Facelift (2023-Present)",
+    "image_path": "images/cars/tata_motors_safari.jpg",
+    "image_source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Tata_Safari_II_front_-_PSM_2009.jpg/330px-Tata_Safari_II_front_-_PSM_2009.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain",
+    "attribution": "Wikimedia Commons / Open Automotive Archives for Tata Motors Safari",
+    "verification_status": "VERIFIED_CANONICAL_MODEL",
+    "average_rating": 3.51,
+    "total_reviews": 74,
+    "sentiment_distribution": {
+      "positive": 37,
+      "neutral": 23,
+      "negative": 14,
+      "positive_pct": 50.0,
+      "neutral_pct": 31.1,
+      "negative_pct": 18.9
+    },
+    "strengths": [
+      "Performance (18 positive mentions)",
+      "Comfort (14 positive mentions)",
+      "Economy (12 positive mentions)"
+    ],
+    "improvement_areas": [
+      "Performance (3 complaints)",
+      "Economy (1 complaints)",
+      "Ownership (1 complaints)"
+    ],
+    "actionable_recommendation": "Audit transmission mapping and throttle calibration to resolve reported low-speed hesitation."
+  },
+  {
+    "vehicle_id": "AUTOSENSE-VEH-008",
+    "brand_id": "BRAND-TATA",
+    "manufacturer": "Tata Motors",
+    "canonical_model_name": "Nexon",
+    "model_aliases": [
+      "Tata Nexon",
+      "Nexon.ev",
+      "Nexon Creative",
+      "Nexon Fearless"
+    ],
+    "body_type": "Compact SUV",
+    "generation": "Gen 2 Facelift (2023-Present)",
+    "image_path": "images/cars/tata_motors_nexon.jpg",
+    "image_source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Tata_Nexon_Blue_Dual_Tone.jpg/330px-Tata_Nexon_Blue_Dual_Tone.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain",
+    "attribution": "Wikimedia Commons / Open Automotive Archives for Tata Motors Nexon",
+    "verification_status": "VERIFIED_CANONICAL_MODEL",
+    "average_rating": 3.41,
+    "total_reviews": 59,
+    "sentiment_distribution": {
+      "positive": 30,
+      "neutral": 17,
+      "negative": 12,
+      "positive_pct": 50.8,
+      "neutral_pct": 28.8,
+      "negative_pct": 20.3
+    },
+    "strengths": [
+      "Performance (11 positive mentions)",
+      "Design (10 positive mentions)",
+      "Comfort (9 positive mentions)"
+    ],
+    "improvement_areas": [
+      "Ownership (2 complaints)",
+      "Comfort (1 complaints)"
+    ],
+    "actionable_recommendation": "Enforce dealership spare parts fulfillment SLA under 48 hours and audit labor rates."
+  },
+  {
+    "vehicle_id": "AUTOSENSE-VEH-009",
+    "brand_id": "BRAND-TATA",
+    "manufacturer": "Tata Motors",
+    "canonical_model_name": "Punch",
+    "model_aliases": [
+      "Tata Punch",
+      "Punch.ev",
+      "Punch Adventure",
+      "Punch Creative"
+    ],
+    "body_type": "Micro SUV",
+    "generation": "Gen 1 (2021-Present)",
+    "image_path": "images/cars/tata_motors_punch.jpg",
+    "image_source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/2021_Tata_Punch_Creative_%28India%29_front_view_01.png/330px-2021_Tata_Punch_Creative_%28India%29_front_view_01.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain",
+    "attribution": "Wikimedia Commons / Open Automotive Archives for Tata Motors Punch",
+    "verification_status": "VERIFIED_CANONICAL_MODEL",
+    "average_rating": 3.77,
+    "total_reviews": 73,
+    "sentiment_distribution": {
+      "positive": 46,
+      "neutral": 14,
+      "negative": 13,
+      "positive_pct": 63.0,
+      "neutral_pct": 19.2,
+      "negative_pct": 17.8
+    },
+    "strengths": [
+      "Performance (19 positive mentions)",
+      "Design (13 positive mentions)",
+      "Value (12 positive mentions)"
+    ],
+    "improvement_areas": [
+      "Technology (2 complaints)",
+      "Value (2 complaints)",
+      "Comfort (1 complaints)"
+    ],
+    "actionable_recommendation": "Release OTA software patch addressing touchscreen responsiveness and smartphone integration stability."
+  },
+  {
+    "vehicle_id": "AUTOSENSE-VEH-010",
+    "brand_id": "BRAND-TATA",
+    "manufacturer": "Tata Motors",
+    "canonical_model_name": "Altroz",
+    "model_aliases": [
+      "Tata Altroz",
+      "Altroz Racer",
+      "Altroz DCA",
+      "Altroz XZ+"
+    ],
+    "body_type": "Hatchback",
+    "generation": "Gen 1 (2020-Present)",
+    "image_path": "images/cars/tata_motors_altroz.jpg",
+    "image_source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Tata_Altroz_front_20230617.jpg/330px-Tata_Altroz_front_20230617.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain",
+    "attribution": "Wikimedia Commons / Open Automotive Archives for Tata Motors Altroz",
+    "verification_status": "VERIFIED_CANONICAL_MODEL",
+    "average_rating": 3.73,
+    "total_reviews": 80,
+    "sentiment_distribution": {
+      "positive": 50,
+      "neutral": 18,
+      "negative": 12,
+      "positive_pct": 62.5,
+      "neutral_pct": 22.5,
+      "negative_pct": 15.0
+    },
+    "strengths": [
+      "Performance (17 positive mentions)",
+      "Comfort (15 positive mentions)",
+      "Economy (12 positive mentions)"
+    ],
+    "improvement_areas": [
+      "Value (4 complaints)",
+      "Ownership (3 complaints)",
+      "Design (1 complaints)"
+    ],
+    "actionable_recommendation": "Introduce targeted mid-spec variant bundling essential comfort tech at a competitive price."
+  },
+  {
+    "vehicle_id": "AUTOSENSE-VEH-011",
+    "brand_id": "BRAND-TOYOTA",
+    "manufacturer": "Toyota",
+    "canonical_model_name": "Fortuner",
+    "model_aliases": [
+      "Toyota Fortuner",
+      "Fortuner Legender",
+      "Fortuner 4x4"
+    ],
+    "body_type": "SUV",
+    "generation": "Gen 2 Facelift (2021-Present)",
+    "image_path": "images/cars/toyota_fortuner.jpg",
+    "image_source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/2015_Toyota_Fortuner_%28New_Zealand%29.jpg/330px-2015_Toyota_Fortuner_%28New_Zealand%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain",
+    "attribution": "Wikimedia Commons / Open Automotive Archives for Toyota Fortuner",
+    "verification_status": "VERIFIED_CANONICAL_MODEL",
+    "average_rating": 3.54,
+    "total_reviews": 126,
+    "sentiment_distribution": {
+      "positive": 61,
+      "neutral": 38,
+      "negative": 27,
+      "positive_pct": 48.4,
+      "neutral_pct": 30.2,
+      "negative_pct": 21.4
+    },
+    "strengths": [
+      "Performance (28 positive mentions)",
+      "Value (21 positive mentions)",
+      "Design (20 positive mentions)"
+    ],
+    "improvement_areas": [
+      "Ownership (9 complaints)",
+      "Technology (3 complaints)",
+      "Economy (1 complaints)"
+    ],
+    "actionable_recommendation": "Enforce dealership spare parts fulfillment SLA under 48 hours and audit labor rates."
+  },
+  {
+    "vehicle_id": "AUTOSENSE-VEH-012",
+    "brand_id": "BRAND-TOYOTA",
+    "manufacturer": "Toyota",
+    "canonical_model_name": "Innova Hycross",
+    "model_aliases": [
+      "Innova Hycross",
+      "Innova Hycross Hybrid",
+      "Innova Zenix",
+      "ZX(O)"
+    ],
+    "body_type": "MPV",
+    "generation": "Gen 3 Monocoque Hybrid (2022-Present)",
+    "image_path": "images/cars/toyota_innova_hycross.jpg",
+    "image_source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Toyota_Innova_Zenix_2.0_V_%28III%29_%E2%80%93_f_22032025.jpg/330px-Toyota_Innova_Zenix_2.0_V_%28III%29_%E2%80%93_f_22032025.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain",
+    "attribution": "Wikimedia Commons / Open Automotive Archives for Toyota Innova Hycross",
+    "verification_status": "VERIFIED_CANONICAL_MODEL",
+    "average_rating": 3.58,
+    "total_reviews": 109,
+    "sentiment_distribution": {
+      "positive": 65,
+      "neutral": 20,
+      "negative": 24,
+      "positive_pct": 59.6,
+      "neutral_pct": 18.3,
+      "negative_pct": 22.0
+    },
+    "strengths": [
+      "Performance (25 positive mentions)",
+      "Economy (16 positive mentions)",
+      "Value (14 positive mentions)"
+    ],
+    "improvement_areas": [
+      "Ownership (6 complaints)",
+      "Performance (4 complaints)",
+      "Economy (3 complaints)"
+    ],
+    "actionable_recommendation": "Enforce dealership spare parts fulfillment SLA under 48 hours and audit labor rates."
+  },
+  {
+    "vehicle_id": "AUTOSENSE-VEH-013",
+    "brand_id": "BRAND-TOYOTA",
+    "manufacturer": "Toyota",
+    "canonical_model_name": "Hyryder",
+    "model_aliases": [
+      "Urban Cruiser Hyryder",
+      "Toyota Hyryder",
+      "Hyryder Strong Hybrid"
+    ],
+    "body_type": "Hybrid SUV",
+    "generation": "Gen 1 Strong Hybrid (2022-Present)",
+    "image_path": "images/cars/toyota_hyryder.jpg",
+    "image_source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/2022_Suzuki_Grand_Vitara_GX_Smart_Hybrid_%28Indonesia%29_front_view.jpg/330px-2022_Suzuki_Grand_Vitara_GX_Smart_Hybrid_%28Indonesia%29_front_view.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain",
+    "attribution": "Wikimedia Commons / Open Automotive Archives for Toyota Hyryder",
+    "verification_status": "VERIFIED_CANONICAL_MODEL",
+    "average_rating": 3.68,
+    "total_reviews": 59,
+    "sentiment_distribution": {
+      "positive": 39,
+      "neutral": 10,
+      "negative": 10,
+      "positive_pct": 66.1,
+      "neutral_pct": 16.9,
+      "negative_pct": 16.9
+    },
+    "strengths": [
+      "Comfort (15 positive mentions)",
+      "Performance (13 positive mentions)",
+      "Value (10 positive mentions)"
+    ],
+    "improvement_areas": [
+      "Comfort (2 complaints)"
+    ],
+    "actionable_recommendation": "Re-tune damper compression and rebound valving; improve seat cushion lumbar ergonomics."
+  },
+  {
+    "vehicle_id": "AUTOSENSE-VEH-014",
+    "brand_id": "BRAND-TOYOTA",
+    "manufacturer": "Toyota",
+    "canonical_model_name": "Camry",
+    "model_aliases": [
+      "Toyota Camry",
+      "Camry Hybrid",
+      "Camry XV70"
+    ],
+    "body_type": "Sedan",
+    "generation": "XV70 Hybrid Facelift (2022-Present)",
+    "image_path": "images/cars/toyota_camry.jpg",
+    "image_source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/2018_Toyota_Camry_%28ASV70R%29_Ascent_sedan_%282018-08-27%29_01.jpg/330px-2018_Toyota_Camry_%28ASV70R%29_Ascent_sedan_%282018-08-27%29_01.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain",
+    "attribution": "Wikimedia Commons / Open Automotive Archives for Toyota Camry",
+    "verification_status": "VERIFIED_CANONICAL_MODEL",
+    "average_rating": 3.74,
+    "total_reviews": 57,
+    "sentiment_distribution": {
+      "positive": 36,
+      "neutral": 14,
+      "negative": 7,
+      "positive_pct": 63.2,
+      "neutral_pct": 24.6,
+      "negative_pct": 12.3
+    },
+    "strengths": [
+      "Performance (14 positive mentions)",
+      "Comfort (13 positive mentions)",
+      "Economy (11 positive mentions)"
+    ],
+    "improvement_areas": [
+      "Minor general feedback"
+    ],
+    "actionable_recommendation": "Audit transmission mapping and throttle calibration to resolve reported low-speed hesitation."
+  },
+  {
+    "vehicle_id": "AUTOSENSE-VEH-015",
+    "brand_id": "BRAND-HYUNDAI",
+    "manufacturer": "Hyundai",
+    "canonical_model_name": "Creta",
+    "model_aliases": [
+      "Hyundai Creta",
+      "Creta N Line",
+      "Creta SX(O)",
+      "Creta Facelift"
+    ],
+    "body_type": "SUV",
+    "generation": "Gen 2 Facelift (2024-Present)",
+    "image_path": "images/cars/hyundai_creta.jpg",
+    "image_source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/2024_Hyundai_Creta_1.5_MPi_SX%28O%29_%28India%29_front_view.png/330px-2024_Hyundai_Creta_1.5_MPi_SX%28O%29_%28India%29_front_view.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain",
+    "attribution": "Wikimedia Commons / Open Automotive Archives for Hyundai Creta",
+    "verification_status": "VERIFIED_CANONICAL_MODEL",
+    "average_rating": 3.68,
+    "total_reviews": 77,
+    "sentiment_distribution": {
+      "positive": 43,
+      "neutral": 21,
+      "negative": 13,
+      "positive_pct": 55.8,
+      "neutral_pct": 27.3,
+      "negative_pct": 16.9
+    },
+    "strengths": [
+      "Performance (19 positive mentions)",
+      "Economy (18 positive mentions)",
+      "Comfort (16 positive mentions)"
+    ],
+    "improvement_areas": [
+      "Performance (4 complaints)",
+      "Economy (3 complaints)",
+      "Ownership (3 complaints)"
+    ],
+    "actionable_recommendation": "Audit transmission mapping and throttle calibration to resolve reported low-speed hesitation."
+  },
+  {
+    "vehicle_id": "AUTOSENSE-VEH-016",
+    "brand_id": "BRAND-HYUNDAI",
+    "manufacturer": "Hyundai",
+    "canonical_model_name": "Verna",
+    "model_aliases": [
+      "Hyundai Verna",
+      "Verna Turbo",
+      "Verna SX(O)",
+      "Accent"
+    ],
+    "body_type": "Sedan",
+    "generation": "Gen 6 (2023-Present)",
+    "image_path": "images/cars/hyundai_verna.jpg",
+    "image_source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/2019_Hyundai_Accent_1.6L%2C_front_10.8.19.jpg/330px-2019_Hyundai_Accent_1.6L%2C_front_10.8.19.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain",
+    "attribution": "Wikimedia Commons / Open Automotive Archives for Hyundai Verna",
+    "verification_status": "VERIFIED_CANONICAL_MODEL",
+    "average_rating": 3.74,
+    "total_reviews": 84,
+    "sentiment_distribution": {
+      "positive": 54,
+      "neutral": 18,
+      "negative": 12,
+      "positive_pct": 64.3,
+      "neutral_pct": 21.4,
+      "negative_pct": 14.3
+    },
+    "strengths": [
+      "Performance (21 positive mentions)",
+      "Comfort (16 positive mentions)",
+      "Economy (13 positive mentions)"
+    ],
+    "improvement_areas": [
+      "Value (2 complaints)",
+      "Design (1 complaints)",
+      "Economy (1 complaints)"
+    ],
+    "actionable_recommendation": "Introduce targeted mid-spec variant bundling essential comfort tech at a competitive price."
+  },
+  {
+    "vehicle_id": "AUTOSENSE-VEH-017",
+    "brand_id": "BRAND-HYUNDAI",
+    "manufacturer": "Hyundai",
+    "canonical_model_name": "Venue",
+    "model_aliases": [
+      "Hyundai Venue",
+      "Venue N Line",
+      "Venue SX(O)"
+    ],
+    "body_type": "Compact SUV",
+    "generation": "Gen 1 Facelift (2022-Present)",
+    "image_path": "images/cars/hyundai_venue.jpg",
+    "image_source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/2022_Hyundai_Venue_Preferred_in_Polar_White%2C_Front_Right%2C_09-12-2023.jpg/330px-2022_Hyundai_Venue_Preferred_in_Polar_White%2C_Front_Right%2C_09-12-2023.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain",
+    "attribution": "Wikimedia Commons / Open Automotive Archives for Hyundai Venue",
+    "verification_status": "VERIFIED_CANONICAL_MODEL",
+    "average_rating": 3.83,
+    "total_reviews": 83,
+    "sentiment_distribution": {
+      "positive": 54,
+      "neutral": 19,
+      "negative": 10,
+      "positive_pct": 65.1,
+      "neutral_pct": 22.9,
+      "negative_pct": 12.0
+    },
+    "strengths": [
+      "Performance (21 positive mentions)",
+      "Design (16 positive mentions)",
+      "Comfort (14 positive mentions)"
+    ],
+    "improvement_areas": [
+      "Economy (2 complaints)",
+      "Performance (2 complaints)",
+      "Technology (2 complaints)"
+    ],
+    "actionable_recommendation": "Re-tune ECU air-fuel mixture profiles and test aerodynamic drag under sustained highway speeds."
+  },
+  {
+    "vehicle_id": "AUTOSENSE-VEH-018",
+    "brand_id": "BRAND-HYUNDAI",
+    "manufacturer": "Hyundai",
+    "canonical_model_name": "i20",
+    "model_aliases": [
+      "Hyundai i20",
+      "i20 N Line",
+      "i20 Asta"
+    ],
+    "body_type": "Hatchback",
+    "generation": "Gen 3 Facelift (2023-Present)",
+    "image_path": "images/cars/hyundai_i20.jpg",
+    "image_source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Hyundai_i20_%28III%2C_Facelift%29_%E2%80%93_f_11102025.jpg/330px-Hyundai_i20_%28III%2C_Facelift%29_%E2%80%93_f_11102025.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain",
+    "attribution": "Wikimedia Commons / Open Automotive Archives for Hyundai i20",
+    "verification_status": "VERIFIED_CANONICAL_MODEL",
+    "average_rating": 3.79,
+    "total_reviews": 72,
+    "sentiment_distribution": {
+      "positive": 47,
+      "neutral": 17,
+      "negative": 8,
+      "positive_pct": 65.3,
+      "neutral_pct": 23.6,
+      "negative_pct": 11.1
+    },
+    "strengths": [
+      "Performance (23 positive mentions)",
+      "Economy (16 positive mentions)",
+      "Design (13 positive mentions)"
+    ],
+    "improvement_areas": [
+      "Performance (1 complaints)"
+    ],
+    "actionable_recommendation": "Audit transmission mapping and throttle calibration to resolve reported low-speed hesitation."
+  },
+  {
+    "vehicle_id": "AUTOSENSE-VEH-019",
+    "brand_id": "BRAND-HYUNDAI",
+    "manufacturer": "Hyundai",
+    "canonical_model_name": "Exter",
+    "model_aliases": [
+      "Hyundai Exter",
+      "Exter SX(O)",
+      "Exter Knight Edition"
+    ],
+    "body_type": "Micro SUV",
+    "generation": "Gen 1 (2023-Present)",
+    "image_path": "images/cars/hyundai_exter.jpg",
+    "image_source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/2023_Hyundai_Exter_SX_%28O%29.png/330px-2023_Hyundai_Exter_SX_%28O%29.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain",
+    "attribution": "Wikimedia Commons / Open Automotive Archives for Hyundai Exter",
+    "verification_status": "VERIFIED_CANONICAL_MODEL",
+    "average_rating": 3.77,
+    "total_reviews": 62,
+    "sentiment_distribution": {
+      "positive": 37,
+      "neutral": 16,
+      "negative": 9,
+      "positive_pct": 59.7,
+      "neutral_pct": 25.8,
+      "negative_pct": 14.5
+    },
+    "strengths": [
+      "Performance (20 positive mentions)",
+      "Comfort (9 positive mentions)",
+      "Design (9 positive mentions)"
+    ],
+    "improvement_areas": [
+      "Economy (2 complaints)",
+      "Performance (2 complaints)",
+      "Ownership (1 complaints)"
+    ],
+    "actionable_recommendation": "Re-tune ECU air-fuel mixture profiles and test aerodynamic drag under sustained highway speeds."
+  },
+  {
+    "vehicle_id": "AUTOSENSE-VEH-020",
+    "brand_id": "BRAND-KIA",
+    "manufacturer": "Kia",
+    "canonical_model_name": "Seltos",
+    "model_aliases": [
+      "Kia Seltos",
+      "Seltos GT Line",
+      "Seltos X-Line",
+      "Seltos Facelift"
+    ],
+    "body_type": "SUV",
+    "generation": "SP2 Facelift (2023-Present)",
+    "image_path": "images/cars/kia_seltos.jpg",
+    "image_source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Kia_Seltos_SP2_PE_Snow_White_Pearl_%2817%29_%28cropped%29.jpg/330px-Kia_Seltos_SP2_PE_Snow_White_Pearl_%2817%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain",
+    "attribution": "Wikimedia Commons / Open Automotive Archives for Kia Seltos",
+    "verification_status": "VERIFIED_CANONICAL_MODEL",
+    "average_rating": 3.64,
+    "total_reviews": 123,
+    "sentiment_distribution": {
+      "positive": 69,
+      "neutral": 39,
+      "negative": 15,
+      "positive_pct": 56.1,
+      "neutral_pct": 31.7,
+      "negative_pct": 12.2
+    },
+    "strengths": [
+      "Performance (32 positive mentions)",
+      "Comfort (27 positive mentions)",
+      "Design (17 positive mentions)"
+    ],
+    "improvement_areas": [
+      "Value (3 complaints)",
+      "Design (2 complaints)",
+      "Economy (2 complaints)"
+    ],
+    "actionable_recommendation": "Introduce targeted mid-spec variant bundling essential comfort tech at a competitive price."
+  },
+  {
+    "vehicle_id": "AUTOSENSE-VEH-021",
+    "brand_id": "BRAND-KIA",
+    "manufacturer": "Kia",
+    "canonical_model_name": "Sonet",
+    "model_aliases": [
+      "Kia Sonet",
+      "Sonet X-Line",
+      "Sonet GT Line"
+    ],
+    "body_type": "Compact SUV",
+    "generation": "Gen 1 Facelift (2024-Present)",
+    "image_path": "images/cars/kia_sonet.jpg",
+    "image_source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/2021_Kia_Sonet_1.5_Premiere_%28Indonesia%29_front_view_03.jpg/330px-2021_Kia_Sonet_1.5_Premiere_%28Indonesia%29_front_view_03.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain",
+    "attribution": "Wikimedia Commons / Open Automotive Archives for Kia Sonet",
+    "verification_status": "VERIFIED_CANONICAL_MODEL",
+    "average_rating": 3.55,
+    "total_reviews": 128,
+    "sentiment_distribution": {
+      "positive": 72,
+      "neutral": 33,
+      "negative": 23,
+      "positive_pct": 56.2,
+      "neutral_pct": 25.8,
+      "negative_pct": 18.0
+    },
+    "strengths": [
+      "Performance (34 positive mentions)",
+      "Comfort (23 positive mentions)",
+      "Value (16 positive mentions)"
+    ],
+    "improvement_areas": [
+      "Ownership (4 complaints)",
+      "Value (3 complaints)",
+      "Performance (2 complaints)"
+    ],
+    "actionable_recommendation": "Enforce dealership spare parts fulfillment SLA under 48 hours and audit labor rates."
+  },
+  {
+    "vehicle_id": "AUTOSENSE-VEH-022",
+    "brand_id": "BRAND-KIA",
+    "manufacturer": "Kia",
+    "canonical_model_name": "Carens",
+    "model_aliases": [
+      "Kia Carens",
+      "Carens Luxury Plus",
+      "Carens X-Line"
+    ],
+    "body_type": "MPV",
+    "generation": "KY Generation (2022-Present)",
+    "image_path": "images/cars/kia_carens.jpg",
+    "image_source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/2016_Kia_Rondo_LX_Value_in_Sterling_Metallic%2C_Front_Right%2C_05-18-2023.jpg/330px-2016_Kia_Rondo_LX_Value_in_Sterling_Metallic%2C_Front_Right%2C_05-18-2023.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain",
+    "attribution": "Wikimedia Commons / Open Automotive Archives for Kia Carens",
+    "verification_status": "VERIFIED_CANONICAL_MODEL",
+    "average_rating": 3.75,
+    "total_reviews": 92,
+    "sentiment_distribution": {
+      "positive": 55,
+      "neutral": 22,
+      "negative": 15,
+      "positive_pct": 59.8,
+      "neutral_pct": 23.9,
+      "negative_pct": 16.3
+    },
+    "strengths": [
+      "Performance (22 positive mentions)",
+      "Comfort (19 positive mentions)",
+      "Value (18 positive mentions)"
+    ],
+    "improvement_areas": [
+      "Ownership (3 complaints)",
+      "Value (3 complaints)",
+      "Comfort (2 complaints)"
+    ],
+    "actionable_recommendation": "Enforce dealership spare parts fulfillment SLA under 48 hours and audit labor rates."
+  },
+  {
+    "vehicle_id": "AUTOSENSE-VEH-023",
+    "brand_id": "BRAND-KIA",
+    "manufacturer": "Kia",
+    "canonical_model_name": "EV6",
+    "model_aliases": [
+      "Kia EV6",
+      "EV6 GT-Line",
+      "EV6 AWD"
+    ],
+    "body_type": "Electric Crossover",
+    "generation": "E-GMP Dedicated Platform (2022-Present)",
+    "image_path": "images/cars/kia_ev6.jpg",
+    "image_source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/2021_Kia_EV6_GT-Line_S.jpg/330px-2021_Kia_EV6_GT-Line_S.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain",
+    "attribution": "Wikimedia Commons / Open Automotive Archives for Kia EV6",
+    "verification_status": "VERIFIED_CANONICAL_MODEL",
+    "average_rating": 3.47,
+    "total_reviews": 66,
+    "sentiment_distribution": {
+      "positive": 42,
+      "neutral": 12,
+      "negative": 12,
+      "positive_pct": 63.6,
+      "neutral_pct": 18.2,
+      "negative_pct": 18.2
+    },
+    "strengths": [
+      "Performance (17 positive mentions)",
+      "Comfort (14 positive mentions)",
+      "Economy (13 positive mentions)"
+    ],
+    "improvement_areas": [
+      "Minor general feedback"
+    ],
+    "actionable_recommendation": "Audit transmission mapping and throttle calibration to resolve reported low-speed hesitation."
+  },
+  {
+    "vehicle_id": "AUTOSENSE-VEH-024",
+    "brand_id": "BRAND-MARUTI",
+    "manufacturer": "Maruti Suzuki",
+    "canonical_model_name": "Swift",
+    "model_aliases": [
+      "Suzuki Swift",
+      "Maruti Swift",
+      "Swift ZXi+",
+      "Swift Hybrid"
+    ],
+    "body_type": "Hatchback",
+    "generation": "Gen 4 Z-Series (2024-Present)",
+    "image_path": "images/cars/maruti_suzuki_swift.jpg",
+    "image_source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Suzuki_Swift_%282024%29_hybrid_DSC_6076.jpg/330px-Suzuki_Swift_%282024%29_hybrid_DSC_6076.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain",
+    "attribution": "Wikimedia Commons / Open Automotive Archives for Maruti Suzuki Swift",
+    "verification_status": "VERIFIED_CANONICAL_MODEL",
+    "average_rating": 3.75,
+    "total_reviews": 81,
+    "sentiment_distribution": {
+      "positive": 51,
+      "neutral": 17,
+      "negative": 13,
+      "positive_pct": 63.0,
+      "neutral_pct": 21.0,
+      "negative_pct": 16.0
+    },
+    "strengths": [
+      "Performance (21 positive mentions)",
+      "Comfort (11 positive mentions)",
+      "Economy (11 positive mentions)"
+    ],
+    "improvement_areas": [
+      "Ownership (4 complaints)",
+      "Value (4 complaints)",
+      "Economy (1 complaints)"
+    ],
+    "actionable_recommendation": "Enforce dealership spare parts fulfillment SLA under 48 hours and audit labor rates."
+  },
+  {
+    "vehicle_id": "AUTOSENSE-VEH-025",
+    "brand_id": "BRAND-MARUTI",
+    "manufacturer": "Maruti Suzuki",
+    "canonical_model_name": "Fronx",
+    "model_aliases": [
+      "Suzuki Fronx",
+      "Maruti Fronx",
+      "Fronx Turbo",
+      "Fronx Alpha"
+    ],
+    "body_type": "Crossover",
+    "generation": "Gen 1 Baleno-derived Crossover (2023-Present)",
+    "image_path": "images/cars/maruti_suzuki_fronx.jpg",
+    "image_source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/2024_Suzuki_Fronx.jpg/330px-2024_Suzuki_Fronx.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain",
+    "attribution": "Wikimedia Commons / Open Automotive Archives for Maruti Suzuki Fronx",
+    "verification_status": "VERIFIED_CANONICAL_MODEL",
+    "average_rating": 3.61,
+    "total_reviews": 85,
+    "sentiment_distribution": {
+      "positive": 47,
+      "neutral": 22,
+      "negative": 16,
+      "positive_pct": 55.3,
+      "neutral_pct": 25.9,
+      "negative_pct": 18.8
+    },
+    "strengths": [
+      "Performance (18 positive mentions)",
+      "Comfort (17 positive mentions)",
+      "Value (12 positive mentions)"
+    ],
+    "improvement_areas": [
+      "Performance (3 complaints)",
+      "Ownership (2 complaints)",
+      "Value (2 complaints)"
+    ],
+    "actionable_recommendation": "Audit transmission mapping and throttle calibration to resolve reported low-speed hesitation."
+  },
+  {
+    "vehicle_id": "AUTOSENSE-VEH-026",
+    "brand_id": "BRAND-MARUTI",
+    "manufacturer": "Maruti Suzuki",
+    "canonical_model_name": "Grand Vitara",
+    "model_aliases": [
+      "Suzuki Grand Vitara",
+      "Maruti Grand Vitara",
+      "Grand Vitara Strong Hybrid"
+    ],
+    "body_type": "Hybrid SUV",
+    "generation": "Gen 5 Global Platform (2022-Present)",
+    "image_path": "images/cars/maruti_suzuki_grand_vitara.jpg",
+    "image_source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/2018_Suzuki_Vitara_%28LY%29_S_Turbo_wagon_%282018-11-02%29_01.jpg/330px-2018_Suzuki_Vitara_%28LY%29_S_Turbo_wagon_%282018-11-02%29_01.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain",
+    "attribution": "Wikimedia Commons / Open Automotive Archives for Maruti Suzuki Grand Vitara",
+    "verification_status": "VERIFIED_CANONICAL_MODEL",
+    "average_rating": 3.58,
+    "total_reviews": 78,
+    "sentiment_distribution": {
+      "positive": 43,
+      "neutral": 19,
+      "negative": 16,
+      "positive_pct": 55.1,
+      "neutral_pct": 24.4,
+      "negative_pct": 20.5
+    },
+    "strengths": [
+      "Performance (18 positive mentions)",
+      "Comfort (13 positive mentions)",
+      "Economy (12 positive mentions)"
+    ],
+    "improvement_areas": [
+      "Value (3 complaints)",
+      "Design (2 complaints)",
+      "Economy (2 complaints)"
+    ],
+    "actionable_recommendation": "Introduce targeted mid-spec variant bundling essential comfort tech at a competitive price."
+  },
+  {
+    "vehicle_id": "AUTOSENSE-VEH-027",
+    "brand_id": "BRAND-MARUTI",
+    "manufacturer": "Maruti Suzuki",
+    "canonical_model_name": "Brezza",
+    "model_aliases": [
+      "Suzuki Brezza",
+      "Maruti Brezza",
+      "Brezza ZXi+"
+    ],
+    "body_type": "Compact SUV",
+    "generation": "Gen 2 K15C (2022-Present)",
+    "image_path": "images/cars/maruti_suzuki_brezza.jpg",
+    "image_source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/2022_Maruti_Suzuki_Brezza_ZXi%2B_%28India%29_front_view_03.png/330px-2022_Maruti_Suzuki_Brezza_ZXi%2B_%28India%29_front_view_03.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain",
+    "attribution": "Wikimedia Commons / Open Automotive Archives for Maruti Suzuki Brezza",
+    "verification_status": "VERIFIED_CANONICAL_MODEL",
+    "average_rating": 3.71,
+    "total_reviews": 78,
+    "sentiment_distribution": {
+      "positive": 50,
+      "neutral": 13,
+      "negative": 15,
+      "positive_pct": 64.1,
+      "neutral_pct": 16.7,
+      "negative_pct": 19.2
+    },
+    "strengths": [
+      "Performance (25 positive mentions)",
+      "Economy (15 positive mentions)",
+      "Design (13 positive mentions)"
+    ],
+    "improvement_areas": [
+      "Ownership (4 complaints)",
+      "Value (3 complaints)",
+      "Technology (1 complaints)"
+    ],
+    "actionable_recommendation": "Enforce dealership spare parts fulfillment SLA under 48 hours and audit labor rates."
+  },
+  {
+    "vehicle_id": "AUTOSENSE-VEH-028",
+    "brand_id": "BRAND-MARUTI",
+    "manufacturer": "Maruti Suzuki",
+    "canonical_model_name": "Baleno",
+    "model_aliases": [
+      "Suzuki Baleno",
+      "Maruti Baleno",
+      "Baleno Alpha"
+    ],
+    "body_type": "Hatchback",
+    "generation": "Gen 2 Heartect (2022-Present)",
+    "image_path": "images/cars/maruti_suzuki_baleno.jpg",
+    "image_source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Suzuki_Baleno_front_20071004.jpg/330px-Suzuki_Baleno_front_20071004.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain",
+    "attribution": "Wikimedia Commons / Open Automotive Archives for Maruti Suzuki Baleno",
+    "verification_status": "VERIFIED_CANONICAL_MODEL",
+    "average_rating": 3.52,
+    "total_reviews": 62,
+    "sentiment_distribution": {
+      "positive": 31,
+      "neutral": 21,
+      "negative": 10,
+      "positive_pct": 50.0,
+      "neutral_pct": 33.9,
+      "negative_pct": 16.1
+    },
+    "strengths": [
+      "Performance (14 positive mentions)",
+      "Comfort (10 positive mentions)",
+      "Design (9 positive mentions)"
+    ],
+    "improvement_areas": [
+      "Performance (1 complaints)"
+    ],
+    "actionable_recommendation": "Audit transmission mapping and throttle calibration to resolve reported low-speed hesitation."
+  },
+  {
+    "vehicle_id": "AUTOSENSE-VEH-029",
+    "brand_id": "BRAND-VW",
+    "manufacturer": "Volkswagen",
+    "canonical_model_name": "Virtus",
+    "model_aliases": [
+      "Volkswagen Virtus",
+      "VW Virtus",
+      "Virtus GT Plus"
+    ],
+    "body_type": "Sedan",
+    "generation": "MQB-A0-IN Sedan (2022-Present)",
+    "image_path": "images/cars/volkswagen_virtus.jpg",
+    "image_source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/2022_Volkswagen_Virtus_1.5_GT_%28India%29_front_view_02.png/330px-2022_Volkswagen_Virtus_1.5_GT_%28India%29_front_view_02.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain",
+    "attribution": "Wikimedia Commons / Open Automotive Archives for Volkswagen Virtus",
+    "verification_status": "VERIFIED_CANONICAL_MODEL",
+    "average_rating": 3.74,
+    "total_reviews": 72,
+    "sentiment_distribution": {
+      "positive": 47,
+      "neutral": 16,
+      "negative": 9,
+      "positive_pct": 65.3,
+      "neutral_pct": 22.2,
+      "negative_pct": 12.5
+    },
+    "strengths": [
+      "Comfort (23 positive mentions)",
+      "Performance (22 positive mentions)",
+      "Economy (11 positive mentions)"
+    ],
+    "improvement_areas": [
+      "Minor general feedback"
+    ],
+    "actionable_recommendation": "Audit transmission mapping and throttle calibration to resolve reported low-speed hesitation."
+  },
+  {
+    "vehicle_id": "AUTOSENSE-VEH-030",
+    "brand_id": "BRAND-VW",
+    "manufacturer": "Volkswagen",
+    "canonical_model_name": "Taigun",
+    "model_aliases": [
+      "Volkswagen Taigun",
+      "VW Taigun",
+      "Taigun GT Edge"
+    ],
+    "body_type": "SUV",
+    "generation": "MQB-A0-IN SUV (2021-Present)",
+    "image_path": "images/cars/volkswagen_taigun.jpg",
+    "image_source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Volkswagen_Taigun_front_20230528.jpg/330px-Volkswagen_Taigun_front_20230528.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain",
+    "attribution": "Wikimedia Commons / Open Automotive Archives for Volkswagen Taigun",
+    "verification_status": "VERIFIED_CANONICAL_MODEL",
+    "average_rating": 3.71,
+    "total_reviews": 68,
+    "sentiment_distribution": {
+      "positive": 42,
+      "neutral": 19,
+      "negative": 7,
+      "positive_pct": 61.8,
+      "neutral_pct": 27.9,
+      "negative_pct": 10.3
+    },
+    "strengths": [
+      "Performance (25 positive mentions)",
+      "Comfort (14 positive mentions)",
+      "Economy (12 positive mentions)"
+    ],
+    "improvement_areas": [
+      "Comfort (1 complaints)"
+    ],
+    "actionable_recommendation": "Re-tune damper compression and rebound valving; improve seat cushion lumbar ergonomics."
+  },
+  {
+    "vehicle_id": "AUTOSENSE-VEH-031",
+    "brand_id": "BRAND-VW",
+    "manufacturer": "Volkswagen",
+    "canonical_model_name": "Tiguan",
+    "model_aliases": [
+      "Volkswagen Tiguan",
+      "VW Tiguan",
+      "Tiguan Elegance"
+    ],
+    "body_type": "Premium SUV",
+    "generation": "Gen 2 LWB / Facelift (2021-Present)",
+    "image_path": "images/cars/volkswagen_tiguan.jpg",
+    "image_source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Volkswagen_Tiguan_III_IMG_8823_%28cropped%29.jpg/330px-Volkswagen_Tiguan_III_IMG_8823_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain",
+    "attribution": "Wikimedia Commons / Open Automotive Archives for Volkswagen Tiguan",
+    "verification_status": "VERIFIED_CANONICAL_MODEL",
+    "average_rating": 3.53,
+    "total_reviews": 83,
+    "sentiment_distribution": {
+      "positive": 49,
+      "neutral": 18,
+      "negative": 16,
+      "positive_pct": 59.0,
+      "neutral_pct": 21.7,
+      "negative_pct": 19.3
+    },
+    "strengths": [
+      "Performance (24 positive mentions)",
+      "Comfort (20 positive mentions)",
+      "Design (13 positive mentions)"
+    ],
+    "improvement_areas": [
+      "Comfort (3 complaints)"
+    ],
+    "actionable_recommendation": "Re-tune damper compression and rebound valving; improve seat cushion lumbar ergonomics."
+  },
+  {
+    "vehicle_id": "AUTOSENSE-VEH-032",
+    "brand_id": "BRAND-SKODA",
+    "manufacturer": "Skoda",
+    "canonical_model_name": "Slavia",
+    "model_aliases": [
+      "Skoda Slavia",
+      "Škoda Slavia",
+      "Slavia Monte Carlo",
+      "Slavia Style"
+    ],
+    "body_type": "Sedan",
+    "generation": "MQB-A0-IN Sedan (2022-Present)",
+    "image_path": "images/cars/skoda_slavia.jpg",
+    "image_source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/2021_%C5%A0koda_Slavia_1.5_TSI_Style_%28India%29_front_view.png/330px-2021_%C5%A0koda_Slavia_1.5_TSI_Style_%28India%29_front_view.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain",
+    "attribution": "Wikimedia Commons / Open Automotive Archives for Skoda Slavia",
+    "verification_status": "VERIFIED_CANONICAL_MODEL",
+    "average_rating": 3.62,
+    "total_reviews": 71,
+    "sentiment_distribution": {
+      "positive": 44,
+      "neutral": 15,
+      "negative": 12,
+      "positive_pct": 62.0,
+      "neutral_pct": 21.1,
+      "negative_pct": 16.9
+    },
+    "strengths": [
+      "Performance (23 positive mentions)",
+      "Comfort (16 positive mentions)",
+      "Economy (12 positive mentions)"
+    ],
+    "improvement_areas": [
+      "Comfort (1 complaints)"
+    ],
+    "actionable_recommendation": "Re-tune damper compression and rebound valving; improve seat cushion lumbar ergonomics."
+  },
+  {
+    "vehicle_id": "AUTOSENSE-VEH-033",
+    "brand_id": "BRAND-SKODA",
+    "manufacturer": "Skoda",
+    "canonical_model_name": "Kushaq",
+    "model_aliases": [
+      "Skoda Kushaq",
+      "Škoda Kushaq",
+      "Kushaq Monte Carlo",
+      "Kushaq Style"
+    ],
+    "body_type": "SUV",
+    "generation": "MQB-A0-IN SUV (2021-Present)",
+    "image_path": "images/cars/skoda_kushaq.jpg",
+    "image_source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/2021_%C5%A0koda_Kushaq_%28India%29_front_view.png/330px-2021_%C5%A0koda_Kushaq_%28India%29_front_view.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain",
+    "attribution": "Wikimedia Commons / Open Automotive Archives for Skoda Kushaq",
+    "verification_status": "VERIFIED_CANONICAL_MODEL",
+    "average_rating": 3.56,
+    "total_reviews": 75,
+    "sentiment_distribution": {
+      "positive": 44,
+      "neutral": 20,
+      "negative": 11,
+      "positive_pct": 58.7,
+      "neutral_pct": 26.7,
+      "negative_pct": 14.7
+    },
+    "strengths": [
+      "Comfort (21 positive mentions)",
+      "Performance (17 positive mentions)",
+      "Economy (9 positive mentions)"
+    ],
+    "improvement_areas": [
+      "Comfort (2 complaints)"
+    ],
+    "actionable_recommendation": "Re-tune damper compression and rebound valving; improve seat cushion lumbar ergonomics."
+  },
+  {
+    "vehicle_id": "AUTOSENSE-VEH-034",
+    "brand_id": "BRAND-SKODA",
+    "manufacturer": "Skoda",
+    "canonical_model_name": "Kodiaq",
+    "model_aliases": [
+      "Skoda Kodiaq",
+      "Škoda Kodiaq",
+      "Kodiaq L&K"
+    ],
+    "body_type": "Luxury SUV",
+    "generation": "Gen 1 Facelift TSI (2022-Present)",
+    "image_path": "images/cars/skoda_kodiaq.jpg",
+    "image_source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/%C5%A0koda_Kodiaq_II_IMG_9825.jpg/330px-%C5%A0koda_Kodiaq_II_IMG_9825.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain",
+    "attribution": "Wikimedia Commons / Open Automotive Archives for Skoda Kodiaq",
+    "verification_status": "VERIFIED_CANONICAL_MODEL",
+    "average_rating": 3.72,
+    "total_reviews": 68,
+    "sentiment_distribution": {
+      "positive": 46,
+      "neutral": 12,
+      "negative": 10,
+      "positive_pct": 67.6,
+      "neutral_pct": 17.6,
+      "negative_pct": 14.7
+    },
+    "strengths": [
+      "Performance (19 positive mentions)",
+      "Comfort (16 positive mentions)",
+      "Economy (15 positive mentions)"
+    ],
+    "improvement_areas": [
+      "Comfort (2 complaints)"
+    ],
+    "actionable_recommendation": "Re-tune damper compression and rebound valving; improve seat cushion lumbar ergonomics."
+  },
+  {
+    "vehicle_id": "AUTOSENSE-VEH-035",
+    "brand_id": "BRAND-MG",
+    "manufacturer": "MG",
+    "canonical_model_name": "Hector",
+    "model_aliases": [
+      "MG Hector",
+      "Hector Plus",
+      "Hector Savvy Pro"
+    ],
+    "body_type": "SUV",
+    "generation": "Facelift 2.0 (2023-Present)",
+    "image_path": "images/cars/mg_hector.jpg",
+    "image_source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/2018_Baojun_530.jpg/330px-2018_Baojun_530.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain",
+    "attribution": "Wikimedia Commons / Open Automotive Archives for MG Hector",
+    "verification_status": "VERIFIED_CANONICAL_MODEL",
+    "average_rating": 3.66,
+    "total_reviews": 115,
+    "sentiment_distribution": {
+      "positive": 71,
+      "neutral": 20,
+      "negative": 24,
+      "positive_pct": 61.7,
+      "neutral_pct": 17.4,
+      "negative_pct": 20.9
+    },
+    "strengths": [
+      "Performance (25 positive mentions)",
+      "Comfort (16 positive mentions)",
+      "Design (16 positive mentions)"
+    ],
+    "improvement_areas": [
+      "Technology (4 complaints)",
+      "Ownership (3 complaints)",
+      "Value (3 complaints)"
+    ],
+    "actionable_recommendation": "Release OTA software patch addressing touchscreen responsiveness and smartphone integration stability."
+  },
+  {
+    "vehicle_id": "AUTOSENSE-VEH-036",
+    "brand_id": "BRAND-MG",
+    "manufacturer": "MG",
+    "canonical_model_name": "ZS EV",
+    "model_aliases": [
+      "MG ZS EV",
+      "ZS EV Exclusive"
+    ],
+    "body_type": "Electric SUV",
+    "generation": "Facelift 50.3kWh (2022-Present)",
+    "image_path": "images/cars/mg_zs_ev.jpg",
+    "image_source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/MG_ZS_%28crossover%2C_second_generation%29_DSC_8542.jpg/330px-MG_ZS_%28crossover%2C_second_generation%29_DSC_8542.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain",
+    "attribution": "Wikimedia Commons / Open Automotive Archives for MG ZS EV",
+    "verification_status": "VERIFIED_CANONICAL_MODEL",
+    "average_rating": 3.53,
+    "total_reviews": 118,
+    "sentiment_distribution": {
+      "positive": 60,
+      "neutral": 37,
+      "negative": 21,
+      "positive_pct": 50.8,
+      "neutral_pct": 31.4,
+      "negative_pct": 17.8
+    },
+    "strengths": [
+      "Performance (27 positive mentions)",
+      "Economy (18 positive mentions)",
+      "Value (18 positive mentions)"
+    ],
+    "improvement_areas": [
+      "Ownership (6 complaints)",
+      "Performance (4 complaints)",
+      "Value (4 complaints)"
+    ],
+    "actionable_recommendation": "Enforce dealership spare parts fulfillment SLA under 48 hours and audit labor rates."
+  },
+  {
+    "vehicle_id": "AUTOSENSE-VEH-037",
+    "brand_id": "BRAND-MG",
+    "manufacturer": "MG",
+    "canonical_model_name": "Astor",
+    "model_aliases": [
+      "MG Astor",
+      "Astor Savvy"
+    ],
+    "body_type": "Compact SUV",
+    "generation": "Gen 1 AI Inside (2021-Present)",
+    "image_path": "images/cars/mg_astor.jpg",
+    "image_source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/MG_ZS_%28crossover%2C_second_generation%29_DSC_8542.jpg/330px-MG_ZS_%28crossover%2C_second_generation%29_DSC_8542.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain",
+    "attribution": "Wikimedia Commons / Open Automotive Archives for MG Astor",
+    "verification_status": "VERIFIED_CANONICAL_MODEL",
+    "average_rating": 3.66,
+    "total_reviews": 112,
+    "sentiment_distribution": {
+      "positive": 63,
+      "neutral": 29,
+      "negative": 20,
+      "positive_pct": 56.2,
+      "neutral_pct": 25.9,
+      "negative_pct": 17.9
+    },
+    "strengths": [
+      "Performance (32 positive mentions)",
+      "Comfort (18 positive mentions)",
+      "Design (18 positive mentions)"
+    ],
+    "improvement_areas": [
+      "Ownership (4 complaints)",
+      "Value (3 complaints)",
+      "Economy (2 complaints)"
+    ],
+    "actionable_recommendation": "Enforce dealership spare parts fulfillment SLA under 48 hours and audit labor rates."
+  },
+  {
+    "vehicle_id": "AUTOSENSE-VEH-038",
+    "brand_id": "BRAND-MG",
+    "manufacturer": "MG",
+    "canonical_model_name": "Gloster",
+    "model_aliases": [
+      "MG Gloster",
+      "Gloster Savvy 4x4",
+      "Maxus D90"
+    ],
+    "body_type": "Full Size SUV",
+    "generation": "Gen 1 ADAS (2020-Present)",
+    "image_path": "images/cars/mg_gloster.jpg",
+    "image_source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Maxus_D90_01_China_2018-03-28.jpg/330px-Maxus_D90_01_China_2018-03-28.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain",
+    "attribution": "Wikimedia Commons / Open Automotive Archives for MG Gloster",
+    "verification_status": "VERIFIED_CANONICAL_MODEL",
+    "average_rating": 3.69,
+    "total_reviews": 62,
+    "sentiment_distribution": {
+      "positive": 40,
+      "neutral": 12,
+      "negative": 10,
+      "positive_pct": 64.5,
+      "neutral_pct": 19.4,
+      "negative_pct": 16.1
+    },
+    "strengths": [
+      "Performance (16 positive mentions)",
+      "Comfort (15 positive mentions)",
+      "Economy (9 positive mentions)"
+    ],
+    "improvement_areas": [
+      "Comfort (1 complaints)"
+    ],
+    "actionable_recommendation": "Re-tune damper compression and rebound valving; improve seat cushion lumbar ergonomics."
+  },
+  {
+    "vehicle_id": "AUTOSENSE-VEH-039",
+    "brand_id": "BRAND-BYD",
+    "manufacturer": "BYD",
+    "canonical_model_name": "Atto 3",
+    "model_aliases": [
+      "BYD Atto 3",
+      "Atto3",
+      "BYD Yuan Plus"
+    ],
+    "body_type": "Electric SUV",
+    "generation": "e-Platform 3.0 (2022-Present)",
+    "image_path": "images/cars/byd_atto_3.jpg",
+    "image_source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/BYD_Atto_3_1X7A6491.jpg/330px-BYD_Atto_3_1X7A6491.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain",
+    "attribution": "Wikimedia Commons / Open Automotive Archives for BYD Atto 3",
+    "verification_status": "VERIFIED_CANONICAL_MODEL",
+    "average_rating": 3.81,
+    "total_reviews": 90,
+    "sentiment_distribution": {
+      "positive": 60,
+      "neutral": 22,
+      "negative": 8,
+      "positive_pct": 66.7,
+      "neutral_pct": 24.4,
+      "negative_pct": 8.9
+    },
+    "strengths": [
+      "Comfort (25 positive mentions)",
+      "Performance (25 positive mentions)",
+      "Design (14 positive mentions)"
+    ],
+    "improvement_areas": [
+      "Comfort (1 complaints)"
+    ],
+    "actionable_recommendation": "Re-tune damper compression and rebound valving; improve seat cushion lumbar ergonomics."
+  },
+  {
+    "vehicle_id": "AUTOSENSE-VEH-040",
+    "brand_id": "BRAND-BYD",
+    "manufacturer": "BYD",
+    "canonical_model_name": "Seal",
+    "model_aliases": [
+      "BYD Seal",
+      "Seal Performance AWD",
+      "BYD Seal EV"
+    ],
+    "body_type": "Electric Sedan",
+    "generation": "CTB Cell-to-Body (2024-Present)",
+    "image_path": "images/cars/byd_seal.jpg",
+    "image_source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/2022_BYD_Seal.jpg/330px-2022_BYD_Seal.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain",
+    "attribution": "Wikimedia Commons / Open Automotive Archives for BYD Seal",
+    "verification_status": "VERIFIED_CANONICAL_MODEL",
+    "average_rating": 3.78,
+    "total_reviews": 91,
+    "sentiment_distribution": {
+      "positive": 57,
+      "neutral": 24,
+      "negative": 10,
+      "positive_pct": 62.6,
+      "neutral_pct": 26.4,
+      "negative_pct": 11.0
+    },
+    "strengths": [
+      "Performance (32 positive mentions)",
+      "Comfort (19 positive mentions)",
+      "Economy (19 positive mentions)"
+    ],
+    "improvement_areas": [
+      "Comfort (1 complaints)"
+    ],
+    "actionable_recommendation": "Re-tune damper compression and rebound valving; improve seat cushion lumbar ergonomics."
+  },
+  {
+    "vehicle_id": "AUTOSENSE-VEH-041",
+    "brand_id": "BRAND-BYD",
+    "manufacturer": "BYD",
+    "canonical_model_name": "e6",
+    "model_aliases": [
+      "BYD e6",
+      "BYD eMAX 7",
+      "BYD Song Max"
+    ],
+    "body_type": "Electric MPV",
+    "generation": "Blade Battery Gen 2 (2022-Present)",
+    "image_path": "images/cars/byd_e6.jpg",
+    "image_source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/2023_BYD_e6_SNF7478L_front.jpg/330px-2023_BYD_e6_SNF7478L_front.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain",
+    "attribution": "Wikimedia Commons / Open Automotive Archives for BYD e6",
+    "verification_status": "VERIFIED_CANONICAL_MODEL",
+    "average_rating": 3.55,
+    "total_reviews": 123,
+    "sentiment_distribution": {
+      "positive": 74,
+      "neutral": 27,
+      "negative": 22,
+      "positive_pct": 60.2,
+      "neutral_pct": 22.0,
+      "negative_pct": 17.9
+    },
+    "strengths": [
+      "Performance (41 positive mentions)",
+      "Comfort (31 positive mentions)",
+      "Economy (17 positive mentions)"
+    ],
+    "improvement_areas": [
+      "Comfort (3 complaints)"
+    ],
+    "actionable_recommendation": "Re-tune damper compression and rebound valving; improve seat cushion lumbar ergonomics."
+  },
+  {
+    "vehicle_id": "AUTOSENSE-VEH-042",
+    "brand_id": "BRAND-JEEP",
+    "manufacturer": "Jeep",
+    "canonical_model_name": "Compass",
+    "model_aliases": [
+      "Jeep Compass",
+      "Compass Model S",
+      "Compass Trailhawk"
+    ],
+    "body_type": "SUV",
+    "generation": "Facelift Trailhawk (2021-Present)",
+    "image_path": "images/cars/jeep_compass.jpg",
+    "image_source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/2019_Jeep_Compass_Limited_2.4L%2C_front_7.6.19.jpg/330px-2019_Jeep_Compass_Limited_2.4L%2C_front_7.6.19.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain",
+    "attribution": "Wikimedia Commons / Open Automotive Archives for Jeep Compass",
+    "verification_status": "VERIFIED_CANONICAL_MODEL",
+    "average_rating": 3.75,
+    "total_reviews": 122,
+    "sentiment_distribution": {
+      "positive": 78,
+      "neutral": 26,
+      "negative": 18,
+      "positive_pct": 63.9,
+      "neutral_pct": 21.3,
+      "negative_pct": 14.8
+    },
+    "strengths": [
+      "Comfort (39 positive mentions)",
+      "Performance (37 positive mentions)",
+      "Technology (15 positive mentions)"
+    ],
+    "improvement_areas": [
+      "Comfort (2 complaints)"
+    ],
+    "actionable_recommendation": "Re-tune damper compression and rebound valving; improve seat cushion lumbar ergonomics."
+  },
+  {
+    "vehicle_id": "AUTOSENSE-VEH-043",
+    "brand_id": "BRAND-JEEP",
+    "manufacturer": "Jeep",
+    "canonical_model_name": "Meridian",
+    "model_aliases": [
+      "Jeep Meridian",
+      "Jeep Commander",
+      "Meridian Overland"
+    ],
+    "body_type": "7-Seater SUV",
+    "generation": "7-Seater D-SUV (2022-Present)",
+    "image_path": "images/cars/jeep_meridian.jpg",
+    "image_source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/2023_Jeep_Commander_Overland_T270_%28Colombia%29_front_view.jpg/330px-2023_Jeep_Commander_Overland_T270_%28Colombia%29_front_view.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain",
+    "attribution": "Wikimedia Commons / Open Automotive Archives for Jeep Meridian",
+    "verification_status": "VERIFIED_CANONICAL_MODEL",
+    "average_rating": 3.64,
+    "total_reviews": 139,
+    "sentiment_distribution": {
+      "positive": 85,
+      "neutral": 35,
+      "negative": 19,
+      "positive_pct": 61.2,
+      "neutral_pct": 25.2,
+      "negative_pct": 13.7
+    },
+    "strengths": [
+      "Performance (39 positive mentions)",
+      "Comfort (32 positive mentions)",
+      "Design (26 positive mentions)"
+    ],
+    "improvement_areas": [
+      "Comfort (2 complaints)"
+    ],
+    "actionable_recommendation": "Re-tune damper compression and rebound valving; improve seat cushion lumbar ergonomics."
+  },
+  {
+    "vehicle_id": "AUTOSENSE-VEH-044",
+    "brand_id": "BRAND-NISSAN",
+    "manufacturer": "Nissan",
+    "canonical_model_name": "Magnite",
+    "model_aliases": [
+      "Nissan Magnite",
+      "Magnite Kuro",
+      "Magnite XV Premium"
+    ],
+    "body_type": "Compact SUV",
+    "generation": "CMF-A+ Facelift (2024-Present)",
+    "image_path": "images/cars/nissan_magnite.jpg",
+    "image_source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Nissan_Magnite_2025_1.0_Exclusive_at_WTC_Montevideo_-_04.jpg/330px-Nissan_Magnite_2025_1.0_Exclusive_at_WTC_Montevideo_-_04.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain",
+    "attribution": "Wikimedia Commons / Open Automotive Archives for Nissan Magnite",
+    "verification_status": "VERIFIED_CANONICAL_MODEL",
+    "average_rating": 3.77,
+    "total_reviews": 143,
+    "sentiment_distribution": {
+      "positive": 95,
+      "neutral": 33,
+      "negative": 15,
+      "positive_pct": 66.4,
+      "neutral_pct": 23.1,
+      "negative_pct": 10.5
+    },
+    "strengths": [
+      "Performance (47 positive mentions)",
+      "Comfort (37 positive mentions)",
+      "Economy (26 positive mentions)"
+    ],
+    "improvement_areas": [
+      "Comfort (1 complaints)"
+    ],
+    "actionable_recommendation": "Re-tune damper compression and rebound valving; improve seat cushion lumbar ergonomics."
+  },
+  {
+    "vehicle_id": "AUTOSENSE-VEH-045",
+    "brand_id": "BRAND-NISSAN",
+    "manufacturer": "Nissan",
+    "canonical_model_name": "Altima",
+    "model_aliases": [
+      "Nissan Altima",
+      "Altima SR",
+      "Altima SV"
+    ],
+    "body_type": "Sedan",
+    "generation": "L34 Generation (2020-Present)",
+    "image_path": "images/cars/nissan_altima.jpg",
+    "image_source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/2024_Nissan_Altima_SR%2C_front_left%2C_05-05-2025.jpg/330px-2024_Nissan_Altima_SR%2C_front_left%2C_05-05-2025.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain",
+    "attribution": "Wikimedia Commons / Open Automotive Archives for Nissan Altima",
+    "verification_status": "VERIFIED_CANONICAL_MODEL",
+    "average_rating": 4.11,
+    "total_reviews": 714,
+    "sentiment_distribution": {
+      "positive": 529,
+      "neutral": 108,
+      "negative": 77,
+      "positive_pct": 74.1,
+      "neutral_pct": 15.1,
+      "negative_pct": 10.8
+    },
+    "strengths": [
+      "Performance (261 positive mentions)",
+      "Economy (124 positive mentions)",
+      "Design (104 positive mentions)"
+    ],
+    "improvement_areas": [
+      "Performance (97 complaints)",
+      "Ownership (62 complaints)",
+      "Comfort (26 complaints)"
+    ],
+    "actionable_recommendation": "Audit transmission mapping and throttle calibration to resolve reported low-speed hesitation."
+  },
+  {
+    "vehicle_id": "AUTOSENSE-VEH-046",
+    "brand_id": "BRAND-NISSAN",
+    "manufacturer": "Nissan",
+    "canonical_model_name": "Sentra",
+    "model_aliases": [
+      "Nissan Sentra",
+      "Sentra SR",
+      "Sentra SV"
+    ],
+    "body_type": "Sedan",
+    "generation": "B18 Generation (2020-Present)",
+    "image_path": "images/cars/nissan_sentra.jpg",
+    "image_source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/2024_Nissan_Sentra_%28B18%29_DSC_3754.jpg/330px-2024_Nissan_Sentra_%28B18%29_DSC_3754.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain",
+    "attribution": "Wikimedia Commons / Open Automotive Archives for Nissan Sentra",
+    "verification_status": "VERIFIED_CANONICAL_MODEL",
+    "average_rating": 3.96,
+    "total_reviews": 612,
+    "sentiment_distribution": {
+      "positive": 411,
+      "neutral": 145,
+      "negative": 56,
+      "positive_pct": 67.2,
+      "neutral_pct": 23.7,
+      "negative_pct": 9.2
+    },
+    "strengths": [
+      "Performance (210 positive mentions)",
+      "Design (73 positive mentions)",
+      "Economy (71 positive mentions)"
+    ],
+    "improvement_areas": [
+      "Performance (82 complaints)",
+      "Ownership (54 complaints)",
+      "Safety (27 complaints)"
+    ],
+    "actionable_recommendation": "Audit transmission mapping and throttle calibration to resolve reported low-speed hesitation."
+  },
+  {
+    "vehicle_id": "AUTOSENSE-VEH-047",
+    "brand_id": "BRAND-NISSAN",
+    "manufacturer": "Nissan",
+    "canonical_model_name": "Frontier",
+    "model_aliases": [
+      "Nissan Frontier",
+      "Frontier Pro-4X"
+    ],
+    "body_type": "Pickup Truck",
+    "generation": "D41 Generation (2022-Present)",
+    "image_path": "images/cars/nissan_frontier.jpg",
+    "image_source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/2021_Nissan_Frontier_Pro_4X_%28Colombia%3B_facelift%29_front_view_01.png/330px-2021_Nissan_Frontier_Pro_4X_%28Colombia%3B_facelift%29_front_view_01.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain",
+    "attribution": "Wikimedia Commons / Open Automotive Archives for Nissan Frontier",
+    "verification_status": "VERIFIED_CANONICAL_MODEL",
+    "average_rating": 4.32,
+    "total_reviews": 565,
+    "sentiment_distribution": {
+      "positive": 458,
+      "neutral": 94,
+      "negative": 13,
+      "positive_pct": 81.1,
+      "neutral_pct": 16.6,
+      "negative_pct": 2.3
+    },
+    "strengths": [
+      "Performance (236 positive mentions)",
+      "Design (100 positive mentions)",
+      "Economy (68 positive mentions)"
+    ],
+    "improvement_areas": [
+      "Performance (56 complaints)",
+      "Ownership (31 complaints)",
+      "Economy (28 complaints)"
+    ],
+    "actionable_recommendation": "Audit transmission mapping and throttle calibration to resolve reported low-speed hesitation."
+  },
+  {
+    "vehicle_id": "AUTOSENSE-VEH-048",
+    "brand_id": "BRAND-NISSAN",
+    "manufacturer": "Nissan",
+    "canonical_model_name": "X-Trail",
+    "model_aliases": [
+      "Nissan X-Trail",
+      "X-Trail e-POWER",
+      "Nissan Rogue"
+    ],
+    "body_type": "Premium SUV",
+    "generation": "T33 Generation (2024-Present)",
+    "image_path": "images/cars/nissan_x_trail.jpg",
+    "image_source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Nissan_X-Trail_%28T33%29_1X7A7179.jpg/330px-Nissan_X-Trail_%28T33%29_1X7A7179.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain",
+    "attribution": "Wikimedia Commons / Open Automotive Archives for Nissan X-Trail",
+    "verification_status": "VERIFIED_CANONICAL_MODEL",
+    "average_rating": 3.77,
+    "total_reviews": 146,
+    "sentiment_distribution": {
+      "positive": 101,
+      "neutral": 28,
+      "negative": 17,
+      "positive_pct": 69.2,
+      "neutral_pct": 19.2,
+      "negative_pct": 11.6
+    },
+    "strengths": [
+      "Performance (50 positive mentions)",
+      "Comfort (31 positive mentions)",
+      "Economy (29 positive mentions)"
+    ],
+    "improvement_areas": [
+      "Comfort (1 complaints)"
+    ],
+    "actionable_recommendation": "Re-tune damper compression and rebound valving; improve seat cushion lumbar ergonomics."
+  },
+  {
+    "vehicle_id": "AUTOSENSE-VEH-049",
+    "brand_id": "BRAND-RENAULT",
+    "manufacturer": "Renault",
+    "canonical_model_name": "Kiger",
+    "model_aliases": [
+      "Renault Kiger",
+      "Kiger RXZ Turbo"
+    ],
+    "body_type": "Compact SUV",
+    "generation": "CMF-A+ Platform (2021-Present)",
+    "image_path": "images/cars/renault_kiger.jpg",
+    "image_source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Renault_Kiger_front_20230602.jpg/330px-Renault_Kiger_front_20230602.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain",
+    "attribution": "Wikimedia Commons / Open Automotive Archives for Renault Kiger",
+    "verification_status": "VERIFIED_CANONICAL_MODEL",
+    "average_rating": 3.71,
+    "total_reviews": 80,
+    "sentiment_distribution": {
+      "positive": 50,
+      "neutral": 22,
+      "negative": 8,
+      "positive_pct": 62.5,
+      "neutral_pct": 27.5,
+      "negative_pct": 10.0
+    },
+    "strengths": [
+      "Performance (28 positive mentions)",
+      "Comfort (18 positive mentions)",
+      "Value (13 positive mentions)"
+    ],
+    "improvement_areas": [
+      "Comfort (2 complaints)"
+    ],
+    "actionable_recommendation": "Re-tune damper compression and rebound valving; improve seat cushion lumbar ergonomics."
+  },
+  {
+    "vehicle_id": "AUTOSENSE-VEH-050",
+    "brand_id": "BRAND-RENAULT",
+    "manufacturer": "Renault",
+    "canonical_model_name": "Triber",
+    "model_aliases": [
+      "Renault Triber",
+      "Triber RXZ"
+    ],
+    "body_type": "Subcompact MPV",
+    "generation": "CMF-A+ Modular Subcompact MPV (2020-Present)",
+    "image_path": "images/cars/renault_triber.jpg",
+    "image_source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/2021_Renault_Triber_RXZ_%28Indonesia%29_front_view.jpg/330px-2021_Renault_Triber_RXZ_%28Indonesia%29_front_view.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain",
+    "attribution": "Wikimedia Commons / Open Automotive Archives for Renault Triber",
+    "verification_status": "VERIFIED_CANONICAL_MODEL",
+    "average_rating": 3.45,
+    "total_reviews": 92,
+    "sentiment_distribution": {
+      "positive": 50,
+      "neutral": 22,
+      "negative": 20,
+      "positive_pct": 54.3,
+      "neutral_pct": 23.9,
+      "negative_pct": 21.7
+    },
+    "strengths": [
+      "Comfort (29 positive mentions)",
+      "Performance (20 positive mentions)",
+      "Value (13 positive mentions)"
+    ],
+    "improvement_areas": [
+      "Comfort (2 complaints)"
+    ],
+    "actionable_recommendation": "Re-tune damper compression and rebound valving; improve seat cushion lumbar ergonomics."
+  },
+  {
+    "vehicle_id": "AUTOSENSE-VEH-051",
+    "brand_id": "BRAND-RENAULT",
+    "manufacturer": "Renault",
+    "canonical_model_name": "Kwid",
+    "model_aliases": [
+      "Renault Kwid",
+      "Kwid Climber"
+    ],
+    "body_type": "Hatchback",
+    "generation": "CMF-A Global A-Segment (2020-Present)",
+    "image_path": "images/cars/renault_kwid.jpg",
+    "image_source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/2023_Renault_Kwid_Iconic_%28Colombia%29_front_view_01.png/330px-2023_Renault_Kwid_Iconic_%28Colombia%29_front_view_01.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain",
+    "attribution": "Wikimedia Commons / Open Automotive Archives for Renault Kwid",
+    "verification_status": "VERIFIED_CANONICAL_MODEL",
+    "average_rating": 3.81,
+    "total_reviews": 73,
+    "sentiment_distribution": {
+      "positive": 51,
+      "neutral": 14,
+      "negative": 8,
+      "positive_pct": 69.9,
+      "neutral_pct": 19.2,
+      "negative_pct": 11.0
+    },
+    "strengths": [
+      "Comfort (23 positive mentions)",
+      "Performance (21 positive mentions)",
+      "Value (12 positive mentions)"
+    ],
+    "improvement_areas": [
+      "Comfort (1 complaints)"
+    ],
+    "actionable_recommendation": "Re-tune damper compression and rebound valving; improve seat cushion lumbar ergonomics."
+  },
+  {
+    "vehicle_id": "AUTOSENSE-VEH-052",
+    "brand_id": "BRAND-CITROEN",
+    "manufacturer": "Citroen",
+    "canonical_model_name": "C3",
+    "model_aliases": [
+      "Citroen C3",
+      "Citroën C3",
+      "C3 Shine Turbo"
+    ],
+    "body_type": "Hatchback",
+    "generation": "CC21 CMP Platform (2022-Present)",
+    "image_path": "images/cars/citroen_c3.jpg",
+    "image_source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Citro%C3%ABn_C3_Hybrid_110_%C3%AB-DSC6_Max_%28IV%29_%E2%80%93_f_05042026.jpg/330px-Citro%C3%ABn_C3_Hybrid_110_%C3%AB-DSC6_Max_%28IV%29_%E2%80%93_f_05042026.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain",
+    "attribution": "Wikimedia Commons / Open Automotive Archives for Citroen C3",
+    "verification_status": "VERIFIED_CANONICAL_MODEL",
+    "average_rating": 3.76,
+    "total_reviews": 85,
+    "sentiment_distribution": {
+      "positive": 59,
+      "neutral": 14,
+      "negative": 12,
+      "positive_pct": 69.4,
+      "neutral_pct": 16.5,
+      "negative_pct": 14.1
+    },
+    "strengths": [
+      "Performance (28 positive mentions)",
+      "Comfort (20 positive mentions)",
+      "Design (14 positive mentions)"
+    ],
+    "improvement_areas": [
+      "Comfort (2 complaints)"
+    ],
+    "actionable_recommendation": "Re-tune damper compression and rebound valving; improve seat cushion lumbar ergonomics."
+  },
+  {
+    "vehicle_id": "AUTOSENSE-VEH-053",
+    "brand_id": "BRAND-CITROEN",
+    "manufacturer": "Citroen",
+    "canonical_model_name": "C3 Aircross",
+    "model_aliases": [
+      "Citroen C3 Aircross",
+      "Citroën C3 Aircross",
+      "Aircross Max"
+    ],
+    "body_type": "SUV",
+    "generation": "CC24 5+2 Seater (2023-Present)",
+    "image_path": "images/cars/citroen_c3_aircross.jpg",
+    "image_source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Citro%C3%ABn_%C3%AB-C3_Aircross_IMG_3525.jpg/330px-Citro%C3%ABn_%C3%AB-C3_Aircross_IMG_3525.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain",
+    "attribution": "Wikimedia Commons / Open Automotive Archives for Citroen C3 Aircross",
+    "verification_status": "VERIFIED_CANONICAL_MODEL",
+    "average_rating": 3.5,
+    "total_reviews": 86,
+    "sentiment_distribution": {
+      "positive": 47,
+      "neutral": 29,
+      "negative": 10,
+      "positive_pct": 54.7,
+      "neutral_pct": 33.7,
+      "negative_pct": 11.6
+    },
+    "strengths": [
+      "Comfort (25 positive mentions)",
+      "Economy (21 positive mentions)",
+      "Performance (20 positive mentions)"
+    ],
+    "improvement_areas": [
+      "Comfort (1 complaints)"
+    ],
+    "actionable_recommendation": "Re-tune damper compression and rebound valving; improve seat cushion lumbar ergonomics."
+  },
+  {
+    "vehicle_id": "AUTOSENSE-VEH-054",
+    "brand_id": "BRAND-CITROEN",
+    "manufacturer": "Citroen",
+    "canonical_model_name": "Basalt",
+    "model_aliases": [
+      "Citroen Basalt",
+      "Citroën Basalt",
+      "Basalt Dark Edition"
+    ],
+    "body_type": "Coupe SUV",
+    "generation": "Vision Basalt SUV Coupe (2024-Present)",
+    "image_path": "images/cars/citroen_basalt.jpg",
+    "image_source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Citroen_Basalt_Turbo_200_Shine_2025.jpg/330px-Citroen_Basalt_Turbo_200_Shine_2025.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain",
+    "attribution": "Wikimedia Commons / Open Automotive Archives for Citroen Basalt",
+    "verification_status": "VERIFIED_CANONICAL_MODEL",
+    "average_rating": 3.76,
+    "total_reviews": 83,
+    "sentiment_distribution": {
+      "positive": 50,
+      "neutral": 22,
+      "negative": 11,
+      "positive_pct": 60.2,
+      "neutral_pct": 26.5,
+      "negative_pct": 13.3
+    },
+    "strengths": [
+      "Performance (34 positive mentions)",
+      "Comfort (15 positive mentions)",
+      "Economy (12 positive mentions)"
+    ],
+    "improvement_areas": [
+      "Comfort (1 complaints)"
+    ],
+    "actionable_recommendation": "Re-tune damper compression and rebound valving; improve seat cushion lumbar ergonomics."
+  },
+  {
+    "vehicle_id": "AUTOSENSE-VEH-055",
+    "brand_id": "BRAND-HONDA",
+    "manufacturer": "Honda",
+    "canonical_model_name": "City",
+    "model_aliases": [
+      "Honda City",
+      "City e:HEV",
+      "City ZX"
+    ],
+    "body_type": "Sedan",
+    "generation": "Gen 5 Facelift ADAS (2023-Present)",
+    "image_path": "images/cars/honda_city.jpg",
+    "image_source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Honda_City_1.5_i-VTEC_V_%28VIII%2C_Facelift%29_%E2%80%93_f_22032025.jpg/330px-Honda_City_1.5_i-VTEC_V_%28VIII%2C_Facelift%29_%E2%80%93_f_22032025.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain",
+    "attribution": "Wikimedia Commons / Open Automotive Archives for Honda City",
+    "verification_status": "VERIFIED_CANONICAL_MODEL",
+    "average_rating": 3.83,
+    "total_reviews": 121,
+    "sentiment_distribution": {
+      "positive": 74,
+      "neutral": 32,
+      "negative": 15,
+      "positive_pct": 61.2,
+      "neutral_pct": 26.4,
+      "negative_pct": 12.4
+    },
+    "strengths": [
+      "Performance (36 positive mentions)",
+      "Design (23 positive mentions)",
+      "Comfort (21 positive mentions)"
+    ],
+    "improvement_areas": [
+      "Economy (4 complaints)",
+      "Performance (3 complaints)",
+      "Technology (3 complaints)"
+    ],
+    "actionable_recommendation": "Re-tune ECU air-fuel mixture profiles and test aerodynamic drag under sustained highway speeds."
+  },
+  {
+    "vehicle_id": "AUTOSENSE-VEH-056",
+    "brand_id": "BRAND-HONDA",
+    "manufacturer": "Honda",
+    "canonical_model_name": "Elevate",
+    "model_aliases": [
+      "Honda Elevate",
+      "Elevate ZX",
+      "WR-V"
+    ],
+    "body_type": "SUV",
+    "generation": "Global Small Car Platform (2023-Present)",
+    "image_path": "images/cars/honda_elevate.jpg",
+    "image_source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/2026_Honda_WR-V_Prestige_%28Colombia%29_front_view.jpg/330px-2026_Honda_WR-V_Prestige_%28Colombia%29_front_view.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain",
+    "attribution": "Wikimedia Commons / Open Automotive Archives for Honda Elevate",
+    "verification_status": "VERIFIED_CANONICAL_MODEL",
+    "average_rating": 3.66,
+    "total_reviews": 143,
+    "sentiment_distribution": {
+      "positive": 88,
+      "neutral": 26,
+      "negative": 29,
+      "positive_pct": 61.5,
+      "neutral_pct": 18.2,
+      "negative_pct": 20.3
+    },
+    "strengths": [
+      "Performance (35 positive mentions)",
+      "Value (23 positive mentions)",
+      "Design (22 positive mentions)"
+    ],
+    "improvement_areas": [
+      "Ownership (4 complaints)",
+      "Value (4 complaints)",
+      "Comfort (2 complaints)"
+    ],
+    "actionable_recommendation": "Enforce dealership spare parts fulfillment SLA under 48 hours and audit labor rates."
+  },
+  {
+    "vehicle_id": "AUTOSENSE-VEH-057",
+    "brand_id": "BRAND-HONDA",
+    "manufacturer": "Honda",
+    "canonical_model_name": "Amaze",
+    "model_aliases": [
+      "Honda Amaze",
+      "Amaze VX"
+    ],
+    "body_type": "Sedan",
+    "generation": "Gen 2 Facelift (2021-Present)",
+    "image_path": "images/cars/honda_amaze.jpg",
+    "image_source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Honda_Amaze_%28front%29.png/330px-Honda_Amaze_%28front%29.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain",
+    "attribution": "Wikimedia Commons / Open Automotive Archives for Honda Amaze",
+    "verification_status": "VERIFIED_CANONICAL_MODEL",
+    "average_rating": 3.63,
+    "total_reviews": 127,
+    "sentiment_distribution": {
+      "positive": 74,
+      "neutral": 30,
+      "negative": 23,
+      "positive_pct": 58.3,
+      "neutral_pct": 23.6,
+      "negative_pct": 18.1
+    },
+    "strengths": [
+      "Performance (32 positive mentions)",
+      "Comfort (24 positive mentions)",
+      "Value (22 positive mentions)"
+    ],
+    "improvement_areas": [
+      "Value (6 complaints)",
+      "Design (4 complaints)",
+      "Ownership (3 complaints)"
+    ],
+    "actionable_recommendation": "Introduce targeted mid-spec variant bundling essential comfort tech at a competitive price."
+  }
+]

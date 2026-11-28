@@ -6262,7 +6262,20 @@
         }
       ],
       "image_url": "images/cars/mahindra_thar.jpg",
-      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Mahindra_Thar_SUV_in_%22Red_Rage%22_color_at_Ashiana_Brahmanda%2C_East_Singbhum_India_%28Ank_Kumar%2C_Infosys_limited%29_02_%28cropped%29.jpg/330px-Mahindra_Thar_SUV_in_%22Red_Rage%22_color_at_Ashiana_Brahmanda%2C_East_Singbhum_India_%28Ank_Kumar%2C_Infosys_limited%29_02_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Mahindra_Thar_SUV_in_%22Red_Rage%22_color_at_Ashiana_Brahmanda%2C_East_Singbhum_India_%28Ank_Kumar%2C_Infosys_limited%29_02_%28cropped%29.jpg/330px-Mahindra_Thar_SUV_in_%22Red_Rage%22_color_at_Ashiana_Brahmanda%2C_East_Singbhum_India_%28Ank_Kumar%2C_Infosys_limited%29_02_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "vehicle_id": "AUTOSENSE-VEH-001",
+      "brand_id": "BRAND-MAHINDRA",
+      "model_aliases": [
+        "Thar 4x4",
+        "Mahindra Thar",
+        "Thar CRDe",
+        "Thar AX",
+        "Thar LX"
+      ],
+      "generation": "Gen 2 (2020-Present)",
+      "verification_status": "VERIFIED_CANONICAL_MODEL",
+      "attribution": "Wikimedia Commons / Open Automotive Archives for Mahindra Thar",
+      "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain"
     },
     {
       "brand": "Mahindra",
@@ -6502,7 +6515,20 @@
         }
       ],
       "image_url": "images/cars/mahindra_scorpio_n.jpg",
-      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Mahindra_Scorpio_GLX_2.6_m-Hawk_2011_%2836756517492%29.jpg/330px-Mahindra_Scorpio_GLX_2.6_m-Hawk_2011_%2836756517492%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Mahindra_Scorpio_GLX_2.6_m-Hawk_2011_%2836756517492%29.jpg/330px-Mahindra_Scorpio_GLX_2.6_m-Hawk_2011_%2836756517492%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "vehicle_id": "AUTOSENSE-VEH-002",
+      "brand_id": "BRAND-MAHINDRA",
+      "model_aliases": [
+        "Scorpio N",
+        "Scorpio-N",
+        "Mahindra Scorpio N",
+        "ScorpioN",
+        "Z8L"
+      ],
+      "generation": "Gen 3 (2022-Present)",
+      "verification_status": "VERIFIED_CANONICAL_MODEL",
+      "attribution": "Wikimedia Commons / Open Automotive Archives for Mahindra Scorpio-N",
+      "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain"
     },
     {
       "brand": "Mahindra",
@@ -6742,7 +6768,20 @@
         }
       ],
       "image_url": "images/cars/mahindra_xuv700.jpg",
-      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/2021_Mahindra_XUV700_2.2_AX7_%28India%29_front_view.png/330px-2021_Mahindra_XUV700_2.2_AX7_%28India%29_front_view.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/2021_Mahindra_XUV700_2.2_AX7_%28India%29_front_view.png/330px-2021_Mahindra_XUV700_2.2_AX7_%28India%29_front_view.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "vehicle_id": "AUTOSENSE-VEH-003",
+      "brand_id": "BRAND-MAHINDRA",
+      "model_aliases": [
+        "XUV 700",
+        "XUV700",
+        "Mahindra XUV700",
+        "AX7",
+        "AX5"
+      ],
+      "generation": "Gen 1 (2021-Present)",
+      "verification_status": "VERIFIED_CANONICAL_MODEL",
+      "attribution": "Wikimedia Commons / Open Automotive Archives for Mahindra XUV700",
+      "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain"
     },
     {
       "brand": "Mahindra",
@@ -6982,7 +7021,19 @@
         }
       ],
       "image_url": "images/cars/mahindra_bolero.jpg",
-      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Mahindra_Bolero_ZLX.jpg/330px-Mahindra_Bolero_ZLX.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Mahindra_Bolero_ZLX.jpg/330px-Mahindra_Bolero_ZLX.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "vehicle_id": "AUTOSENSE-VEH-004",
+      "brand_id": "BRAND-MAHINDRA",
+      "model_aliases": [
+        "Bolero Neo",
+        "Mahindra Bolero",
+        "Bolero ZLX",
+        "Power+"
+      ],
+      "generation": "Neo / Classic (2021-Present)",
+      "verification_status": "VERIFIED_CANONICAL_MODEL",
+      "attribution": "Wikimedia Commons / Open Automotive Archives for Mahindra Bolero",
+      "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain"
     },
     {
       "brand": "Mahindra",
@@ -7222,7 +7273,19 @@
         }
       ],
       "image_url": "images/cars/mahindra_xuv_3xo.jpg",
-      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Mahindra_XUV300.jpg/330px-Mahindra_XUV300.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Mahindra_XUV300.jpg/330px-Mahindra_XUV300.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "vehicle_id": "AUTOSENSE-VEH-005",
+      "brand_id": "BRAND-MAHINDRA",
+      "model_aliases": [
+        "XUV3XO",
+        "XUV 3XO",
+        "XUV300",
+        "Mahindra XUV 3XO"
+      ],
+      "generation": "Facelift (2024-Present)",
+      "verification_status": "VERIFIED_CANONICAL_MODEL",
+      "attribution": "Wikimedia Commons / Open Automotive Archives for Mahindra XUV 3XO",
+      "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain"
     },
     {
       "brand": "Tata Motors",
@@ -7462,7 +7525,19 @@
         }
       ],
       "image_url": "images/cars/tata_motors_harrier.jpg",
-      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Tata_Buzzard_Sport%2C_GIMS_2019%2C_Le_Grand-Saconnex_%28GIMS0651%29.jpg/330px-Tata_Buzzard_Sport%2C_GIMS_2019%2C_Le_Grand-Saconnex_%28GIMS0651%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Tata_Buzzard_Sport%2C_GIMS_2019%2C_Le_Grand-Saconnex_%28GIMS0651%29.jpg/330px-Tata_Buzzard_Sport%2C_GIMS_2019%2C_Le_Grand-Saconnex_%28GIMS0651%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "vehicle_id": "AUTOSENSE-VEH-006",
+      "brand_id": "BRAND-TATA",
+      "model_aliases": [
+        "Tata Harrier",
+        "Harrier Dark",
+        "Harrier Fearless",
+        "Harrier Kaziranga"
+      ],
+      "generation": "Facelift (2023-Present)",
+      "verification_status": "VERIFIED_CANONICAL_MODEL",
+      "attribution": "Wikimedia Commons / Open Automotive Archives for Tata Motors Harrier",
+      "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain"
     },
     {
       "brand": "Tata Motors",
@@ -7702,7 +7777,19 @@
         }
       ],
       "image_url": "images/cars/tata_motors_safari.jpg",
-      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Tata_Safari_II_front_-_PSM_2009.jpg/330px-Tata_Safari_II_front_-_PSM_2009.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Tata_Safari_II_front_-_PSM_2009.jpg/330px-Tata_Safari_II_front_-_PSM_2009.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "vehicle_id": "AUTOSENSE-VEH-007",
+      "brand_id": "BRAND-TATA",
+      "model_aliases": [
+        "Tata Safari",
+        "Safari Gold",
+        "Safari Accomplished",
+        "Safari Adventure"
+      ],
+      "generation": "Gen 3 Facelift (2023-Present)",
+      "verification_status": "VERIFIED_CANONICAL_MODEL",
+      "attribution": "Wikimedia Commons / Open Automotive Archives for Tata Motors Safari",
+      "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain"
     },
     {
       "brand": "Tata Motors",
@@ -7941,7 +8028,19 @@
         }
       ],
       "image_url": "images/cars/tata_motors_nexon.jpg",
-      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Tata_Nexon_Blue_Dual_Tone.jpg/330px-Tata_Nexon_Blue_Dual_Tone.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Tata_Nexon_Blue_Dual_Tone.jpg/330px-Tata_Nexon_Blue_Dual_Tone.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "vehicle_id": "AUTOSENSE-VEH-008",
+      "brand_id": "BRAND-TATA",
+      "model_aliases": [
+        "Tata Nexon",
+        "Nexon.ev",
+        "Nexon Creative",
+        "Nexon Fearless"
+      ],
+      "generation": "Gen 2 Facelift (2023-Present)",
+      "verification_status": "VERIFIED_CANONICAL_MODEL",
+      "attribution": "Wikimedia Commons / Open Automotive Archives for Tata Motors Nexon",
+      "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain"
     },
     {
       "brand": "Tata Motors",
@@ -8181,7 +8280,19 @@
         }
       ],
       "image_url": "images/cars/tata_motors_punch.jpg",
-      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/2021_Tata_Punch_Creative_%28India%29_front_view_01.png/330px-2021_Tata_Punch_Creative_%28India%29_front_view_01.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/2021_Tata_Punch_Creative_%28India%29_front_view_01.png/330px-2021_Tata_Punch_Creative_%28India%29_front_view_01.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "vehicle_id": "AUTOSENSE-VEH-009",
+      "brand_id": "BRAND-TATA",
+      "model_aliases": [
+        "Tata Punch",
+        "Punch.ev",
+        "Punch Adventure",
+        "Punch Creative"
+      ],
+      "generation": "Gen 1 (2021-Present)",
+      "verification_status": "VERIFIED_CANONICAL_MODEL",
+      "attribution": "Wikimedia Commons / Open Automotive Archives for Tata Motors Punch",
+      "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain"
     },
     {
       "brand": "Tata Motors",
@@ -8421,7 +8532,19 @@
         }
       ],
       "image_url": "images/cars/tata_motors_altroz.jpg",
-      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Tata_Altroz_front_20230617.jpg/330px-Tata_Altroz_front_20230617.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Tata_Altroz_front_20230617.jpg/330px-Tata_Altroz_front_20230617.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "vehicle_id": "AUTOSENSE-VEH-010",
+      "brand_id": "BRAND-TATA",
+      "model_aliases": [
+        "Tata Altroz",
+        "Altroz Racer",
+        "Altroz DCA",
+        "Altroz XZ+"
+      ],
+      "generation": "Gen 1 (2020-Present)",
+      "verification_status": "VERIFIED_CANONICAL_MODEL",
+      "attribution": "Wikimedia Commons / Open Automotive Archives for Tata Motors Altroz",
+      "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain"
     },
     {
       "brand": "Toyota",
@@ -8661,7 +8784,18 @@
         }
       ],
       "image_url": "images/cars/toyota_fortuner.jpg",
-      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/2015_Toyota_Fortuner_%28New_Zealand%29.jpg/330px-2015_Toyota_Fortuner_%28New_Zealand%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/2015_Toyota_Fortuner_%28New_Zealand%29.jpg/330px-2015_Toyota_Fortuner_%28New_Zealand%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "vehicle_id": "AUTOSENSE-VEH-011",
+      "brand_id": "BRAND-TOYOTA",
+      "model_aliases": [
+        "Toyota Fortuner",
+        "Fortuner Legender",
+        "Fortuner 4x4"
+      ],
+      "generation": "Gen 2 Facelift (2021-Present)",
+      "verification_status": "VERIFIED_CANONICAL_MODEL",
+      "attribution": "Wikimedia Commons / Open Automotive Archives for Toyota Fortuner",
+      "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain"
     },
     {
       "brand": "Toyota",
@@ -8901,7 +9035,19 @@
         }
       ],
       "image_url": "images/cars/toyota_innova_hycross.jpg",
-      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Toyota_Innova_Zenix_2.0_V_%28III%29_%E2%80%93_f_22032025.jpg/330px-Toyota_Innova_Zenix_2.0_V_%28III%29_%E2%80%93_f_22032025.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Toyota_Innova_Zenix_2.0_V_%28III%29_%E2%80%93_f_22032025.jpg/330px-Toyota_Innova_Zenix_2.0_V_%28III%29_%E2%80%93_f_22032025.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "vehicle_id": "AUTOSENSE-VEH-012",
+      "brand_id": "BRAND-TOYOTA",
+      "model_aliases": [
+        "Innova Hycross",
+        "Innova Hycross Hybrid",
+        "Innova Zenix",
+        "ZX(O)"
+      ],
+      "generation": "Gen 3 Monocoque Hybrid (2022-Present)",
+      "verification_status": "VERIFIED_CANONICAL_MODEL",
+      "attribution": "Wikimedia Commons / Open Automotive Archives for Toyota Innova Hycross",
+      "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain"
     },
     {
       "brand": "Toyota",
@@ -9139,7 +9285,18 @@
         }
       ],
       "image_url": "images/cars/toyota_hyryder.jpg",
-      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/2022_Suzuki_Grand_Vitara_GX_Smart_Hybrid_%28Indonesia%29_front_view.jpg/330px-2022_Suzuki_Grand_Vitara_GX_Smart_Hybrid_%28Indonesia%29_front_view.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/2022_Suzuki_Grand_Vitara_GX_Smart_Hybrid_%28Indonesia%29_front_view.jpg/330px-2022_Suzuki_Grand_Vitara_GX_Smart_Hybrid_%28Indonesia%29_front_view.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "vehicle_id": "AUTOSENSE-VEH-013",
+      "brand_id": "BRAND-TOYOTA",
+      "model_aliases": [
+        "Urban Cruiser Hyryder",
+        "Toyota Hyryder",
+        "Hyryder Strong Hybrid"
+      ],
+      "generation": "Gen 1 Strong Hybrid (2022-Present)",
+      "verification_status": "VERIFIED_CANONICAL_MODEL",
+      "attribution": "Wikimedia Commons / Open Automotive Archives for Toyota Hyryder",
+      "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain"
     },
     {
       "brand": "Toyota",
@@ -9377,7 +9534,18 @@
         }
       ],
       "image_url": "images/cars/toyota_camry.jpg",
-      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/2018_Toyota_Camry_%28ASV70R%29_Ascent_sedan_%282018-08-27%29_01.jpg/330px-2018_Toyota_Camry_%28ASV70R%29_Ascent_sedan_%282018-08-27%29_01.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/2018_Toyota_Camry_%28ASV70R%29_Ascent_sedan_%282018-08-27%29_01.jpg/330px-2018_Toyota_Camry_%28ASV70R%29_Ascent_sedan_%282018-08-27%29_01.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "vehicle_id": "AUTOSENSE-VEH-014",
+      "brand_id": "BRAND-TOYOTA",
+      "model_aliases": [
+        "Toyota Camry",
+        "Camry Hybrid",
+        "Camry XV70"
+      ],
+      "generation": "XV70 Hybrid Facelift (2022-Present)",
+      "verification_status": "VERIFIED_CANONICAL_MODEL",
+      "attribution": "Wikimedia Commons / Open Automotive Archives for Toyota Camry",
+      "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain"
     },
     {
       "brand": "Hyundai",
@@ -9617,7 +9785,19 @@
         }
       ],
       "image_url": "images/cars/hyundai_creta.jpg",
-      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/2024_Hyundai_Creta_1.5_MPi_SX%28O%29_%28India%29_front_view.png/330px-2024_Hyundai_Creta_1.5_MPi_SX%28O%29_%28India%29_front_view.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/2024_Hyundai_Creta_1.5_MPi_SX%28O%29_%28India%29_front_view.png/330px-2024_Hyundai_Creta_1.5_MPi_SX%28O%29_%28India%29_front_view.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "vehicle_id": "AUTOSENSE-VEH-015",
+      "brand_id": "BRAND-HYUNDAI",
+      "model_aliases": [
+        "Hyundai Creta",
+        "Creta N Line",
+        "Creta SX(O)",
+        "Creta Facelift"
+      ],
+      "generation": "Gen 2 Facelift (2024-Present)",
+      "verification_status": "VERIFIED_CANONICAL_MODEL",
+      "attribution": "Wikimedia Commons / Open Automotive Archives for Hyundai Creta",
+      "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain"
     },
     {
       "brand": "Hyundai",
@@ -9857,7 +10037,19 @@
         }
       ],
       "image_url": "images/cars/hyundai_verna.jpg",
-      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/2019_Hyundai_Accent_1.6L%2C_front_10.8.19.jpg/330px-2019_Hyundai_Accent_1.6L%2C_front_10.8.19.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/2019_Hyundai_Accent_1.6L%2C_front_10.8.19.jpg/330px-2019_Hyundai_Accent_1.6L%2C_front_10.8.19.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "vehicle_id": "AUTOSENSE-VEH-016",
+      "brand_id": "BRAND-HYUNDAI",
+      "model_aliases": [
+        "Hyundai Verna",
+        "Verna Turbo",
+        "Verna SX(O)",
+        "Accent"
+      ],
+      "generation": "Gen 6 (2023-Present)",
+      "verification_status": "VERIFIED_CANONICAL_MODEL",
+      "attribution": "Wikimedia Commons / Open Automotive Archives for Hyundai Verna",
+      "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain"
     },
     {
       "brand": "Hyundai",
@@ -10097,7 +10289,18 @@
         }
       ],
       "image_url": "images/cars/hyundai_venue.jpg",
-      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/2022_Hyundai_Venue_Preferred_in_Polar_White%2C_Front_Right%2C_09-12-2023.jpg/330px-2022_Hyundai_Venue_Preferred_in_Polar_White%2C_Front_Right%2C_09-12-2023.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/2022_Hyundai_Venue_Preferred_in_Polar_White%2C_Front_Right%2C_09-12-2023.jpg/330px-2022_Hyundai_Venue_Preferred_in_Polar_White%2C_Front_Right%2C_09-12-2023.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "vehicle_id": "AUTOSENSE-VEH-017",
+      "brand_id": "BRAND-HYUNDAI",
+      "model_aliases": [
+        "Hyundai Venue",
+        "Venue N Line",
+        "Venue SX(O)"
+      ],
+      "generation": "Gen 1 Facelift (2022-Present)",
+      "verification_status": "VERIFIED_CANONICAL_MODEL",
+      "attribution": "Wikimedia Commons / Open Automotive Archives for Hyundai Venue",
+      "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain"
     },
     {
       "brand": "Hyundai",
@@ -10335,7 +10538,18 @@
         }
       ],
       "image_url": "images/cars/hyundai_i20.jpg",
-      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Hyundai_i20_%28III%2C_Facelift%29_%E2%80%93_f_11102025.jpg/330px-Hyundai_i20_%28III%2C_Facelift%29_%E2%80%93_f_11102025.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Hyundai_i20_%28III%2C_Facelift%29_%E2%80%93_f_11102025.jpg/330px-Hyundai_i20_%28III%2C_Facelift%29_%E2%80%93_f_11102025.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "vehicle_id": "AUTOSENSE-VEH-018",
+      "brand_id": "BRAND-HYUNDAI",
+      "model_aliases": [
+        "Hyundai i20",
+        "i20 N Line",
+        "i20 Asta"
+      ],
+      "generation": "Gen 3 Facelift (2023-Present)",
+      "verification_status": "VERIFIED_CANONICAL_MODEL",
+      "attribution": "Wikimedia Commons / Open Automotive Archives for Hyundai i20",
+      "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain"
     },
     {
       "brand": "Hyundai",
@@ -10575,7 +10789,18 @@
         }
       ],
       "image_url": "images/cars/hyundai_exter.jpg",
-      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/2023_Hyundai_Exter_SX_%28O%29.png/330px-2023_Hyundai_Exter_SX_%28O%29.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/2023_Hyundai_Exter_SX_%28O%29.png/330px-2023_Hyundai_Exter_SX_%28O%29.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "vehicle_id": "AUTOSENSE-VEH-019",
+      "brand_id": "BRAND-HYUNDAI",
+      "model_aliases": [
+        "Hyundai Exter",
+        "Exter SX(O)",
+        "Exter Knight Edition"
+      ],
+      "generation": "Gen 1 (2023-Present)",
+      "verification_status": "VERIFIED_CANONICAL_MODEL",
+      "attribution": "Wikimedia Commons / Open Automotive Archives for Hyundai Exter",
+      "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain"
     },
     {
       "brand": "Kia",
@@ -10815,7 +11040,19 @@
         }
       ],
       "image_url": "images/cars/kia_seltos.jpg",
-      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Kia_Seltos_SP2_PE_Snow_White_Pearl_%2817%29_%28cropped%29.jpg/330px-Kia_Seltos_SP2_PE_Snow_White_Pearl_%2817%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Kia_Seltos_SP2_PE_Snow_White_Pearl_%2817%29_%28cropped%29.jpg/330px-Kia_Seltos_SP2_PE_Snow_White_Pearl_%2817%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "vehicle_id": "AUTOSENSE-VEH-020",
+      "brand_id": "BRAND-KIA",
+      "model_aliases": [
+        "Kia Seltos",
+        "Seltos GT Line",
+        "Seltos X-Line",
+        "Seltos Facelift"
+      ],
+      "generation": "SP2 Facelift (2023-Present)",
+      "verification_status": "VERIFIED_CANONICAL_MODEL",
+      "attribution": "Wikimedia Commons / Open Automotive Archives for Kia Seltos",
+      "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain"
     },
     {
       "brand": "Kia",
@@ -11055,7 +11292,18 @@
         }
       ],
       "image_url": "images/cars/kia_sonet.jpg",
-      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/2021_Kia_Sonet_1.5_Premiere_%28Indonesia%29_front_view_03.jpg/330px-2021_Kia_Sonet_1.5_Premiere_%28Indonesia%29_front_view_03.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/2021_Kia_Sonet_1.5_Premiere_%28Indonesia%29_front_view_03.jpg/330px-2021_Kia_Sonet_1.5_Premiere_%28Indonesia%29_front_view_03.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "vehicle_id": "AUTOSENSE-VEH-021",
+      "brand_id": "BRAND-KIA",
+      "model_aliases": [
+        "Kia Sonet",
+        "Sonet X-Line",
+        "Sonet GT Line"
+      ],
+      "generation": "Gen 1 Facelift (2024-Present)",
+      "verification_status": "VERIFIED_CANONICAL_MODEL",
+      "attribution": "Wikimedia Commons / Open Automotive Archives for Kia Sonet",
+      "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain"
     },
     {
       "brand": "Kia",
@@ -11295,7 +11543,18 @@
         }
       ],
       "image_url": "images/cars/kia_carens.jpg",
-      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/2016_Kia_Rondo_LX_Value_in_Sterling_Metallic%2C_Front_Right%2C_05-18-2023.jpg/330px-2016_Kia_Rondo_LX_Value_in_Sterling_Metallic%2C_Front_Right%2C_05-18-2023.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/2016_Kia_Rondo_LX_Value_in_Sterling_Metallic%2C_Front_Right%2C_05-18-2023.jpg/330px-2016_Kia_Rondo_LX_Value_in_Sterling_Metallic%2C_Front_Right%2C_05-18-2023.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "vehicle_id": "AUTOSENSE-VEH-022",
+      "brand_id": "BRAND-KIA",
+      "model_aliases": [
+        "Kia Carens",
+        "Carens Luxury Plus",
+        "Carens X-Line"
+      ],
+      "generation": "KY Generation (2022-Present)",
+      "verification_status": "VERIFIED_CANONICAL_MODEL",
+      "attribution": "Wikimedia Commons / Open Automotive Archives for Kia Carens",
+      "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain"
     },
     {
       "brand": "Kia",
@@ -11533,7 +11792,18 @@
         }
       ],
       "image_url": "images/cars/kia_ev6.jpg",
-      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/2021_Kia_EV6_GT-Line_S.jpg/330px-2021_Kia_EV6_GT-Line_S.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/2021_Kia_EV6_GT-Line_S.jpg/330px-2021_Kia_EV6_GT-Line_S.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "vehicle_id": "AUTOSENSE-VEH-023",
+      "brand_id": "BRAND-KIA",
+      "model_aliases": [
+        "Kia EV6",
+        "EV6 GT-Line",
+        "EV6 AWD"
+      ],
+      "generation": "E-GMP Dedicated Platform (2022-Present)",
+      "verification_status": "VERIFIED_CANONICAL_MODEL",
+      "attribution": "Wikimedia Commons / Open Automotive Archives for Kia EV6",
+      "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain"
     },
     {
       "brand": "Maruti Suzuki",
@@ -11773,7 +12043,19 @@
         }
       ],
       "image_url": "images/cars/maruti_suzuki_swift.jpg",
-      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Suzuki_Swift_%282024%29_hybrid_DSC_6076.jpg/330px-Suzuki_Swift_%282024%29_hybrid_DSC_6076.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Suzuki_Swift_%282024%29_hybrid_DSC_6076.jpg/330px-Suzuki_Swift_%282024%29_hybrid_DSC_6076.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "vehicle_id": "AUTOSENSE-VEH-024",
+      "brand_id": "BRAND-MARUTI",
+      "model_aliases": [
+        "Suzuki Swift",
+        "Maruti Swift",
+        "Swift ZXi+",
+        "Swift Hybrid"
+      ],
+      "generation": "Gen 4 Z-Series (2024-Present)",
+      "verification_status": "VERIFIED_CANONICAL_MODEL",
+      "attribution": "Wikimedia Commons / Open Automotive Archives for Maruti Suzuki Swift",
+      "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain"
     },
     {
       "brand": "Maruti Suzuki",
@@ -12013,7 +12295,19 @@
         }
       ],
       "image_url": "images/cars/maruti_suzuki_fronx.jpg",
-      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/2024_Suzuki_Fronx.jpg/330px-2024_Suzuki_Fronx.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/2024_Suzuki_Fronx.jpg/330px-2024_Suzuki_Fronx.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "vehicle_id": "AUTOSENSE-VEH-025",
+      "brand_id": "BRAND-MARUTI",
+      "model_aliases": [
+        "Suzuki Fronx",
+        "Maruti Fronx",
+        "Fronx Turbo",
+        "Fronx Alpha"
+      ],
+      "generation": "Gen 1 Baleno-derived Crossover (2023-Present)",
+      "verification_status": "VERIFIED_CANONICAL_MODEL",
+      "attribution": "Wikimedia Commons / Open Automotive Archives for Maruti Suzuki Fronx",
+      "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain"
     },
     {
       "brand": "Maruti Suzuki",
@@ -12253,7 +12547,18 @@
         }
       ],
       "image_url": "images/cars/maruti_suzuki_grand_vitara.jpg",
-      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/2018_Suzuki_Vitara_%28LY%29_S_Turbo_wagon_%282018-11-02%29_01.jpg/330px-2018_Suzuki_Vitara_%28LY%29_S_Turbo_wagon_%282018-11-02%29_01.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/2018_Suzuki_Vitara_%28LY%29_S_Turbo_wagon_%282018-11-02%29_01.jpg/330px-2018_Suzuki_Vitara_%28LY%29_S_Turbo_wagon_%282018-11-02%29_01.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "vehicle_id": "AUTOSENSE-VEH-026",
+      "brand_id": "BRAND-MARUTI",
+      "model_aliases": [
+        "Suzuki Grand Vitara",
+        "Maruti Grand Vitara",
+        "Grand Vitara Strong Hybrid"
+      ],
+      "generation": "Gen 5 Global Platform (2022-Present)",
+      "verification_status": "VERIFIED_CANONICAL_MODEL",
+      "attribution": "Wikimedia Commons / Open Automotive Archives for Maruti Suzuki Grand Vitara",
+      "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain"
     },
     {
       "brand": "Maruti Suzuki",
@@ -12493,7 +12798,18 @@
         }
       ],
       "image_url": "images/cars/maruti_suzuki_brezza.jpg",
-      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/2022_Maruti_Suzuki_Brezza_ZXi%2B_%28India%29_front_view_03.png/330px-2022_Maruti_Suzuki_Brezza_ZXi%2B_%28India%29_front_view_03.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/2022_Maruti_Suzuki_Brezza_ZXi%2B_%28India%29_front_view_03.png/330px-2022_Maruti_Suzuki_Brezza_ZXi%2B_%28India%29_front_view_03.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "vehicle_id": "AUTOSENSE-VEH-027",
+      "brand_id": "BRAND-MARUTI",
+      "model_aliases": [
+        "Suzuki Brezza",
+        "Maruti Brezza",
+        "Brezza ZXi+"
+      ],
+      "generation": "Gen 2 K15C (2022-Present)",
+      "verification_status": "VERIFIED_CANONICAL_MODEL",
+      "attribution": "Wikimedia Commons / Open Automotive Archives for Maruti Suzuki Brezza",
+      "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain"
     },
     {
       "brand": "Maruti Suzuki",
@@ -12731,7 +13047,18 @@
         }
       ],
       "image_url": "images/cars/maruti_suzuki_baleno.jpg",
-      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Suzuki_Baleno_front_20071004.jpg/330px-Suzuki_Baleno_front_20071004.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Suzuki_Baleno_front_20071004.jpg/330px-Suzuki_Baleno_front_20071004.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "vehicle_id": "AUTOSENSE-VEH-028",
+      "brand_id": "BRAND-MARUTI",
+      "model_aliases": [
+        "Suzuki Baleno",
+        "Maruti Baleno",
+        "Baleno Alpha"
+      ],
+      "generation": "Gen 2 Heartect (2022-Present)",
+      "verification_status": "VERIFIED_CANONICAL_MODEL",
+      "attribution": "Wikimedia Commons / Open Automotive Archives for Maruti Suzuki Baleno",
+      "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain"
     },
     {
       "brand": "Volkswagen",
@@ -12969,7 +13296,18 @@
         }
       ],
       "image_url": "images/cars/volkswagen_virtus.jpg",
-      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/2022_Volkswagen_Virtus_1.5_GT_%28India%29_front_view_02.png/330px-2022_Volkswagen_Virtus_1.5_GT_%28India%29_front_view_02.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/2022_Volkswagen_Virtus_1.5_GT_%28India%29_front_view_02.png/330px-2022_Volkswagen_Virtus_1.5_GT_%28India%29_front_view_02.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "vehicle_id": "AUTOSENSE-VEH-029",
+      "brand_id": "BRAND-VW",
+      "model_aliases": [
+        "Volkswagen Virtus",
+        "VW Virtus",
+        "Virtus GT Plus"
+      ],
+      "generation": "MQB-A0-IN Sedan (2022-Present)",
+      "verification_status": "VERIFIED_CANONICAL_MODEL",
+      "attribution": "Wikimedia Commons / Open Automotive Archives for Volkswagen Virtus",
+      "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain"
     },
     {
       "brand": "Volkswagen",
@@ -13207,7 +13545,18 @@
         }
       ],
       "image_url": "images/cars/volkswagen_taigun.jpg",
-      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Volkswagen_Taigun_front_20230528.jpg/330px-Volkswagen_Taigun_front_20230528.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Volkswagen_Taigun_front_20230528.jpg/330px-Volkswagen_Taigun_front_20230528.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "vehicle_id": "AUTOSENSE-VEH-030",
+      "brand_id": "BRAND-VW",
+      "model_aliases": [
+        "Volkswagen Taigun",
+        "VW Taigun",
+        "Taigun GT Edge"
+      ],
+      "generation": "MQB-A0-IN SUV (2021-Present)",
+      "verification_status": "VERIFIED_CANONICAL_MODEL",
+      "attribution": "Wikimedia Commons / Open Automotive Archives for Volkswagen Taigun",
+      "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain"
     },
     {
       "brand": "Volkswagen",
@@ -13445,7 +13794,18 @@
         }
       ],
       "image_url": "images/cars/volkswagen_tiguan.jpg",
-      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Volkswagen_Tiguan_III_IMG_8823_%28cropped%29.jpg/330px-Volkswagen_Tiguan_III_IMG_8823_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Volkswagen_Tiguan_III_IMG_8823_%28cropped%29.jpg/330px-Volkswagen_Tiguan_III_IMG_8823_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "vehicle_id": "AUTOSENSE-VEH-031",
+      "brand_id": "BRAND-VW",
+      "model_aliases": [
+        "Volkswagen Tiguan",
+        "VW Tiguan",
+        "Tiguan Elegance"
+      ],
+      "generation": "Gen 2 LWB / Facelift (2021-Present)",
+      "verification_status": "VERIFIED_CANONICAL_MODEL",
+      "attribution": "Wikimedia Commons / Open Automotive Archives for Volkswagen Tiguan",
+      "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain"
     },
     {
       "brand": "Skoda",
@@ -13683,7 +14043,19 @@
         }
       ],
       "image_url": "images/cars/skoda_slavia.jpg",
-      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/2021_%C5%A0koda_Slavia_1.5_TSI_Style_%28India%29_front_view.png/330px-2021_%C5%A0koda_Slavia_1.5_TSI_Style_%28India%29_front_view.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/2021_%C5%A0koda_Slavia_1.5_TSI_Style_%28India%29_front_view.png/330px-2021_%C5%A0koda_Slavia_1.5_TSI_Style_%28India%29_front_view.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "vehicle_id": "AUTOSENSE-VEH-032",
+      "brand_id": "BRAND-SKODA",
+      "model_aliases": [
+        "Skoda Slavia",
+        "Škoda Slavia",
+        "Slavia Monte Carlo",
+        "Slavia Style"
+      ],
+      "generation": "MQB-A0-IN Sedan (2022-Present)",
+      "verification_status": "VERIFIED_CANONICAL_MODEL",
+      "attribution": "Wikimedia Commons / Open Automotive Archives for Skoda Slavia",
+      "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain"
     },
     {
       "brand": "Skoda",
@@ -13921,7 +14293,19 @@
         }
       ],
       "image_url": "images/cars/skoda_kushaq.jpg",
-      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/2021_%C5%A0koda_Kushaq_%28India%29_front_view.png/330px-2021_%C5%A0koda_Kushaq_%28India%29_front_view.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/2021_%C5%A0koda_Kushaq_%28India%29_front_view.png/330px-2021_%C5%A0koda_Kushaq_%28India%29_front_view.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "vehicle_id": "AUTOSENSE-VEH-033",
+      "brand_id": "BRAND-SKODA",
+      "model_aliases": [
+        "Skoda Kushaq",
+        "Škoda Kushaq",
+        "Kushaq Monte Carlo",
+        "Kushaq Style"
+      ],
+      "generation": "MQB-A0-IN SUV (2021-Present)",
+      "verification_status": "VERIFIED_CANONICAL_MODEL",
+      "attribution": "Wikimedia Commons / Open Automotive Archives for Skoda Kushaq",
+      "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain"
     },
     {
       "brand": "Skoda",
@@ -14159,7 +14543,18 @@
         }
       ],
       "image_url": "images/cars/skoda_kodiaq.jpg",
-      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/%C5%A0koda_Kodiaq_II_IMG_9825.jpg/330px-%C5%A0koda_Kodiaq_II_IMG_9825.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/%C5%A0koda_Kodiaq_II_IMG_9825.jpg/330px-%C5%A0koda_Kodiaq_II_IMG_9825.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "vehicle_id": "AUTOSENSE-VEH-034",
+      "brand_id": "BRAND-SKODA",
+      "model_aliases": [
+        "Skoda Kodiaq",
+        "Škoda Kodiaq",
+        "Kodiaq L&K"
+      ],
+      "generation": "Gen 1 Facelift TSI (2022-Present)",
+      "verification_status": "VERIFIED_CANONICAL_MODEL",
+      "attribution": "Wikimedia Commons / Open Automotive Archives for Skoda Kodiaq",
+      "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain"
     },
     {
       "brand": "MG",
@@ -14399,7 +14794,18 @@
         }
       ],
       "image_url": "images/cars/mg_hector.jpg",
-      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/2018_Baojun_530.jpg/330px-2018_Baojun_530.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/2018_Baojun_530.jpg/330px-2018_Baojun_530.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "vehicle_id": "AUTOSENSE-VEH-035",
+      "brand_id": "BRAND-MG",
+      "model_aliases": [
+        "MG Hector",
+        "Hector Plus",
+        "Hector Savvy Pro"
+      ],
+      "generation": "Facelift 2.0 (2023-Present)",
+      "verification_status": "VERIFIED_CANONICAL_MODEL",
+      "attribution": "Wikimedia Commons / Open Automotive Archives for MG Hector",
+      "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain"
     },
     {
       "brand": "MG",
@@ -14639,7 +15045,17 @@
         }
       ],
       "image_url": "images/cars/mg_zs_ev.jpg",
-      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/MG_ZS_%28crossover%2C_second_generation%29_DSC_8542.jpg/330px-MG_ZS_%28crossover%2C_second_generation%29_DSC_8542.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/MG_ZS_%28crossover%2C_second_generation%29_DSC_8542.jpg/330px-MG_ZS_%28crossover%2C_second_generation%29_DSC_8542.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "vehicle_id": "AUTOSENSE-VEH-036",
+      "brand_id": "BRAND-MG",
+      "model_aliases": [
+        "MG ZS EV",
+        "ZS EV Exclusive"
+      ],
+      "generation": "Facelift 50.3kWh (2022-Present)",
+      "verification_status": "VERIFIED_CANONICAL_MODEL",
+      "attribution": "Wikimedia Commons / Open Automotive Archives for MG ZS EV",
+      "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain"
     },
     {
       "brand": "MG",
@@ -14879,7 +15295,17 @@
         }
       ],
       "image_url": "images/cars/mg_astor.jpg",
-      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/MG_ZS_%28crossover%2C_second_generation%29_DSC_8542.jpg/330px-MG_ZS_%28crossover%2C_second_generation%29_DSC_8542.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/MG_ZS_%28crossover%2C_second_generation%29_DSC_8542.jpg/330px-MG_ZS_%28crossover%2C_second_generation%29_DSC_8542.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "vehicle_id": "AUTOSENSE-VEH-037",
+      "brand_id": "BRAND-MG",
+      "model_aliases": [
+        "MG Astor",
+        "Astor Savvy"
+      ],
+      "generation": "Gen 1 AI Inside (2021-Present)",
+      "verification_status": "VERIFIED_CANONICAL_MODEL",
+      "attribution": "Wikimedia Commons / Open Automotive Archives for MG Astor",
+      "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain"
     },
     {
       "brand": "MG",
@@ -15117,7 +15543,18 @@
         }
       ],
       "image_url": "images/cars/mg_gloster.jpg",
-      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Maxus_D90_01_China_2018-03-28.jpg/330px-Maxus_D90_01_China_2018-03-28.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Maxus_D90_01_China_2018-03-28.jpg/330px-Maxus_D90_01_China_2018-03-28.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "vehicle_id": "AUTOSENSE-VEH-038",
+      "brand_id": "BRAND-MG",
+      "model_aliases": [
+        "MG Gloster",
+        "Gloster Savvy 4x4",
+        "Maxus D90"
+      ],
+      "generation": "Gen 1 ADAS (2020-Present)",
+      "verification_status": "VERIFIED_CANONICAL_MODEL",
+      "attribution": "Wikimedia Commons / Open Automotive Archives for MG Gloster",
+      "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain"
     },
     {
       "brand": "BYD",
@@ -15355,7 +15792,18 @@
         }
       ],
       "image_url": "images/cars/byd_atto_3.jpg",
-      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/BYD_Atto_3_1X7A6491.jpg/330px-BYD_Atto_3_1X7A6491.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/BYD_Atto_3_1X7A6491.jpg/330px-BYD_Atto_3_1X7A6491.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "vehicle_id": "AUTOSENSE-VEH-039",
+      "brand_id": "BRAND-BYD",
+      "model_aliases": [
+        "BYD Atto 3",
+        "Atto3",
+        "BYD Yuan Plus"
+      ],
+      "generation": "e-Platform 3.0 (2022-Present)",
+      "verification_status": "VERIFIED_CANONICAL_MODEL",
+      "attribution": "Wikimedia Commons / Open Automotive Archives for BYD Atto 3",
+      "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain"
     },
     {
       "brand": "BYD",
@@ -15593,7 +16041,18 @@
         }
       ],
       "image_url": "images/cars/byd_seal.jpg",
-      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/2022_BYD_Seal.jpg/330px-2022_BYD_Seal.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/2022_BYD_Seal.jpg/330px-2022_BYD_Seal.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "vehicle_id": "AUTOSENSE-VEH-040",
+      "brand_id": "BRAND-BYD",
+      "model_aliases": [
+        "BYD Seal",
+        "Seal Performance AWD",
+        "BYD Seal EV"
+      ],
+      "generation": "CTB Cell-to-Body (2024-Present)",
+      "verification_status": "VERIFIED_CANONICAL_MODEL",
+      "attribution": "Wikimedia Commons / Open Automotive Archives for BYD Seal",
+      "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain"
     },
     {
       "brand": "BYD",
@@ -15831,7 +16290,18 @@
         }
       ],
       "image_url": "images/cars/byd_e6.jpg",
-      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/2023_BYD_e6_SNF7478L_front.jpg/330px-2023_BYD_e6_SNF7478L_front.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/2023_BYD_e6_SNF7478L_front.jpg/330px-2023_BYD_e6_SNF7478L_front.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "vehicle_id": "AUTOSENSE-VEH-041",
+      "brand_id": "BRAND-BYD",
+      "model_aliases": [
+        "BYD e6",
+        "BYD eMAX 7",
+        "BYD Song Max"
+      ],
+      "generation": "Blade Battery Gen 2 (2022-Present)",
+      "verification_status": "VERIFIED_CANONICAL_MODEL",
+      "attribution": "Wikimedia Commons / Open Automotive Archives for BYD e6",
+      "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain"
     },
     {
       "brand": "Jeep",
@@ -16069,7 +16539,18 @@
         }
       ],
       "image_url": "images/cars/jeep_compass.jpg",
-      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/2019_Jeep_Compass_Limited_2.4L%2C_front_7.6.19.jpg/330px-2019_Jeep_Compass_Limited_2.4L%2C_front_7.6.19.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/2019_Jeep_Compass_Limited_2.4L%2C_front_7.6.19.jpg/330px-2019_Jeep_Compass_Limited_2.4L%2C_front_7.6.19.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "vehicle_id": "AUTOSENSE-VEH-042",
+      "brand_id": "BRAND-JEEP",
+      "model_aliases": [
+        "Jeep Compass",
+        "Compass Model S",
+        "Compass Trailhawk"
+      ],
+      "generation": "Facelift Trailhawk (2021-Present)",
+      "verification_status": "VERIFIED_CANONICAL_MODEL",
+      "attribution": "Wikimedia Commons / Open Automotive Archives for Jeep Compass",
+      "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain"
     },
     {
       "brand": "Jeep",
@@ -16307,7 +16788,18 @@
         }
       ],
       "image_url": "images/cars/jeep_meridian.jpg",
-      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/2023_Jeep_Commander_Overland_T270_%28Colombia%29_front_view.jpg/330px-2023_Jeep_Commander_Overland_T270_%28Colombia%29_front_view.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/2023_Jeep_Commander_Overland_T270_%28Colombia%29_front_view.jpg/330px-2023_Jeep_Commander_Overland_T270_%28Colombia%29_front_view.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "vehicle_id": "AUTOSENSE-VEH-043",
+      "brand_id": "BRAND-JEEP",
+      "model_aliases": [
+        "Jeep Meridian",
+        "Jeep Commander",
+        "Meridian Overland"
+      ],
+      "generation": "7-Seater D-SUV (2022-Present)",
+      "verification_status": "VERIFIED_CANONICAL_MODEL",
+      "attribution": "Wikimedia Commons / Open Automotive Archives for Jeep Meridian",
+      "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain"
     },
     {
       "brand": "Nissan",
@@ -16545,7 +17037,18 @@
         }
       ],
       "image_url": "images/cars/nissan_magnite.jpg",
-      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Nissan_Magnite_2025_1.0_Exclusive_at_WTC_Montevideo_-_04.jpg/330px-Nissan_Magnite_2025_1.0_Exclusive_at_WTC_Montevideo_-_04.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Nissan_Magnite_2025_1.0_Exclusive_at_WTC_Montevideo_-_04.jpg/330px-Nissan_Magnite_2025_1.0_Exclusive_at_WTC_Montevideo_-_04.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "vehicle_id": "AUTOSENSE-VEH-044",
+      "brand_id": "BRAND-NISSAN",
+      "model_aliases": [
+        "Nissan Magnite",
+        "Magnite Kuro",
+        "Magnite XV Premium"
+      ],
+      "generation": "CMF-A+ Facelift (2024-Present)",
+      "verification_status": "VERIFIED_CANONICAL_MODEL",
+      "attribution": "Wikimedia Commons / Open Automotive Archives for Nissan Magnite",
+      "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain"
     },
     {
       "brand": "Nissan",
@@ -16785,7 +17288,18 @@
         }
       ],
       "image_url": "images/cars/nissan_altima.jpg",
-      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/2024_Nissan_Altima_SR%2C_front_left%2C_05-05-2025.jpg/330px-2024_Nissan_Altima_SR%2C_front_left%2C_05-05-2025.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/2024_Nissan_Altima_SR%2C_front_left%2C_05-05-2025.jpg/330px-2024_Nissan_Altima_SR%2C_front_left%2C_05-05-2025.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "vehicle_id": "AUTOSENSE-VEH-045",
+      "brand_id": "BRAND-NISSAN",
+      "model_aliases": [
+        "Nissan Altima",
+        "Altima SR",
+        "Altima SV"
+      ],
+      "generation": "L34 Generation (2020-Present)",
+      "verification_status": "VERIFIED_CANONICAL_MODEL",
+      "attribution": "Wikimedia Commons / Open Automotive Archives for Nissan Altima",
+      "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain"
     },
     {
       "brand": "Nissan",
@@ -17025,7 +17539,18 @@
         }
       ],
       "image_url": "images/cars/nissan_sentra.jpg",
-      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/2024_Nissan_Sentra_%28B18%29_DSC_3754.jpg/330px-2024_Nissan_Sentra_%28B18%29_DSC_3754.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/2024_Nissan_Sentra_%28B18%29_DSC_3754.jpg/330px-2024_Nissan_Sentra_%28B18%29_DSC_3754.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "vehicle_id": "AUTOSENSE-VEH-046",
+      "brand_id": "BRAND-NISSAN",
+      "model_aliases": [
+        "Nissan Sentra",
+        "Sentra SR",
+        "Sentra SV"
+      ],
+      "generation": "B18 Generation (2020-Present)",
+      "verification_status": "VERIFIED_CANONICAL_MODEL",
+      "attribution": "Wikimedia Commons / Open Automotive Archives for Nissan Sentra",
+      "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain"
     },
     {
       "brand": "Nissan",
@@ -17265,7 +17790,17 @@
         }
       ],
       "image_url": "images/cars/nissan_frontier.jpg",
-      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/2021_Nissan_Frontier_Pro_4X_%28Colombia%3B_facelift%29_front_view_01.png/330px-2021_Nissan_Frontier_Pro_4X_%28Colombia%3B_facelift%29_front_view_01.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/2021_Nissan_Frontier_Pro_4X_%28Colombia%3B_facelift%29_front_view_01.png/330px-2021_Nissan_Frontier_Pro_4X_%28Colombia%3B_facelift%29_front_view_01.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "vehicle_id": "AUTOSENSE-VEH-047",
+      "brand_id": "BRAND-NISSAN",
+      "model_aliases": [
+        "Nissan Frontier",
+        "Frontier Pro-4X"
+      ],
+      "generation": "D41 Generation (2022-Present)",
+      "verification_status": "VERIFIED_CANONICAL_MODEL",
+      "attribution": "Wikimedia Commons / Open Automotive Archives for Nissan Frontier",
+      "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain"
     },
     {
       "brand": "Nissan",
@@ -17503,7 +18038,18 @@
         }
       ],
       "image_url": "images/cars/nissan_x_trail.jpg",
-      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Nissan_X-Trail_%28T33%29_1X7A7179.jpg/330px-Nissan_X-Trail_%28T33%29_1X7A7179.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Nissan_X-Trail_%28T33%29_1X7A7179.jpg/330px-Nissan_X-Trail_%28T33%29_1X7A7179.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "vehicle_id": "AUTOSENSE-VEH-048",
+      "brand_id": "BRAND-NISSAN",
+      "model_aliases": [
+        "Nissan X-Trail",
+        "X-Trail e-POWER",
+        "Nissan Rogue"
+      ],
+      "generation": "T33 Generation (2024-Present)",
+      "verification_status": "VERIFIED_CANONICAL_MODEL",
+      "attribution": "Wikimedia Commons / Open Automotive Archives for Nissan X-Trail",
+      "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain"
     },
     {
       "brand": "Renault",
@@ -17741,7 +18287,17 @@
         }
       ],
       "image_url": "images/cars/renault_kiger.jpg",
-      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Renault_Kiger_front_20230602.jpg/330px-Renault_Kiger_front_20230602.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Renault_Kiger_front_20230602.jpg/330px-Renault_Kiger_front_20230602.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "vehicle_id": "AUTOSENSE-VEH-049",
+      "brand_id": "BRAND-RENAULT",
+      "model_aliases": [
+        "Renault Kiger",
+        "Kiger RXZ Turbo"
+      ],
+      "generation": "CMF-A+ Platform (2021-Present)",
+      "verification_status": "VERIFIED_CANONICAL_MODEL",
+      "attribution": "Wikimedia Commons / Open Automotive Archives for Renault Kiger",
+      "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain"
     },
     {
       "brand": "Renault",
@@ -17979,7 +18535,17 @@
         }
       ],
       "image_url": "images/cars/renault_triber.jpg",
-      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/2021_Renault_Triber_RXZ_%28Indonesia%29_front_view.jpg/330px-2021_Renault_Triber_RXZ_%28Indonesia%29_front_view.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/2021_Renault_Triber_RXZ_%28Indonesia%29_front_view.jpg/330px-2021_Renault_Triber_RXZ_%28Indonesia%29_front_view.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "vehicle_id": "AUTOSENSE-VEH-050",
+      "brand_id": "BRAND-RENAULT",
+      "model_aliases": [
+        "Renault Triber",
+        "Triber RXZ"
+      ],
+      "generation": "CMF-A+ Modular Subcompact MPV (2020-Present)",
+      "verification_status": "VERIFIED_CANONICAL_MODEL",
+      "attribution": "Wikimedia Commons / Open Automotive Archives for Renault Triber",
+      "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain"
     },
     {
       "brand": "Renault",
@@ -18217,7 +18783,17 @@
         }
       ],
       "image_url": "images/cars/renault_kwid.jpg",
-      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/2023_Renault_Kwid_Iconic_%28Colombia%29_front_view_01.png/330px-2023_Renault_Kwid_Iconic_%28Colombia%29_front_view_01.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/2023_Renault_Kwid_Iconic_%28Colombia%29_front_view_01.png/330px-2023_Renault_Kwid_Iconic_%28Colombia%29_front_view_01.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "vehicle_id": "AUTOSENSE-VEH-051",
+      "brand_id": "BRAND-RENAULT",
+      "model_aliases": [
+        "Renault Kwid",
+        "Kwid Climber"
+      ],
+      "generation": "CMF-A Global A-Segment (2020-Present)",
+      "verification_status": "VERIFIED_CANONICAL_MODEL",
+      "attribution": "Wikimedia Commons / Open Automotive Archives for Renault Kwid",
+      "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain"
     },
     {
       "brand": "Citroen",
@@ -18455,7 +19031,18 @@
         }
       ],
       "image_url": "images/cars/citroen_c3.jpg",
-      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Citro%C3%ABn_C3_Hybrid_110_%C3%AB-DSC6_Max_%28IV%29_%E2%80%93_f_05042026.jpg/330px-Citro%C3%ABn_C3_Hybrid_110_%C3%AB-DSC6_Max_%28IV%29_%E2%80%93_f_05042026.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Citro%C3%ABn_C3_Hybrid_110_%C3%AB-DSC6_Max_%28IV%29_%E2%80%93_f_05042026.jpg/330px-Citro%C3%ABn_C3_Hybrid_110_%C3%AB-DSC6_Max_%28IV%29_%E2%80%93_f_05042026.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "vehicle_id": "AUTOSENSE-VEH-052",
+      "brand_id": "BRAND-CITROEN",
+      "model_aliases": [
+        "Citroen C3",
+        "Citroën C3",
+        "C3 Shine Turbo"
+      ],
+      "generation": "CC21 CMP Platform (2022-Present)",
+      "verification_status": "VERIFIED_CANONICAL_MODEL",
+      "attribution": "Wikimedia Commons / Open Automotive Archives for Citroen C3",
+      "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain"
     },
     {
       "brand": "Citroen",
@@ -18693,7 +19280,18 @@
         }
       ],
       "image_url": "images/cars/citroen_c3_aircross.jpg",
-      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Citro%C3%ABn_%C3%AB-C3_Aircross_IMG_3525.jpg/330px-Citro%C3%ABn_%C3%AB-C3_Aircross_IMG_3525.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Citro%C3%ABn_%C3%AB-C3_Aircross_IMG_3525.jpg/330px-Citro%C3%ABn_%C3%AB-C3_Aircross_IMG_3525.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "vehicle_id": "AUTOSENSE-VEH-053",
+      "brand_id": "BRAND-CITROEN",
+      "model_aliases": [
+        "Citroen C3 Aircross",
+        "Citroën C3 Aircross",
+        "Aircross Max"
+      ],
+      "generation": "CC24 5+2 Seater (2023-Present)",
+      "verification_status": "VERIFIED_CANONICAL_MODEL",
+      "attribution": "Wikimedia Commons / Open Automotive Archives for Citroen C3 Aircross",
+      "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain"
     },
     {
       "brand": "Citroen",
@@ -18931,7 +19529,18 @@
         }
       ],
       "image_url": "images/cars/citroen_basalt.jpg",
-      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Citroen_Basalt_Turbo_200_Shine_2025.jpg/330px-Citroen_Basalt_Turbo_200_Shine_2025.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Citroen_Basalt_Turbo_200_Shine_2025.jpg/330px-Citroen_Basalt_Turbo_200_Shine_2025.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "vehicle_id": "AUTOSENSE-VEH-054",
+      "brand_id": "BRAND-CITROEN",
+      "model_aliases": [
+        "Citroen Basalt",
+        "Citroën Basalt",
+        "Basalt Dark Edition"
+      ],
+      "generation": "Vision Basalt SUV Coupe (2024-Present)",
+      "verification_status": "VERIFIED_CANONICAL_MODEL",
+      "attribution": "Wikimedia Commons / Open Automotive Archives for Citroen Basalt",
+      "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain"
     },
     {
       "brand": "Honda",
@@ -19171,7 +19780,18 @@
         }
       ],
       "image_url": "images/cars/honda_city.jpg",
-      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Honda_City_1.5_i-VTEC_V_%28VIII%2C_Facelift%29_%E2%80%93_f_22032025.jpg/330px-Honda_City_1.5_i-VTEC_V_%28VIII%2C_Facelift%29_%E2%80%93_f_22032025.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Honda_City_1.5_i-VTEC_V_%28VIII%2C_Facelift%29_%E2%80%93_f_22032025.jpg/330px-Honda_City_1.5_i-VTEC_V_%28VIII%2C_Facelift%29_%E2%80%93_f_22032025.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "vehicle_id": "AUTOSENSE-VEH-055",
+      "brand_id": "BRAND-HONDA",
+      "model_aliases": [
+        "Honda City",
+        "City e:HEV",
+        "City ZX"
+      ],
+      "generation": "Gen 5 Facelift ADAS (2023-Present)",
+      "verification_status": "VERIFIED_CANONICAL_MODEL",
+      "attribution": "Wikimedia Commons / Open Automotive Archives for Honda City",
+      "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain"
     },
     {
       "brand": "Honda",
@@ -19411,7 +20031,18 @@
         }
       ],
       "image_url": "images/cars/honda_elevate.jpg",
-      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/2026_Honda_WR-V_Prestige_%28Colombia%29_front_view.jpg/330px-2026_Honda_WR-V_Prestige_%28Colombia%29_front_view.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/2026_Honda_WR-V_Prestige_%28Colombia%29_front_view.jpg/330px-2026_Honda_WR-V_Prestige_%28Colombia%29_front_view.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "vehicle_id": "AUTOSENSE-VEH-056",
+      "brand_id": "BRAND-HONDA",
+      "model_aliases": [
+        "Honda Elevate",
+        "Elevate ZX",
+        "WR-V"
+      ],
+      "generation": "Global Small Car Platform (2023-Present)",
+      "verification_status": "VERIFIED_CANONICAL_MODEL",
+      "attribution": "Wikimedia Commons / Open Automotive Archives for Honda Elevate",
+      "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain"
     },
     {
       "brand": "Honda",
@@ -19651,7 +20282,17 @@
         }
       ],
       "image_url": "images/cars/honda_amaze.jpg",
-      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Honda_Amaze_%28front%29.png/330px-Honda_Amaze_%28front%29.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "remote_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Honda_Amaze_%28front%29.png/330px-Honda_Amaze_%28front%29.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "vehicle_id": "AUTOSENSE-VEH-057",
+      "brand_id": "BRAND-HONDA",
+      "model_aliases": [
+        "Honda Amaze",
+        "Amaze VX"
+      ],
+      "generation": "Gen 2 Facelift (2021-Present)",
+      "verification_status": "VERIFIED_CANONICAL_MODEL",
+      "attribution": "Wikimedia Commons / Open Automotive Archives for Honda Amaze",
+      "image_license": "Creative Commons Attribution-ShareAlike (CC BY-SA) / Public Domain"
     }
   ],
   "provenance": {

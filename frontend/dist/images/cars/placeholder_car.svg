@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 350" fill="none">
+    <defs>
+        <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#050c1e"/>
+            <stop offset="100%" stop-color="#020614"/>
+        </linearGradient>
+        <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#0284c7" stop-opacity="0.2"/>
+            <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.9"/>
+            <stop offset="100%" stop-color="#0284c7" stop-opacity="0.2"/>
+        </linearGradient>
+    </defs>
+    <rect width="600" height="350" fill="url(#bgGrad)"/>
+    
+    <!-- Grid Wireframe Backdrop -->
+    <path d="M0 260 H600 M0 280 H600 M0 300 H600" stroke="#1e293b" stroke-width="1" stroke-dasharray="4 4"/>
+    
+    <!-- Neutral Vehicle Outline -->
+    <path d="M110 240 C130 240 150 240 170 240 C180 200 220 170 260 170 C300 170 340 200 350 240 C390 240 430 240 450 240 C460 200 500 170 540 170 C570 170 580 180 585 200 C590 185 580 160 550 145 L470 100 C450 90 410 85 370 85 L260 85 C230 85 200 95 180 115 L130 160 C110 175 105 195 105 215 C105 230 108 240 110 240 Z" fill="#0b1736" stroke="url(#lineGrad)" stroke-width="2.5"/>
+    
+    <!-- Cabin Window -->
+    <path d="M260 100 L360 100 C390 100 420 105 435 115 L485 155 L215 155 L245 115 C250 105 255 100 260 100 Z" fill="#020614" stroke="#0ea5e9" stroke-width="1.5" stroke-opacity="0.6"/>
+    
+    <!-- Wheels -->
+    <circle cx="260" cy="240" r="38" fill="#030712" stroke="#38bdf8" stroke-width="3"/>
+    <circle cx="260" cy="240" r="16" fill="#0f172a" stroke="#0284c7" stroke-width="2"/>
+    <circle cx="510" cy="240" r="38" fill="#030712" stroke="#38bdf8" stroke-width="3"/>
+    <circle cx="510" cy="240" r="16" fill="#0f172a" stroke="#0284c7" stroke-width="2"/>
+    
+    <!-- Ground Glow -->
+    <ellipse cx="385" cy="285" rx="260" ry="8" fill="#0284c7" fill-opacity="0.15"/>
+    
+    <!-- Text Badge -->
+    <rect x="200" y="295" width="200" height="26" rx="6" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+    <text x="300" y="312" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11" font-weight="600" text-anchor="middle" letter-spacing="1">CANONICAL ASSET PLACEHOLDER</text>
+</svg>
